@@ -1,0 +1,203 @@
+\documentclass[12pt,oneside,openany,a4paper,%..... Layout
+               afrikaans, english,%.............. Global language selection
+               ]{memoir}
+
+ \usepackage[masters-t,%.......................... Master thesis
+             goldenblock,%........................ A5 type block (or a5block or wide)
+            ]{usthesis}%.......................... US thesis style with memoir
+
+%
+% PLEASE read the USthesis documentation for the class options
+% and how to set line and paragraph spacing
+%
+
+%==== Math setup ====================================================
+ \usepackage{amsmath}%............................ Advanced math (before fonts)
+ %\usepackage{amssymb}%............................ AMS Symbol fonts
+
+%==== Font setup (default is Computer Modern) =======================
+ \usepackage[T1]{fontenc}%........................ Type 1 fonts
+ %\usepackage{fourier}
+ \usepackage{textcomp}%........................... Additional text character
+ \usepackage{bm}%................................. Bold math symbols (after fonts)
+ 
+ %==== Language setup ================================================
+ \usepackage[latin1]{inputenc}%................... Recognizes ê, ë, etc
+ \usepackage{listings}
+ \usepackage{babel}%.............................. Language setup
+ \usepackage[colorlinks,urlcolor=blue,breaklinks=true]{hyperref}
+ 
+ \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={MSc:2018-Rust},
+    pdfpagemode=FullScreen,
+}
+
+\usepackage{multicol}
+
+%==== Ref's, Bib's and Nomencl ======================================
+\usepackage[toc]{glossaries}%.......................... List of symbols (in usthesis pack)%
+\makeglossaries
+%Glossaries Entries HERE ===========================================
+
+\newglossaryentry{autotrophs}{name=Autotrophs,description={Producers of energy, synthesising compounds needed to sustain life from various processes \textit{i.e.} plants, algae and bacteria. For this text the term will be used solely to denote organisms deriving their energy by photosynthetic means}}
+
+\newglossaryentry{bit}{name=BIT,description={Basic unit of computer information. A representational state, \textit{i.e.} binary digits (0,1), boolean operators (true,false), activation states as in on,off, bound vs unbound (enzyme ligand interaction) or more general any two valued attribute}}
+
+\newglossaryentry{$k_b$}{name=Boltzmann Constant,description={Has the dimension of energy divided by temperature, as such this is a constant relating average kinetic energy to temperature:
+$k_b=1.38064852\times10^{-23}m^2kgs^{-2}K^{-1}$
+}}
+
+\newglossaryentry{api}{name=API,description={Application Program Inferface; As the name suggests is a link between various applications or programs described by a clearly defined API specification}}
+
+\newglossaryentry{sbml}{name=SBML,description={Standard Biological Mark-up Language; A standardized description language used to transcribe biological model data. For more information visit \href{sbml.org}{www.sbml.org}}}
+
+\newglossaryentry{mf}{name=MF,description={Matrix Format; An internal model format used by \href{https://jjj.bio.vu.nl}{JWS Online} metabolic network calculators.  (\textit{i.e.} \href{https://jjj.bio.vu.nl/rest/models/teusink/mf/}{Teusink-Glycolysis.mf})}}
+
+\newglossaryentry{rest}{name=REST,description={Representational State Transfer; A specific subset of \gls{api} allowing for a stateless communication protocol}}
+
+\newglossaryentry{call}{name=call,description={A \gls{request} made to access services or data on a server, remote or local}}
+
+\newglossaryentry{request}{name=request,description={A set of instructions sent to a server, intended to invoke some action or \gls{response}}}
+
+\newglossaryentry{response}{name=response,description={Reply action from server based upon instructions sent via \gls{request}}}
+
+\newglossaryentry{mca}{name=MCA,description={Metabolic Control Analysis; A subset of sensitivity analysis, a mathematical framework used to quantify metabolic, signalling and genetic pathways}}
+
+\newglossaryentry{steady-state}{name=steady-state,description={A state whereby the rate of formation of metabolites equal the rates of degradation, leaving the system in a dynamic equilibrium}}
+
+\newglossaryentry{url}{name=Universal Resource Locator,description={Simply referred to as a web address. a URL represents the location of various web-based resources.}}
+
+
+
+\usepackage[square,numbers,sort&compress]{natbib}
+\bibliographystyle{abbrvnat}
+    \renewcommand\bibfont{\small}
+
+    %% For usmeg-a, the bib is a list of references. If you
+    %% are using usmeg-n comment out the following lines
+    \addto{\captionsafrikaans}{\renewcommand{\bibname}{Lys van Verwysings}}
+    \addto{\captionsenglish}{\renewcommand{\bibname}{List of References}}
+
+%==== Graphics and Color ============================================
+\usepackage{graphicx}%........................... Graphicx loaded in usthesis
+\graphicspath{ {figs/} }
+\usepackage{color}%.............................. Color setup
+\usepackage{eso-pic}%............................ Shipout commands for watermark
+    \newcommand*{\WaterMark}[2][0.15\paperwidth]{%
+        \AddToShipoutPicture*{\AtTextCenter{%
+                \parbox[c]{0pt}{\makebox[0pt][c]{%
+                    \includegraphics[width=#1]{#2}}}}}}
+
+
+
+
+%==== Local Defs ====================================================
+\makeatletter
+%
+% Please insert user defined commands here
+% and NOT in the document itself!
+%
+
+\makeatother
+
+%==== TITLE PAGE ====================================================
+\title{\bfseries
+       \AorE{%-- Afrikaans ------------------------------------------
+             'n Rekenaar gedrewe ondersoek in die verwantskap tussen ekwilibrium en fluksie kontrole.\\[1ex]
+            }{%-- English -------------------------------------------
+             A computational investigation into the relationship between equilibrium and flux control.
+            }}
+
+\author{FC.\ Rust}{Frederik Christoffel Rust}
+
+\degree{\AorE{MSc (Biochem.)}{MSc (Biochem.)}}
+       {\AorE{Magister in Natuurwetenskappe (Biochemie)}
+             {Master of Natural Science (Biochemistry)}}
+
+\address{\AorE{%-- Afrikaans ----------------------------------------
+        Departement Biochemie,\\
+        Universiteit van Stellenbosch,\\
+        Privaatsak X1, Matieland 7602, Suid Afrika.%
+             }{%-- English ------------------------------------------
+        Department of Biochemistry,\\
+        University of Stellenbosch,\\
+        Private Bag X1, Matieland 7602, South Africa.
+             }}
+
+\faculty{\AorE{Fakulteit Natuurwetenskappe}%
+              {Faculty of Natural Science}}
+
+\supervisor{Prof.\ J.\ Snoep}
+\cosupervisor{Dr.\ D.\ van Niekerk}
+
+\setdate{10}{2017}
+
+%\SetSponsor{The financial assistance of the National Research Foundation (NRF)
+%    towards this research is hereby acknowledged. Opinions expressed and
+%    conclusions arrived at, are those of the author and are not necessarily to
+%    be attributed to the NRF.}
+
+
+%====================================================================
+%     MAIN DOCUMENT
+%====================================================================
+\maxsecnumdepth{subsubsection}
+\maxtocdepth{section}
+
+\begin{document}
+\setlength{\parskip}{1em}
+%==== Front matter ==================================================
+ \frontmatter
+ \WaterMark{UScrest-WM}
+ \TitlePage
+
+ \DeclarationDate{2017/11/10}
+ \DeclarationPage
+
+ \include{frontmatter/Chap-Front}
+
+ \tableofcontents
+ \clearpage
+
+ \setcounter{lofdepth}{2}
+ \listoffigures
+ \clearpage
+
+ \listoftables
+ \clearpage
+
+\printglossaries
+\clearpage
+
+
+%==== Main document =================================================
+\mainmatter
+   \setsecnumdepth{subsubsection}
+%   \numberwithin{equation}{section}
+%   \numberwithin{figure}{chapter}
+%   \numberwithin{table}{chapter}
+
+%\include{contents/Chap1_Intro}
+%\include{contents/Chap2_Lit-review}
+\include{contents/Chap3_Methods}
+%\include{contents/Chap4_Results}
+%\include{contents/Chap5_Discussion}
+
+%==== Appendices ====================================================
+\appendix
+\appendixpage\relax
+
+%\include{contents/App-1}
+%\include{contents/App-2}
+%\include{contents/App-3}
+
+%==== Bibliography acro's & Index ===================================
+\backmatter
+
+\bibliography{backmatter/lit_review}
+
+\end{document}
