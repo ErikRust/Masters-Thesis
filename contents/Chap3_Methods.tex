@@ -36,20 +36,21 @@ The protocols and endpoints discussed above, proved useful in single isolated in
 
 \section{Scripting in Mathematica} \label{Scripting in Mathematica}
 
-For the sake of simplicity and transparency, compute operations were organized into three classes namely, retrieval, sorting and calculations as presented in figure \ref{dataFlow}. The Teusink model of glycolysis was used throughout as initial testing model. As such, the same model will be used here in order to demonstrate the protocols for a single sample. 
+For the sake of simplicity and transparency, compute operations were organized into three classes namely, retrieval, sorting and calculations. These were graphically ilustrated in figure \ref{dataFlow}. The Teusink model of glycolysis was used throughout as an initial model for testing and development. As such, the same model will be used here in order to demonstrate the protocols for a single sample. Numbers within brackets, corresponds to the process step as indicated on figure \ref{dataFlow}. 
 
 \begin{figure}[p] \label{dataFlow}
-\includegraphics[width=1\textwidth]{Algorithm}
+\includegraphics[width=1\textwidth]{Algorithm.png}
 \centering
-\caption{Diagram of algorithm indicating the flow of execution}
+\caption{Diagram of algorithm indicating the flow of data, throughout the program execution}
 \label{fig:Algorithm}
 \end{figure}
 
 \subsection{Retrieval (A)} \label{Retrieval}
-The JWSOnline API provided an endpoint for model retrieval from remote sources. The URL interaction functions of Mathematica, namely HTTPRequest and URLExecute, was used to construct a list of URLs linking to SBML models in both JWSOnline as well as Biomodels. The relevant remote parts of the example URL construct (\href{http://jjj.bio.vu.nl/rest/fetch/?type={type}&redirect={redirect}&remote={remote}}) was replaced by the remote URL's from the list created above. This command, initiated from the local JWSOnline instance, sequentially imported and converted each model to an internal data format. These models were then available to retrieve in any of the formats supported by JWSOnline. This raised the question of which model format would be best suited for the investigation at hand. The discussion of which continues in the following section.
+The JWSOnline API provided an endpoint for model retrieval from remote sources. The URL interaction functions of Mathematica, namely HTTPRequest and URLExecute, was used to construct a list of URLs linking to SBML models in both JWSOnline as well as Biomodels. The relevant parts of the example URL construct (\href{http://jjj.bio.vu.nl/rest/fetch/?type={type}&redirect={redirect}&remote={remote}}) was replaced by the remote URL's from the list created above. This command, initiated from the local JWSOnline instance, sequentially imported and converted each model to an internal data format. After which, these models were available for retrieval in any of the formats supported by JWSOnline. This raised the question of which model format would be best suited for the investigation at hand.
 
-\subsubsection{Model Format and Translation} \label{Translation}
-The development of an automated algorithm for metabolic model analysis required a specific model format. The format had to be generic enough to facilitate the development of unattended automated functions, yet flexible enough to uniformly handle differences among models from various origins, destined for a diverse range of uses. As such five key aspects were identified as criteria for a suitable model format.
+
+\subsubsection{Translation}\label{Translation}
+For the development of an automated algorithm to handle the metabolic model analysis required, a specific model format was needed. One that proved generic enough to facilitate the development of unattended automated functions, yet flexible enough to uniformly handle differences among models from various origins, destined for a diverse range of uses. As such five key aspects were identified as criteria for a suitable model format.
 
 The model format had to: 
 \begin{enumerate} \label{modelFormat}
@@ -60,9 +61,12 @@ The model format had to:
   \item Allow for direct computational interaction - accessibility
 \end{enumerate}
 
-\gls{sbml} provides a standardized structure to which biological models are kept. As such it seemed a logical first choice, however, although \gls{sbml} meets many of the requirements such as, predictability, accuracy and consistency, it does not meet all. \gls{sbml} makes complete sense to a computer, yet the syntax has a steep learning curve for the human eye. Combined with the fact that no native Mathematica \gls{sbml} parsing was supported at the time of development, the ease of development and accessibility aspects proved problematic. Therefore a method of model translation was called for. 
+\gls{sbml} provides a standardized structure to which biological models are kept. As such it seemed a logical first choice, however, although \gls{sbml} meets many of the requirements such as, predictability, accuracy and consistency, it does not meet all. This is due to the fact that \gls{sbml} makes complete sense to a computer, yet the syntax has a steep learning curve for the human eye. Combined with the fact that no native Mathematica \gls{sbml} parsing was supported at the time of development, the ease of development and accessibility aspects proved problematic. Therefore a method of model translation was called for. 
 
-This action was achieved through the use of \href{https://jjj.bio.vu.nl}{JWSOnline}, whereby a \gls{sbml} model was retrieved from a remote server, converted and made available in matrix format (\gls{mf}) (One of the native JWSOnline data formats). This format was chosen as it fulfilled all of the criteria as set out in list \ref{modelFormat}. This format had the added advantage of enabling metabolic control calculations as discussed in section \ref{Calculations} to be done via matrix methods as described by \citeauthor{Hofmeyr2001}
+This action was achieved through the use of \href{https://jjj.bio.vu.nl}{JWSOnline}, whereby a \gls{sbml} model was retrieved from a remote server, converted and made available in matrix format (\gls{mf}) (One of the native JWSOnline data formats discribed in figure \ref{fig:MatrixFormat}). This format was chosen as it fulfilled all of the criteria as set out in list \ref{modelFormat}. This format had the added advantage of enabling metabolic control calculations as discussed in section \ref{Calculations} to be done via matrix methods as described by \citeauthor{Hofmeyr2001}
+
+\subsubsection{The Matrix Model Format (MF)}
+In \gls{mf}, data is organized by content type. For example; rate-equations, metabolites, stoichiometry, parameters and more are arranged in nested lists as illustrated by figure \ref{fig:MatrixFormat}. The end product of the translation process is made available as an \gls{api} endpoint allowing for the retrieval of the model. The Teusink example model can be found at \href{https://jjj.bio.vu.nl/rest/models/teusink/mf/}{https://jjj.bio.vu.nl/rest/models/teusink/mf/} with additional resources to JWSOnline available at \href{http://jws-docs.readthedocs.io/8_rest.html}{JWS Docs}.
 
 \begin{figure}[p]
 \includegraphics[width=1\textwidth]{MatrixFormat}
@@ -71,26 +75,129 @@ This action was achieved through the use of \href{https://jjj.bio.vu.nl}{JWSOnli
 \label{fig:MatrixFormat}
 \end{figure}
 
-In \gls{mf}, data is organized by content type. For example; rate-equations, metabolites, stoichiometry, parameters and more are arranged in nested lists as illustrated by figure \ref{fig:MatrixFormat}. The end product of the translation process is made available as an \gls{api} endpoint, after retrieval as described previously, allowing for the retrieval of the model. The Teusink example can be found at \href{https://jjj.bio.vu.nl/rest/models/teusink/mf/} with additional resources to JWSOnline available at \href{http://jws-docs.readthedocs.io/8_rest.html}{JWS Docs}.
+\subsection{Sorting (B)}
+Once all available models have been retrieved and stored within the local repository, the mf version was requested and returned as mentioned in section \ref{Translation}. These models then underwent sorting and handling functions in order to identify where models diverge from the main algorithm (3.). This process starts off by exporting the model name to a log file. Divergences in data flow will be visualized as discussed in chapter \ref{}. Vertices were defined as model and reaction names as well as endpoints specified. Edges in turn represented relationships and direction of procedural flow. Figure \ref{fig:MatrixFormat} was the end result of visualizing this log file and will be further discussed within section \ref{chp:4}. 
 
-\subsection{Data Sorting (B)}
-Once all available models have been retrieved to the local repository the mf version was requested as mentioned in section \ref{Translation}. These models were then sent for sorting and handling (3.). A process that starts off by exporting the model name to a log file for tracking. All divergences of the model flow path will be capture within this log file towards a representation of model flow in the form of a directed graph. Vertices were defined as model and reaction names as well as endpoints specified. Edges in turn represent the relationships and direction of procedural flow. Figure is the end result of this log file. This will be discussed further in the results section. 
+Once the initialization step was completed, a model was sent to a check function (4.). This function examines semantic structure as well as behaviour of models, in order to identify suitable models for the analysis at hand. The first process evaluates whether or not a model contains event functions. This is done by matching the pattern of an empty list to the appropriate sub list at index eight in the model (5.). A successful model is then checked for the presence of stoichiometry (6.). This is achieved by testing whether or not the stoichiometry list (index one) contains data. In other words, when the length of the list at the stoichiometry index is equal to zero, the model contains no stoichiometry and is handled and logged as such. Model event triggers, of the kind described above, can also be specified in terms of piece-wise functions (7.). As no a priori knowledge on the timing or the effect of these event triggers upon the steady state and control behaviour were available, they were also identified and logged. This identification was done based on the pattern of a reaction containing the string "Piecewise" as the function is referred to. 
 
-After the initialisation step, the model is then sent to the check model function (4.). This function examines the semantic structures as well as behaviour of models, in order to identify suitable models for the analysis at hand. The first process evaluates whether or not a model contains event functions, by matching the pattern of an empty list to the appropriate sub list in the model (5.). A successful model is then checked for the presence of stoichiometry (6.) by testing whether or not the stoichiometry list contains data. In other words, when the length of the list at the stoichiometry index is equal to zero, the model contains no stoichiometry and is handled and logged as such. Model event triggers, such as described above, can also be specified in terms of piecewise functions (7.). As no a priori knowledge on the timing or the effect of these event triggers upon the steady state and control behaviour were available, they were also identified and logged. These steps served as an minimal-validation for initial useful models. As these procedures are not as computationally intensive as simulation operations, they were placed first in the order of operation in order to speed up the computation time. 
+These steps served as a minimal-validation for initial models. The order of operation proved important, as these procedures were not as computationally intensive as simulation and calculation operations. Therefore computational eficiency was gained in optimizing the order of operations. 
 
-Following the semantic and structural tests described above, the stability of a model was assessed by evaluating steady state behaviour. For this purpose the Jacobian matrix was consulted (8.). As is known from linear algebra, the eigenvalues of a Jacobian matrix holds information on the stability of a system of ODE's. The system converges to a stable state when a decrease in perturbation is observed, in other words the real parts of the eigenvalues are negative pointing to a decrease in initial perturbations. In contrast a positive eigenvalue points to a divergence from a stable state, as a perturbation is increased and amplified. A third condition is the occurrence of a positive eigenvalue with a non zero imaginary part. These results are indicative of a system oscillating around some state, be it stable or unstable periodic behaviour. As such, model names exhibiting oscillatory behaviour were identified and written to our log file. A model that have reached this point was then written, in full mf form, to text file for the record and future use. The model is then sent for the simulation and calculation procedures as described next.
+Following the semantic and structural tests described above, the stability of a model had to be assessed. This was done by evaluating model steady state behaviour. For this purpose the Jacobian matrix was consulted (8.). As is known from linear algebra, the eigenvalues of a Jacobian matrix holds information on the stability of a system of ODE's. The system is said to converge to a stable state when a decrease in perturbation is observed, in other words, from the jacobian matrix, real parts of eigenvalues are negative pointing to a decrease in initial perturbations. In contrast a positive eigenvalue points to a divergence from a stable state, as a perturbation is amplified. A third condition was the occurrence of a positive eigenvalue with a non zero imaginary part. These results are indicative of a system oscillating around some state, be it stable or unstable periodic behaviour. As such, model names exhibiting oscillatory behaviour were identified and written to our log file. For a simple test of stability, a Jacobian matrix that is invertible could serve as a positive test of steady-state \cite{Hofmeyr2001}.  
+
+A model that have reached this point in the algorithm marked a checkpoint and was written, in full mf format, to a text file for record and future uses. Next up the model was sent for the simulation and calculation procedures as is described in the following section and as can be seen in figure \ref{dataFlow} number ten.
 
 \subsection{Calculations (C)} \label{Calculations}
-The \gls{steady-state} of a model was calculated and the flux control coefficients were determined (2.). This was done utilizing linear algebra methods as described by \citeauthor{Hofmeyr2001}. Models containing negative flux control coefficients were identified and logged. As disequilibrium ratio calculations are only applicable to reactions proceeding in a reversible manner, a test function was developed. A reversible reaction was defined as a rate equation containing a negative part within the numerator portion, thus allowing a rate to become negative (reversible) under appropriate conditions. The numerator is therefore recast into base components and tested for the presence of a negative-one term (3.). This was achieved by utilising the tree form structures available to Mathematica leading to an equation expanded into smallest parts. The position of these reactions were then stored in a variable for use in disequilibrium calculations later. 
+The \gls{steady-state} of a model was calculated and the flux control coefficients were determined (10.). This was done utilizing linear algebra methods as described by \citeauthor{Hofmeyr2001}. This method entails the reduction of a stoichiometry matrix $N$ to row echelon form by Gaussian elimination. The reduced matrix $N_R$ contains the independent reactions and can be returned to $N$ matrix by defining a link matrix $L$ such that $N = LN_R$. Further information on the dependent and independent relationships are possible, yet will not be discussed here. 
 
-Flux controls were calculated from elasticities as well as concentration control coe\"fficients. Concentration control coe\"fficients in turn being calculated from the inverse of Jacobian matrices as defined by \citeauthor{Hofmeyr2001}. Therefore, as the Jacobian approaches values close to zero, the inverse approaches infinity. This introduced errors due to machine precision digit and accuracy limitations. As such a further step in ensuring model validity was implemented via elasticity calculations (4.). Maximum elasticity values of the system were then compared to a threshold, chosen as $1 \cdot 10^{-10}$. The choice of this threshold was based on observation of failed calculations from models in a "trial and error manner".  Models surpassing this threshold was passed to the following step (5.). 
+Elasticity co\"efficients $\Bar{\mathcal{E}}$ were determined by taking the partial derivatives of reaction rates with respect to steady state concentrations. This notation stems from the article by \citeauthor{Hofmeyr2001} with the bar on $\mathcal{E}$ indicating unscaled elasticities. Scaling can be applied in order to generate dimensionless elasticities $\mathcal{E}$. As mentioned earlier, the steady state is influenced by parameters populated from experimental procedures and as such, each steady-state is unique to parameter values and initial conditions. 
 
-To calculate disequilibrium ratios, knowledge of metabolite identity (substrate/product) was needed. Metabolites were identified through the use of the stoichiometry matrix. One can extract products and substrates on the basis of stoichiometry values that are larger or smaller than zero respectively(6.). Returning a reaction id linked to product id allowed for the consistent handling of applicable reactions. In the case of multiple products only the first product was returned for use, more were not requi. Once products have been identified, gamma is determined by raising each metabolite in a reaction to the power of it's corresponding stoichiometry, leading to the first part of symbolic gamma construction. For second part, each of these exponents were multiplied by one another according to the respective reaction rows. The result is a symbolic construction of gamma ratios. 
+A steady-state consists of metabolite concentrations $s$ as well as flux through values $J$. Changes to these steady-state values $(s,J)$, due to perturbations of parameter $p$, can be approximated by the following means. For metabolite concentrations $s_2 = s_1 + \frac{\partial s}{\partial p}(p_2 - p_1)$ and fluxes $J_2 = J_1 + \frac{\partial J}{\partial p}(p_2 - p_1)$. 
 
-For the following step, $K_{eq}$ calculations, equalities were defined in terms of equilibrium, \textit{i.e.} the rate equation equalling zero. Following, the equality was symbolically solved in terms of the product identified in (6.). This was achieved by utilising the "Solve" function in Mathematica.
+From the above matrices, the flux control co\"efficients were determined. The product of $N_R\Bar{\mathcal{E}}L$ being defined as the Jacobian matrix $M$. Further discussions on the Jacobian matrix will follow. For now however the importance lies in the calculation of concentration control co\"efficients towards the end of determining flux control co\"efficients.
+
+The concentration control co\"efficients indicate a measurement of, as the name suggests, relative changes to metabolite concentrations $s$ brought about by parameter perturbations $p$. From the matrix formalism the concentration control co\"efficients $\Bar{C^s}$ can be determined from the link matrix $L$ the Jacobian matrix $M$ and the reduced stoichometry matrix $N_R$ as $\Bar{C^s}=-LM^{-1}N_R$. Flux control co\"efficients were then calculated via the following equation $\Bar{C}^J = \Bar{\mathcal{E}_s}\Bar{C^s}+ I_n$ \cite{Hofmeyr2001}.
+
+From the above, many results were generated and as such filtering and sorting proceeded with models containing negative flux control coefficients upon themselves. A perturbation, towards flux control co\"efficient determination, is considered as an increase or decrease in enzyme activity or concentration. Therefore a negative flux control was deemed improbable, as an increase in enzyme concentration would logically not lead to a decrease in reaction rate. No further investigation into this was committed as this is outside the scope of this thesis.
+
+Considering that disequilibrium ratio calculations are only applicable within reactions proceeding in a reversible manner, a test function was developed to identified these reactions. A reversible reaction was defined as a rate equation containing a negative part within the numerator portion. This was drawn from general reaction rates where $v_{net} = v_{forward} - v_{reverse}$ thus allowing a rate to become negative (reversible) under appropriate conditions. The numerator is therefore recast into base components and tested for the presence of a negative-one term (12.). This was achieved by utilizing the tree form structures available to Mathematica leading to an equation expanded to smallest component parts. The position of these reversible reactions were then stored in a variable for use in disequilibrium calculations later. 
+
+As can be seen from the calculations of flux control co\"efficients prior, an inverse of the Jacobian matrix is calculated (13.) \citeauthor{Hofmeyr2001}. Therefore, as the Jacobian approaches zero, an inverse would approach infinity. This introduced errors due to machine precision digit and accuracy limitations when elasticity values were too small. As such a further step in ensuring model validity was implemented via elasticity calculation checks. Maximum elasticity values of the system were compared to a threshold, chosen as $1 \cdot 10^{-10}$. The choice of this threshold was based on observation of failed calculations from models in a "trial and error manner".  Models surpassing this threshold was passed to the following step (14.). 
+
+To calculate disequilibrium ratios, knowledge of metabolite identity (substrate/product) was needed. Metabolites were identified through the use of the stoichiometry matrix. One can extract products and substrates on the basis of stoichiometry values that are larger or smaller than zero respectively(15.). Returning a reaction id linked to product id allowed for the consistent handling of applicable reactions. In the case of multiple products only the first product was returned for use, more were not required. Once products have been identified, gamma was determined by raising each metabolite in a reaction to the power of it's corresponding stoichiometry, leading to the first part of symbolic gamma construction. From vector 
+\[
+S
+=
+\begin{bmatrix}
+    s_{1} \\
+    s_{2} \\
+    s_{3} \\
+    \vdots \\
+    s_{n} 
+\end{bmatrix}
+\]
+
+each component is raised to the corresponding collumn value from
+
+\[
+N 
+=
+\begin{bmatrix}
+    x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
+    x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
+    x_{d1} & x_{d2} & x_{d3} & \dots  & x_{dn}
+\end{bmatrix}
+\]
+
+leading to 
+
+\[
+S^N
+=
+\begin{bmatrix}
+    s_1^{x_{11}} & s_2^{x_{12}} & s_3^{x_{13}} & \dots  & s_n^{x_{1n}} \\
+    s_1^{x_{21}} & s_2^{x_{22}} & s_3^{x_{23}} & \dots  & s_n^{x_{2n}} \\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
+    s_1^{x_{d1}} & s_2^{x_{d2}} & s_3^{x_{d3}} & \dots  & s_n^{x_{dn}}
+\end{bmatrix}
+\]
 
 
+For the second part, each of these exponents were multiplied by one another according to the respective reaction rows 
 
+\[
+V
+=
+\begin{bmatrix}
+    V_{1} \\
+    V_{2} \\
+    \vdots \\
+    V_{d} 
+\end{bmatrix}
+\]
 
+such that
+
+\[
+\gamma 
+=
+\begin{bmatrix}
+    s_1^{x_{11}}s_2^{x_{12}}s_3^{x_{13}} \dots s_n^{x_{1n}} \\
+    s_1^{x_{21}}s_2^{x_{22}}s_3^{x_{23}} \dots s_n^{x_{2n}} \\
+    \vdots\\
+    s_1^{x_{d1}}s_2^{x_{d2}}s_3^{x_{d3}}\dots s_n^{x_{dn}}
+\end{bmatrix}
+\]
+
+From the above it can be seen that stoichiometries of zero will result in power calculations of one. With negative and positive stoichiometries as denominators and numerators respectively, resulting in the gamma fraction \gamma of the specific reaction. $K_{eq}$ calculations where done, as an example from the Tuesink model mention earlier. The 2-Phospho-D-glycerate 2,3-phosphomutase catalyzed reaction leading from P2G to PEP is used as an example, where an equality is defined in terms of equilibrium, \textit{i.e.} the rate equation $v_n$ equals zero.
+
+\begin{equation}
+v = \frac{V_mENO([P2G] - \frac{[PEP]}{K_{eq}ENO})}{K_mENOP2G(1 + \frac{[P2G]}{K_mENOP2G} + \frac{[PEP]}{K_mENOPEP})} = 0
+\end{equation}
+
+Following this, the equality was symbolically solved in terms of the product identified in (15.). In the example case PEP is the product. As such the above equation in terms of PEP becomes
+
+\begin{equation}\label{PEP}
+PEP = K_{eq}ENOP2G
+\end{equation}
+
+From the calculations above, this reaction has
+
+\begin{equation}\label{gamma}
+\gamma=\frac{[PEP]^1}{[P2G]^1}
+\end{equation}
+
+Substitution of equation \ref{PEP} into \ref{gamma} yields $\gamma$ at equilibrium, otherwise known as $K_{eq}$. Therefore
+
+\begin{equation}\label{Keq}
+K_{eq}=K_{eq}ENO
+\end{equation}
+
+Taking equation \ref{gamma} divided by \ref{Keq} gives us the disequilibrium ratio
+\begin{equation}
+\rho = \frac{\gamma}{K_{eq}} = \frac{\frac{[PEP]^1}{[P2G]^1}}{K_{eq}ENO}
+\end{equation}
+
+Substituting steady-state values allows for the calculation of the numerical disequilibrium ratio. This was the generic manner in which disequilibrium calculations were done. From this methods described, two values were returned per reaction. The flux control co\"efficient as well as the disequilibrium ratio. These results were used further towards the analysis at hand. The procedures of which follow.
 
 \section{Analysis} \label{Analysis}

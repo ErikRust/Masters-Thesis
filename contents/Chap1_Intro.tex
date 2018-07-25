@@ -1,9 +1,45 @@
 \chapter{Introduction}
 \label{chp:1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Two fundamental elements of biochemical modelling, stoichiometry and rate equations can be seen to parallel the underlying laws of nature. 
+Nature governs as life persists. 
 
-Biochemical systems' stoichiometry, in simplest form, echoes the conservation of matter and energy as defined by the 1_{st} Law of Thermodynamics. Rate equations then further describes this process and the regulation thereof, as it varies from state to state. This change in state is driven by entropy as termed by the 2_{nd} law of thermodynamics wherein natural systems have a tendency towards a highest degree of disorder. In biochemistry we refer to this as the equilibrium condition \cite{Prigogine1998}. 
+From the first law of motion, an object at rest is said to remain so, unless acted upon by an outside force. The first law of thermodynamics in turn asserts that the total energy of our universe remains constant. In other words energy can not be created nor destroyed, but alterations of state is possible. These changes of states are driven by fundamental forces, such as is described by the second law of thermodynamics. The second law of thermodynamics predicates that the entropy of the universe is always increasing. The end result lies towards a state of equilibrium or largest degree of disorder  \cite{Prigogine1998}. 
+
+In this text, we will examine the relationship between the thermodynamic states and the degree of control exerted. Therefore an introduction to the basic thermodynamics at work follows.
+
+
+\section{Thermodynamics}
+Macroscopic effects of entropy ($S$) are observable. Through the transference of heat energy from areas of high temperature to areas of lower temperature or in chemistry, through the diffusion of chemicals from regions of high concentration to regions of low concentration. Either way these changes in state is leads to a change in energy. In biochemistry, this change in energy state is quantified by the Gibbs free energy change ($\Delta G$). $\Delta G$ describes change to the internal energy, or enthalpy ($H$), of a system  as a function of entropy and temperature such that 
+
+\begin{equation}
+\Delta G = \Delta H - T \Delta S  
+\end{equation}
+
+$\Delta G$ delivers insight into whether a reaction will be favorable at a specific conditions. It does not however give any information as to the mechanisms by which these reactions occur. In order to quantify these, one must describe a reaction in terms of rate laws. Let us take an example reaction where $A + B \longrightarrow C$. The change in $A$ is influenced by various factors such as, species concentrations ($[A]$, $[B]$), stoichiometry ($\alpha$,$\beta$) and rate constants ($k$). The rate constant remains constant with variations in species concentrations only however. As described by the Arrhenius equation, the rate constant is dependent upon the temperature ($T$), activation energy ($E_A$), the gas constant (a function of pressure, volume, and temperature of a specific amount of moles) as well as the pre-exponential or frequancy factor, reflecting frequancies of colisions and orientation. T
+
+\begin{equation}
+k = Ae^{-\frac{E_A}{RT}}
+\end{equation}
+
+This change can be quantified by the power law where 
+
+\begin{equation}
+-v_A = k[A]^\alpha[B]^\beta
+\end{equation}
+
+From the rate of change $v_A$ one can observe this system where there is no net change in $A$ such that
+
+\begin{equation}
+-v_A = 0
+\end{equation} 
+
+from which an equilibrium solution can be obtained as any of the variables approaches zero. Therefore, altering the enzyme catalyzing such a reaction would ultimately influence the speed at which the reaction proceeds, along the enzyme saturation curve, yet the final state will remain unchanged at equilibrium. As reactions do not only progress in one direction let us build on the example to define a reaction which can proceed reversibly in that $A + B \Longleftrightarrow  C$. Then the rate of change ($v$) can be quantified, in the forward direction, by the consumption of $A$ giving
+
+\begin{equation}
+    v_{forward} = \frac{-k_A[A]^\alpha[B]^\beta}{1+k_A[A]}
+\end{equation} 
+
+whilst the reverse reaction, production of $A$, is defined as $v_{reverse} = \frac{k_{-A}[C]^\alpha[D]^\beta}{1+k_{A}[A]}$. From the net reaction rate $v_net = v_{forward} + v_{reverse}$ we substitute $v$ from above and  get $$ 
 
 In an attempt at capturing experimental observations, on these state changes, biochemical models is considered an indispensable tool. A model summarizes the current understanding of a specific metabolic pathway into a reusable format. Biochemical models are able to obtain various degrees of accuracy and realism, defined on an as needed basis, by incorporating experimental results at relevant physiological conditions. These observations are incorporated through the use of parameters and augmentative functions as is discussed in chapter \ref{chp:3}. 
 
