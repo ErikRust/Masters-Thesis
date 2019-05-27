@@ -1,127 +1,172 @@
 \chapter{Literature Review} \label{chp:2}
-This section is an attempt at tying together theoretical aspects of thermodynamics, entropy and rate equations as they relate to the investigation at hand. 
+This section ties together the theoretical aspects of thermodynamics, metabolic control analysis and biochemical modelling as they relate to understanding the possible relationship between the flux control coefficient and the thermodynamic disequilibrium ratio. The thermodynamic state, characterised by the disequilibrium ratio, will serve as independent variable  upon the flux control co\"efficient is being observed.
 
-\section{Thermodynamics, entropy and the rate equation}\label{Entropy}
-From a thermodynamic perspective, entropy ($S$) is said to give rise to the arrow of time, a concept that is highly relevant to biochemical systems \cite{Lebowitz1994}. This is due to the fact that, although biochemical reactions are reversible, no reaction will reverse the increase of entropy, as described by the laws of thermodynamics. In other words, even reversible reactions lead to an increase in entropy of some external system. The ultimate end result of these entropic forces being defined by the third law of thermodynamics. This can be viewed as a zero-point or ground-state, from quantum mechanics, of energy \cite{Vidal2002}. 
+The following section aims to provide the theoretical foundations upon which key concepts of this investigation was based. These include first principles in the form of the Newtonian laws of motion, as well as the laws of Thermodynamics. This is followed by an overview of the current literature landscape in metabolic control analysis, as this approach was used in the calculation of control values.
 
-Macroscopic effects of entropy can be observed as the transference of heat energy, from areas of high temperature towards areas of lower temperature. This transference proceeds in a gradient decent manner and although this description is an oversimplification, it serves as a solid intuitive understanding of the underlying processes. The most tangible relationship between entropy and temperature can be witnessed in the form of temperature in kelvin, whereby absolute-zero refers to the point of maximal entropy as the system's motion and therefore time itself slows to zero \cite{Wickramasinghe2004}. In chemistry this driving force is witnessed in the diffusive movements of molecules, from regions of high concentration to regions of low concentration via Brownian motion \cite{Roos2014}. In biochemical systems these movements are further influenced by confines in the phase-space, as in vessels and cells \cite{Kramers1940, Burada2009}. Irrespective of constraints and effectors, the occurrence of a change in state is invariably bound to a change in energy and $vice versa$. In biochemical systems, such a change in energy is quantified by the Gibbs free energy change ($\Delta G$). With $\Delta G$ capturing the change in energy state of a system, accounting for the change to internal energy, or enthalpy ($H$), as well as entropy and it's reliance on temperature ($T$) \cite{Job2016, LEFFLER1955}. These relationships are observed from the Gibbs free energy equations, where
 
-\begin{equation}
-\Delta G = \Delta H - T \Delta S  
+\section{Thermodynamics}
+Energy in our universe is contained within a gradient, from complete order to complete disorder as described by the laws of thermodynamics. From the first and second laws, energy is known to be indestructible and finite, yet is capable of altering from one state to another. Within these constraints life as we know it have developed and thrived, as an intermediate stability within gradients. This leaves the probability that regulatory systems of living systems have developed strategies that, in some way, should be reflective of the underlying thermodynamic properties of individual components involved.
+\cite{Schneider1994, Prigogine1998}. 
+
+Entropy ($S$), as the main driving force in thermodynamics, is said to give rise to the arrow of time  \cite{Lebowitz1994}. In chemistry, $S$ is further described in the diffusive movements of molecules. By state changes that proceed from regions of high order to regions of low order \cite{Roos2014}. In biochemical systems these states are further influenced by constraints on compartmental environments, as in vessels, cells and organelles \cite{Kramers1940, Burada2009}. Irrespective of constraints however, the underlying laws of thermodynamics hold and a change in state is invariably bound to a change in energy, leading to an increase in entropy of some larger system. 
+
+In a biochemical system, such a change is quantified by the Gibbs free energy change ($\Delta G$). $\Delta G$ defines the change in energy state of a system, accounting for the change to internal energy ($\Delta H$), as well as change in entropy ($\Delta S$) and it's reliance on temperature ($T$) \cite{Job2016, LEFFLER1955}.
+
+\begin{equation}\label{gibbsFree}
+\Delta G = \Delta H - T \Delta S
 \end{equation}
 
-$\Delta G$ yielding insight into the spontaneity of a reaction, based on the current thermodynamic state. The equilibrium condition of a reaction is taken as a special case termed the equilibrium constant $K_{eq}$. As such, the equilibrium state of a reaction can be defined in terms of the standard Gibbs free energy change ($\Delta G^0$)
+$\Delta G$ also yields insight into the direction of a reaction based on the current thermodynamic state. With a natural tendency towards a decrease in Gibbs free energy, reactions with a negative $\Delta G$ will proceed spontaneously, without the addition of energy. Positive $\Delta G$ indicate at reactions requiring the addition of energy in order to proceed.  With $\Delta G$  serving as indication of reaction direction, the standard Gibbs free energy ($\Delta G^0$) serves as the reference to the equilibrium state. $\Delta G^0$ is defined by the standard state, in which a constant pressure of $1atm$ a temperature of $298K$ a concentration of $1M$ for all species and a pH of 7 is maintained. Equation \ref{gibbsFree} becomes
+
+\begin{equation}
+\Delta G^0 = \Delta H^0 - 298 \times \Delta S^0  
+\end{equation}
+
+At the standard state, an equilibrium constant $K_{eq}$ for the reaction can be defined as
 
 \begin{equation}
 \Delta G^0 = -RT \ln K_{eq}  
 \end{equation}
 
-leading to 
+with $R$ being the ideal gas constant $8.3145$. One can therefore describe a reaction in direction and distance by taking account of $\Delta G^0$ in $\Delta G$ of the reaction.
 
-\begin{equation}
+\begin{equation}\label{mass_action}
 \Delta G = \Delta G^0 + RT \ln \Gamma
 \end{equation}
 
-with $\Gamma$ indicating the reaction quotient, or mass-action ratio, of the current state.
+with $\Gamma$ indicating the mass-action (product over substrate) ratio, at the current state.
 
-From the above, it is clear how the equilibrium state, current metabolite state and thermodynamic constants relate to the Gibbs free energy change of the reaction under investigation. However, the Gibbs free energy change does not yield information relevant to the description of mechanisms by which such state changes occur. Mechanisms include but are not limited to the quantification of the effects that metabolites, enzymes, pH or more have upon the reactions. In order to quantify such interactions, a more complex construct is required, rate equations have developed to fill this need. A rate equation is constructed from rate laws with specifics derived from experimental observations \cite{Teusink2000, Sorribas1995}. One example of such a rate law, the law of mass action, as described by \citeauthor{Waage1986} was derived from thermodynamic principles by \citeauthor{VantHoff1884}  and can be used as the basis of a generic rate equation \cite{VantHoff1884, Waage1986, Voit2015}. This law formed the link to thermodynamic states of a system as described in chapter \ref{Methodology}. An example of a rate equation construction from the law of mass action, of the reaction where $A + B \longrightarrow C$, can be defined as
+From the above, it is clear that the equilibrium state at standard conditions, current metabolite state as well as thermodynamic constants relate to the change in Gibbs free energy of the reaction. However, the Gibbs free energy change as defined above does not give information about individual species contributions towards the systemic change.
 
-\begin{equation}\label{rateOfChange}
--v_A = k[A]^\alpha[B]^\beta
+At equilibrium for instance, the change in energy of products and substrates equal one another, resulting in a zero net change.
+
+\begin{equation}
+\Delta G_{substrates} = \Delta G_{products}
 \end{equation}
 
-where the rate of change in $[A]$  ($v_A$) is influenced by factors of metabolite concentration ($[A]$, $[B]$), reaction order ($\alpha$, $\beta$) and rate constants ($k$). Rate constants in turn, as termed by the Arrhenius equation,
+Since biochemical systems consist of multi-molecular solutions, the general Gibbs free energy change can be adapted in order to more fully describe individual species contributions. As such, each species is thought of to contribute a partial energy change towards the full Gibbs free energy change. This partial change per species unit is termed the chemical potential ($\mu $) of species ($i$). $\Delta H$  in equation \ref{gibbsFree} describes the change to internal energy, as being equal to the total internal species energy $U$ plus the product of the pressure $P$ and volume $V$.
+
+\begin{equation}
+\Delta H = U + PV
+\end{equation}
+
+The total internal energy $U$ of a system can then be rewritten in terms of the sum of chemical potentials $\mu$ of all species $i$ involved in the exchange of the number of units $N$, such that
+
+\begin{equation}
+\Delta H = \sum^{n}_{i=1}\mu_i \delta N_i + PV
+\end{equation}
+
+Substituting $\Delta H$ back into equation \ref{gibbsFree}, the Gibbs free energy change for the system is now defined in terms of individual species contributions.
+
+\begin{equation}
+\Delta G = \sum_{i=1}^{n}\mu_i \delta N_i - T \Delta S
+\end{equation}
+
+Through the Gibbs free energy changes and chemical potentials, a good description of the reaction direction and distance is quantifiable. However mechanisms describing effects of metabolites, inhibitors, activators, pH and more can be described by way of the rate equation.
+
+\section{Rate Equations}
+
+Rate equations, constructed from rate laws with specifics derived from experimental observations, define the structure and overall regulatory properties of the system \cite{Teusink2000, Sorribas1995}. An example of a fundamental rate law, the law of mass action, as handled in equation \ref{mass_action}, as described by \citeauthor{Waage1986} was derived from thermodynamic principles by \citeauthor{VantHoff1884}. This rate law have since been used as the basis for more generic rate equations \cite{VantHoff1884, Waage1986, Voit2015}. 
+
+An example of a simple rate equation construct from the law of mass action describes the rate of change for $[A]$ over time, where $A + B \longrightarrow C$. This can be defined as
+
+\begin{equation}\label{rateOfChange}
+\frac{\delta [A]}{\delta t} = -v_A = k[A]^\alpha[B]^\beta
+\end{equation}
+
+The rate of change of $[A]$ ($v_A$) is influenced by factors of metabolite concentration ($[A]$, $[B]$), reaction order ($\alpha$, $\beta$) and rate constants ($k$). These reaction orders in turn relate a reaction's sensitivity to metabolites, while the rate constants, as termed by the Arrhenius equation,
 
 \begin{equation}\label{arenius}
 k = Ae^{-\frac{E_A}{RT}}
 \end{equation}
 
-captures the dependence of rate constants to temperature ($T$), activation energy ($E_A$), the gas constant ($R$) and a pre-exponential or frequency factor ($A$). With all of these resulting from forces of entropy an interesting condition, equilibrium as mentioned above, can occur. From equation \ref{rateOfChange} one can examine this condition, where no net change in $A$ results, such that
+describes the dependence on temperature ($T$), activation energy ($E_A$), the gas constant ($R$) and a spatial frequency factor ($A$). From equation \ref{rateOfChange} one can examine the equilibrium condition, where no net change in concentration of $A$ is observed, such that
 
 \begin{equation}
 -v_A = 0
 \end{equation} 
 
-An equilibrium solution is possible as any of the metabolite concentrations approach zero. As reactions do not only progress in one direction, an expansion on the example above is made. By defining a reaction proceeding reversibly such that $A + B \Longleftrightarrow  C$ the need for two separate reaction occurrences describing the net rate of change ($v$) becomes apparent. The reaction in the forward direction, defined as the consumption of $A$, can be defined as
+An equilibrium solution is achieved as any of the metabolite concentrations approach zero. Since reactions do not only proceed in one direction, an expansion on the example above is made. By defining the reaction proceeding reversibly such that $A + B \Longleftrightarrow  C$ the need for two separate reaction occurrences describing the net rate of change ($v$) becomes apparent. The reaction in the forward direction, defined as the consumption of $A$, 
 
 \begin{equation}\label{forwardReac}
-    v_{forward} = -k_A[A]^\alpha[B]^\beta
+    v_{forward} = k_A[A]^\alpha[B]^\beta
 \end{equation} 
 
-whilst in the reverse reaction, the production of $A$, can be defined as 
+and the reverse reaction, the production of $A$, defined as 
 
 \begin{equation}\label{reverseReac}
 v_{reverse} = k_{-A}[C]^\gamma
 \end{equation}
 
-Considering the net reaction rate $v_{net} = v_{forward} + v_{reverse}$, one can substitute equations \ref{forwardReac} and \ref{reverseReac} yielding
+Considering the net reaction rate 
 
-\begin{equation}
-v_{net} = k_{-A}[C]^\gamma -k_A[A]^\alpha[B]^\beta
+\begin{equation}\label{netReac}
+v_{net} = v_{forward} - v_{reverse}
 \end{equation}
 
-Taking the Haldane of such a reaction equation, one is able to relate the equilibrium state to the thermodynamic and kinetic properties, through the mass action ratio and rate constants respectively.
+one can substitute equations \ref{forwardReac} and \ref{reverseReac} into equation \ref{netReac} yielding
+
+\begin{equation}
+v_{net} = k_A[A]^\alpha[B]^\beta - k_{-A}[C]^\gamma
+\end{equation}
+
+Taking the Haldane relationship of such a reaction equation, one is able to relate the equilibrium state to both the thermodynamic and kinetic properties through the mass action ratio and rate constants.
 
 \begin{equation}
 \frac{[C]_{eq}}{[A]_{eq}[B]_{eq}} = k_{eq} = \frac{k_{-A}}{k_A}
 \end{equation}
 
-Rate laws and equations, in the form described above, form the basis of quantifying experimental observations on state change processes. Biochemical models are constructed by linking together multiple of such rate equations, of various degrees of complexity, in order to formalize the current understanding of a specific metabolic pathway \cite{Copeland2000, Hynne2001, Kell2006}. Biochemical models are able to obtain degrees of accuracy and realism, defined on an as needed basis, by incorporating experimental results at relevant physiological conditions. These observations are included through the use of parameters and augmentative functions as is discussed further in chapter \ref{chp:3}. 
+Reactions at equilibrium have equal yet opposing rate magnitudes. 
 
-The end result, ideally, is a model that details all of the above observations succinctly, elegantly and in a robust manner. In practice however, the level of detail needed is largely determined on a case by case basis, as either such depth of detail is not needed or not feasible within specified time frames. As such, little emphasis may have been placed on discerning all of the specific reactions within a pathway as reversible rate equations. This inadequacy  will, in part be, addressed by the use of custom filtering functions as well as metabolic control analysis, described in chapter \ref{Methodology}. The next section therefore views the relevance of \gls{mca} as a strategy towards discerning regulation properties of a reaction network.
-
+Rate laws and equations, as described above, have formed the basis of quantifying experimental observations into a mathematical formalism of models. Biochemical models are constructed by linking together many of these rate equations \cite{Copeland2000, Hynne2001, Kell2006}. 
 
 \section{Metabolic Control Analysis (\gls{mca})}
-The implication and applications of \gls{mca} have been far reaching. Bringing about new insights and developments to the domains of Biochemistry, Biomedicine, Biotechnology, Physiology, Pharmaceuticals, Genetics, Botany, Immunology, Agriculture and more \citep{Kacser1981, Sorribas1995, Holms1996, Cornish1999, Boren2002, Cascante2002, Olivier2004, Weselake2008}. With an application on such a wide spectrum of disciplines an \gls{mca} approach would prove useful in the creation of a generic function for model control analysis.
-
-A first point of departure was found in the form of work by Prof. \citeauthor{Hofmeyr2001}, in which he suggests starting "at the beginning of it all". With two independent parties finding themselves developing similar theories on the control of metabolic networks \citep{Rapoport1974, Kacser1973,Hofmeyr2001}. The validity of \gls{mca} came into question in \citeyear{Savageau1987}, as \citeauthor{Savageau1987} proposed the \gls{mca} formalism to be unnecessary and derivative. A claim made on the basis that biochemical systems theory (BST), provides a superior method for model creation studies \cite{Savageau1987, Savageau1987a}. However, as mentioned by \citeauthor{Cornish-Bowden1989}, the mere fact that BST provides a superior method for model creation, does not imply \gls{mca} to be an inferior approach. Rather, it is concluded that, both approaches lead to different results, based on the differing objectives \cite{Cornish-Bowden1989}. For the investigation at hand a further advantage to the \gls{mca} approach came from \citeauthor{Savageau1987} himself. \citeauthor{Savageau1987b} states that the central premise of \gls{mca}, quantifying control properties in terms of the entire system via the summation and connectivity theorems, leads to irrelevant information in the scheme of model creation. The reasoning being that the entirety of the integrated biochemical network can be understood in the absence of such relationships \cite{Savageau1987b}. As mentioned by \citeauthor{Cornish-Bowden1989}, the argument by \citeauthor{Savageau1987b} rests on the assumption of constant control and elasticity co\"efficients. In practice however this is not the case since these co\"efficients are functions of rates, which in turn are functions of various properties as described in section \ref{Entropy}.
-
-This formalism brought about advances in biological understanding, in the form of a framework, within which to incorporate both structural and kinetic information. Investigations and understandings of biological processes could therefore occur in a less isolated \textit{i.e.} more holistic manner as the concept of a rate-limiting step was replaced by one of shared control. This was an ideal expressed by \citeauthor{Kacser1968} to move "\ldots beyond the mere cataloguing \ldots of biochemical details." and towards defining and understanding systems as a whole. \citeauthor{Kacser1968} further illustrates the earliest intuition towards \gls{mca} on the basis of experimental investigation methods. One in which a system can be studied by investigating isolated portions and the second in which a system is maintained in a specific state by keeping specific variables constant while altering others \citep{Kacser1968}. The articulation of these two methods can be seen as constituent parts of \gls{mca}, where the isolated systems perspective still forms a basis for \gls{mca}; Through enzyme kinetic results largely driven by \textit{in vitro} experimental work from isolated enzymes \citep{Hynne2001, Boren2002}. The second part falls within the context of the investigation of a \gls{steady-state}. 
-
-As a subset of sensitivity analysis, \gls{mca} is concerned with quantitatively determining effects upon a system, brought about by alterations in constituent parts of such a system. Such alterations, also known as a perturbations in the context of \gls{mca}, is investigated as the system is kept at \gls{steady-state}, a dynamic equilibrium state whereby influx and efflux of external parameters are held constant. By altering local parameters \textit{e.g.}enzyme concentrations, $V_Max$, \textit{etc.} of this \gls{steady-state} system by a specified amount, one percent, one can relate resulting changes in systemic variables to this perturbation in local parameter. From these types of perturbation studies, three different co\"efficients can be derived. The flux control-, concentration control and elasticity co\"efficients. Together, these co\"efficients describe the quantitative roles of various elements of the system, upon the system itself \citep{Kacser1979}. A discussion of these components follow.
+\gls{mca}, also referred to as sensitivity analysis or control theory, brought about advances in biological understanding in the form of a framework within which to incorporate both structural and kinetic information of a system as a whole. As a subset of sensitivity analysis, \gls{mca} is concerned with systematically quantifying effects upon global systems as brought about by alterations in local parameters. Effects of such alterations, also known as a perturbations, are investigated during what is known as the \gls{steady-state}. This state defines a dynamic equilibrium, whereby the first and last metabolites, known as pools and sinks, are held constant (buffered). In this state, alterations of local enzyme and metabolite concentrations give rise to resulting global flux and concentration changes. Dependant upon the type of perturbation study, the flux control-, concentration control- and elasticity co\"efficients are three response co\"efficients that can be derived \citep{Kacser1979, Kacser1968}. 
 
 \subsection{Control co\"efficients and elasticities} 
-The first relationship, the flux control co\"efficient, yields a quantitative description of the effect upon the flux through each reaction within the pathway.
+The flux control co\"efficient ($C^{J}_{i}$), as the name implies, yields a quantitative description of the effect upon flux ($J$) that reaction ($i$) brought about via local enzyme concentration ($e_i$) perturbations.
 
 \begin{equation}
 C^{J}_{i}\approx\dfrac {\delta J}{J}/\dfrac {\delta e_{i}}{e_{i}}
 \end{equation}
 
-These effects are brought about by local perturbations of enzyme concentration, relating individual effects upon flux through the system. However, without constraints on the systemic flux, information on control of the system as a whole is lacking. This will be addressed by formal theorems later on. The following co\"efficient, describing the effect upon metabolite concentrations given a partial change in enzyme concentration, is termed the concentration control co\"efficient.
+The second co\"efficient, describing the effect upon metabolite ($S$), given a change in enzyme ($e_{i}$) concentration, is termed the concentration control co\"efficient.
 
 \begin{equation}
 C^{S}_{i}\approx\dfrac{\delta S}{S}/\dfrac{\delta e_{i}}{e_{i}}
 \end{equation}
 
-The third co\"efficient, elasticities, relate a change in some systemic factor to the corresponding change in the rate of the reaction. For example, the effect of reaction temperature, metabolite concentrations, pH and more. In mathematical notation the elasticity co\"efficient is defined as.
+The third co\"efficient, elasticity, relates a change in system parameter to the corresponding direct change in the rate of the reaction. For example, the effect of temperature, metabolite concentrations, inhibitors and $pH$. The elasticity co\"efficient is defined as.
 
 \begin{equation}
 \varepsilon^{i}_{P}\approx\dfrac{\delta v_{i}}{v_{i}}/\dfrac{\delta P}{P}
 \end{equation}
 
-In summary, the first two co\"efficients, respectively termed the flux control and concentration control co\"efficients, relate local parameter changes to global variable effects, whereas the elasticity control co\"efficient relate local variable changes to effective changes in corresponding reaction rates. From these control co\"effiecients and elasticities two relationships, the connectivity and control theorems, were derived to address the inadequacies eluded to above. As mentioned earlier, the effects described by these various co\"efficients and elasticities, possess little information about the effects perturbations have upon the system as a whole. To address this, various theorems were developed in order to; relate these relationships described to one another and  set constraints upon the system within which a more holistic analysis can occur.
+Whilst the first two co\"efficients, respectively termed the flux control and concentration control co\"efficients, relate local parameter changes to global effects, the elasticity control co\"efficient relate local variable changes to corresponding reaction rate changes. Therefore elasticity determinations can be done in isolated enzyme kinetic reactions, as long as metabolite concentrations are kept at $in vivo$ steady sate concentrations. 
+
+From these control co\"effiecients and elasticities two relationships, the connectivity and control theorems, were derived. These theorems were developed in order to; relate the relationships described above to one another as well as setting constraints upon the system within which a more systemic analysis can occur.
 
 \subsection{Summation and Connectivity Theorems}
 
-The summation theorem as described by \citeauthor{Kacser1979,Rapoport1974} defines the boundaries of our systems, as it sets constraints, \textit{viz.} 
+The summation theorem as described by \citeauthor{Kacser1979,Rapoport1974} defines boundaries of systems, setting constraints on the above mentioned coeficients, such that 
 
-\begin{equation}
+\begin{equation}\label{fluxSummation}
 \sum_{i}C_{v_i}^J=1
 \end{equation}
 
-\begin{equation}
+\begin{equation}\label{concSummation}
 \sum_{i}C_{v_i}^S=0
 \end{equation}
 
-Equation 2.4 describes the distribution of flux control throughout the system, with each reaction sharing in part towards the whole of flux control for the pathway. Through eq. 2.5 it can be seen that the the effect upon metabolite concentrations via enzyme perturbations is distributed throughout the system, as concentrations in one part increases with respect to parameter perturbations, those in other parts will decrease in accordance. The establishment of a quantitative description of how local control effects systemic variables, \textit{i.e.} metabolite concentrations (eq. 2.4), as well as the effect that these systemic variables in turn have upon the rates of reactions (eq. 2.5) allows one to describe holistic systemic behaviour through a combination of these theorems, a goal achieved through the connectivity theorems.
+Equation \ref{fluxSummation} describes the distribution of flux control throughout the system, with each reaction sharing in part towards the whole of flux control for the pathway. Equation \ref{concSummation} describes the effect upon metabolite concentrations via enzyme perturbations as it is distributed throughout the system. In other words, as concentrations in one part increases with respect to parameter perturbations, concentrations in other parts will decrease in accordance.
 
-Connectivity theorems define a link between local enzyme kinetic properties and global pathway variables based on two basic assumptions. The first being on the additive properties between the products of flux control co\"effiecients and elasticities.
+Connectivity theorems in turn define the link between local enzyme kinetic properties and global pathway variables based on two basic assumptions. The first assumption is on the additive properties between the products of flux control and elasticity co\"effiecients.
 
 \begin{equation}
 \sum_{i}C_{i}^J\epsilon_S^i=0
 \end{equation}
 
-The second theorem involves the summation property of the products between concentration control and elasticities. This theorem is further subdivided into two equations, the first of which considers system species,($S_m$) differing to those of local species ($S_m$) while the second considers system species equal to local species \citep{Kacser1979, Westerhoff1984}.
+The second theorem involves the summation property of the products between concentration control and elasticity co\"effiecients. This theorem is subdivided into two equations, the first of which considers system species,($S_m$) differing to those of local species ($S_m$) while the second considers system species equal to local species \citep{Kacser1979, Westerhoff1984}.
 
 \begin{equation}
 \sum_{i}C_{i}^{S_n}\epsilon_{S_m}^i=0\quad \textrm{for}\quad m\ne n
@@ -131,52 +176,16 @@ The second theorem involves the summation property of the products between conce
 \sum_{i}C_{i}^{S_n}\epsilon_{S_m}^i=-1\quad \textrm{for}\quad m = n
 \end{equation}
 
-These relationships were later extended to symbolic matrix algebra methods which are used in this thesis \cite{Fell1992,Kacser1995,Ehlde1997,Hofmeyr2001}.
-
-Many research activities have been geared towards discerning the so called "rate-limiting" step of a metabolic pathway, adopted from chemistry where the rate of the overall reaction is approximately determined by the slowest rate in the reaction chain. This concept serves as a useful tool in simplifying the mathematics involved in kinetic calculations of reactions, however, this oversimplification results in a loss of network accuracy when applied to more complex reaction pathways, such as those occurring within the metabolic context. The introduction of \gls{mca}, specifically the flux control summation theorem redefined the concept of "rate-limiting" steps. By defining the contribution of each reaction to the distribution of control over the system as a whole. As such control is shown to be shared among all participating reactions. In the case of flux control, as opposed to having a single "rate-limiting" reaction controlling flux through the entire system, this control is though to be spread across the reaction space by way of the flux control co\"efficient. Assuming at this point that the sum of the own-flux control co\"efficients across the system equals one, the system is said to obey the flux summation theorem \citep{Fell1992,Hofmeyr2001,Kacser1995,Ehlde1997}. As well as being central to the control analysis at hand, this flux summation theorem can be used in and automated approach at \gls{steady-state} validation as will be discussed in the methods chapter later.
-
-Following an understanding of the concepts of \gls{mca} and more specifically the flux control co\"efficient, attention is given next to the second part of the investigation namely the thermodynamic aspects.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+These relationships were further extended to symbolic matrix algebra methods \cite{Fell1992,Kacser1995,Ehlde1997,Hofmeyr2001}.
 
 
-Entropic contributions to biochemistry, and in such thermodynamic contributions, are made explicit through the expressions of Gibbs free energy changes as in $\Delta G(p,T)=\Delta H+pV-T\Delta S$ where $\Delta G$ represents Gibbs free energy of a system,$p$ and $V$ relating the effects of pressure upon volume, $\Delta H$ the enthalpy, in biochemistry, referring to differences in bond energies and $T$ relating temperature in Kelvin as a scalar of entropy $\Delta S$. Through inspection of this equation, it is clear to see the contributions made by both entropy as well as enthalpy towards determining the state of the system with regards to equilibrium, in biochemistry we assume the system to remain at constant volume and pressure. In other words when $\Delta G > 0$ the system is away from equilibrium and will not proceed spontaneously without the addition of free energy, as such these reactions are termed endergonic. At $\Delta G = 0$ the system is defined as being at equilibrium when both forward and reverse reaction flux proceeds at the same rate, resulting in no net reaction flux. Negative $\Delta G$ values indicate a state away from equilibrium that will proceed without free energy addition, otherwise known as an exergonic reaction. Differing combinations of these terms give rise to various possible reaction states, the scalar property of $T$ towards $\Delta S$ can be seen as the temperature dependence of entropy. It follows however that from these thermodynamic terms one can identified a reaction's equilibrium conditions or $K_{eq}$ values experimentally, as the product over substrate concentration at $\Delta G =0$. The $K_{eq}$, product to substrate ratio at equilibrium, turns out to be a special case of what is known as the mass action ratio, as will be discussed.
+Investigations and understandings of biological processes could now occur in a less isolated \textit{i.e.} more holistic manner, as the concept of a rate-limiting step was replaced by one of shared control. \citeauthor{Kacser1968} illustrates the earliest intuition towards \gls{mca} on the basis of experimental investigations methods. The first of which investigates isolated portions a system with enzyme kinetic results largely driven by \textit{in vitro} experimental work from isolated enzymes, echoing the elasticity co\"efficient determinations described above \citep{Hynne2001, Boren2002}. The second approach maintains the system at a constant state by way of maintaining the beginning and end specific variables constant and one by one altering others and noting the effects observed, relating to flux and control co\"efficient determinations \citep{Kacser1968}.
 
-\section{Mass action and the disequilibrium ratio}
-Since the mid $16^{th}$ century, questions surrounding chemical interactions have been focussed on how dissimilar substances remain bound. At first this chemical driving force was termed "affinity" and later investigated by French Chemist/Physician Claude Louis Berthollet. Berthollet established a relation between the rate of a chemical reaction and the mass of the substance involved. This breakthrough was expanded upon later into the view that the degree of affinity, for substances towards one another, is affected by the properties of the substances in question. A finding that proved to have large implications upon therapeutics, as drug therapies can now be understood to affect different tissues with differing affinities. This insight later lead to theoretical links in the idea of "drug receptors" \cite{Ferner2016,Voit2015}. The first formal description of the law of mass action arrived from the minds of \citeauthor{Waage1986}. A further link within thermodynamics is found between the disequilibrium ratio, $\rho$ and Gibbs free energy, $\Delta G$ in what is known as the flux-force relationship.
+The implication and applications of \gls{mca} have been far reaching. Bringing about new insights and developments to the domains of Biochemistry, Biomedicine, Biotechnology, Physiology, Pharmaceuticals, Genetics, Botany, Immunology, Agriculture and more \citep{Kacser1981, Sorribas1995, Holms1996, Cornish1999, Boren2002, Cascante2002, Olivier2004, Weselake2008}. With an application on such a wide spectrum of disciplines an approach with \gls{mca} as basis would prove useful in the creation of a generic function for multiple model control analysis.  
 
-\subsection{Flux-Force Relationship}
-In a reaction from substrate $S$ to product $P$, the equilibrium constant $K_{eq}$ is defined, by the law of mass action, as the ratio of forward, $k_{+1}$, and reverse, $k_{+1}$, rate constants.
+Many research activities have been geared towards discerning the so called "rate-limiting" step of a metabolic pathway, adopted from chemistry where the overall reaction rate is approximately determined by the slowest rate in the reaction chain. This concept serves as a useful tool in simplifying the mathematics involved in kinetic calculations of reactions. However, this oversimplification results in a loss of network accuracy when applied to more complex reaction pathways. The introduction of \gls{mca}, specifically the flux control summation theorem redefined the concept of the "rate-limiting" step, by defining the contribution of each reaction towards the distribution of control over the system as a whole. In the case of flux control, as opposed to having a single "rate-limiting" reaction controlling the flux through the entire system. Assuming at this point that the sum of the own-flux control co\"efficients across the system equals one, the system is said to obey the flux summation theorem \citep{Fell1992,Hofmeyr2001,Kacser1995,Ehlde1997}. This theorem served a a fundamental test towards model usability, described in chapter \ref{chp:3}.
 
-\begin{equation}
-K_{eq}= \frac{k_{+1}}{k_{-1}}
-\end{equation}
+\section{Biochemical Modeling}
+Models are able to obtain degrees of accuracy and realism defined on an, as needed basis, by incorporating experimental observations at relevant physiological conditions. These observations are included through the use of rate equations and parameters, as is described 
 
-Forward, $J^+$, and reverse, $J^-$, fluxes are defined as $J^+ = k_{+1}[S]$ and $J^- = k_{-1}[P]$ where multiple substrate and product reactions are incorporated via the multiplication of metabolite concentrations.
-The Gibbs free energy change, $\Delta G$, can then be expressed in terms of the logarithm of the ratio of forward and reverse fluxes termed the flux force relationship.
-
-\begin{equation}
-\Delta G = -RTLn(\frac{J^+}{J^-})
-\end{equation}
-
-At equilibrium conditions, $\Delta G = 0$ leading to $\frac{J^+}{J^-} = 1$ and therefore $J^+=J^-$ indicating how, at equilibrium, the forward and reverse fluxes are equal to one another \citep{Beard2007}. 
-
-Taking 
-\begin{equation}
-\frac{J^-}{J^+} = \frac{k_{-1}[P]}{k_{+1}[S]}
-\end{equation}
-taking the multiplicative inverse of equation 2.9 and substituting it, as well as $\Gamma = \frac{[P]}{[S]}$ into equation 2.11 yields
-\begin{equation}
-\frac{J^-}{J^+} = \frac{\Gamma}{K_{eq}} = \rho
-\end{equation}
- This is also known as the disequilibrium ratio.
-
-\section{Power Law}
-As stated in his three part article on the power law and applications thereof in biochemical systems analysis \cite{Savageau1969a,Savageau1969,Savageau1970}.
-
-Concentration control matrix calculation
-$\overline{C}^s=-LM^{-1}N_R$
-
-\subsection{Current applications of Flux control co\"efficients}
-
-
+The end result, ideally, is a model that details all of the above observations succinctly, elegantly and in a robust (reusable) manner. In practice however, the level of detail needed is largely determined on a case by case basis, as either a large depth of detail is not needed or not feasible within specified time frames. As such, little emphasis may have been placed on discerning all of the specific reactions within a pathway as reversible rate equations. This hybrid natures of varying degrees of detail will, in part, be addressed by the use of custom filtering functions as well as metabolic control analysis protocols, described in chapter \ref{Methodology}. The next section therefore views the relevance of \gls{mca} as a strategy towards discerning regulation properties of a reaction network.
