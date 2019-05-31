@@ -1,22 +1,22 @@
 \chapter{Literature Review} \label{chp:2}
-This section ties together the theoretical aspects of thermodynamics, metabolic control analysis and biochemical modelling as they relate to understanding the possible relationship between the flux control coefficient and the thermodynamic disequilibrium ratio. The thermodynamic state, characterised by the disequilibrium ratio, will serve as independent variable  upon the flux control co\"efficient is being observed.
+This chapter ties together the theoretical aspects of thermodynamics, metabolic control analysis, biochemical modelling and how they relate to understanding the possible relationship between flux control coefficients and the thermodynamic disequilibrium ratios. The thermodynamic state of a reaction, characterised by the disequilibrium ratio, will serve as independent variable during which the flux control coefficient is being determined.
 
-The following section aims to provide the theoretical foundations upon which key concepts of this investigation was based. These include first principles in the form of the Newtonian laws of motion, as well as the laws of Thermodynamics. This is followed by an overview of the current literature landscape in metabolic control analysis, as this approach was used in the calculation of control values.
+The following section provides the theoretical foundations to thermodynamics. This is followed by an overview of biochemical modeling and metabolic control analysis.
 
 
 \section{Thermodynamics}
-Energy in our universe is contained within a gradient, from complete order to complete disorder as described by the laws of thermodynamics. From the first and second laws, energy is known to be indestructible and finite, yet is capable of altering from one state to another. Within these constraints life as we know it have developed and thrived, as an intermediate stability within gradients. This leaves the probability that regulatory systems of living systems have developed strategies that, in some way, should be reflective of the underlying thermodynamic properties of individual components involved.
+Energy in our universe is contained within a gradient, from complete order to complete disorder as described by the laws of thermodynamics. From the first and second laws, energy is known to be indestructible and finite, yet is capable of changing from one state to another. Within these constraints life as we know it have developed and thrived, as an intermediate stability within gradients. This leaves the probability that regulatory strategies of living systems have developed in such a way as be reflective of the underlying thermodynamic properties of the individual components involved.
 \cite{Schneider1994, Prigogine1998}. 
 
-Entropy ($S$), as the main driving force in thermodynamics, is said to give rise to the arrow of time  \cite{Lebowitz1994}. In chemistry, $S$ is further described in the diffusive movements of molecules. By state changes that proceed from regions of high order to regions of low order \cite{Roos2014}. In biochemical systems these states are further influenced by constraints on compartmental environments, as in vessels, cells and organelles \cite{Kramers1940, Burada2009}. Irrespective of constraints however, the underlying laws of thermodynamics hold and a change in state is invariably bound to a change in energy, leading to an increase in entropy of some larger system. 
+Entropy ($S$), as the main driving force in thermodynamics, is said to give rise to the arrow of time  \cite{Lebowitz1994}. In chemistry, $S$ is further described in the diffusive movements of molecules. By state changes that proceed from regions of high order to regions of low order \cite{Roos2014}. In biochemical systems these states are further influenced by constraints on compartmental environments, as in vessels, cells and organelles \cite{Kramers1940, Burada2009}. Irrespective of constraints however, the underlying laws of thermodynamics hold and a change in state is invariably bound to a change in energy. This change can relate to a decrease in $S$ of the system itself, but ultimately leading to an increase in $S$ of some larger system. 
 
-In a biochemical system, such a change is quantified by the Gibbs free energy change ($\Delta G$). $\Delta G$ defines the change in energy state of a system, accounting for the change to internal energy ($\Delta H$), as well as change in entropy ($\Delta S$) and it's reliance on temperature ($T$) \cite{Job2016, LEFFLER1955}.
+In a biochemical systems, such a change is quantified by the Gibbs free energy change ($\Delta G$). $\Delta G$ defines the change in energy state of a system, accounting for the change to internal energy ($\Delta H$), as well as change in entropy ($\Delta S$) and it's reliance on temperature ($T$) \cite{Job2016, LEFFLER1955}.
 
 \begin{equation}\label{gibbsFree}
 \Delta G = \Delta H - T \Delta S
 \end{equation}
 
-$\Delta G$ also yields insight into the direction of a reaction based on the current thermodynamic state. With a natural tendency towards a decrease in Gibbs free energy, reactions with a negative $\Delta G$ will proceed spontaneously, without the addition of energy. Positive $\Delta G$ indicate at reactions requiring the addition of energy in order to proceed.  With $\Delta G$  serving as indication of reaction direction, the standard Gibbs free energy ($\Delta G^0$) serves as the reference to the equilibrium state. $\Delta G^0$ is defined by the standard state, in which a constant pressure of $1atm$ a temperature of $298K$ a concentration of $1M$ for all species and a pH of 7 is maintained. Equation \ref{gibbsFree} becomes
+$\Delta G$ also yields insight into the direction of a reaction based on the current thermodynamic state. With a natural tendency towards a decrease in Gibbs free energy, reactions with a negative $\Delta G$ at current conditions, will proceed spontaneously without the addition of energy, termed exergonic. A positive $\Delta G$ indicates a reaction requiring the addition of energy in order to proceed, also termed an endergonic reaction.  With $\Delta G$  serving as indication of reaction direction, the standard Gibbs free energy ($\Delta G^0$) serves as reference of the equilibrium state. $\Delta G^0$ is defined by the standard state, in which a constant pressure of $1 atm$ a temperature of $298K$ a concentration of $1M$ for all species and a pH of 7 is maintained. Equation \ref{gibbsFree} becomes
 
 \begin{equation}
 \Delta G^0 = \Delta H^0 - 298 \times \Delta S^0  
@@ -28,53 +28,53 @@ At the standard state, an equilibrium constant $K_{eq}$ for the reaction can be 
 \Delta G^0 = -RT \ln K_{eq}  
 \end{equation}
 
-with $R$ being the ideal gas constant $8.3145$. One can therefore describe a reaction in direction and distance by taking account of $\Delta G^0$ in $\Delta G$ of the reaction.
+with $R$ being the ideal gas constant $8.3145$. One can therefore define a reaction in terms of direction and distance from equilibrium by taking account of $\Delta G^0$ in $\Delta G$ of the reaction with $\Gamma$ indicating the mass-action (product over substrate) ratio at the current state.
 
 \begin{equation}\label{mass_action}
 \Delta G = \Delta G^0 + RT \ln \Gamma
 \end{equation}
 
-with $\Gamma$ indicating the mass-action (product over substrate) ratio, at the current state.
-
 From the above, it is clear that the equilibrium state at standard conditions, current metabolite state as well as thermodynamic constants relate to the change in Gibbs free energy of the reaction. However, the Gibbs free energy change as defined above does not give information about individual species contributions towards the systemic change.
 
-At equilibrium for instance, the change in energy of products and substrates equal one another, resulting in a zero net change.
+At equilibrium for instance, the change in energy of products and substrates equal one another, resulting in a zero net change. Considering the unit, $kj/mol$, of Gibbs free energy at equilibrium, the energy per mol from each species contributes equaly to the formation energy of the other.
 
 \begin{equation}
 \Delta G_{substrates} = \Delta G_{products}
 \end{equation}
 
-Since biochemical systems consist of multi-molecular solutions, the general Gibbs free energy change can be adapted in order to more fully describe individual species contributions. As such, each species is thought of to contribute a partial energy change towards the full Gibbs free energy change. This partial change per species unit is termed the chemical potential ($\mu $) of species ($i$). $\Delta H$  in equation \ref{gibbsFree} describes the change to internal energy, as being equal to the total internal species energy $U$ plus the product of the pressure $P$ and volume $V$.
+It is important to note that such a state does not describe the equilibrium constant. unless observed at the standard condition as defined by $\Delta G^0$. 
+
+Since biochemical systems consist of multi-molecular solutions, the general Gibbs free energy change can be adapted in order to more fully describe individual species contributions. As such, each species contributes a partial energy change towards the full Gibbs free energy change. This partial change per species unit is termed the chemical potential ($\mu $) of species ($i$). $\Delta H$  in equation \ref{gibbsFree} describes the change to internal energy, as being equal to the total internal species energy $U$ plus the product of the pressure $P$ and volume $V$.
 
 \begin{equation}
-\Delta H = U + PV
+H = U + PV
 \end{equation}
 
-The total internal energy $U$ of a system can then be rewritten in terms of the sum of chemical potentials $\mu$ of all species $i$ involved in the exchange of the number of units $N$, such that
+$U$ can be rewritten in terms of the sum of chemical potentials $\mu$ of all species $i$ involved in the exchange of the number of units $N$, such that
 
 \begin{equation}
-\Delta H = \sum^{n}_{i=1}\mu_i \delta N_i + PV
+H = \sum^{n}_{i=1}\mu_i \delta N_i + PV
 \end{equation}
 
-Substituting $\Delta H$ back into equation \ref{gibbsFree}, the Gibbs free energy change for the system is now defined in terms of individual species contributions.
+Substituting $H$ back into equation \ref{gibbsFree}, the Gibbs free energy change for the system is now defined in terms of individual species contributions.
 
 \begin{equation}
-\Delta G = \sum_{i=1}^{n}\mu_i \delta N_i - T \Delta S
+\Delta G = \sum_{i=1}^{n}\mu_i N_i - T \Delta S
 \end{equation}
 
-Through the Gibbs free energy changes and chemical potentials, a good description of the reaction direction and distance is quantifiable. However mechanisms describing effects of metabolites, inhibitors, activators, pH and more can be described by way of the rate equation.
+Through the Gibbs free energy changes and chemical potentials, a description of the reaction direction as well as distance from equilibrium is quantifiable. However, the Gibbs free energy change does not yield information on the regulatory mechanisms or specific rates of reactions. These are tasks better handled by the construction of rate equations.
 
 \section{Rate Equations}
 
-Rate equations, constructed from rate laws with specifics derived from experimental observations, define the structure and overall regulatory properties of the system \cite{Teusink2000, Sorribas1995}. An example of a fundamental rate law, the law of mass action, as handled in equation \ref{mass_action}, as described by \citeauthor{Waage1986} was derived from thermodynamic principles by \citeauthor{VantHoff1884}. This rate law have since been used as the basis for more generic rate equations \cite{VantHoff1884, Waage1986, Voit2015}. 
+Rate equations, constructed from rate laws and parameterised from experimental observations. This is done by defining the structure and overall regulatory properties of the system \cite{Teusink2000, Sorribas1995}. An example of a fundamental rate law, the law of mass action, handled in equation \ref{mass_action}, as described by \citeauthor{Waage1986} was derived from thermodynamic principles by \citeauthor{VantHoff1884}. This rate law have since been used as the basis for more generic rate equations \cite{VantHoff1884, Waage1986, Voit2015}. 
 
-An example of a simple rate equation construct from the law of mass action describes the rate of change for $[A]$ over time, where $A + B \longrightarrow C$. This can be defined as
+An example of a simple rate equation construct from the law of mass action describes the rate of change for $[A]$, where $A + B \longrightarrow C$. This can be defined as
 
 \begin{equation}\label{rateOfChange}
-\frac{\delta [A]}{\delta t} = -v_A = k[A]^\alpha[B]^\beta
+\frac{d[A]}{dt} = -v_A = k[A]^\alpha[B]^\beta
 \end{equation}
 
-The rate of change of $[A]$ ($v_A$) is influenced by factors of metabolite concentration ($[A]$, $[B]$), reaction order ($\alpha$, $\beta$) and rate constants ($k$). These reaction orders in turn relate a reaction's sensitivity to metabolites, while the rate constants, as termed by the Arrhenius equation,
+The rate of change of $[A]$ ($v_A$) is influenced by factors of metabolite concentration ($[A]$, $[B]$), reaction order ($\alpha$, $\beta$) and rate constants ($k$), in short termed the probability of interaction. Reaction orders in turn relate a reaction's sensitivity to metabolites, while the rate constants, as termed by the Arrhenius equation,
 
 \begin{equation}\label{arenius}
 k = Ae^{-\frac{E_A}{RT}}
@@ -83,13 +83,13 @@ k = Ae^{-\frac{E_A}{RT}}
 describes the dependence on temperature ($T$), activation energy ($E_A$), the gas constant ($R$) and a spatial frequency factor ($A$). From equation \ref{rateOfChange} one can examine the equilibrium condition, where no net change in concentration of $A$ is observed, such that
 
 \begin{equation}
--v_A = 0
+v_A = 0
 \end{equation} 
 
-An equilibrium solution is achieved as any of the metabolite concentrations approach zero. Since reactions do not only proceed in one direction, an expansion on the example above is made. By defining the reaction proceeding reversibly such that $A + B \Longleftrightarrow  C$ the need for two separate reaction occurrences describing the net rate of change ($v$) becomes apparent. The reaction in the forward direction, defined as the consumption of $A$, 
+An equilibrium solution is achieved as any of the metabolite concentrations approach zero. However, since reactions do not only proceed in one direction, an expansion on the example above is made. By defining the reaction proceeding reversibly such that $A + B \Longleftrightarrow  C$ the need for two separate reaction occurrences describing the net rate of change ($v$) becomes apparent. The reaction in the forward direction, defined as the consumption of $A$ and $B$, 
 
 \begin{equation}\label{forwardReac}
-    v_{forward} = k_A[A]^\alpha[B]^\beta
+    v_{forward}_A = k_A[A]^\alpha[B]^\beta + k_B[A]^\alpha[B]^\beta
 \end{equation} 
 
 and the reverse reaction, the production of $A$, defined as 
@@ -104,21 +104,21 @@ Considering the net reaction rate
 v_{net} = v_{forward} - v_{reverse}
 \end{equation}
 
-one can substitute equations \ref{forwardReac} and \ref{reverseReac} into equation \ref{netReac} yielding
+one can substitute equations \ref{forwardReac} and \ref{reverseReac} into equation \ref{netReac} yielding 
 
 \begin{equation}
 v_{net} = k_A[A]^\alpha[B]^\beta - k_{-A}[C]^\gamma
 \end{equation}
 
-Taking the Haldane relationship of such a reaction equation, one is able to relate the equilibrium state to both the thermodynamic and kinetic properties through the mass action ratio and rate constants.
+with reactions at equilibrium having equal and opposing rate magnitudes.
+
+Through the Haldane relationship, one is able to relate the equilibrium state to both the thermodynamic and kinetic properties by way of the mass action ratio and rate constants.
 
 \begin{equation}
 \frac{[C]_{eq}}{[A]_{eq}[B]_{eq}} = k_{eq} = \frac{k_{-A}}{k_A}
 \end{equation}
 
-Reactions at equilibrium have equal yet opposing rate magnitudes. 
-
-Rate laws and equations, as described above, have formed the basis of quantifying experimental observations into a mathematical formalism of models. Biochemical models are constructed by linking together many of these rate equations \cite{Copeland2000, Hynne2001, Kell2006}. 
+Rate laws and equations, as described above, have formed the basis of quantifying experimental observations into a mathematical formalism of models. Biochemical models are constructed by linking together many of these rate equations in an ODE structure. This structure resembles a metabolic network of production and consumption rates leading to changes in metabolic concentrations \cite{Copeland2000, Hynne2001, Kell2006}. 
 
 \section{Metabolic Control Analysis (\gls{mca})}
 \gls{mca}, also referred to as sensitivity analysis or control theory, brought about advances in biological understanding in the form of a framework within which to incorporate both structural and kinetic information of a system as a whole. As a subset of sensitivity analysis, \gls{mca} is concerned with systematically quantifying effects upon global systems as brought about by alterations in local parameters. Effects of such alterations, also known as a perturbations, are investigated during what is known as the \gls{steady-state}. This state defines a dynamic equilibrium, whereby the first and last metabolites, known as pools and sinks, are held constant (buffered). In this state, alterations of local enzyme and metabolite concentrations give rise to resulting global flux and concentration changes. Dependant upon the type of perturbation study, the flux control-, concentration control- and elasticity co\"efficients are three response co\"efficients that can be derived \citep{Kacser1979, Kacser1968}. 
