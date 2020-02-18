@@ -1,0 +1,3227 @@
+{"modName" -> "branch3", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.2152504370215302}, "FluxCC" -> 0.6889822365046137, 
+ "FluxCCMed" -> 0.6555088817476933}
+{"modName" -> "branch3", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.6555088817476932, 
+ "FluxCCMed" -> 0.6555088817476933}
+{"modName" -> "branch3", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.6555088817476933, 
+ "FluxCCMed" -> 0.6555088817476933}
+{"modName" -> "branch5", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.3352869860147305}, "FluxCC" -> 0.5464408280207803, 
+ "FluxCCMed" -> 0.36338979299480495}
+{"modName" -> "branch5", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.5678772354825241}, "FluxCC" -> 0.363389792994805, 
+ "FluxCCMed" -> 0.36338979299480495}
+{"modName" -> "branch5", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.5678772354825241}, "FluxCC" -> 0.36338979299480495, 
+ "FluxCCMed" -> 0.36338979299480495}
+{"modName" -> "branch5", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.5252049900105219}, "FluxCC" -> 0.3633897929948049, 
+ "FluxCCMed" -> 0.36338979299480495}
+{"modName" -> "branch5", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.5252049900105219}, "FluxCC" -> 0.3633897929948049, 
+ "FluxCCMed" -> 0.36338979299480495}
+{"modName" -> "bruggeman", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.0026442741065401234}, "FluxCC" -> 0.031871672358350533, 
+ "FluxCCMed" -> 0.4506385686160048}
+{"modName" -> "bruggeman", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {1.84483721163294*^-11}, "FluxCC" -> 0.04828354110843572, 
+ "FluxCCMed" -> 0.4506385686160048}
+{"modName" -> "bruggeman", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {8.858684832968987*^-11}, "FluxCC" -> 0.5044829428923905, 
+ "FluxCCMed" -> 0.4506385686160048}
+{"modName" -> "bruggeman", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.10410416356826196}, "FluxCC" -> 0.9603732586993823, 
+ "FluxCCMed" -> 0.4506385686160048}
+{"modName" -> "bruggeman2", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.5217381682832409}, "FluxCC" -> 0.01961734181190923, 
+ "FluxCCMed" -> 0.30285237265924725}
+{"modName" -> "bruggeman2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.0073773194472208665}, "FluxCC" -> 0.2319615071002578, 
+ "FluxCCMed" -> 0.30285237265924725}
+{"modName" -> "bruggeman2", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.22367533007565923}, "FluxCC" -> 0.03420206468901464, 
+ "FluxCCMed" -> 0.30285237265924725}
+{"modName" -> "bruggeman2", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.11615307578517522}, "FluxCC" -> 0.7142190863988183, 
+ "FluxCCMed" -> 0.30285237265924725}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]0, 
+ "DisEq" -> {0.9139965033531322}, "FluxCC" -> 0.1777968949195653, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {4.5896807482579845*^-7}, "FluxCC" -> 1.8895239381467468, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {1.1299615943187304}, "FluxCC" -> 0.009581097372082945, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.7615033322656578}, "FluxCC" -> 0.01758257744111627, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.0027913099235566453}, "FluxCC" -> 0.05598324729436475, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {0.9998098861877311}, "FluxCC" -> -1.7795683971284135*^-9, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {0.03837921496734009}, "FluxCC" -> 0.9794007140290614, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]17, 
+ "DisEq" -> {0.007886166133616855}, "FluxCC" -> 0.01989222174705736, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]18, 
+ "DisEq" -> {0.033065450255790496}, "FluxCC" -> 0.0001528920087836006, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {1.009853579752271}, "FluxCC" -> 0.00001585774320080234, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]21, 
+ "DisEq" -> {0.9995730543298512}, "FluxCC" -> 1.8279176371211611*^-9, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]22, 
+ "DisEq" -> {0.9887205848477646}, "FluxCC" -> 1.5446932065582258*^-8, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]23, 
+ "DisEq" -> {0.5066901969433875}, "FluxCC" -> 1.4107646955697818*^-6, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]24, 
+ "DisEq" -> {0.9810566549122557}, "FluxCC" -> 2.736204955301711*^-8, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]26, 
+ "DisEq" -> {0.9700085185140974}, "FluxCC" -> 4.249951276646383*^-8, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]27, 
+ "DisEq" -> {0.9992194236368453}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]28, 
+ "DisEq" -> {1.0001803731367018}, "FluxCC" -> 2.261819242312627*^-10, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]29, 
+ "DisEq" -> {0.9998809384738426}, "FluxCC" -> 0.00011662964140130217, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {1.2106161006563854*^-6}, "FluxCC" -> 0.0006733119958227173, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {1.224359219836781}, "FluxCC" -> 4.525299461025928*^-11, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {1.0018116329683886}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.46718588492451907}, "FluxCC" -> 0.10295591442161807, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik2", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.05459954558436259}, "FluxCC" -> -0.09297808960019752, 
+ "FluxCCMed" -> 9.014039032889722*^-6}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]0, 
+ "DisEq" -> {0.9137608782062929}, "FluxCC" -> 0.0009295056023941402, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {4.551867078229521*^-7}, "FluxCC" -> 0.4280923179146402, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {1.1294290985275148}, "FluxCC" -> -0.003036015231831588, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.7624805747034921}, "FluxCC" -> -0.00558927911298943, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.0027872109022886032}, "FluxCC" -> -0.01777202346967819, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {Indeterminate, Indeterminate, 0.9998093483994557}, 
+ "FluxCC" -> 0.0014024808496422604, "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {0., 0., 0.03843524069632318}, "FluxCC" -> 0.9917704437689712, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]17, 
+ "DisEq" -> {0.007870665973856609}, "FluxCC" -> 0.007711702749565916, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]18, 
+ "DisEq" -> {0.03310281492798182}, "FluxCC" -> 0.00018655470633297588, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {1.0098956276512594}, "FluxCC" -> 0.0029152247167753614, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]21, 
+ "DisEq" -> {0.9995733152207997}, "FluxCC" -> 0.00008241504552085995, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]22, 
+ "DisEq" -> {0.9887093613248107}, "FluxCC" -> 0.002068120362840227, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]23, 
+ "DisEq" -> {0.5087836369354911}, "FluxCC" -> 0.06513421430787726, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]24, 
+ "DisEq" -> {0.9812154809575999}, "FluxCC" -> 0.001279575939901637, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]25, 
+ "DisEq" -> {0.00003242466585874688}, "FluxCC" -> 0.8904947595678961, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]26, 
+ "DisEq" -> {0.9703281825053436}, "FluxCC" -> 0.002057380322846373, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]27, 
+ "DisEq" -> {0.9992191757411579}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]28, 
+ "DisEq" -> {1.0001808664180858}, "FluxCC" -> 2.8250433237385943*^-6, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]29, 
+ "DisEq" -> {0.999880940739266}, "FluxCC" -> 0.00011809300089542849, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {1.2233323587317647*^-6}, "FluxCC" -> 0.22480111308405623, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {1.219962890123984}, "FluxCC" -> 0.0019311952740986363, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {1.0017986724645735}, "FluxCC" -> 0.000018600636672891645, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.46896847379875556}, "FluxCC" -> 0.033372062089958035, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "bulik3", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.05459954554674035}, "FluxCC" -> 0.6634391026106857, 
+ "FluxCCMed" -> 0.0016668380618704483}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E10, 
+ "DisEq" -> {0.9919504554951857}, "FluxCC" -> 4.947741449067963*^-9, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E11, 
+ "DisEq" -> {0.9999787158897535}, "FluxCC" -> 6.273808227153448*^-11, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E12, 
+ "DisEq" -> {0.9999287017968439}, "FluxCC" -> 1.8364774710763188*^-7, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E14, 
+ "DisEq" -> {1.00000001606323}, "FluxCC" -> 2.4498195274471398*^-9, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E15, 
+ "DisEq" -> {1.000000006984013}, "FluxCC" -> 1.2971008705545114*^-9, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E2, 
+ "DisEq" -> {0.9999992294375813}, "FluxCC" -> 5.469979396664975*^-8, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E3, 
+ "DisEq" -> {0.00033387037732807894}, "FluxCC" -> 0.07163775898307205, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E4, 
+ "DisEq" -> {0.9999807285446112}, "FluxCC" -> 1.7127609050773012*^-6, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E5, 
+ "DisEq" -> {0.999978176605369}, "FluxCC" -> 1.8933882552245745*^-6, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E7, 
+ "DisEq" -> {0.9999958939235425}, "FluxCC" -> 1.0568115483616986*^-8, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "BIOMD0000000013", "Reaction" -> model`E8, 
+ "DisEq" -> {0.9999995074534404}, "FluxCC" -> 1.4926003222110267*^-9, 
+ "FluxCCMed" -> 0.0008298688244075741}
+{"modName" -> "chassagnole2", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.6771096947159981, -0.011237798487412992}, 
+ "FluxCC" -> 0.280484884994987, "FluxCCMed" -> 0.24955063831572563}
+{"modName" -> "BIOMD0000000545", "Reaction" -> model`r5, "DisEq" -> {1.}, 
+ "FluxCC" -> model`r5, "FluxCCMed" -> 0.3997694217443959}
+{"modName" -> "chassagnole2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.6006709565536588}, "FluxCC" -> 0.24955063831572563, 
+ "FluxCCMed" -> 0.24955063831572563}
+{"modName" -> "chassagnole2", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.0004833404975133629}, "FluxCC" -> 0.4649759805299635, 
+ "FluxCCMed" -> 0.24955063831572563}
+{"modName" -> "BIOMD0000000022", "Reaction" -> model`Reaction11, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`Reaction11, 
+ "FluxCCMed" -> 0.9453713182749897}
+{"modName" -> "BIOMD0000000022", "Reaction" -> model`Reaction12, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`Reaction12, 
+ "FluxCCMed" -> 0.9453713182749897}
+{"modName" -> "cronwright", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.00005999533012634339}, "FluxCC" -> 0.8518180487004055, 
+ "FluxCCMed" -> 0.5}
+{"modName" -> "BIOMD0000000380", "Reaction" -> model`hxt, 
+ "DisEq" -> {0.0009762819890528336}, "FluxCC" -> 0.8884369942080053, 
+ "FluxCCMed" -> 0.15769322591561347}
+{"modName" -> "BIOMD0000000380", "Reaction" -> model`pgi, 
+ "DisEq" -> {0.7788451810761083}, "FluxCC" -> 0.0029083639279666312, 
+ "FluxCCMed" -> 0.15769322591561347}
+{"modName" -> "BIOMD0000000380", "Reaction" -> model`pgm, 
+ "DisEq" -> {0.2242747941466983}, "FluxCC" -> 0.4337844103601688, 
+ "FluxCCMed" -> 0.15769322591561347}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]ALD, 
+ "DisEq" -> {0.5991703273591924, 0.5991703273591922}, 
+ "FluxCC" -> 0.0029919516283880244, "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]ENO, 
+ "DisEq" -> {0.24318425404578586}, "FluxCC" -> 0.000777373372228716, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]G3PDH, 
+ "DisEq" -> {0.004294078352158029}, "FluxCC" -> 0.7021618136398825, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]GAPDH, 
+ "DisEq" -> {0.048972246458766716}, "FluxCC" -> 0.012646829250504211, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]GLK, 
+ "DisEq" -> {0.001413464695659993}, "FluxCC" -> 0.1536109340667726, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]PGI, 
+ "DisEq" -> {0.34450917464354736}, "FluxCC" -> 0.012963055839590844, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]PGK, 
+ "DisEq" -> {0.6533658044737701}, "FluxCC" -> 0.0003534797105871932, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]PGM, 
+ "DisEq" -> {0.661161197794263}, "FluxCC" -> 0.00028624033483207114, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "dupreez1", "Reaction" -> model`v\[LetterSpace]PYK, 
+ "DisEq" -> {0.03424362695340414}, "FluxCC" -> 0.0003909875586128968, 
+ "FluxCCMed" -> 0.009768586449912627}
+{"modName" -> "BIOMD0000000430", "Reaction" -> model`reaction\[LetterSpace]1, 
+ "DisEq" -> {0.9900990098244989}, "FluxCC" -> -1.520632922330322*^-17, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> 
+  model`reaction\[LetterSpace]10, "DisEq" -> {0.9900990099009901}, 
+ "FluxCC" -> 2.9618369946957433*^-7, "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> 
+  model`reaction\[LetterSpace]16, "DisEq" -> {0.9208103130755018}, 
+ "FluxCC" -> 0.07926574770087062, "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> 
+  model`reaction\[LetterSpace]18, "DisEq" -> {Indeterminate}, 
+ "FluxCC" -> model`reaction\[LetterSpace]18, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> 
+  model`reaction\[LetterSpace]23, "DisEq" -> {0.9157509157509155}, 
+ "FluxCC" -> 0.00292148751186473, "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> 
+  model`reaction\[LetterSpace]24, "DisEq" -> {Indeterminate}, 
+ "FluxCC" -> model`reaction\[LetterSpace]24, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> 
+  model`reaction\[LetterSpace]26, "DisEq" -> {0.9208103130755018}, 
+ "FluxCC" -> 0.07924461305244702, "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> 
+  model`reaction\[LetterSpace]28, "DisEq" -> {Indeterminate}, 
+ "FluxCC" -> model`reaction\[LetterSpace]28, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> model`reaction\[LetterSpace]3, 
+ "DisEq" -> {0.06250000000000001}, "FluxCC" -> 0.00009863943164779662, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> model`reaction\[LetterSpace]5, 
+ "DisEq" -> {0.9157509157509157}, "FluxCC" -> 0.025335012409569303, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> model`reaction\[LetterSpace]7, 
+ "DisEq" -> {0.9208103130755066}, "FluxCC" -> 0.07919229922943485, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000430", "Reaction" -> model`reaction\[LetterSpace]9, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`reaction\[LetterSpace]9, 
+ "FluxCCMed" -> 0.052263655819502076}
+{"modName" -> "BIOMD0000000431", "Reaction" -> model`reaction\[LetterSpace]1, 
+ "DisEq" -> {0.9900990099088994}, "FluxCC" -> 1.4553645063685668*^-7, 
+ "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> 
+  model`reaction\[LetterSpace]10, "DisEq" -> {0.990099009900969}, 
+ "FluxCC" -> 8.757902621833917*^-6, "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> 
+  model`reaction\[LetterSpace]16, "DisEq" -> {0.6666666666666983}, 
+ "FluxCC" -> 0.3348730333994834, "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> 
+  model`reaction\[LetterSpace]18, "DisEq" -> {0.2921967115660463}, 
+ "FluxCC" -> 0.0015472864819317934, "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> 
+  model`reaction\[LetterSpace]23, "DisEq" -> {0.9157509157509156}, 
+ "FluxCC" -> 0.026481679116852997, "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> 
+  model`reaction\[LetterSpace]24, "DisEq" -> {0.08931456304368579}, 
+ "FluxCC" -> 0.2811880811783902, "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> 
+  model`reaction\[LetterSpace]26, "DisEq" -> {0.6666666666666972}, 
+ "FluxCC" -> 0.33440771838034467, "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> 
+  model`reaction\[LetterSpace]28, "DisEq" -> {0.29219671156605675}, 
+ "FluxCC" -> 0.0021964675357983125, "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> model`reaction\[LetterSpace]3, 
+ "DisEq" -> {0.06249999999999999}, "FluxCC" -> 0.0002830239294056654, 
+ "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> model`reaction\[LetterSpace]5, 
+ "DisEq" -> {0.915750915750916}, "FluxCC" -> 0.037891042214520464, 
+ "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> model`reaction\[LetterSpace]7, 
+ "DisEq" -> {0.6666666666666667}, "FluxCC" -> 0.33335822048784863, 
+ "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000431", "Reaction" -> model`reaction\[LetterSpace]9, 
+ "DisEq" -> {0.0521529592124871}, "FluxCC" -> 0.0002861404197712178, 
+ "FluxCCMed" -> 0.0610948406215107}
+{"modName" -> "BIOMD0000000203", "Reaction" -> model`J4, 
+ "DisEq" -> {0.00019996000799840029}, "FluxCC" -> model`J4, 
+ "FluxCCMed" -> 0.5000024994623908}
+{"modName" -> "BIOMD0000000204", "Reaction" -> model`J4, 
+ "DisEq" -> {0.00019996000799840034}, "FluxCC" -> 0.5796247121397257, 
+ "FluxCCMed" -> 0.3948771967993244}
+{"modName" -> "BIOMD0000000200", "Reaction" -> 
+  model`complex\[LetterSpace]r10, "DisEq" -> {0.9997620224734078}, 
+ "FluxCC" -> model`complex\[LetterSpace]r10, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> 
+  model`complex\[LetterSpace]r11, "DisEq" -> {1.0002231763344867}, 
+ "FluxCC" -> model`complex\[LetterSpace]r11, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> 
+  model`complex\[LetterSpace]r12, "DisEq" -> {0.9994891529833313}, 
+ "FluxCC" -> model`complex\[LetterSpace]r12, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> model`complex\[LetterSpace]r2, 
+ "DisEq" -> {0.9999261278627658}, "FluxCC" -> model`complex\[LetterSpace]r2, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> model`complex\[LetterSpace]r3, 
+ "DisEq" -> {0.9999631840607958}, "FluxCC" -> model`complex\[LetterSpace]r3, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> model`complex\[LetterSpace]r4, 
+ "DisEq" -> {1.000000585319028}, "FluxCC" -> model`complex\[LetterSpace]r4, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> model`complex\[LetterSpace]r5, 
+ "DisEq" -> {0.9999664168889921}, "FluxCC" -> model`complex\[LetterSpace]r5, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> model`complex\[LetterSpace]r6, 
+ "DisEq" -> {1.0001479110823295}, "FluxCC" -> model`complex\[LetterSpace]r6, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000200", "Reaction" -> model`complex\[LetterSpace]r9, 
+ "DisEq" -> {0.9999252629125256}, "FluxCC" -> model`complex\[LetterSpace]r9, 
+ "FluxCCMed" -> 0.5014243698300656}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`ACN, 
+ "DisEq" -> {0.0009221684614566161}, "FluxCC" -> 0.24337195490841573, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`CS, 
+ "DisEq" -> {3.7219073419127493*^-6}, "FluxCC" -> 0.7555580257611192, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`FUM, 
+ "DisEq" -> {0.2759190681961911}, "FluxCC" -> 4.31854863216635*^-6, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`ICD1, 
+ "DisEq" -> {0.004595204344136219}, "FluxCC" -> 0.3507894176499678, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`ICD2, 
+ "DisEq" -> {0.004595204344136219}, "FluxCC" -> 0.6568047324018191, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`ICL1, 
+ "DisEq" -> {0.0002298497782803636}, "FluxCC" -> 0.9935125416687354, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`ICL2, 
+ "DisEq" -> {0.000020607221500998117}, "FluxCC" -> 0.9994013381760832, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`KGD, 
+ "DisEq" -> {0.003724618688716902}, "FluxCC" -> 0.00017338393060007488, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`MDH, 
+ "DisEq" -> {0.5604266419215546}, "FluxCC" -> 0.00002153667694846494, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`MS, 
+ "DisEq" -> {0.00002466462153274064}, "FluxCC" -> 0.00030135011501173997, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`ScAS, "DisEq" -> {1.}, 
+ "FluxCC" -> model`ScAS, "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`SDH, 
+ "DisEq" -> {0.0016600563778341388}, "FluxCC" -> 0.0018325467444296585, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000218", "Reaction" -> model`SSADH, 
+ "DisEq" -> {0.05089667327072142}, "FluxCC" -> 2.1373367258067247*^-6, 
+ "FluxCCMed" -> 0.24337195490841573}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`ACN, 
+ "DisEq" -> {0.0008984095111527016}, "FluxCC" -> 0.24337942707573088, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`CS, 
+ "DisEq" -> {3.7216186421129257*^-6}, "FluxCC" -> 0.7556029709095876, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`FUM, 
+ "DisEq" -> {0.2759060360276644}, "FluxCC" -> 4.197501046503391*^-6, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`ICD1, 
+ "DisEq" -> {0.0007459009472039884}, "FluxCC" -> 0.34807243034822394, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`ICD2, 
+ "DisEq" -> {0.0007459009472039884}, "FluxCC" -> 0.6593574167914045, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`ICL1, 
+ "DisEq" -> {0.00022994781734691618}, "FluxCC" -> 0.9937571792117086, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`ICL2, 
+ "DisEq" -> {0.00002061601121041317}, "FluxCC" -> 0.9994268404139777, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`KDH, 
+ "DisEq" -> {0.035258823507129125}, "FluxCC" -> 0.15207610081176712, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`KGD, 
+ "DisEq" -> {0.004361741926502573}, "FluxCC" -> 0.8050527223013713, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`MDH, 
+ "DisEq" -> {0.5604520745893188}, "FluxCC" -> 0.00002099457083679242, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`MS, 
+ "DisEq" -> {0.00002531481252437976}, "FluxCC" -> 0.0002991107748316388, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`ScAS, 
+ "DisEq" -> {0.0013604802127736404}, "FluxCC" -> 0.03945144852377447, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`SDH, 
+ "DisEq" -> {0.0016595413752112844}, "FluxCC" -> 0.0017816849970637267, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000219", "Reaction" -> model`SSADH, 
+ "DisEq" -> {0.27494136812440184}, "FluxCC" -> 0.0034518950892879477, 
+ "FluxCCMed" -> 0.24337942707573088}
+{"modName" -> "BIOMD0000000217", "Reaction" -> model`vazglndem, 
+ "DisEq" -> {1.8889831142954163*^-11}, "FluxCC" -> 0.4506385686160045, 
+ "FluxCCMed" -> 0.42847806582314074}
+{"modName" -> "BIOMD0000000217", "Reaction" -> model`vazgludem, 
+ "DisEq" -> {1.3454355099266714*^-11}, "FluxCC" -> 0.6444963733468644, 
+ "FluxCCMed" -> 0.42847806582314074}
+{"modName" -> "BIOMD0000000217", "Reaction" -> model`vgdh, 
+ "DisEq" -> {0.10410416356826199}, "FluxCC" -> 0.9603732586993822, 
+ "FluxCCMed" -> 0.42847806582314074}
+{"modName" -> "BIOMD0000000217", "Reaction" -> model`vglndem, 
+ "DisEq" -> {8.858684832968986*^-11}, "FluxCC" -> 0.5044829428923899, 
+ "FluxCCMed" -> 0.42847806582314074}
+{"modName" -> "BIOMD0000000217", "Reaction" -> model`vgludem, 
+ "DisEq" -> {1.8448372116329407*^-11}, "FluxCC" -> 0.04828354110843558, 
+ "FluxCCMed" -> 0.42847806582314074}
+{"modName" -> "BIOMD0000000217", "Reaction" -> model`vgs, 
+ "DisEq" -> {0.0026442741065401264}, "FluxCC" -> 0.03187167235835122, 
+ "FluxCCMed" -> 0.42847806582314074}
+{"modName" -> "BIOMD0000000456", "Reaction" -> model`v1, 
+ "DisEq" -> {0.0030963881301728216}, "FluxCC" -> 0.22825723637473555, 
+ "FluxCCMed" -> 0.8009932528104446}
+{"modName" -> "BIOMD0000000456", "Reaction" -> model`v2, 
+ "DisEq" -> {0.018168711653764803}, "FluxCC" -> 0.7680352540200144, 
+ "FluxCCMed" -> 0.8009932528104446}
+{"modName" -> "BIOMD0000000456", "Reaction" -> model`v3, "DisEq" -> {0.}, 
+ "FluxCC" -> 0.16975625800437497, "FluxCCMed" -> 0.8009932528104446}
+{"modName" -> "BIOMD0000000456", "Reaction" -> model`v4, "DisEq" -> {0.}, 
+ "FluxCC" -> 0.833951251600875, "FluxCCMed" -> 0.8009932528104446}
+{"modName" -> "BIOMD0000000028", "Reaction" -> 
+  model`reaction\[LetterSpace]0000003, "DisEq" -> {0.9930486593843095}, 
+ "FluxCC" -> 0.001290536580917338, "FluxCCMed" -> 0.06428913787559568}
+{"modName" -> "BIOMD0000000028", "Reaction" -> 
+  model`reaction\[LetterSpace]0000007, "DisEq" -> {0.6896551724137928}, 
+ "FluxCC" -> 0.44625420046533093, "FluxCCMed" -> 0.06428913787559568}
+{"modName" -> "BIOMD0000000028", "Reaction" -> 
+  model`reaction\[LetterSpace]0000009, "DisEq" -> {0.9157509157509145}, 
+ "FluxCC" -> 0.0021334296526140566, "FluxCCMed" -> 0.06428913787559568}
+{"modName" -> "BIOMD0000000028", "Reaction" -> 
+  model`reaction\[LetterSpace]0000011, "DisEq" -> {0.6418019298707394}, 
+ "FluxCC" -> -0.05195084478946809, "FluxCCMed" -> 0.06428913787559568}
+{"modName" -> "BIOMD0000000028", "Reaction" -> 
+  model`reaction\[LetterSpace]0000013, "DisEq" -> {0.6666666666666657}, 
+ "FluxCC" -> 0.028977277343207777, "FluxCCMed" -> 0.06428913787559568}
+{"modName" -> "BIOMD0000000028", "Reaction" -> 
+  model`reaction\[LetterSpace]0000017, "DisEq" -> {0.6802721088435365}, 
+ "FluxCC" -> 0.02569849051739667, "FluxCCMed" -> 0.06428913787559568}
+{"modName" -> "BIOMD0000000023", "Reaction" -> model`v6, 
+ "DisEq" -> {0.0002263973264200781}, "FluxCC" -> 0.42726185409645173, 
+ "FluxCCMed" -> 0.4304962844861817}
+{"modName" -> "BIOMD0000000023", "Reaction" -> model`v8, 
+ "DisEq" -> {0.10441292940673041}, "FluxCC" -> 0.4304962844861817, 
+ "FluxCCMed" -> 0.4304962844861817}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000003, "DisEq" -> {0.0625}, 
+ "FluxCC" -> 0.0009359467051820248, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000007, "DisEq" -> {0.0625}, 
+ "FluxCC" -> 0.0011344700973453309, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000009, "DisEq" -> {0.9157509157509183}, 
+ "FluxCC" -> 0.04282599873933348, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000011, "DisEq" -> {0.00290910355988226}, 
+ "FluxCC" -> 0.04136133843523819, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000013, "DisEq" -> {0.6666666666666685}, 
+ "FluxCC" -> 0.3337561358332443, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000017, "DisEq" -> {0.6802721088435394}, 
+ "FluxCC" -> 0.32022519251791903, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000020, "DisEq" -> {0.9157509157509183}, 
+ "FluxCC" -> 0.04284215953323891, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "BIOMD0000000030", "Reaction" -> 
+  model`reaction\[LetterSpace]0000022, "DisEq" -> {0.0029092185961125945}, 
+ "FluxCC" -> 0.0413613384352382, "FluxCCMed" -> 0.042834079136286195}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]ACEt, 
+ "DisEq" -> {0.9995967720648244}, "FluxCC" -> 0.016399110636682708, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]ALD, 
+ "DisEq" -> {0.7221963209503474, 0.7221963209503469}, 
+ "FluxCC" -> 0.0033215722560469662, "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]ENO, 
+ "DisEq" -> {0.1368486161653906}, "FluxCC" -> 0.0005081126947436776, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]G3PDH, 
+ "DisEq" -> {0.00009226683201002454}, "FluxCC" -> 0.889340812324662, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]GAPDH, 
+ "DisEq" -> {0.10429299469511324}, "FluxCC" -> 0.00961014729211401, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]GLK, 
+ "DisEq" -> {0.022147926351581918}, "FluxCC" -> 0.021883335197249512, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]GLT, 
+ "DisEq" -> {0.0017374961207123564}, "FluxCC" -> 0.8953423597701514, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]PGI, 
+ "DisEq" -> {0.7407491904192018}, "FluxCC" -> 0.0009294010106948945, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]PGK, 
+ "DisEq" -> {0.5470548352029158}, "FluxCC" -> 0.0005358949284734052, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]PGM, 
+ "DisEq" -> {0.5545289364666351}, "FluxCC" -> 0.00034310059425472864, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "dupreez5", "Reaction" -> model`v\[LetterSpace]PYK, 
+ "DisEq" -> {0.040527097092986804}, "FluxCC" -> 0.0000930348929950094, 
+ "FluxCCMed" -> 0.00961014729211401}
+{"modName" -> "BIOMD0000000454", "Reaction" -> model`v1, 
+ "DisEq" -> {0.0030963881301728216}, "FluxCC" -> 0.22825723637473555, 
+ "FluxCCMed" -> 0.49814624519737494}
+{"modName" -> "BIOMD0000000454", "Reaction" -> model`v2, 
+ "DisEq" -> {0.018168711653764803}, "FluxCC" -> 0.7680352540200144, 
+ "FluxCCMed" -> 0.49814624519737494}
+{"modName" -> "BIOMD0000000454", "Reaction" -> model`v3, "DisEq" -> {0.}, 
+ "FluxCC" -> 0.16975625800437497, "FluxCCMed" -> 0.49814624519737494}
+{"modName" -> "BIOMD0000000454", "Reaction" -> model`v4, "DisEq" -> {0.}, 
+ "FluxCC" -> 0.833951251600875, "FluxCCMed" -> 0.49814624519737494}
+{"modName" -> "BIOMD0000000212", "Reaction" -> model`Vasadh, 
+ "DisEq" -> {0.7170349948807784}, "FluxCC" -> 0.007914356501583796, 
+ "FluxCCMed" -> 0.6890122913785859}
+{"modName" -> "BIOMD0000000213", "Reaction" -> model`V\[LetterSpace]MTCH, 
+ "DisEq" -> {0.26641467811639585}, "FluxCC" -> 0.33186994621265753, 
+ "FluxCCMed" -> 0.5265649168822805}
+{"modName" -> "BIOMD0000000213", "Reaction" -> model`V\[LetterSpace]MTD, 
+ "DisEq" -> {0.9556705070493253}, "FluxCC" -> 0.019895703733603894, 
+ "FluxCCMed" -> 0.5265649168822805}
+{"modName" -> "BIOMD0000000213", "Reaction" -> model`V\[LetterSpace]NE, 
+ "DisEq" -> {0.012416281782825446}, "FluxCC" -> 0.7873070645432526, 
+ "FluxCCMed" -> 0.5265649168822805}
+{"modName" -> "BIOMD0000000213", "Reaction" -> model`V\[LetterSpace]SHMT, 
+ "DisEq" -> {0.1518841693486574}, "FluxCC" -> 0.5265649168822805, 
+ "FluxCCMed" -> 0.5265649168822805}
+{"modName" -> "BIOMD0000000462", "Reaction" -> model`AbetaPlaqueGrowth, 
+ "DisEq" -> {ComplexInfinity, ComplexInfinity}, 
+ "FluxCC" -> model`AbetaPlaqueGrowth, "FluxCCMed" -> 1.}
+{"modName" -> "BIOMD0000000228", "Reaction" -> 
+  model`CycD\[LetterSpace]activation, "DisEq" -> {ComplexInfinity}, 
+ "FluxCC" -> 1.5032346389963578, "FluxCCMed" -> 0.8770619092063549}
+{"modName" -> "BIOMD0000000228", "Reaction" -> 
+  model`CycE\[LetterSpace]activation, "DisEq" -> {ComplexInfinity}, 
+ "FluxCC" -> 0.8213705955567406, "FluxCCMed" -> 0.8770619092063549}
+{"modName" -> "BIOMD0000000226", "Reaction" -> model`re67, "DisEq" -> {0.}, 
+ "FluxCC" -> model`re67, "FluxCCMed" -> 0.062271062271057984}
+{"modName" -> "BIOMD0000000226", "Reaction" -> model`re69, "DisEq" -> {0.}, 
+ "FluxCC" -> model`re69, "FluxCCMed" -> 0.062271062271057984}
+{"modName" -> "BIOMD0000000226", "Reaction" -> model`re72, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`re72, 
+ "FluxCCMed" -> 0.062271062271057984}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v1, 
+ "DisEq" -> {0.7635789490367128}, "FluxCC" -> 0.19082384558607507, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v10, 
+ "DisEq" -> {0.6166797733726351}, "FluxCC" -> 0.8756144021134871, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v11, 
+ "DisEq" -> {0.49976189145013017}, "FluxCC" -> 0.5718626115564566, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v12, 
+ "DisEq" -> {0.5007776961391059}, "FluxCC" -> 0.8625940672270596, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v13, 
+ "DisEq" -> {0.9962301372071733}, "FluxCC" -> 0.015064973608927838, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v14, 
+ "DisEq" -> {0.9999689414288628}, "FluxCC" -> 0.015064073496662824, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v15, "DisEq" -> {0.5}, 
+ "FluxCC" -> 0.020212825517961892, "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v8, 
+ "DisEq" -> {0.9979405500940149}, "FluxCC" -> 0.008745830372539377, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "BIOMD0000000102", "Reaction" -> model`v9, 
+ "DisEq" -> {0.4726655776185893}, "FluxCC" -> 0.6136820197468011, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "feedbackmoi", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.0004839424118202866}, "FluxCC" -> 0.4260948187957312, 
+ "FluxCCMed" -> 0.4260948187957312}
+{"modName" -> "feedbackmoi", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.023887201568724422}, "FluxCC" -> 0.8146933891368492, 
+ "FluxCCMed" -> 0.4260948187957312}
+{"modName" -> "feedbackmoi", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.0438814712451456}, "FluxCC" -> -0.407647798922339, 
+ "FluxCCMed" -> 0.4260948187957312}
+{"modName" -> "goodman", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.9941189776068763}, "FluxCC" -> 0.005881022393123726, 
+ "FluxCCMed" -> 0.4881365228756489}
+{"modName" -> "goodman", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.7549436372018872}, "FluxCC" -> 0.1398508249999666, 
+ "FluxCCMed" -> 0.4881365228756489}
+{"modName" -> "goodman", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.8312899056315407}, "FluxCC" -> 0.17938245630721972, 
+ "FluxCCMed" -> 0.4881365228756489}
+{"modName" -> "hoefnagel1", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.30083604129955555}, "FluxCC" -> 0.19332786358891887, 
+ "FluxCCMed" -> 0.3148776803794717}
+{"modName" -> "hoefnagel1", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.0125229526623896}, "FluxCC" -> 0.0979805464355006, 
+ "FluxCCMed" -> 0.3148776803794717}
+{"modName" -> "hoefnagel1", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {0.5766380680552663}, "FluxCC" -> 0.31564697638866684, 
+ "FluxCCMed" -> 0.3148776803794717}
+{"modName" -> "hoefnagel1", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {0.03056594660936574}, "FluxCC" -> 0.5804741199087178, 
+ "FluxCCMed" -> 0.3148776803794717}
+{"modName" -> "hoefnagel1", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.0006683303725373469}, "FluxCC" -> 0.018482843826266335, 
+ "FluxCCMed" -> 0.3148776803794717}
+{"modName" -> "hoefnagel1", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {1.2639116106932086*^-16}, "FluxCC" -> 1.0003206875553459, 
+ "FluxCCMed" -> 0.3148776803794717}
+{"modName" -> "hoefnagel1", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {1.1148959779755523}, "FluxCC" -> 0.1469004526258737, 
+ "FluxCCMed" -> 0.3148776803794717}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.8367952827926499}, "FluxCC" -> 0.023915775414470757, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.051674289594625576}, "FluxCC" -> 0.4376652324686446, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.6710961129455196}, "FluxCC" -> 0.04466093585699567, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {0.8147052855040586}, "FluxCC" -> 0.022557874448274104, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {0.0003023222714163596}, "FluxCC" -> 0.03592723149529971, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]15, 
+ "DisEq" -> {1.2071532802285846*^-9}, "FluxCC" -> 1.000054580534319, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]16, 
+ "DisEq" -> {5.2217743409541984*^-8}, "FluxCC" -> -0.0007318292555643546, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]19, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.07392290120266094, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]21, 
+ "DisEq" -> {0.7483421817066777}, "FluxCC" -> 0.0014462216854418655, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]23, 
+ "DisEq" -> {5.150584003927025*^-7}, "FluxCC" -> 0.9496136698516976, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]24, 
+ "DisEq" -> {0.30766153376075245}, "FluxCC" -> 0.6825374979881219, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]25, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.30426707102939715, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]26, 
+ "DisEq" -> {0.000015153965666576508}, "FluxCC" -> 0.07591862821231608, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]28, 
+ "DisEq" -> {0.7670255893338007}, "FluxCC" -> 0.09894251123649755, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.7490657228602008}, "FluxCC" -> -0.013096302422386626, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.6599852222073581}, "FluxCC" -> 0.027272578225307004, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel2", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.9893200284307735}, "FluxCC" -> 0.0007235342357571286, 
+ "FluxCCMed" -> 0.07591862821231608}
+{"modName" -> "hoefnagel_mixedacid", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.2743106503863244}, "FluxCC" -> 0.790526354006444, 
+ "FluxCCMed" -> 0.23668766491312399}
+{"modName" -> "hoefnagel_mixedacid", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.32467133212710747}, "FluxCC" -> 0.1153113137385648, 
+ "FluxCCMed" -> 0.23668766491312399}
+{"modName" -> "hoefnagel_mixedacid", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.015597958401784651}, "FluxCC" -> 0.06297103700690072, 
+ "FluxCCMed" -> 0.23668766491312399}
+{"modName" -> "hoefnagel_mixedacid", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.0005360723673712161}, "FluxCC" -> 0.023294869680809453, 
+ "FluxCCMed" -> 0.23668766491312399}
+{"modName" -> "hoefnagel_mixedacid", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.8470439780052397}, "FluxCC" -> 0.1788363944369579, 
+ "FluxCCMed" -> 0.23668766491312399}
+{"modName" -> "huo1", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v\[LetterSpace]3, 
+ "FluxCCMed" -> 0.5}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {1.002688961882512}, "FluxCC" -> 0.2925364890235324, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {1.0053635015138955}, "FluxCC" -> 0.5848058182622222, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]15, 
+ "DisEq" -> {0.4818220097367269}, "FluxCC" -> 0.1338270228093834, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]17, 
+ "DisEq" -> {0.6103551885169096}, "FluxCC" -> 0.6798351544686325, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]18, 
+ "DisEq" -> {0.7962827715083711}, "FluxCC" -> 0.2533976243353833, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]19, 
+ "DisEq" -> {0.8469707670277743}, "FluxCC" -> 0.8465680632238977, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.9999999999999987}, "FluxCC" -> model`v\[LetterSpace]2, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]20, 
+ "DisEq" -> {0.6291067415466538}, "FluxCC" -> 0.33851433069668546, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]21, 
+ "DisEq" -> {1.0087030299473525}, "FluxCC" -> 0.018215980261589684, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]22, 
+ "DisEq" -> {1.0006026431634638}, "FluxCC" -> 0.01351707036012891, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]23, 
+ "DisEq" -> {0.995281209027192}, "FluxCC" -> 0.013029378405742642, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]24, 
+ "DisEq" -> {0.5135223018950714}, "FluxCC" -> 0.7343982457648162, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]25, 
+ "DisEq" -> {1.0000000000000009}, "FluxCC" -> model`v\[LetterSpace]25, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.0011898584418762268}, "FluxCC" -> 0.7814665925531797, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.23528500736871655}, "FluxCC" -> 0.0012609463157236974, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.3499670878451496}, "FluxCC" -> 0.0005247054588826935, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.6904314078230926}, "FluxCC" -> 0.0009958382289401598, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kholodenko", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {1.0009581657598507}, "FluxCC" -> 0.10422286167938974, 
+ "FluxCCMed" -> 0.23596551589110176}
+{"modName" -> "kintuta", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.40000000000000013}, "FluxCC" -> 0.13333333333333336, 
+ "FluxCCMed" -> 0.13333333333333336}
+{"modName" -> "kintuta", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.06249999999999997}, "FluxCC" -> 0.7333333333333334, 
+ "FluxCCMed" -> 0.13333333333333336}
+{"modName" -> "kintuta", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.4}, "FluxCC" -> 0.13333333333333333, 
+ "FluxCCMed" -> 0.13333333333333336}
+{"modName" -> "kintutb", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.5500000000000002}, "FluxCC" -> 0.045454545454545456, 
+ "FluxCCMed" -> 0.2662337662337662}
+{"modName" -> "kintutb", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.18181818181818182}, "FluxCC" -> 0.6883116883116882, 
+ "FluxCCMed" -> 0.2662337662337662}
+{"modName" -> "kintutb", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.09999999999999998}, "FluxCC" -> 0.2662337662337662, 
+ "FluxCCMed" -> 0.2662337662337662}
+{"modName" -> "kintutc", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.2423076923076923}, "FluxCC" -> 0.8461538461538463, 
+ "FluxCCMed" -> 0.42307692307692313}
+{"modName" -> "kintutc", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.9692307692307692}, "FluxCC" -> 0.6923076923076922, 
+ "FluxCCMed" -> 0.42307692307692313}
+{"modName" -> "kintutc", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.5412698412698413}, "FluxCC" -> 0.30769230769230765, 
+ "FluxCCMed" -> 0.42307692307692313}
+{"modName" -> "kintutc", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.15249266862170088}, "FluxCC" -> 0.30769230769230765, 
+ "FluxCCMed" -> 0.42307692307692313}
+{"modName" -> "kintutc", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.5515873015873016}, "FluxCC" -> 0.42307692307692313, 
+ "FluxCCMed" -> 0.42307692307692313}
+{"modName" -> "kintutc", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.18705035971223022}, "FluxCC" -> 0.4230769230769231, 
+ "FluxCCMed" -> 0.42307692307692313}
+{"modName" -> "kintutd", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.2444928798562579}, "FluxCC" -> 0.3210066063393538, 
+ "FluxCCMed" -> 0.4662336167702592}
+{"modName" -> "kintutd", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.1168897343404904}, "FluxCC" -> 0.6114606272011646, 
+ "FluxCCMed" -> 0.4662336167702592}
+{"modName" -> "kintutd", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.2799286819793563}, "FluxCC" -> 0.2229439720495682, 
+ "FluxCCMed" -> 0.4662336167702592}
+{"modName" -> "kintutd", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.6998217049483907}, "FluxCC" -> 0.8445887944099135, 
+ "FluxCCMed" -> 0.4662336167702592}
+{"modName" -> "kouril1", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {1.0078124197595103*^-6}, "FluxCC" -> 0.8284663264709289, 
+ "FluxCCMed" -> 8.323194810537184*^-8}
+{"modName" -> "kouril1", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {ComplexInfinity, 0.9831552546531439}, 
+ "FluxCC" -> 8.113780727074876*^-8, "FluxCCMed" -> 8.323194810537184*^-8}
+{"modName" -> "kouril1", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.953728012126169}, "FluxCC" -> 5.412629851408322*^-8, 
+ "FluxCCMed" -> 8.323194810537184*^-8}
+{"modName" -> "kouril1", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.9271995392966814}, "FluxCC" -> 8.323194810537184*^-8, 
+ "FluxCCMed" -> 8.323194810537184*^-8}
+{"modName" -> "kouril1", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {ComplexInfinity, 0.773360105516166}, 
+ "FluxCC" -> 1.2914462936517632*^-6, "FluxCCMed" -> 8.323194810537184*^-8}
+{"modName" -> "kouril2", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.9999990113647508, 
+ "FluxCCMed" -> 0.5184525695410975}
+{"modName" -> "kouril2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.0015807935607332721, 
+ "FluxCCMed" -> 0.5184525695410975}
+{"modName" -> "kouril2", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.28559018789996266}, "FluxCC" -> 0.35861962738168063, 
+ "FluxCCMed" -> 0.5184525695410975}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {-0.0725447501214839, 0.1732202016048575}, 
+ "FluxCC" -> 0.2835619777629761, "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.5289812957883416}, "FluxCC" -> 0.13493989792471503, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.0017839356759021333}, "FluxCC" -> 0.17092581786773614, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.0022277129912018903}, "FluxCC" -> 0.007086403913397461, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.20079535846503915}, "FluxCC" -> 0.06392672262748404, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.9178260204551988}, "FluxCC" -> 0.006076522594124418, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "BIOMD0000000038", "Reaction" -> model`v1, 
+ "DisEq" -> {0.9902727561370561}, "FluxCC" -> 0.00018926387036864769, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "BIOMD0000000038", "Reaction" -> model`v10, 
+ "DisEq" -> {0.000026536160322882355}, "FluxCC" -> 0.27336323910977584, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "BIOMD0000000038", "Reaction" -> model`v2, 
+ "DisEq" -> {0.9563431441706834}, "FluxCC" -> 0.0022736190148750918, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "BIOMD0000000038", "Reaction" -> model`v5, 
+ "DisEq" -> {0.9657367229425888}, "FluxCC" -> 0.00018968458950283738, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "BIOMD0000000038", "Reaction" -> model`v6, 
+ "DisEq" -> {0.8226054977333184}, "FluxCC" -> 0.013604421566714008, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "BIOMD0000000038", "Reaction" -> model`v9, 
+ "DisEq" -> {0.07496811504267015}, "FluxCC" -> 0.01266238737645653, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "BIOMD0000000041", "Reaction" -> model`MiCK, 
+ "DisEq" -> {3.3250823846336075*^-8}, "FluxCC" -> 0.6567758525331993, 
+ "FluxCCMed" -> 0.16927936662451268}
+{"modName" -> "BIOMD0000000041", "Reaction" -> 
+  model`PCr\[LetterSpace]diffusion, "DisEq" -> {0.44750464568321335}, 
+ "FluxCC" -> 0.15412154235009973, "FluxCCMed" -> 0.16927936662451268}
+{"modName" -> "BIOMD0000000041", "Reaction" -> 
+  model`Pi\[LetterSpace]diffusion, "DisEq" -> {1.0044563603934196}, 
+ "FluxCC" -> 4.5246802661034247*^-7, "FluxCCMed" -> 0.16927936662451268}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R1, 
+ "DisEq" -> {0.2209915044814362}, "FluxCC" -> 0.11794189310969846, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R2, 
+ "DisEq" -> {0.10497010972986424}, "FluxCC" -> 0.2532010187857302, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R3, 
+ "DisEq" -> {0.07237242768980426}, "FluxCC" -> 0.6808265891018622, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R4, 
+ "DisEq" -> {0.2620779908033001}, "FluxCC" -> 0.07733213855486881, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R5, 
+ "DisEq" -> {0.45455357136198116}, "FluxCC" -> 0.052395314759521194, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R6, 
+ "DisEq" -> {0.05987135383766144}, "FluxCC" -> 0.7124634395876767, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R7, 
+ "DisEq" -> {0.1908023894731298}, "FluxCC" -> 0.07428450203097228, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "BIOMD0000000284", "Reaction" -> model`R8, 
+ "DisEq" -> {0.37736001661544183}, "FluxCC" -> 0.03155510406967048, 
+ "FluxCCMed" -> 0.09763701583228364}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> $Aborted, "FluxCC" -> 0.24397637886303428, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.5155674576416476}, "FluxCC" -> 0.014433987417063822, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {1.0501375855088004}, "FluxCC" -> 0.0007910939135736745, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.9403778426981779}, "FluxCC" -> 0.001979917318509183, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.7511900580558046}, "FluxCC" -> 0.007829321198749089, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "lambeth", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.7250324760923913}, "FluxCC" -> 0.0644719585986402, 
+ "FluxCCMed" -> 0.03918035502227393}
+{"modName" -> "legewie1", "Reaction" -> model`v1, 
+ "DisEq" -> {0.7635789490367128}, "FluxCC" -> 0.19082384558607507, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v10, 
+ "DisEq" -> {0.6166797733726351}, "FluxCC" -> 0.8756144021134871, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v11, 
+ "DisEq" -> {0.49976189145013017}, "FluxCC" -> 0.5718626115564566, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v12, 
+ "DisEq" -> {0.5007776961391059}, "FluxCC" -> 0.8625940672270596, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v13, 
+ "DisEq" -> {0.9962301372071733}, "FluxCC" -> 0.015064973608927838, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v14, 
+ "DisEq" -> {0.9999689414288628}, "FluxCC" -> 0.015064073496662824, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v15, "DisEq" -> {0.5}, 
+ "FluxCC" -> 0.020212825517961892, "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v8, 
+ "DisEq" -> {0.9979405500940149}, "FluxCC" -> 0.008745830372539377, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "legewie1", "Reaction" -> model`v9, 
+ "DisEq" -> {0.4726655776185893}, "FluxCC" -> 0.6136820197468011, 
+ "FluxCCMed" -> 0.6136820197468011}
+{"modName" -> "leroux", "Reaction" -> model`v1, 
+ "DisEq" -> {0.0010407033423365044}, "FluxCC" -> 0.7411632229247207, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v10, 
+ "DisEq" -> {0.99996785460648}, "FluxCC" -> 0.0002624784061976073, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v11, 
+ "DisEq" -> {0.923252180258115}, "FluxCC" -> 0.31289645126205146, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v12, 
+ "DisEq" -> {0.9988794321867119}, "FluxCC" -> 0.006149177339112065, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v14, 
+ "DisEq" -> {2.863133853773171*^-12}, "FluxCC" -> 0.10540210884762284, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v15, "DisEq" -> {0.}, 
+ "FluxCC" -> 0.024230927885262196, "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v16, 
+ "DisEq" -> {1.0000000000000002}, "FluxCC" -> model`v16, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v17, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v17, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v19, 
+ "DisEq" -> {0.999992033875443}, "FluxCC" -> model`v19, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v2, 
+ "DisEq" -> {1.0056318137816964}, "FluxCC" -> 0.8945530575952463, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v20, 
+ "DisEq" -> {0.0010403795846841532}, "FluxCC" -> model`v20, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v21, 
+ "DisEq" -> {0.9998461785173257}, "FluxCC" -> 0.001884807123568098, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v22, 
+ "DisEq" -> {0.9999999914231883}, "FluxCC" -> model`v22, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v23, 
+ "DisEq" -> {0.0010402195608765603}, "FluxCC" -> model`v23, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v24, 
+ "DisEq" -> {0.9996809413061746}, "FluxCC" -> 0.003875222638244517, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v25, 
+ "DisEq" -> {870.9557394297613}, "FluxCC" -> model`v25, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v26, 
+ "DisEq" -> {0.9939295428057286}, "FluxCC" -> 0.10177435318674442, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v28, 
+ "DisEq" -> {0.014384701590870996}, "FluxCC" -> 0.10899501056313805, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v29, 
+ "DisEq" -> {0.34212482198113464}, "FluxCC" -> 0.0010744895572635537, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v3, 
+ "DisEq" -> {0.0011481548143322908}, "FluxCC" -> 0.4413111869517156, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v30, 
+ "DisEq" -> {0.9999999999999998}, "FluxCC" -> model`v30, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v31, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v31, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v4, 
+ "DisEq" -> {0.9115185310377741}, "FluxCC" -> 0.3762587055042867, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v5, 
+ "DisEq" -> {0.9996235978014495}, "FluxCC" -> 0.005015667419094824, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v6, 
+ "DisEq" -> {1.0052856070576204}, "FluxCC" -> model`v6, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v7, 
+ "DisEq" -> {0.9121976127424515}, "FluxCC" -> 0.6143644037388788, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v8, 
+ "DisEq" -> {0.001134407373293261}, "FluxCC" -> 0.8398513811340895, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux", "Reaction" -> model`v9, 
+ "DisEq" -> {0.9222472595828873}, "FluxCC" -> 0.685491048493782, 
+ "FluxCCMed" -> 0.10899501056313805}
+{"modName" -> "leroux2", "Reaction" -> model`v1, 
+ "DisEq" -> {0.0009441379091009866}, "FluxCC" -> 0.8070083862128524, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v10, 
+ "DisEq" -> {0.9999615746068461}, "FluxCC" -> 0.0002636114681121826, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v11, 
+ "DisEq" -> {0.9092609030025643}, "FluxCC" -> 0.31288125619837803, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v12, 
+ "DisEq" -> {0.9990675530516943}, "FluxCC" -> 0.003973629402082505, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v14, 
+ "DisEq" -> {2.86313385377317*^-12}, "FluxCC" -> 0.1783781673054635, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v15, "DisEq" -> {0.}, 
+ "FluxCC" -> 0.04100741963836966, "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v16, 
+ "DisEq" -> {1.0000000000000002}, "FluxCC" -> model`v16, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v17, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v17, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v19, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v19, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v2, 
+ "DisEq" -> {0.9250156317355661}, "FluxCC" -> 0.000057332589871127284, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v20, 
+ "DisEq" -> {-1.5038910339506177*^-7}, "FluxCC" -> model`v20, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v21, 
+ "DisEq" -> {0.9813344101061426}, "FluxCC" -> model`v21, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v22, 
+ "DisEq" -> {0.9359650322776764}, "FluxCC" -> model`v22, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v23, 
+ "DisEq" -> {-1.5767896980891542*^-7}, "FluxCC" -> model`v23, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v24, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v24, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v25, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v25, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v26, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v26, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v28, 
+ "DisEq" -> {0.999999999999954}, "FluxCC" -> model`v28, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v29, 
+ "DisEq" -> {0.9999999999943477}, "FluxCC" -> model`v29, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v3, 
+ "DisEq" -> {0.0009277655554868006}, "FluxCC" -> 0.5834056281229781, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v30, "DisEq" -> {1.}, 
+ "FluxCC" -> model`v30, "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v31, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v31, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v4, 
+ "DisEq" -> {0.9413394572248635}, "FluxCC" -> 0.6651468745551737, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v5, 
+ "DisEq" -> {0.9994837308192545}, "FluxCC" -> 0.002346955826141551, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v6, 
+ "DisEq" -> {0.924573601777456}, "FluxCC" -> model`v6, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v7, 
+ "DisEq" -> {0.941731587418859}, "FluxCC" -> 0.3300452664414568, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v8, 
+ "DisEq" -> {0.000960897060939257}, "FluxCC" -> 0.6105847439011037, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "leroux2", "Reaction" -> model`v9, 
+ "DisEq" -> {0.908447972919294}, "FluxCC" -> 0.6854831602476015, 
+ "FluxCCMed" -> 0.31288125619837803}
+{"modName" -> "lin3", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.540041911525952}, "FluxCC" -> 0.3333333333333333, 
+ "FluxCCMed" -> 0.33333333333333337}
+{"modName" -> "lin3", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.40945856318612395}, "FluxCC" -> 0.33333333333333337, 
+ "FluxCCMed" -> 0.33333333333333337}
+{"modName" -> "lin3", "Reaction" -> model`v\[LetterSpace]3, "DisEq" -> {0.}, 
+ "FluxCC" -> 0.33333333333333337, "FluxCCMed" -> 0.33333333333333337}
+{"modName" -> "lin3moi", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.4230089112825751}, "FluxCC" -> 0.3440060712369637, 
+ "FluxCCMed" -> 0.3440060712369637}
+{"modName" -> "lin3moi", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.7911940741613729}, "FluxCC" -> 0.08342752284541455, 
+ "FluxCCMed" -> 0.3440060712369637}
+{"modName" -> "lin3moi", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.5725664059176218, 
+ "FluxCCMed" -> 0.3440060712369637}
+{"modName" -> "martins", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.9883659335068465}, "FluxCC" -> 0.006570568801772315, 
+ "FluxCCMed" -> 0.4754138155912159}
+{"modName" -> "martins", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.15176548334728004}, "FluxCC" -> 0.4754138155912159, 
+ "FluxCCMed" -> 0.4754138155912159}
+{"modName" -> "martins", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.}, "FluxCC" -> 0.5180156156070118, 
+ "FluxCCMed" -> 0.4754138155912159}
+{"modName" -> "moghadas1", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> 0.18343195266272183, 
+ "FluxCCMed" -> 0.514215976331361}
+{"modName" -> "moghadas1", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v\[LetterSpace]4, 
+ "FluxCCMed" -> 0.514215976331361}
+{"modName" -> "moghadas1", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v\[LetterSpace]5, 
+ "FluxCCMed" -> 0.514215976331361}
+{"modName" -> "naresh1", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> model`v\[LetterSpace]5, 
+ "FluxCCMed" -> 0.7862343692291456}
+{"modName" -> "naresh2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> 0.1229070674418144, 
+ "FluxCCMed" -> 0.9038138044021595}
+{"modName" -> "naresh2", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> 1.0114858844538037, 
+ "FluxCCMed" -> 0.9038138044021595}
+{"modName" -> "naresh2", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> 1.9109818647284786, 
+ "FluxCCMed" -> 0.9038138044021595}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.000011793805100762905}, "FluxCC" -> 0.9961858257752236, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.5814034431457151}, "FluxCC" -> -1.1963778880773495*^-8, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.9396136307507499}, "FluxCC" -> 0.0003576900419139688, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {9.862907791062886*^-6, -0.005214846670927047, 
+   -0.005214846670927047, -0.005214846670927047, -0.005214846670927047}, 
+ "FluxCC" -> 0.0036380241246152163, "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.34354080047624896}, "FluxCC" -> -0.00004701443106016089, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {1.1109272004226536}, "FluxCC" -> -4.749219081261445*^-6, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.00018240936352658266}, "FluxCC" -> -0.0000751415417863485, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.9563510383992551}, "FluxCC" -> 0.0017781080845316963, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.9010444698167004}, "FluxCC" -> 0.004063833557717447, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "olah", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.44640191210091507}, "FluxCC" -> 0.0237927349818131, 
+ "FluxCCMed" -> 0.0036380241246152163}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.9957913345057758}, "FluxCC" -> 1.679228046452156*^-9, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.9999616172552984}, "FluxCC" -> 5.394369032944357*^-8, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {0.9999885421557635}, "FluxCC" -> 2.5459353213581808*^-11, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]16, 
+ "DisEq" -> {0.9999995875272951}, "FluxCC" -> 1.2300961332624982*^-8, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]17, 
+ "DisEq" -> {0.0002311116821613422}, "FluxCC" -> 0.030071062302585116, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {1.0000000003358354}, "FluxCC" -> -1.6444484074326172*^-10, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {1.0000000007724217}, "FluxCC" -> -1.08174705179856*^-10, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.9999874042661518}, "FluxCC" -> 4.0223439676821905*^-7, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.9999908217680501}, "FluxCC" -> 5.646782937943109*^-7, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.9999978381883253}, "FluxCC" -> 3.0350354159482524*^-9, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "poolman", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.9999997834866527}, "FluxCC" -> 3.8029848445895294*^-10, 
+ "FluxCCMed" -> 0.0006322861499539307}
+{"modName" -> "rohwer1", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.0002263973264200781}, "FluxCC" -> 0.42726185409645173, 
+ "FluxCCMed" -> 0.4304962844861817}
+{"modName" -> "rohwer1", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.10441292940673041}, "FluxCC" -> 0.4304962844861817, 
+ "FluxCCMed" -> 0.4304962844861817}
+{"modName" -> "rohwer2", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.9902727561370559}, "FluxCC" -> 0.00018926387036864769, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "rohwer2", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.000026536160322882355}, "FluxCC" -> 0.27336323910977584, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "rohwer2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.9563431441706838}, "FluxCC" -> 0.0022736190148750918, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "rohwer2", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.9657367229425888}, "FluxCC" -> 0.00018968458950283738, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "rohwer2", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.8226054977333184}, "FluxCC" -> 0.013604421566714008, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "rohwer2", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.07496811504267015}, "FluxCC" -> 0.01266238737645653, 
+ "FluxCCMed" -> 0.010748094877676303}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.00018741144507133833}, "FluxCC" -> 1.0278469541455195, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.06285969289134308}, "FluxCC" -> 0.5533356111726409, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.010062229438482144}, "FluxCC" -> 0.060019451956039895, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {0.002435517390883187}, "FluxCC" -> 0.0010162232843049957, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {0.018963674030205765}, "FluxCC" -> 0.0014317778774589017, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.7351514282878172}, "FluxCC" -> 0.06983835519471174, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.5704729655311005}, "FluxCC" -> 0.1170845960015148, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.30591265628272285}, "FluxCC" -> 0.15212578641599572, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.9855835224979397}, "FluxCC" -> 0.002299600680810233, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.8134767520037234}, "FluxCC" -> 0.06500392368623023, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "saavedra", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.9197946338152806}, "FluxCC" -> 0.023805104643513177, 
+ "FluxCCMed" -> 0.06251168782113506}
+{"modName" -> "smallbone1", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.4071722821873506}, "FluxCC" -> 0.06340589141732314, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.06954800331605929}, "FluxCC" -> 0.018613875307608618, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.16458131215706473}, "FluxCC" -> 0.382413387159661, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`glycerolbranch, 
+ "DisEq" -> {0.0009352926344909734}, "FluxCC" -> 0.6105642950837707, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7451992777412756}, "FluxCC" -> 0.0028473482776112417, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`HXK, 
+ "DisEq" -> {0.010714873575664231}, "FluxCC" -> 0.48419800114632505, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.01672913870268711}, "FluxCC" -> 0.0804875595987736, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.4359636311275952, "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.8661482361737965}, "FluxCC" -> 0.023270512168431567, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.5367775098778482}, "FluxCC" -> 0.006775380467245779, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.004379718707583493}, "FluxCC" -> 0.002093945918785905, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.04824228933140437}, "FluxCC" -> 0.23828995548404044, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone1", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.999831377607381}, "FluxCC" -> 0.00003432470424748089, 
+ "FluxCCMed" -> 0.0804875595987736}
+{"modName" -> "smallbone10", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.396627700190816}, "FluxCC" -> 0.0026567351287363605, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.13100033833088473}, "FluxCC" -> 0.038727173299026, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.444849208827442}, "FluxCC" -> 0.3725656223321603, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00010300547664040025}, "FluxCC" -> 0.6106742429539858, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7386628563071763}, "FluxCC" -> 0.01172922144780079, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.000050304882773546704}, "FluxCC" -> 1.000453509646368, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.000050304882773546704}, "FluxCC" -> 1.033196761465212, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.000050304882773546704}, "FluxCC" -> 1.6985098192080876, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.06805584157771263}, "FluxCC" -> 0.0842084574051541, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`ADH, 
+ "DisEq" -> {2.946770663290119}, "FluxCC" -> 0.055363642571856136, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.07472267889533109}, "FluxCC" -> 0.019267970929068616, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.11102426517362789}, "FluxCC" -> 0.009247884256189847, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`G3PDH, 
+ "DisEq" -> {0.0006234030828889126}, "FluxCC" -> 0.5488438581009931, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7583387636319857}, "FluxCC" -> 0.0018746797274086624, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`HXK, 
+ "DisEq" -> {0.006664288259659757}, "FluxCC" -> 0.13748949420170845, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.0019287504903922055}, "FluxCC" -> 0.9330777896185861, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.804636296802278}, "FluxCC" -> 0.0013961815602917965, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.7363176031760309}, "FluxCC" -> 0.002189583398776614, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.008673331509723064}, "FluxCC" -> 0.002927984158913716, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.16773413846995516}, "FluxCC" -> 0.03179825194584833, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000176", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9998656704510025}, "FluxCC" -> 8.755743960159064*^-6, 
+ "FluxCCMed" -> 0.019267970929068616}
+{"modName" -> "BIOMD0000000294", "Reaction" -> model`r13, 
+ "DisEq" -> {-1.6994966687404038}, "FluxCC" -> 1.0346169103624983, 
+ "FluxCCMed" -> 0.19482657554812835}
+{"modName" -> "BIOMD0000000294", "Reaction" -> model`r14, 
+ "DisEq" -> {-1.6994966687404034}, "FluxCC" -> 0.7095164205384689, 
+ "FluxCCMed" -> 0.19482657554812835}
+{"modName" -> "BIOMD0000000294", "Reaction" -> model`r15, 
+ "DisEq" -> {-0.24495010803332265}, "FluxCC" -> 0.16630658987216462, 
+ "FluxCCMed" -> 0.19482657554812835}
+{"modName" -> "BIOMD0000000294", "Reaction" -> model`r18, 
+ "DisEq" -> {-0.5884095087642379}, "FluxCC" -> 0.19482657554812835, 
+ "FluxCCMed" -> 0.19482657554812835}
+{"modName" -> "BIOMD0000000294", "Reaction" -> model`r19, 
+ "DisEq" -> {-0.2101914596757638}, "FluxCC" -> 0.14010614692431575, 
+ "FluxCCMed" -> 0.19482657554812835}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`ADH, 
+ "DisEq" -> {1.9928275617121736}, "FluxCC" -> 0.05744479972456253, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`ALD, 
+ "DisEq" -> {0.20340769099048284}, "FluxCC" -> 0.0005909133130798524, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.09847353105863052}, "FluxCC" -> 0.003577316216886468, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`G3PDH, 
+ "DisEq" -> {0.0015288833009410939}, "FluxCC" -> 0.5515717107761289, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`GAPDH, 
+ "DisEq" -> {0.04312116911912664}, "FluxCC" -> 0.08421634156254969, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`HK, 
+ "DisEq" -> {0.002327742395204349}, "FluxCC" -> 0.21397972484278238, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.04136669470155635}, "FluxCC" -> 1.014245344953522, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.6775201535474059}, "FluxCC" -> 0.0005613550980940354, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.5635587212649015}, "FluxCC" -> 0.0019178739323807653, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.7416581506745707}, "FluxCC" -> 0.0008003499112512705, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.006269468249815668}, "FluxCC" -> 0.0005262138661322402, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000172", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9998262253723881}, "FluxCC" -> 0.000027649091095247925, 
+ "FluxCCMed" -> 0.003577316216886468}
+{"modName" -> "BIOMD0000000058", "Reaction" -> model`diffusion, 
+ "DisEq" -> {0.9999999999999997}, "FluxCC" -> model`diffusion, 
+ "FluxCCMed" -> 1.}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`ADH, 
+ "DisEq" -> {2.5309625348158487}, "FluxCC" -> 0.1461695437960404, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.07855639204508712}, "FluxCC" -> 0.016900234702445095, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.1759236873595303}, "FluxCC" -> 0.004436892634576221, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`G3PDH, 
+ "DisEq" -> {0.0006655603518677438}, "FluxCC" -> 0.40028352772054365, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`HXK, 
+ "DisEq" -> {0.0015911538127144202}, "FluxCC" -> 1.0587166964834824, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.005993149767441275}, "FluxCC" -> 1.1822692854362522, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.7262765750752536}, "FluxCC" -> 0.0019875684070593605, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.543543437110673}, "FluxCC" -> 0.006589816166194296, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.7459988320802875}, "FluxCC" -> 0.0027690783179552293, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.004416826083452654}, "FluxCC" -> 0.002151984359653823, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`PYR\[LetterSpace]shut, 
+ "DisEq" -> {0.2549358202108783}, "FluxCC" -> 0.7076362382088724, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.06556273686183438}, "FluxCC" -> 0.17895682025935258, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000177", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9998992990782994}, "FluxCC" -> 0.00002464782797157495, 
+ "FluxCCMed" -> 0.1461695437960404}
+{"modName" -> "BIOMD0000000069", "Reaction" -> model`v1, 
+ "DisEq" -> {0.704285246141297}, "FluxCC" -> 0.34774243375683767, 
+ "FluxCCMed" -> -0.1412651060303987}
+{"modName" -> "BIOMD0000000197", "Reaction" -> 
+  model`cellular\[LetterSpace]BSP\[LetterSpace]binding, 
+ "DisEq" -> {0.0008574419660649069}, "FluxCC" -> 0.9894044200391453, 
+ "FluxCCMed" -> 0.7274593960784865}
+{"modName" -> "BIOMD0000000076", "Reaction" -> model`Gpd\[LetterSpace]p, 
+ "DisEq" -> {0.00005999533012634339}, "FluxCC" -> 0.8518180487004053, 
+ "FluxCCMed" -> 0.4999999999999999}
+{"modName" -> "BIOMD0000000191", "Reaction" -> 
+  model`Arginine\[LetterSpace]transport, "DisEq" -> {-4.695696026812555}, 
+ "FluxCC" -> 0.3664288473948459, "FluxCCMed" -> 0.41129872035203563}
+{"modName" -> "BIOMD0000000071", "Reaction" -> model`vGAPdh, 
+ "DisEq" -> {0.0016594463236589585}, "FluxCC" -> 0.06829435734584813, 
+ "FluxCCMed" -> 0.025702444989535837}
+{"modName" -> "BIOMD0000000071", "Reaction" -> model`vGlcTr, 
+ "DisEq" -> {0.4160587888041607}, "FluxCC" -> 0.8889340760985159, 
+ "FluxCCMed" -> 0.025702444989535837}
+{"modName" -> "BIOMD0000000071", "Reaction" -> model`vPGI, 
+ "DisEq" -> {0.4515719939563486}, "FluxCC" -> 0.0006415264138444645, 
+ "FluxCCMed" -> 0.025702444989535837}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`ACN, 
+ "DisEq" -> {0.02360834426678463}, "FluxCC" -> 0.029887567847801406, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`CS, 
+ "DisEq" -> {3.309561765017257*^-7}, "FluxCC" -> 0.9616083074150605, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`FUM, 
+ "DisEq" -> {0.8839342332876408}, "FluxCC" -> 0.000027570773812848415, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`ICD, 
+ "DisEq" -> {0.00006893210280586444}, "FluxCC" -> 0.7073555190315031, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`ICL, 
+ "DisEq" -> {0.007588525714003584}, "FluxCC" -> 0.18921964229145039, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`KDH, 
+ "DisEq" -> {0.003281772152246615}, "FluxCC" -> 0.005064170902605622, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`MDH, 
+ "DisEq" -> {0.8111078687851625}, "FluxCC" -> 0.0009461640256500657, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`MS, 
+ "DisEq" -> {2.585131416229283*^-7}, "FluxCC" -> 0.10500713502588296, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`ScAS, 
+ "DisEq" -> {0.00006583808303163039}, "FluxCC" -> 0.0005554161276343193, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000221", "Reaction" -> model`SDH, 
+ "DisEq" -> {0.28614648656747477}, "FluxCC" -> 0.00038038799824685236, 
+ "FluxCCMed" -> 0.029887567847801406}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`ACN, 
+ "DisEq" -> {0.0002261240675563749}, "FluxCC" -> 0.09452247794765861, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`CS, 
+ "DisEq" -> {4.0956767598986723*^-7}, "FluxCC" -> 0.9050878663146935, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`FUM, 
+ "DisEq" -> {0.8366595129692928}, "FluxCC" -> 0.000015612652637843076, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`ICD, 
+ "DisEq" -> {0.0030648422597890704}, "FluxCC" -> 0.0019275409362630967, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`ICL, 
+ "DisEq" -> {0.038482250838604314}, "FluxCC" -> 0.8892752178891317, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`KDH, 
+ "DisEq" -> {0.03642582955447847}, "FluxCC" -> 0.0002487000139221187, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`MDH, 
+ "DisEq" -> {0.8953487555499785}, "FluxCC" -> 0.00006474433131269401, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`MS, 
+ "DisEq" -> {0.000010485909358401472}, "FluxCC" -> 0.10484144478332116, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`ScAS, 
+ "DisEq" -> {9.824104368618875*^-6}, "FluxCC" -> 0.003235028767516296, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000222", "Reaction" -> model`SDH, 
+ "DisEq" -> {0.32899680200895326}, "FluxCC" -> 0.000122903895832458, 
+ "FluxCCMed" -> 0.003235028767516296}
+{"modName" -> "BIOMD0000000115", "Reaction" -> 
+  model`reaction\[LetterSpace]0000002, "DisEq" -> {0.5092545891831669}, 
+ "FluxCC" -> 0.9951817281450133, "FluxCCMed" -> 0.9975908640725066}
+{"modName" -> "BIOMD0000000115", "Reaction" -> 
+  model`reaction\[LetterSpace]0000004, "DisEq" -> {0.5092545891831669}, 
+ "FluxCC" -> 0.0048182718549868745, "FluxCCMed" -> 0.9975908640725066}
+{"modName" -> "BIOMD0000000116", "Reaction" -> model`reaction\[LetterSpace]0, 
+ "DisEq" -> {0.21542729054988327}, "FluxCC" -> 0.025178134277614256, 
+ "FluxCCMed" -> -0.12162418374559676}
+{"modName" -> "BIOMD0000000116", "Reaction" -> model`reaction\[LetterSpace]2, 
+ "DisEq" -> {0.627185055097669}, "FluxCC" -> 0.006913390158993914, 
+ "FluxCCMed" -> -0.12162418374559676}
+{"modName" -> "BIOMD0000000116", "Reaction" -> model`reaction\[LetterSpace]4, 
+ "DisEq" -> {0.8232117090779494}, "FluxCC" -> -0.25016175765018744, 
+ "FluxCCMed" -> -0.12162418374559676}
+{"modName" -> "BIOMD0000000116", "Reaction" -> model`reaction\[LetterSpace]5, 
+ "DisEq" -> {0.9312006626838427}, "FluxCC" -> -1.164874025237089, 
+ "FluxCCMed" -> -0.12162418374559676}
+{"modName" -> "BIOMD0000000116", "Reaction" -> model`reaction\[LetterSpace]6, 
+ "DisEq" -> {0.8232117090779494}, "FluxCC" -> model`reaction\[LetterSpace]6, 
+ "FluxCCMed" -> -0.12162418374559676}
+{"modName" -> "BIOMD0000000116", "Reaction" -> model`reaction\[LetterSpace]7, 
+ "DisEq" -> {0.21542729054988327}, "FluxCC" -> model`reaction\[LetterSpace]7, 
+ "FluxCCMed" -> -0.12162418374559676}
+{"modName" -> "achcar1", "Reaction" -> model`ALDg, 
+ "DisEq" -> {5.956578435888433*^-13}, "FluxCC" -> 0.009229994990125402, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`ENOc, 
+ "DisEq" -> {0.5323431352939881}, "FluxCC" -> 0.0032920349720611357, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`G3PDHg, 
+ "DisEq" -> {8.326193771444786*^-66}, "FluxCC" -> 0.02008119098678243, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`GDAg, 
+ "DisEq" -> {0.9439865603704791}, "FluxCC" -> 0.00023388999587125407, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`GKg, 
+ "DisEq" -> {0.578496371481936}, "FluxCC" -> 0.02346967083160979, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`GlcTc, 
+ "DisEq" -> {0.0022565954879613433}, "FluxCC" -> 0.9116808009961985, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`GlcTg, 
+ "DisEq" -> {0.4835182806575334}, "FluxCC" -> 0.0003031444675747978, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`GlyTc, 
+ "DisEq" -> {0.0015979839491566915, -9.86843022025226*^-8}, 
+ "FluxCC" -> 0.6272809427979006, "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`Glytg, 
+ "DisEq" -> {0.6640751682888664}, "FluxCC" -> 0.3166759576723034, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`HXKg, 
+ "DisEq" -> {1.2155378132591961*^-29}, "FluxCC" -> 0.009538951963923735, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`PFKg, 
+ "DisEq" -> {1.521529303861746*^-23}, "FluxCC" -> 0.0008984631779127776, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`PGA3Tg, 
+ "DisEq" -> {0.98003462986926}, "FluxCC" -> 0.0001017876941551717, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`PGAMc, 
+ "DisEq" -> {0.17069951030814048}, "FluxCC" -> 0.021143870789328365, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`PGIg, 
+ "DisEq" -> {0.004349798102249838}, "FluxCC" -> 0.00021171546163807487, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`PGKg, 
+ "DisEq" -> {6.945142751026961*^-6}, "FluxCC" -> 0.0023490961878478408, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`PYKc, 
+ "DisEq" -> {0.0010702972713802637}, "FluxCC" -> 0.0023931475102616125, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar1", "Reaction" -> model`TPIg, 
+ "DisEq" -> {0.03267741807302451}, "FluxCC" -> 0.0025011390607910123, 
+ "FluxCCMed" -> 0.0032920349720611357}
+{"modName" -> "achcar2", "Reaction" -> model`ALDg, 
+ "DisEq" -> {5.756370562371545*^-14}, "FluxCC" -> 0.003306603206847126, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`DHAPtg, 
+ "DisEq" -> {0.32732399758348885}, "FluxCC" -> 0.00039913632162888864, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`ENOc, 
+ "DisEq" -> {0.5315141095692899}, "FluxCC" -> 0.0027111352668963656, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`G3PDHg, 
+ "DisEq" -> {4.268190386658534*^-63}, "FluxCC" -> 0.012312328625213191, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`GKg, 
+ "DisEq" -> {0.5866761426349449}, "FluxCC" -> 0.022955890800813637, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`GlcTc, 
+ "DisEq" -> {0.001783417869831525}, "FluxCC" -> 0.9431419593632178, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`GlcTg, 
+ "DisEq" -> {0.3963070591149962}, "FluxCC" -> 0.00031467227929724614, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`Gly3Ptg, 
+ "DisEq" -> {0.9009304809199778}, "FluxCC" -> 0.00034520818525486603, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`GlyTc, 
+ "DisEq" -> {0.001821158740205085, -9.864069241969232*^-8}, 
+ "FluxCC" -> 0.6294310960381904, "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`Glytg, 
+ "DisEq" -> {0.664026434257191}, "FluxCC" -> 0.3180424543369545, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`HXKg, 
+ "DisEq" -> {3.72841659450772*^-31}, "FluxCC" -> 0.007647372743541315, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`PFKg, 
+ "DisEq" -> {7.758644777473876*^-27}, "FluxCC" -> 0.0006689908286948736, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`PGA3Tg, 
+ "DisEq" -> {0.9802543306507826}, "FluxCC" -> 0.00008265102213781584, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`PGAMc, 
+ "DisEq" -> {0.16898254247656042}, "FluxCC" -> 0.0175720282012232, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`PGIg, 
+ "DisEq" -> {0.005380431344208984}, "FluxCC" -> 0.00014658350049890777, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`PGKg, 
+ "DisEq" -> {0.00006033431396373446}, "FluxCC" -> 0.0016759003747145904, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`PYKc, 
+ "DisEq" -> {0.001082808511030837}, "FluxCC" -> 0.001966595410037371, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar2", "Reaction" -> model`TPIg, 
+ "DisEq" -> {0.03602270774751175}, "FluxCC" -> 0.001870805323148095, 
+ "FluxCCMed" -> 0.0027111352668963656}
+{"modName" -> "achcar4", "Reaction" -> model`ALDg, 
+ "DisEq" -> {4.6319750014526034*^-14}, "FluxCC" -> 0.0033847419502470886, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`BPGA13tg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`BPGA13tg, "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`DHAPtg, 
+ "DisEq" -> {0.33245553478906187}, "FluxCC" -> 0.00031558621601233033, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`ENOc, 
+ "DisEq" -> {0.5314361894999196}, "FluxCC" -> 0.00267519837042549, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`F6Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`F6Ptg, "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`G3PDHg, 
+ "DisEq" -> {3.181384830339786*^-63}, "FluxCC" -> 0.011681134565491176, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`G6Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`G6Ptg, "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`GA3Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`GA3Ptg, "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`GKg, 
+ "DisEq" -> {0.5899361691761872}, "FluxCC" -> 0.022767662188446742, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`GlcTc, 
+ "DisEq" -> {0.0017515361741479328}, "FluxCC" -> 0.944960703609108, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`GlcTg, 
+ "DisEq" -> {0.38949036740522897}, "FluxCC" -> 0.00031535129024886537, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`Gly3Ptg, 
+ "DisEq" -> {0.9009566488846774}, "FluxCC" -> 0.0003252292159642458, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`GlyTc, 
+ "DisEq" -> {0.0019186829158068185, -9.86248206722003*^-8}, 
+ "FluxCC" -> 0.6307261306051273, "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`Glytg, 
+ "DisEq" -> {0.6640123320957124}, "FluxCC" -> 0.3187993955769557, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`HXKg, 
+ "DisEq" -> {2.7665111627235235*^-31}, "FluxCC" -> 0.007514139772752909, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`PFKg, 
+ "DisEq" -> {3.531647369919743*^-27}, "FluxCC" -> 0.0012681581477169397, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`PGA3Tg, 
+ "DisEq" -> {0.9802749814924753}, "FluxCC" -> 0.00008144675023747453, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`PGAMc, 
+ "DisEq" -> {0.1688211024485991}, "FluxCC" -> 0.0173540329661415, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`PGIg, 
+ "DisEq" -> {0.005533558455154395}, "FluxCC" -> 0.0002393699497908141, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`PGKg, 
+ "DisEq" -> {0.00006927627706384874}, "FluxCC" -> 0.001638073073630292, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`PYKc, 
+ "DisEq" -> {0.0010839961046961069}, "FluxCC" -> 0.0019401326226787703, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar4", "Reaction" -> model`TPIg, 
+ "DisEq" -> {0.03639731490414656}, "FluxCC" -> 0.0016460929964460026, 
+ "FluxCCMed" -> 0.00267519837042549}
+{"modName" -> "achcar5", "Reaction" -> model`ALDg, 
+ "DisEq" -> {7.713147971562064*^-8}, "FluxCC" -> 0.12011278254624892, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`BPGA13tg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`BPGA13tg, "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`DHAPtg, 
+ "DisEq" -> {0.15235381102720957}, "FluxCC" -> 0.004925704417334828, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`ENOc, 
+ "DisEq" -> {0.6034692733337609}, "FluxCC" -> 0.005739944853818128, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`F16BPtg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`F16BPtg, "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`F6Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`F6Ptg, "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`G3PDHg, 
+ "DisEq" -> {8.403222336828634*^-57}, "FluxCC" -> 0.1929966266972982, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`G6Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`G6Ptg, "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`GA3Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`GA3Ptg, "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`GKg, 
+ "DisEq" -> {0.018743384001578493}, "FluxCC" -> 0.1448278891185555, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`GlcTc, 
+ "DisEq" -> {0.04619159767359607}, "FluxCC" -> 0.00767626653892593, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`GlcTg, 
+ "DisEq" -> {0.9715484295655507}, "FluxCC" -> 1.905097033706598*^-6, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`Gly3Ptg, 
+ "DisEq" -> {0.8824212654294951}, "FluxCC" -> 0.003987736378424929, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`GlyTc, 
+ "DisEq" -> {0.00011840687631143042, -1.0312764894755005*^-7}, 
+ "FluxCC" -> 0.5249678350944187, "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`Glytg, 
+ "DisEq" -> {0.6735023466613094}, "FluxCC" -> 0.24268844555053007, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`HXKg, 
+ "DisEq" -> {2.5055585830148255*^-30}, "FluxCC" -> 0.004066106332500876, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`PFKg, 
+ "DisEq" -> {1.272144849657266*^-17}, "FluxCC" -> 0.023189424321575426, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`PGA3Tg, 
+ "DisEq" -> {0.9615631930772341}, "FluxCC" -> 0.0004461893048579049, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`PGAMc, 
+ "DisEq" -> {0.3139562319134221}, "FluxCC" -> 0.02169381353530909, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`PGIg, 
+ "DisEq" -> {0.015040571465396946}, "FluxCC" -> 0.0034088979438571705, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`PGKg, 
+ "DisEq" -> {3.700881086249151*^-20}, "FluxCC" -> 0.011643369642455614, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`PYKc, 
+ "DisEq" -> {0.0004713360294141486}, "FluxCC" -> 0.005079024150817664, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar5", "Reaction" -> model`TPIg, 
+ "DisEq" -> {0.03742237020739536}, "FluxCC" -> 0.03441675500861777, 
+ "FluxCCMed" -> 0.011643369642455614}
+{"modName" -> "achcar6", "Reaction" -> model`ALDg, 
+ "DisEq" -> {0.00003694406171047819}, "FluxCC" -> 0.08498279568023152, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`AMPtg, 
+ "DisEq" -> {0.9999999999999999}, "FluxCC" -> model`AMPtg, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`BPGA13tg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`BPGA13tg, "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`DHAPtg, 
+ "DisEq" -> {0.16182979447169094}, "FluxCC" -> 0.005499162608903649, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`ENOc, 
+ "DisEq" -> {0.6008822708509786}, "FluxCC" -> 0.013904365901500257, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`F16BPtg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`F16BPtg, "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`F6Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`F6Ptg, "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`G3PDHg, 
+ "DisEq" -> {4.5392131726791774*^-57}, "FluxCC" -> 0.21279005403753123, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`G6Ptg, 
+ "DisEq" -> {0.9999999999999999}, "FluxCC" -> model`G6Ptg, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`GA3Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`GA3Ptg, "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`GKg, 
+ "DisEq" -> {0.00047486735481714563}, "FluxCC" -> 0.2804940857710655, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`GlcTc, 
+ "DisEq" -> {0.04777188469547972}, "FluxCC" -> -0.12577788991285094, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`GlcTg, 
+ "DisEq" -> {0.9726541689888255}, "FluxCC" -> -0.00003091225716487755, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`Gly3Ptg, 
+ "DisEq" -> {0.8842057379313639}, "FluxCC" -> 0.002138455963161025, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`GlyTc, 
+ "DisEq" -> {0.0003000292902213727, -1.0022339071541292*^-7}, 
+ "FluxCC" -> 0.4663391302722071, "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`Glytg, 
+ "DisEq" -> {0.6672302662775074}, "FluxCC" -> 0.22825246104964309, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`HXKg, 
+ "DisEq" -> {9.395392958161599*^-33}, "FluxCC" -> -0.07089617327214033, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`PFKg, 
+ "DisEq" -> {1.186207223506427*^-32}, "FluxCC" -> 0.06800056492563372, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`PGA3Tg, 
+ "DisEq" -> {0.9635846384089627}, "FluxCC" -> 0.0010112425341176471, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`PGAMc, 
+ "DisEq" -> {0.30813090683210864}, "FluxCC" -> 0.053426312434294174, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`PGIg, 
+ "DisEq" -> {0.024148869045535162}, "FluxCC" -> 0.005486602386333161, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`PGKg, 
+ "DisEq" -> {3.987106124233266*^-20}, "FluxCC" -> 0.029610875189462274, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`PYKc, 
+ "DisEq" -> {0.00046863450184170583}, "FluxCC" -> 0.012211308485327737, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar6", "Reaction" -> model`TPIg, 
+ "DisEq" -> {0.03690618907091823}, "FluxCC" -> 0.034339257633044906, 
+ "FluxCCMed" -> 0.029610875189462274}
+{"modName" -> "achcar7", "Reaction" -> model`AKg, 
+ "DisEq" -> {1.0000000000000013}, "FluxCC" -> model`AKg, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`ALDg, 
+ "DisEq" -> {2.3665155697084517*^-15}, "FluxCC" -> 0.0009098232266635666, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`AMPtg, 
+ "DisEq" -> {0.9999999999999997}, "FluxCC" -> model`AMPtg, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`ATPtg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`ATPtg, "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`BPGA13tg, 
+ "DisEq" -> {0.9999999999999999}, "FluxCC" -> model`BPGA13tg, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`DHAPtg, 
+ "DisEq" -> {0.4154276726200821}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`ENOc, 
+ "DisEq" -> {0.5307959120562346}, "FluxCC" -> 0.00043343923158035275, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`F16BPtg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`F16BPtg, "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`F6Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`F6Ptg, "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`G3PDHg, 
+ "DisEq" -> {2.7444233164796674*^-65}, "FluxCC" -> 0.0013715504866722422, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`G6Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`G6Ptg, "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`GA3Ptg, "DisEq" -> {1.}, 
+ "FluxCC" -> model`GA3Ptg, "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`GKg, 
+ "DisEq" -> {0.6192149377644786}, "FluxCC" -> 0.021289537404482264, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`GlcTc, 
+ "DisEq" -> {0.0015000359228332391}, "FluxCC" -> 0.9845467603716106, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`GlcTg, 
+ "DisEq" -> {0.33077943457888553}, "FluxCC" -> 0.00032915623116831717, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`Gly3Ptg, 
+ "DisEq" -> {0.9011759727778973}, "FluxCC" -> 0.0001525749705319163, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`GlyTc, 
+ "DisEq" -> {0.0036360725487201784, -9.848482704668407*^-8}, 
+ "FluxCC" -> 0.6481066306231321, "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`Glytg, 
+ "DisEq" -> {0.6640796399430013}, "FluxCC" -> 0.32851626881704277, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`HXKg, 
+ "DisEq" -> {7.328599042709275*^-32}, "FluxCC" -> 0.006598464384253877, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`PFKg, 
+ "DisEq" -> {7.449905474296742*^-32}, "FluxCC" -> 0.0007589410728752596, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`PGA3Tg, 
+ "DisEq" -> {0.9804446786916597}, "FluxCC" -> 0.000013051723024243335, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`PGAMc, 
+ "DisEq" -> {0.16749412558797183}, "FluxCC" -> 0.002831779204315053, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`PGIg, 
+ "DisEq" -> {0.008810691443548284}, "FluxCC" -> 0.00013468931407256595, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`PGKg, 
+ "DisEq" -> {0.00014863912480651216}, "FluxCC" -> 0.00025846643358285625, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`PYKc, 
+ "DisEq" -> {0.0010938318667389087}, "FluxCC" -> 0.0003138177798996268, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "achcar7", "Reaction" -> model`TPIg, 
+ "DisEq" -> {0.04235857349457789}, "FluxCC" -> 0.00008310778802861631, 
+ "FluxCCMed" -> 0.0007589410728752596}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.9738717142875295}, "FluxCC" -> 0.006898307977624283, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.41980506714036103}, "FluxCC" -> 0.000013158898212648168, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.7569917593222051}, "FluxCC" -> 0.0053056995496366275, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {0.23822624105850596}, "FluxCC" -> 0.01557259869525144, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]15, 
+ "DisEq" -> {0.9708324403975322}, "FluxCC" -> 0.04792877962318444, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]16, 
+ "DisEq" -> {0.8041385276980402}, "FluxCC" -> -0.06795817064073555, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]17, 
+ "DisEq" -> {0.9013639681111135, 0.9013639681111135}, 
+ "FluxCC" -> 0.0002942174759699439, "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]18, 
+ "DisEq" -> {0.011426860594033058}, "FluxCC" -> 0.17793727459764114, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]23, 
+ "DisEq" -> {1.0195000477864773}, "FluxCC" -> 0.0008464771919538609, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]24, 
+ "DisEq" -> {0.011329703953980896}, "FluxCC" -> 0.4892017878870355, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]25, 
+ "DisEq" -> {1.0030628710885199}, "FluxCC" -> 0.0002857608983001071, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]26, 
+ "DisEq" -> {1.0000000000000002}, "FluxCC" -> model`v\[LetterSpace]26, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]27, 
+ "DisEq" -> {-0.0767639832096152}, "FluxCC" -> 0.04966336017970684, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]28, 
+ "DisEq" -> {1.005051657357209}, "FluxCC" -> 0.003494413429129812, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]29, 
+ "DisEq" -> {1.0000869037981543}, "FluxCC" -> 0.00014676723405908276, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {60.13867613666231}, "FluxCC" -> 0.2868455570725434, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]30, 
+ "DisEq" -> {0.9997503533342428}, "FluxCC" -> 0.00043601630679767435, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.5032376330098386}, "FluxCC" -> 0.8694035606795828, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.3144223253998314}, "FluxCC" -> -0.0005640450257312195, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "assmus", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.7886047544020175}, "FluxCC" -> 0.00008577583322614064, 
+ "FluxCCMed" -> 0.017440897176400554}
+{"modName" -> "bakker", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.4166193975452866}, "FluxCC" -> 0.8873008433452346, 
+ "FluxCCMed" -> 0.024842251679137207}
+{"modName" -> "bakker", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.45172109502333385}, "FluxCC" -> 0.0006468637923514111, 
+ "FluxCCMed" -> 0.024842251679137207}
+{"modName" -> "bakker", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.0016919035485137184}, "FluxCC" -> 0.06852651803774086, 
+ "FluxCCMed" -> 0.024842251679137207}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.9627987414377394}, "FluxCC" -> 1.0187013429345298*^-7, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.7989556267534041}, "FluxCC" -> 5.310417661926218*^-7, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.004341725333913398}, "FluxCC" -> 2.026736525787866*^-6, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]13, 
+ "DisEq" -> {0.9999757834117053}, "FluxCC" -> -2.0411373514183555*^-12, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {0.9999999999999999}, "FluxCC" -> model`v\[LetterSpace]14, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]16, 
+ "DisEq" -> {0.9999999999999993}, "FluxCC" -> model`v\[LetterSpace]16, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]18, 
+ "DisEq" -> {0.9999999999999996}, "FluxCC" -> model`v\[LetterSpace]18, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.9933732090946116}, "FluxCC" -> 0.0003519764538832957, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.000027700297248286863}, "FluxCC" -> 0.03256041737754276, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.807302030779573}, "FluxCC" -> -2.730405221297756*^-7, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {0.9979334003041399}, "FluxCC" -> -2.8338658580889746*^-9, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.9841416461287033}, "FluxCC" -> -3.906640075830906*^-8, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.9866184015570052}, "FluxCC" -> 0.00005694649595418718, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {0.08045744858156721}, "FluxCC" -> 0.03562296290632955, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "bali", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {3.544741193948334*^-7}, "FluxCC" -> 0.9636355406015527, 
+ "FluxCCMed" -> 0.00005694649595418718}
+{"modName" -> "smallbone10", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.772206317191177, "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.8895048271405697}, "FluxCC" -> 0.07642734091319185, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.6372775171136454}, "FluxCC" -> 0.02307263752381854, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.6891838272873144}, "FluxCC" -> -0.050547896622414934, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.031188391027517297}, "FluxCC" -> 0.006799426909650329, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.11658365273696551}, "FluxCC" -> 0.9633212869054547, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.11658365273696551}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.11658365273696551}, "FluxCC" -> 0.5148498228581606, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone10", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999327874146483}, "FluxCC" -> 0.000015127611465253142, 
+ "FluxCCMed" -> 0.10835183815368685}
+{"modName" -> "smallbone11", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.38573025471634825}, "FluxCC" -> 0.0025852731793252074, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.13188924982387296}, "FluxCC" -> 0.040518398872828765, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.45093972295433277}, "FluxCC" -> 0.35991529362739416, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00009590321399429347}, "FluxCC" -> 0.619061549301887, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7391660483087098}, "FluxCC" -> 0.012195015798923353, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00005053577690965779}, "FluxCC" -> 1.0004238754595647, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00005053577690965779}, "FluxCC" -> 1.0304143715002343, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00005053577690965779}, "FluxCC" -> 1.6308118874395836, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.06696277042034407}, "FluxCC" -> 0.08257802401826383, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "BIOMD0000000354", "Reaction" -> model`JChannel, 
+ "DisEq" -> {1.5208466978236149*^-15 + 24.837311441674245*I, 
+   1.5208466978236149*^-15 - 24.837311441674245*I}, 
+ "FluxCC" -> 0.08602198540705892, "FluxCCMed" -> 0.9422453758690045}
+{"modName" -> "BIOMD0000000482", "Reaction" -> model`reaction2, 
+ "DisEq" -> {0.99942041827277}, "FluxCC" -> 0.02247233032327504, 
+ "FluxCCMed" -> 0.49986850693987617}
+{"modName" -> "BIOMD0000000482", "Reaction" -> model`reaction9, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`reaction9, 
+ "FluxCCMed" -> 0.49986850693987617}
+{"modName" -> "BIOMD0000000482", "Reaction" -> model`v1, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`v1, 
+ "FluxCCMed" -> 0.49986850693987617}
+{"modName" -> "BIOMD0000000482", "Reaction" -> model`v4, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`v4, 
+ "FluxCCMed" -> 0.49986850693987617}
+{"modName" -> "BIOMD0000000482", "Reaction" -> model`v5, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`v5, 
+ "FluxCCMed" -> 0.49986850693987617}
+{"modName" -> "BIOMD0000000482", "Reaction" -> model`v8, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`v8, 
+ "FluxCCMed" -> 0.49986850693987617}
+{"modName" -> "BIOMD0000000482", "Reaction" -> model`v9, 
+ "DisEq" -> {Indeterminate}, "FluxCC" -> model`v9, 
+ "FluxCCMed" -> 0.49986850693987617}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vADH, 
+ "DisEq" -> {0.6718370564838164}, "FluxCC" -> 0.021929138253982884, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vALD, 
+ "DisEq" -> {0.6515580429876043}, "FluxCC" -> 0.0013887036745088594, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vENO, 
+ "DisEq" -> {0.36302138697993025}, "FluxCC" -> 0.006962468921975379, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vG3PDH, 
+ "DisEq" -> {0.0009458992858141534}, "FluxCC" -> 0.4661493337622786, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vGAPDH, 
+ "DisEq" -> {0.2127464073290897}, "FluxCC" -> 0.01676167371427116, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vGLK, 
+ "DisEq" -> {0.0021548006915942087}, "FluxCC" -> 0.0941816332423044, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vGLT, 
+ "DisEq" -> {0.0015173249361673442}, "FluxCC" -> 0.9081705564613239, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vPGI, 
+ "DisEq" -> {0.4647912995288709}, "FluxCC" -> 0.007738975788344104, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vPGK, 
+ "DisEq" -> {0.7600694990013157}, "FluxCC" -> 0.0018332988537102903, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vPGM, 
+ "DisEq" -> {0.7332467792476478}, "FluxCC" -> 0.0019204823827135903, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vPPI, 
+ "DisEq" -> {0.998904794371239}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vPYK, 
+ "DisEq" -> {0.03703911179335969}, "FluxCC" -> 0.010997282773605283, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vR5PI, 
+ "DisEq" -> {0.9930328196770628}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vTPI, 
+ "DisEq" -> {1.2981968246585385}, "FluxCC" -> 0.01002523559770236, 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vTransald, 
+ "DisEq" -> {0.781910357173371}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vTransk1, 
+ "DisEq" -> {0.20095371955859453}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000247", "Reaction" -> model`vTransk2, 
+ "DisEq" -> {0.1289417424715981}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.0073507223551597415}
+{"modName" -> "BIOMD0000000017", "Reaction" -> model`R11, 
+ "DisEq" -> {0.041561616497230294}, "FluxCC" -> 0.8041393081619458, 
+ "FluxCCMed" -> 0.36118003862781833}
+{"modName" -> "BIOMD0000000017", "Reaction" -> model`R2, 
+ "DisEq" -> {0.00023477523553937056}, "FluxCC" -> 0.027479729444872494, 
+ "FluxCCMed" -> 0.36118003862781833}
+{"modName" -> "BIOMD0000000017", "Reaction" -> model`R4, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> 0.6791831980340955, 
+ "FluxCCMed" -> 0.36118003862781833}
+{"modName" -> "BIOMD0000000017", "Reaction" -> model`R5, 
+ "DisEq" -> {1.026376001783862}, "FluxCC" -> 0.017431873281052616, 
+ "FluxCCMed" -> 0.36118003862781833}
+{"modName" -> "BIOMD0000000017", "Reaction" -> model`R6, 
+ "DisEq" -> {0.3409309518935014}, "FluxCC" -> 0.27649607304246193, 
+ "FluxCCMed" -> 0.36118003862781833}
+{"modName" -> "BIOMD0000000017", "Reaction" -> model`R7, 
+ "DisEq" -> {0.0800508498930083}, "FluxCC" -> 0.5657206469122906, 
+ "FluxCCMed" -> 0.36118003862781833}
+{"modName" -> "BIOMD0000000017", "Reaction" -> model`R8, 
+ "DisEq" -> {6.079775991054748*^-15}, "FluxCC" -> 0.09919070894226217, 
+ "FluxCCMed" -> 0.36118003862781833}
+{"modName" -> "smallbone11", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.7499438969826383, "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9089095574929463}, "FluxCC" -> 0.06015124609784082, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.6424374633292539}, "FluxCC" -> 0.023508285986557728, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.6842091069118493}, "FluxCC" -> -0.05070241549661915, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.031955219687891535}, "FluxCC" -> 0.007187350892003896, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.12241153614261208}, "FluxCC" -> 0.962564655930198, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.12241153614261208}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.12241153614261208}, "FluxCC" -> 0.5049797769123926, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone11", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999343322502485}, "FluxCC" -> 0.000014362333662619492, 
+ "FluxCCMed" -> 0.1114270812516293}
+{"modName" -> "smallbone12", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.36996899949005446}, "FluxCC" -> 0.0026307898960230116, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`ENOENO1, 
+ "DisEq" -> {0.2171620497471286}, "FluxCC" -> 0.7931307688053025, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`ENOENO2, 
+ "DisEq" -> {0.2171620497471286}, "FluxCC" -> 0.22916554230128025, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.4521346786581217}, "FluxCC" -> 0.37706612304432646, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.0000878787649536642}, "FluxCC" -> 0.6264235396119824, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.6531991926231823}, "FluxCC" -> 0.013302248290325261, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.000050908714456689544}, "FluxCC" -> 1.0004635947494258, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.000050908714456689544}, "FluxCC" -> 1.032728324820379, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.000050908714456689544}, "FluxCC" -> 1.6738469387391393, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.06578622352768021}, "FluxCC" -> 0.08693763251809937, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.7916878397456252, "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9088584827447713}, "FluxCC" -> 0.06340705763379734, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.5739931512249562}, "FluxCC" -> 0.025724858798955984, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.6780487577367184}, "FluxCC" -> -0.056984033717518506, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.03282378529029898}, "FluxCC" -> 0.0069870224690962495, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.1053714328664801}, "FluxCC" -> 0.9655351686472917, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.1053714328664801}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.1053714328664801}, "FluxCC" -> 0.5429764388930413, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone12", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.999934698902159}, "FluxCC" -> 0.000015343854624597438, 
+ "FluxCCMed" -> 0.22916554230128025}
+{"modName" -> "smallbone13", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.5030270075040297}, "FluxCC" -> 0.0029376588758685423, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`ENOENO1, 
+ "DisEq" -> {0.21250453742355138}, "FluxCC" -> 0.7884712879080529, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`ENOENO2, 
+ "DisEq" -> {0.21250453742355138}, "FluxCC" -> 0.21615911330443927, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.5739875494300427}, "FluxCC" -> 0.1487959709354503, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00012355352894934847}, "FluxCC" -> 0.6053163935519446, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.651991461045234}, "FluxCC" -> 0.00277271626877706, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00010093666682772856}, "FluxCC" -> 1.0000939300094065, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00010093666682772856}, "FluxCC" -> 1.0058118240373222, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00010093666682772856}, "FluxCC" -> 1.080302114276134, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.06868564487630567}, "FluxCC" -> 0.05747932899978386, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.3039159516477004, "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9314363842274195}, "FluxCC" -> 0.017574193662305837, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.028276885651043363}, "FluxCC" -> 0.19185067077955356, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.5253780218616884}, "FluxCC" -> -0.04076139550111613, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.030887119401686473}, "FluxCC" -> 0.0014046278122081895, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.5575010996465269}, "FluxCC" -> 0.9413260997094378, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.5575010996465269}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.5575010996465269}, "FluxCC" -> 0.18389785540121184, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone13", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999623967539651}, "FluxCC" -> 2.8124592352201653*^-6, 
+ "FluxCCMed" -> 0.19185067077955356}
+{"modName" -> "smallbone15", "Reaction" -> model`ADHADH1, 
+ "DisEq" -> {0.10424675695542725}, "FluxCC" -> 0.03501263122616567, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`ADHADH5, 
+ "DisEq" -> {0.10424675695542725}, "FluxCC" -> model`ADHADH5, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`ENOENO1, 
+ "DisEq" -> {0.21001851565229954}, "FluxCC" -> 0.7878426479572072, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`ENOENO2, 
+ "DisEq" -> {0.21001851565229954}, "FluxCC" -> 0.21664134018938203, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.5737200519821601}, "FluxCC" -> 0.15427357365027752, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00013012785655339859}, "FluxCC" -> 0.6014078834827843, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7770493667526305}, "FluxCC" -> 0.0015086014260568073, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00009875847494196021}, "FluxCC" -> 1.000112369676168, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00009875847494196021}, "FluxCC" -> 1.0074502634351286, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00009875847494196021}, "FluxCC" -> 1.12001183787955, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.07026278727050331}, "FluxCC" -> 0.057645163211609916, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.31985720810775986, "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9315621351006459}, "FluxCC" -> 0.01853989836950586, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.022847041755940503}, "FluxCC" -> 0.20272298440784067, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.5383604696245171}, "FluxCC" -> -0.03980124888519394, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.029852355765472093}, "FluxCC" -> 0.0013363889217910686, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.5531231569488193}, "FluxCC" -> 0.9418536347376912, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.5531231569488193}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.5531231569488193}, "FluxCC" -> 0.19276428811216553, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone15", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999619072171746}, "FluxCC" -> 3.2856298789428875*^-6, 
+ "FluxCCMed" -> 0.20272298440784067}
+{"modName" -> "smallbone16", "Reaction" -> model`ADHADH1, 
+ "DisEq" -> {0.1185070477673983}, "FluxCC" -> 0.03960291040718634, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`ADHADH5, 
+ "DisEq" -> {0.1185070477673983}, "FluxCC" -> model`ADHADH5, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`ENOENO1, 
+ "DisEq" -> {0.8056582871487278}, "FluxCC" -> 0.8233260586563077, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`ENOENO2, 
+ "DisEq" -> {0.8056582871487278}, "FluxCC" -> 0.1849215036579786, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.576938332904107}, "FluxCC" -> 0.1473708471585966, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00016735450033816823}, "FluxCC" -> 0.575861918279639, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.9638623026202656}, "FluxCC" -> 0.0014855173796904239, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00009614146515462569}, "FluxCC" -> 1.0001598036282364, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00009614146515462569}, "FluxCC" -> 1.0117417608781203, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00009614146515462569}, "FluxCC" -> 1.2243898888438243, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.07350785617621974}, "FluxCC" -> 0.05920625656411812, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.35083820455162135, "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9324294184856239}, "FluxCC" -> 0.020242201199321845, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.1395257095940534}, "FluxCC" -> 0.17514529698157358, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.5587994320955962}, "FluxCC" -> -0.036398520076477967, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`PYKCDC19, 
+ "DisEq" -> {0.0006740949424494222}, "FluxCC" -> 0.04009276799388107, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`PYKPYK2, 
+ "DisEq" -> {0.0006740949424494222}, "FluxCC" -> model`PYKPYK2, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.5694227588820592}, "FluxCC" -> 0.9418213338460918, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.5694227588820592}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.5694227588820592}, "FluxCC" -> 0.18295755979451844, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone16", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999615450006568}, "FluxCC" -> 3.2106947354206464*^-6, 
+ "FluxCCMed" -> 0.18295755979451844}
+{"modName" -> "smallbone17", "Reaction" -> model`ADHADH1, 
+ "DisEq" -> {0.11843670023956437}, "FluxCC" -> 0.040241569661998794, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`ADHADH5, 
+ "DisEq" -> {0.11843670023956437}, "FluxCC" -> model`ADHADH5, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`ENOENO1, 
+ "DisEq" -> {0.8036381327130612}, "FluxCC" -> 0.823113047427527, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`ENOENO2, 
+ "DisEq" -> {0.8036381327130612}, "FluxCC" -> 0.18513633802991503, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.5779325456744384}, "FluxCC" -> 0.14697613323494452, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.0001638146360077044}, "FluxCC" -> 0.5758856953042678, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.9632317931932959}, "FluxCC" -> 0.0014967024393315366, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00009860329019853314}, "FluxCC" -> 1.0001619097704004, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00009860329019853314}, "FluxCC" -> 1.0118413603322765, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00009860329019853314}, "FluxCC" -> 1.2250536981312317, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.07317694717207134}, "FluxCC" -> 0.059833564048670934, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.34838760830972815, "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9328373960434441}, "FluxCC" -> 0.01994436387231028, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.1379765375746153}, "FluxCC" -> 0.17594536749907053, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.5511303714254052}, "FluxCC" -> -0.03803918016694277, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`PYKCDC19, 
+ "DisEq" -> {0.0006989754968733692}, "FluxCC" -> 0.03961981587424774, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`PYKPYK2, 
+ "DisEq" -> {0.0006989754968733692}, "FluxCC" -> model`PYKPYK2, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.5659723905417816}, "FluxCC" -> 0.9419575013105179, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.5659723905417816}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.5659723905417816}, "FluxCC" -> 0.18480143466959895, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone17", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9490599738205784}, "FluxCC" -> 0.004545890248698485, 
+ "FluxCCMed" -> 0.18480143466959895}
+{"modName" -> "smallbone18", "Reaction" -> model`ADHADH1, 
+ "DisEq" -> {0.03534170607256076}, "FluxCC" -> 0.38548632391268406, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`ADHADH5, 
+ "DisEq" -> {0.03534170607256076}, "FluxCC" -> model`ADHADH5, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`ENOENO1, 
+ "DisEq" -> {0.7550111597790148}, "FluxCC" -> 0.8293158836369219, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`ENOENO2, 
+ "DisEq" -> {0.7550111597790148}, "FluxCC" -> 0.18756568038545454, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.555249496810088}, "FluxCC" -> 0.10570061131701552, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00011277447786926659}, "FluxCC" -> 0.8757731811450035, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.9558114055061242}, "FluxCC" -> 0.002902399676326362, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.0004181009442730555}, "FluxCC" -> 1.0033908598630021, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.0004181009442730555}, "FluxCC" -> 1.1051848055669558, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.0004181009442730555}, "FluxCC" -> 1.886696869118467, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.008574406495678817}, "FluxCC" -> 1.4670109271862757, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.3662154267788531, "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9232673400771818}, "FluxCC" -> 0.023647918137542582, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.22472247512802496}, "FluxCC" -> 0.18114484808914852, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.4741060161996177}, "FluxCC" -> -0.015818955699971927, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`PYKCDC19, 
+ "DisEq" -> {0.0024567912657797756}, "FluxCC" -> 0.06621843050183052, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`PYKPYK2, 
+ "DisEq" -> {0.0024567912657797756}, "FluxCC" -> model`PYKPYK2, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.5818662447243653}, "FluxCC" -> 0.941577946231737, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.5818662447243653}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.5818662447243653}, "FluxCC" -> 0.1824400727855511, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone18", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9434068255063575}, "FluxCC" -> 0.009017599390966614, 
+ "FluxCCMed" -> 0.18500287658550282}
+{"modName" -> "smallbone2", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.8837950021052337}, "FluxCC" -> 0.08882643163784569, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.13271193481487328}, "FluxCC" -> 0.007847466110697414, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.06376302957136343}, "FluxCC" -> 0.00904658943325496, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`glycerolbranch, 
+ "DisEq" -> {0.005665496088503533}, "FluxCC" -> -0.5177521943108584, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7250843783534798}, "FluxCC" -> 0.0032493319313021754, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00001861491995062574}, "FluxCC" -> 1.0005795653891314, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00001861491995062574}, "FluxCC" -> 1.0808524579188872, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00001861491995062574}, "FluxCC" -> 3.5495512159301295, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.2945848827270111}, "FluxCC" -> 0.02396184391239914, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.026885280065267938, "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9015316391576517}, "FluxCC" -> 0.0026234048375711927, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.20379759191815772}, "FluxCC" -> 0.04143753325957312, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.0036641058617401722}, "FluxCC" -> 0.0012406038541875216, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.03182790887060308}, "FluxCC" -> 1.5688438730798364, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone2", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9998697544338412}, "FluxCC" -> 0.00029738372459933325, 
+ "FluxCCMed" -> 0.02396184391239914}
+{"modName" -> "smallbone3", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.5843292088579531}, "FluxCC" -> 0.08003712038879167, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.14026574028533936}, "FluxCC" -> 0.017551672022817624, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.2186086402128039}, "FluxCC" -> 0.058114962119821846, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`glycerolbranch, 
+ "DisEq" -> {0.0018126710368434366}, "FluxCC" -> 0.44134343206596877, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7465898342645662}, "FluxCC" -> 0.004676357280160753, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.0000486913056985265}, "FluxCC" -> 1.0008013863652934, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.0000486913056985265}, "FluxCC" -> 1.0424269643953268, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.0000486913056985265}, "FluxCC" -> 1.8064704580223898, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.05166298930721218}, "FluxCC" -> 0.10989573926228614, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.25682554895050197, "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.8678102233183973}, "FluxCC" -> 0.03508966768009334, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.7172855322495575}, "FluxCC" -> 0.006578138749146188, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.017180944214130238}, "FluxCC" -> 0.0036538088535352886, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.09796806302672413}, "FluxCC" -> 0.191689418079619, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone3", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9998414640142346}, "FluxCC" -> 0.00004635364614388491, 
+ "FluxCCMed" -> 0.08003712038879167}
+{"modName" -> "smallbone4", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.32917783160412667}, "FluxCC" -> 0.020566504397143203, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.1795734261395119}, "FluxCC" -> 0.011290383476003743, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.4953103411666288}, "FluxCC" -> 0.013980274418658942, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00006985507745240518}, "FluxCC" -> 0.6480601616113424, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7616267089513626}, "FluxCC" -> 0.0027434287862692372, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.0000627581532513934}, "FluxCC" -> 1.000202346386641, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.0000627581532513934}, "FluxCC" -> 1.00591812129321, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.0000627581532513934}, "FluxCC" -> 1.0704686282132752, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.043363891407148955}, "FluxCC" -> 0.08095045500957701, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.12180129537681242, "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.9000745735366444}, "FluxCC" -> 0.013054347423380934, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.769225486034356}, "FluxCC" -> 0.003138263449901033, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.020458346317835847}, "FluxCC" -> 0.003440196636099279, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.44066707763786206}, "FluxCC" -> 0.01650384245265106, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone4", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999238521900705}, "FluxCC" -> 1.9807092435539474*^-6, 
+ "FluxCCMed" -> 0.03131257379077702}
+{"modName" -> "smallbone5", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.3267063499480659}, "FluxCC" -> 0.017725776147727305, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.18711846160444454}, "FluxCC" -> 0.009562184055076821, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.5026445996375826}, "FluxCC" -> 0.010725901780047658, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00006627899128277199}, "FluxCC" -> 0.6510023778147098, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7643737019815992}, "FluxCC" -> 0.0022938699433036414, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00005854116042195994}, "FluxCC" -> 1.0002162702035857, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00005854116042195994}, "FluxCC" -> 1.0060671918272266, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00005854116042195994}, "FluxCC" -> 1.0707906633327993, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.04256249289957529}, "FluxCC" -> 0.08284056482768686, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.11110436925124463, "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.8988597912765256}, "FluxCC" -> 0.012663520876751573, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.774856949239119}, "FluxCC" -> 0.0025721701782603326, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.02073115435534781}, "FluxCC" -> 0.0031151138065085107, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.4631770856988713}, "FluxCC" -> 0.0126394954716102, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone5", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999278423230318}, "FluxCC" -> 1.6603083494208868*^-6, 
+ "FluxCCMed" -> 0.029402133258096458}
+{"modName" -> "smallbone6", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.34286746592665684}, "FluxCC" -> 0.02739603252809297, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.17183091057947178}, "FluxCC" -> 0.014414101634793045, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.48664476770088155}, "FluxCC" -> 0.018172881986459936, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00007814340487950365}, "FluxCC" -> 0.6315210944952714, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7575907294444351}, "FluxCC" -> 0.003651101540698748, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00005003368679558352}, "FluxCC" -> 1.0006076991444175, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00005003368679558352}, "FluxCC" -> 1.023419394667962, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00005003368679558352}, "FluxCC" -> 1.3275628625816522, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.04539598747232377}, "FluxCC" -> 0.11870313630322973, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.16922472889702903, "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.895590677947494}, "FluxCC" -> 0.020099746516647667, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.7599680913544014}, "FluxCC" -> 0.004335248104947781, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.49594493284308666}, "FluxCC" -> -0.046179905154820504, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.020443048100332487}, "FluxCC" -> 0.004024962846152057, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.4054977305369325}, "FluxCC" -> 0.02540936316640856, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone6", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.999916878038406}, "FluxCC" -> 2.9961712995725803*^-6, 
+ "FluxCCMed" -> 0.022754554841528114}
+{"modName" -> "smallbone7", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.4606241276656213}, "FluxCC" -> 0.0008206667838904832, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.18701790836668444}, "FluxCC" -> 0.006057316677991175, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.3921855815929195}, "FluxCC" -> 0.020565701916785483, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.0001872503454599887}, "FluxCC" -> 0.2478343811935115, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7629750773742218}, "FluxCC" -> 0.0014985174578178463, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00004893442486678516}, "FluxCC" -> 1.0006443367252142, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00004893442486678516}, "FluxCC" -> 1.0224719920000853, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00004893442486678516}, "FluxCC" -> 1.292403747193205, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.04366283843201533}, "FluxCC" -> 0.1235868182071592, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.13644453257937197, "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.8986645140793299}, "FluxCC" -> 0.017771609919786806, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.7724267434170594}, "FluxCC" -> 0.0016996814467413286, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.4600641656756802}, "FluxCC" -> -0.05010456218679625, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.021112824636355273}, "FluxCC" -> 0.0019316339197744511, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.31865591005978494}, "FluxCC" -> 0.014906812869993812, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone7", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9998769293161566}, "FluxCC" -> 1.3930309507746947*^-6, 
+ "FluxCCMed" -> 0.017771609919786806}
+{"modName" -> "smallbone8", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.2212998408201467}, "FluxCC" -> 0.0009674727214758626, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.15539036475739842}, "FluxCC" -> 0.06019924939339427, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.5699635747450159}, "FluxCC" -> 0.09233222047340953, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00003248213206786415}, "FluxCC" -> 0.6561548924099436, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7499766217104483}, "FluxCC" -> 0.016338586046060914, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.0000526894312738507}, "FluxCC" -> 1.0003104469567394, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.0000526894312738507}, "FluxCC" -> 1.0153843124488855, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.0000526894312738507}, "FluxCC" -> 1.2387774626848644, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.05256126982194846}, "FluxCC" -> 0.08784621551626197, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.34293185334471693, "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.890753311720849}, "FluxCC" -> 0.03359998910733438, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.7186461650130861}, "FluxCC" -> 0.0232214923203391, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.5863597989762394}, "FluxCC" -> -0.0467951109510555, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.046264485006735856}, "FluxCC" -> 0.013555655226573902, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`TDH, 
+ "DisEq" -> {0.3835967747399922}, "FluxCC" -> 0.1294816033152103, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone8", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.999944175918265}, "FluxCC" -> 4.35888217023632*^-6, 
+ "FluxCCMed" -> 0.08784621551626197}
+{"modName" -> "smallbone9", "Reaction" -> model`ADH, 
+ "DisEq" -> {0.33535744096847986}, "FluxCC" -> 0.002079530464371449, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`ENO, 
+ "DisEq" -> {0.13727564885129762}, "FluxCC" -> 0.04571865931735536, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`FBA, 
+ "DisEq" -> {0.5779650134126384}, "FluxCC" -> 0.1892313253735676, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`GPD, 
+ "DisEq" -> {0.00006777645260240435}, "FluxCC" -> 0.637654012485002, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`GPM, 
+ "DisEq" -> {0.7419895318268296}, "FluxCC" -> 0.013320711856948731, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`HXKGLK1, 
+ "DisEq" -> {0.00005148584733677578}, "FluxCC" -> 1.0003387553579315, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`HXKHXK1, 
+ "DisEq" -> {0.00005148584733677578}, "FluxCC" -> 1.021815028883549, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`HXKHXK2, 
+ "DisEq" -> {0.00005148584733677578}, "FluxCC" -> 1.4174389503778364, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`HXT, 
+ "DisEq" -> {0.061753053851656886}, "FluxCC" -> 0.07996108010983967, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`PFK, "DisEq" -> $Aborted, 
+ "FluxCC" -> 0.5669790303976906, "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`PGI, 
+ "DisEq" -> {0.8887755273660357}, "FluxCC" -> 0.05598922561526459, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`PGK, 
+ "DisEq" -> {0.6681077456995125}, "FluxCC" -> 0.023199704850353192, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`PGM, 
+ "DisEq" -> {0.6573295097814377}, "FluxCC" -> -0.049551776786285945, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`PYK, 
+ "DisEq" -> {0.03611104720886319}, "FluxCC" -> 0.008607404924100228, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`TDHTDH1, 
+ "DisEq" -> {0.1549190457055273}, "FluxCC" -> 0.9561710535113644, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`TDHTDH2, 
+ "DisEq" -> {0.1549190457055273}, "FluxCC" -> model`TDHTDH2, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`TDHTDH3, 
+ "DisEq" -> {0.1549190457055273}, "FluxCC" -> 0.4218047688734776, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "smallbone9", "Reaction" -> model`TPI, 
+ "DisEq" -> {0.9999418916252724}, "FluxCC" -> 9.873221618838129*^-6, 
+ "FluxCCMed" -> 0.13459620274170364}
+{"modName" -> "snoep", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.0028980373655244237}, "FluxCC" -> 0.6487062761933446, 
+ "FluxCCMed" -> 0.5020538918316689}
+{"modName" -> "snoep", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.8170915109769815}, "FluxCC" -> 0.04890087416871486, 
+ "FluxCCMed" -> 0.5020538918316689}
+{"modName" -> "snoep1", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.24146341463414628}, "FluxCC" -> 8.489457020713792*^-6, 
+ "FluxCCMed" -> 0.000038254375436510226}
+{"modName" -> "snoep1", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> 6.6917355294188665*^-6, 
+ "FluxCCMed" -> 0.000038254375436510226}
+{"modName" -> "snoep2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.6513628817764767}, "FluxCC" -> 0.0005345156633260764, 
+ "FluxCCMed" -> 0.0006917449847834571}
+{"modName" -> "snoep2", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.24146341463414633}, "FluxCC" -> 0.0007736598160151995, 
+ "FluxCCMed" -> 0.0006917449847834571}
+{"modName" -> "snoep2", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {ComplexInfinity}, "FluxCC" -> 0.0006098301535517148, 
+ "FluxCCMed" -> 0.0006917449847834571}
+{"modName" -> "supplydemand", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.0002903033713865615}, "FluxCC" -> 0.9997051822836436, 
+ "FluxCCMed" -> 0.4999664945815551}
+{"modName" -> "supplydemand", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.21534673421018083}, "FluxCC" -> 0.00022780687946670936, 
+ "FluxCCMed" -> 0.4999664945815551}
+{"modName" -> "supplydemand", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.3998983748925894}, "FluxCC" -> 0.00006701083688949703, 
+ "FluxCCMed" -> 0.4999664945815551}
+{"modName" -> "supplydemand2", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.00009182309628747294}, "FluxCC" -> 0.0013559374712171432, 
+ "FluxCCMed" -> 0.0006779880558830161}
+{"modName" -> "supplydemand2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.6540062217979259}, "FluxCC" -> 3.864054888902822*^-8, 
+ "FluxCCMed" -> 0.0006779880558830161}
+{"modName" -> "supplydemand2", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.8627565922535997}, "FluxCC" -> 1.1132563040384853*^-8, 
+ "FluxCCMed" -> 0.0006779880558830161}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.0014182831251598744}, "FluxCC" -> 0.1534300116918668, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.24504486242367485}, "FluxCC" -> 0.002672588987908386, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.034583119973521086}, "FluxCC" -> 0.001363305655879107, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]14, 
+ "DisEq" -> {0.001974874257453682}, "FluxCC" -> 0.971435963385931, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]15, 
+ "DisEq" -> {0.7053191236342331}, "FluxCC" -> 0.025973782297918135, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]16, 
+ "DisEq" -> {0.0016304952923565173}, "FluxCC" -> 0.5623809935219962, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.3477584200927103}, "FluxCC" -> 0.002452028874923378, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {0.5998355133854573, 0.599835513385457}, 
+ "FluxCC" -> 0.0003947347875156718, "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.050318870599926374}, "FluxCC" -> 0.04214583511158657, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]8, 
+ "DisEq" -> {ComplexInfinity, 0.9144793389251104}, 
+ "FluxCC" -> 0.0012016525377057255, "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.6620882675182415}, "FluxCC" -> 0.0009814160115198711, 
+ "FluxCCMed" -> 0.002672588987908386}
+{"modName" -> "teusink2", "Reaction" -> model`v\[LetterSpace]3, 
+ "DisEq" -> {0.11447257761501872}, "FluxCC" -> 0., 
+ "FluxCCMed" -> 0.2524420633524189}
+{"modName" -> "twoenzymecompinh1", "Reaction" -> model`v1, 
+ "DisEq" -> {0.04224260615128747}, "FluxCC" -> 0.6238115341472189, 
+ "FluxCCMed" -> 0.4999999999999999}
+{"modName" -> "twoenzymeparcompinh1", "Reaction" -> model`v1H, 
+ "DisEq" -> {0.04224260615128749}, "FluxCC" -> 0.6238115341472189, 
+ "FluxCCMed" -> 0.49999999999999994}
+{"modName" -> "twoenzymeparcompinh1", "Reaction" -> model`v1P, 
+ "DisEq" -> {0.04224260615128749}, "FluxCC" -> 0.6238115341472189, 
+ "FluxCCMed" -> 0.49999999999999994}
+{"modName" -> "twoenzymeparcompinh2", "Reaction" -> model`v1H, 
+ "DisEq" -> {0.04224260615128749}, "FluxCC" -> 0.6238115341472189, 
+ "FluxCCMed" -> 0.49999999999999994}
+{"modName" -> "twoenzymeparcompinh2", "Reaction" -> model`v1P, 
+ "DisEq" -> {0.04224260615128749}, "FluxCC" -> 0.6238115341472189, 
+ "FluxCCMed" -> 0.49999999999999994}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]1, 
+ "DisEq" -> {0.049895055289255356}, "FluxCC" -> 0.513008975578598, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.8687109277966403}, "FluxCC" -> 9.822699334833086*^-8, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.3809868371784273}, "FluxCC" -> 5.331713429036879*^-7, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.24167737237558065}, "FluxCC" -> 6.815874563925876*^-7, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]16, 
+ "DisEq" -> {0.08443815408937638}, "FluxCC" -> 0.000022735427547278307, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.0000376481462100093}, "FluxCC" -> 0.48637110904500974, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.6954173370261573}, "FluxCC" -> 0.00011957271613061907, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.5013923959962061, 0.5013923959962059}, 
+ "FluxCC" -> 0.00003976353338380799, "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen1", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.005064912652188354}, "FluxCC" -> 0.00012241366216583994, 
+ "FluxCCMed" -> 0.00007966812475721354}
+{"modName" -> "vaneunen2", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.888379352654325}, "FluxCC" -> 4.045991163951274*^-8, 
+ "FluxCCMed" -> 0.00002755712689464404}
+{"modName" -> "vaneunen2", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.3681604742654312}, "FluxCC" -> 2.816106113327507*^-7, 
+ "FluxCCMed" -> 0.00002755712689464404}
+{"modName" -> "vaneunen2", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.14932991735393109}, "FluxCC" -> 5.481998788665715*^-7, 
+ "FluxCCMed" -> 0.00002755712689464404}
+{"modName" -> "vaneunen2", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.0002148350944704182}, "FluxCC" -> 0.13466513775305775, 
+ "FluxCCMed" -> 0.00002755712689464404}
+{"modName" -> "vaneunen2", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.7206113944222203}, "FluxCC" -> 0.00023383964530558892, 
+ "FluxCCMed" -> 0.00002755712689464404}
+{"modName" -> "vaneunen2", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.34710696371321326, 0.3471069637132132}, 
+ "FluxCC" -> 0.00002755712689464404, "FluxCCMed" -> 0.00002755712689464404}
+{"modName" -> "vaneunen2", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.004845954060649495}, "FluxCC" -> 0.000056286535528618286, 
+ "FluxCCMed" -> 0.00002755712689464404}
+{"modName" -> "vaneunen3", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.832178692941066}, "FluxCC" -> 1.2017100412460758*^-8, 
+ "FluxCCMed" -> 8.841424486640483*^-6}
+{"modName" -> "vaneunen3", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.3192115264590962}, "FluxCC" -> 5.4160584882294344*^-8, 
+ "FluxCCMed" -> 8.841424486640483*^-6}
+{"modName" -> "vaneunen3", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.29361792976196843}, "FluxCC" -> 3.9726274372765504*^-8, 
+ "FluxCCMed" -> 8.841424486640483*^-6}
+{"modName" -> "vaneunen3", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.00013395152008051519}, "FluxCC" -> 0.49303821158235295, 
+ "FluxCCMed" -> 8.841424486640483*^-6}
+{"modName" -> "vaneunen3", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.7268357927219372}, "FluxCC" -> 0.00031679053558306586, 
+ "FluxCCMed" -> 8.841424486640483*^-6}
+{"modName" -> "vaneunen3", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.5339401354008276, 0.5339401354008275}, 
+ "FluxCC" -> 8.841424486640483*^-6, "FluxCCMed" -> 8.841424486640483*^-6}
+{"modName" -> "vaneunen3", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.0023664572619879324}, "FluxCC" -> 0.00003608911077889354, 
+ "FluxCCMed" -> 8.841424486640483*^-6}
+{"modName" -> "vaneunen4", "Reaction" -> model`v\[LetterSpace]10, 
+ "DisEq" -> {0.8690720627149879}, "FluxCC" -> 3.403591309699335*^-7, 
+ "FluxCCMed" -> 0.0002209234226101898}
+{"modName" -> "vaneunen4", "Reaction" -> model`v\[LetterSpace]11, 
+ "DisEq" -> {0.22930534406357325}, "FluxCC" -> 2.845310904494983*^-6, 
+ "FluxCCMed" -> 0.0002209234226101898}
+{"modName" -> "vaneunen4", "Reaction" -> model`v\[LetterSpace]12, 
+ "DisEq" -> {0.202744312553017}, "FluxCC" -> 2.5579096711190604*^-6, 
+ "FluxCCMed" -> 0.0002209234226101898}
+{"modName" -> "vaneunen4", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {0.0012271858713005152}, "FluxCC" -> 0.13177019448932675, 
+ "FluxCCMed" -> 0.0002209234226101898}
+{"modName" -> "vaneunen4", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.7974139375055089}, "FluxCC" -> 0.0006695159818513877, 
+ "FluxCCMed" -> 0.0002209234226101898}
+{"modName" -> "vaneunen4", "Reaction" -> model`v\[LetterSpace]7, 
+ "DisEq" -> {0.49185356091051485, 0.4918535609105146}, 
+ "FluxCC" -> 0.00010262559084253859, "FluxCCMed" -> 0.0002209234226101898}
+{"modName" -> "vaneunen4", "Reaction" -> model`v\[LetterSpace]9, 
+ "DisEq" -> {0.005153179766412441}, "FluxCC" -> 0.000339221254377841, 
+ "FluxCCMed" -> 0.0002209234226101898}
+{"modName" -> "vanheerden1", "Reaction" -> model`v1, 
+ "DisEq" -> {0.00005885966232021615}, "FluxCC" -> 0.3400382174367075, 
+ "FluxCCMed" -> 0.09855339359195901}
+{"modName" -> "vanheerden1", "Reaction" -> model`v10, 
+ "DisEq" -> {0.4500524052854034}, "FluxCC" -> 0.009246877931589025, 
+ "FluxCCMed" -> 0.09855339359195901}
+{"modName" -> "vanheerden1", "Reaction" -> model`v14, 
+ "DisEq" -> {0.014683510393022021}, "FluxCC" -> 0.32267950519113875, 
+ "FluxCCMed" -> 0.09855339359195901}
+{"modName" -> "vanheerden1", "Reaction" -> model`v2, 
+ "DisEq" -> {0.4694440995600007}, "FluxCC" -> 0.09855339359195901, 
+ "FluxCCMed" -> 0.09855339359195901}
+{"modName" -> "vanheerden1", "Reaction" -> model`v6, 
+ "DisEq" -> {0.6558175029985306, 0.6558175029985304}, 
+ "FluxCC" -> 0.01935662274235875, "FluxCCMed" -> 0.09855339359195901}
+{"modName" -> "vanheerden1", "Reaction" -> model`v8, 
+ "DisEq" -> {ComplexInfinity, 0.9750285618095744}, 
+ "FluxCC" -> 0.0027118931092363317, "FluxCCMed" -> 0.09855339359195901}
+{"modName" -> "vanheerden1", "Reaction" -> model`v9, 
+ "DisEq" -> {0.7695399834198344}, "FluxCC" -> 0.0027805869430313906, 
+ "FluxCCMed" -> 0.09855339359195901}
+{"modName" -> "wortel4", "Reaction" -> model`v\[LetterSpace]4, 
+ "DisEq" -> {0.2749883441233633}, "FluxCC" -> 0.01224014550151093, 
+ "FluxCCMed" -> 0.07233480867604113}
+{"modName" -> "wortel4", "Reaction" -> model`v\[LetterSpace]6, 
+ "DisEq" -> {22.841407889657592}, "FluxCC" -> model`v\[LetterSpace]6, 
+ "FluxCCMed" -> 0.07233480867604113}
+{"modName" -> "zhao1", "Reaction" -> model`v\[LetterSpace]2, 
+ "DisEq" -> {-0.0625}, "FluxCC" -> model`v\[LetterSpace]2, 
+ "FluxCCMed" -> 0.49999999999999994}
+{"modName" -> "zhao1", "Reaction" -> model`v\[LetterSpace]5, 
+ "DisEq" -> {-16.}, "FluxCC" -> model`v\[LetterSpace]5, 
+ "FluxCCMed" -> 0.49999999999999994}

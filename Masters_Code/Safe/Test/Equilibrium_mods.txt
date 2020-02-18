@@ -1,0 +1,2486 @@
+"BIOMD0000000309" -> {model`r0 -> model`E*model`env*model`k0, 
+  model`r2 -> model`env*model`k2*model`S*model`R[t], 
+  model`r3 -> (model`env*model`Ep*model`k3)/(model`Ep + model`Km3), 
+  model`r4 -> (model`E*model`env*model`k4*model`R[t])/(model`E + model`Km4)}
+"BIOMD0000000306" -> {model`r0 -> model`env*model`Ep*model`k0, 
+  model`r1 -> model`env*model`k1*model`S, 
+  model`r2 -> model`env*model`k2*model`R[t], model`r2\[LetterSpace]prime -> 
+   model`env*model`k2\[LetterSpace]prime*model`R[t]*model`X[t], 
+  model`r3 -> (model`E*model`env*model`k3*model`R[t])/(model`E + model`Km3), 
+  model`r4 -> (model`env*model`Ep*model`k4)/(model`Ep + model`Km4), 
+  model`r5 -> model`env*model`k5*model`R[t], 
+  model`r6 -> model`env*model`k6*model`X[t]}
+"BIOMD0000000427" -> 
+ {model`Akt\[LetterSpace]activationBy\[LetterSpace]PI3KCA -> 
+   (model`Akt\[LetterSpace]activationBy\[LetterSpace]PI3KCA\[LetterSpace]k\
+\[LetterSpace]AKT\[LetterSpace]PI3K*model`AKT[t]^model`Akt\[LetterSpace]activ\
+ationBy\[LetterSpace]PI3KCA\[LetterSpace]n\[LetterSpace]AKT\[LetterSpace]PI3K*
+     model`PI3KCA\[LetterSpace]active[t])/
+    (model`Akt\[LetterSpace]activationBy\[LetterSpace]PI3KCA\[LetterSpace]KM\
+\[LetterSpace]AKT\[LetterSpace]PI3K^model`Akt\[LetterSpace]activationBy\
+\[LetterSpace]PI3KCA\[LetterSpace]n\[LetterSpace]AKT\[LetterSpace]PI3K + 
+     model`AKT[t]^model`Akt\[LetterSpace]activationBy\[LetterSpace]PI3KCA\
+\[LetterSpace]n\[LetterSpace]AKT\[LetterSpace]PI3K), 
+  model`Akt\[LetterSpace]deactivation -> 
+   model`Akt\[LetterSpace]deactivation\[LetterSpace]kd\[LetterSpace]AKT*
+    model`AKT\[LetterSpace]active[t], model`EGFR\[LetterSpace]degradation -> 
+   model`gamma\[LetterSpace]EGFR*model`EGFR\[LetterSpace]active[t], 
+  model`ERK\[LetterSpace]activationBy\[LetterSpace]Mek -> 
+   (model`ERK\[LetterSpace]activationBy\[LetterSpace]Mek\[LetterSpace]k\
+\[LetterSpace]ERK\[LetterSpace]MekActive*model`ERK[t]*
+     model`Mek\[LetterSpace]active[t])/(model`ERK\[LetterSpace]activationBy\
+\[LetterSpace]Mek\[LetterSpace]KM\[LetterSpace]ERK\[LetterSpace]MekActive + 
+     model`ERK[t]), 
+  model`ERK\[LetterSpace]deactivationBy\[LetterSpace]PP2A -> 
+   (model`ERK\[LetterSpace]deactivationBy\[LetterSpace]PP2A\[LetterSpace]k\
+\[LetterSpace]ERKactive\[LetterSpace]PP2A*model`ERK\[LetterSpace]active[t]^mo\
+del`ERK\[LetterSpace]deactivationBy\[LetterSpace]PP2A\[LetterSpace]n\
+\[LetterSpace]ERKactive\[LetterSpace]PP2A*model`PP2A[t])/
+    (model`ERK\[LetterSpace]deactivationBy\[LetterSpace]PP2A\[LetterSpace]KM\
+\[LetterSpace]ERKactive\[LetterSpace]PP2A^model`ERK\[LetterSpace]deactivation\
+By\[LetterSpace]PP2A\[LetterSpace]n\[LetterSpace]ERKactive\[LetterSpace]PP2A \
++ model`ERK\[LetterSpace]active[t]^model`ERK\[LetterSpace]deactivationBy\
+\[LetterSpace]PP2A\[LetterSpace]n\[LetterSpace]ERKactive\[LetterSpace]PP2A), 
+  model`IGFR\[LetterSpace]active\[LetterSpace]degradation -> 
+   model`gamma\[LetterSpace]IGFR*model`IGFR\[LetterSpace]active[t], 
+  model`kRas\[LetterSpace]Activation -> 
+   (model`kRas\[LetterSpace]Activation\[LetterSpace]k\[LetterSpace]Ras\
+\[LetterSpace]SOS*model`A\[LetterSpace]SOS[t]*model`Ras[t]^model`kRas\
+\[LetterSpace]Activation\[LetterSpace]n\[LetterSpace]Ras\[LetterSpace]SOS)/
+    (model`kRas\[LetterSpace]Activation\[LetterSpace]KM\[LetterSpace]Ras\
+\[LetterSpace]SOS^model`kRas\[LetterSpace]Activation\[LetterSpace]n\
+\[LetterSpace]Ras\[LetterSpace]SOS + model`Ras[t]^model`kRas\[LetterSpace]Act\
+ivation\[LetterSpace]n\[LetterSpace]Ras\[LetterSpace]SOS), 
+  model`Mek\[LetterSpace]activationBy\[LetterSpace]Raf -> 
+   (model`Mek\[LetterSpace]activationBy\[LetterSpace]Raf\[LetterSpace]k\
+\[LetterSpace]Mek\[LetterSpace]PP2A*model`Mek[t]^model`Mek\[LetterSpace]activ\
+ationBy\[LetterSpace]Raf\[LetterSpace]n\[LetterSpace]Mek\[LetterSpace]PP2A*
+     model`Raf\[LetterSpace]active[t])/(model`Mek\[LetterSpace]activationBy\
+\[LetterSpace]Raf\[LetterSpace]KM\[LetterSpace]MekPP2A^model`Mek\
+\[LetterSpace]activationBy\[LetterSpace]Raf\[LetterSpace]n\[LetterSpace]Mek\
+\[LetterSpace]PP2A + model`Mek[t]^model`Mek\[LetterSpace]activationBy\
+\[LetterSpace]Raf\[LetterSpace]n\[LetterSpace]Mek\[LetterSpace]PP2A), 
+  model`Mek\[LetterSpace]deactivation -> 
+   (model`Mek\[LetterSpace]deactivation\[LetterSpace]k\[LetterSpace]MekActive\
+PP2A*model`Mek\[LetterSpace]active[t]^
+      model`Mek\[LetterSpace]deactivation\[LetterSpace]n\[LetterSpace]MekActi\
+vePP2A*model`PP2A[t])/(model`Mek\[LetterSpace]deactivation\[LetterSpace]KM\
+\[LetterSpace]MekActivePP2A^
+      model`Mek\[LetterSpace]deactivation\[LetterSpace]n\[LetterSpace]MekActi\
+vePP2A + model`Mek\[LetterSpace]active[t]^
+      model`Mek\[LetterSpace]deactivation\[LetterSpace]n\[LetterSpace]MekActi\
+vePP2A), model`P90\[LetterSpace]activationBy\[LetterSpace]ERK -> 
+   (model`k\[LetterSpace]P90Rsk\[LetterSpace]ERKActive*
+     model`ERK\[LetterSpace]active[t]*model`P90RskInactive[t])/
+    (model`KM\[LetterSpace]P90Rsk\[LetterSpace]ERKActive + 
+     model`P90RskInactive[t]), model`P90\[LetterSpace]deactivation -> 
+   model`P90\[LetterSpace]deactivation\[LetterSpace]kd\[LetterSpace]P90Rsk*
+    model`P90Rsk\[LetterSpace]Active[t], 
+  model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]EGF -> 
+   (model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]EGF\[LetterSpace]k\
+\[LetterSpace]PI3K\[LetterSpace]EGF1R*model`EGFR\[LetterSpace]active[t]^2*
+     model`PI3KCA[t]^model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]EGF\
+\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]E)/
+    (model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]EGF\[LetterSpace]KM\
+\[LetterSpace]PI3K\[LetterSpace]EGF1R^model`PI3KCA\[LetterSpace]activationBy\
+\[LetterSpace]EGF\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]E + 
+     model`PI3KCA[t]^model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]EGF\
+\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]E), 
+  model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]IGF1R -> 
+   (model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]IGF1R\[LetterSpace]k\
+\[LetterSpace]PI3K\[LetterSpace]IGF1R*model`IGFR\[LetterSpace]active[t]*
+     model`PI3KCA[t]^model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]IGF1\
+R\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]I)/
+    (model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]IGF1R\[LetterSpace]K\
+M\[LetterSpace]PI3K\[LetterSpace]IGF1R^model`PI3KCA\[LetterSpace]activationBy\
+\[LetterSpace]IGF1R\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]I + 
+     model`PI3KCA[t]^model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]IGF1\
+R\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]I), 
+  model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]kRas -> 
+   (model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]kRas\[LetterSpace]k\
+\[LetterSpace]PI3K\[LetterSpace]Ras*model`PI3KCA[t]^model`PI3KCA\
+\[LetterSpace]activationBy\[LetterSpace]kRas\[LetterSpace]n\[LetterSpace]PI3K\
+\[LetterSpace]Ras*model`Ras\[LetterSpace]active[t])/
+    (model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]kRas\[LetterSpace]KM\
+\[LetterSpace]PI3K\[LetterSpace]Ras^model`PI3KCA\[LetterSpace]activationBy\
+\[LetterSpace]kRas\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]Ras + 
+     model`PI3KCA[t]^model`PI3KCA\[LetterSpace]activationBy\[LetterSpace]kRas\
+\[LetterSpace]n\[LetterSpace]PI3K\[LetterSpace]Ras), 
+  model`PI3KCA\[LetterSpace]deactivation -> 
+   model`kd\[LetterSpace]PI3K\[LetterSpace]a*model`PI3KCA\[LetterSpace]active[
+     t], model`Raf\[LetterSpace]activationBy\[LetterSpace]kRas -> 
+   (model`Raf\[LetterSpace]activationBy\[LetterSpace]kRas\[LetterSpace]k\
+\[LetterSpace]Raf\[LetterSpace]RasActive*model`Raf[t]^model`Raf\[LetterSpace]\
+activationBy\[LetterSpace]kRas\[LetterSpace]n\[LetterSpace]Raf\[LetterSpace]R\
+asActive*model`Ras\[LetterSpace]active[t])/(model`Raf\[LetterSpace]activation\
+By\[LetterSpace]kRas\[LetterSpace]KM\[LetterSpace]Raf\[LetterSpace]RasActive \
++ model`Raf[t]^model`Raf\[LetterSpace]activationBy\[LetterSpace]kRas\
+\[LetterSpace]n\[LetterSpace]Raf\[LetterSpace]RasActive), 
+  model`Raf\[LetterSpace]deactivation -> 
+   (model`Raf\[LetterSpace]deactivation\[LetterSpace]k\[LetterSpace]RasActive\
+\[LetterSpace]RafPP*model`RafPP[t]*model`Raf\[LetterSpace]active[t]^model`Raf\
+\[LetterSpace]deactivation\[LetterSpace]n\[LetterSpace]RasActive\
+\[LetterSpace]RafPP)/(model`Raf\[LetterSpace]deactivation\[LetterSpace]KM\
+\[LetterSpace]RasActive\[LetterSpace]RafPP^model`Raf\[LetterSpace]deactivatio\
+n\[LetterSpace]n\[LetterSpace]RasActive\[LetterSpace]RafPP + 
+     model`Raf\[LetterSpace]active[t]^model`Raf\[LetterSpace]deactivation\
+\[LetterSpace]n\[LetterSpace]RasActive\[LetterSpace]RafPP), 
+  model`Raf\[LetterSpace]deactivationBy\[LetterSpace]Akt -> 
+   (model`Raf\[LetterSpace]deactivationBy\[LetterSpace]Akt\[LetterSpace]k\
+\[LetterSpace]Raf\[LetterSpace]AKT*model`AKT\[LetterSpace]active[t]*
+     model`Raf\[LetterSpace]active[t]^model`Raf\[LetterSpace]deactivationBy\
+\[LetterSpace]Akt\[LetterSpace]n\[LetterSpace]Raf\[LetterSpace]AKT)/
+    (model`Raf\[LetterSpace]deactivationBy\[LetterSpace]Akt\[LetterSpace]KM\
+\[LetterSpace]Raf\[LetterSpace]AKT^model`Raf\[LetterSpace]deactivationBy\
+\[LetterSpace]Akt\[LetterSpace]n\[LetterSpace]Raf\[LetterSpace]AKT + 
+     model`Raf\[LetterSpace]active[t]^model`Raf\[LetterSpace]deactivationBy\
+\[LetterSpace]Akt\[LetterSpace]n\[LetterSpace]Raf\[LetterSpace]AKT), 
+  model`Ras\[LetterSpace]deactivation -> 
+   (model`Ras\[LetterSpace]deactivation\[LetterSpace]k\[LetterSpace]RasActive\
+RasGap*model`RasGapActive[t]*model`Ras\[LetterSpace]active[t]^model`Ras\
+\[LetterSpace]deactivation\[LetterSpace]n\[LetterSpace]RasActiveRasGap)/
+    (model`Ras\[LetterSpace]deactivation\[LetterSpace]KM\[LetterSpace]RasActi\
+veRasGap^model`Ras\[LetterSpace]deactivation\[LetterSpace]n\[LetterSpace]RasA\
+ctiveRasGap + model`Ras\[LetterSpace]active[t]^model`Ras\[LetterSpace]deactiv\
+ation\[LetterSpace]n\[LetterSpace]RasActiveRasGap), 
+  model`SOS\[LetterSpace]activationBy\[LetterSpace]IGF -> 
+   (model`SOS\[LetterSpace]activationBy\[LetterSpace]IGF\[LetterSpace]k\
+\[LetterSpace]A\[LetterSpace]SOS\[LetterSpace]I*model`D\[LetterSpace]SOS[t]^m\
+odel`SOS\[LetterSpace]activationBy\[LetterSpace]IGF\[LetterSpace]n\
+\[LetterSpace]A\[LetterSpace]SOS\[LetterSpace]I*
+     model`IGFR\[LetterSpace]active[t])/
+    (model`SOS\[LetterSpace]activationBy\[LetterSpace]IGF\[LetterSpace]KM\
+\[LetterSpace]A\[LetterSpace]SOS\[LetterSpace]I^model`SOS\[LetterSpace]activa\
+tionBy\[LetterSpace]IGF\[LetterSpace]n\[LetterSpace]A\[LetterSpace]SOS\
+\[LetterSpace]I + model`D\[LetterSpace]SOS[t]^model`SOS\[LetterSpace]activati\
+onBy\[LetterSpace]IGF\[LetterSpace]n\[LetterSpace]A\[LetterSpace]SOS\
+\[LetterSpace]I), 
+  model`SOS\[LetterSpace]conformational\[LetterSpace]activation -> 
+   (model`SOS\[LetterSpace]conformational\[LetterSpace]activation\
+\[LetterSpace]k\[LetterSpace]SOS\[LetterSpace]E*model`D\[LetterSpace]SOS[t]^m\
+odel`SOS\[LetterSpace]conformational\[LetterSpace]activation\[LetterSpace]n\
+\[LetterSpace]SOS*model`EGFR\[LetterSpace]active[t])/
+    (model`SOS\[LetterSpace]conformational\[LetterSpace]activation\
+\[LetterSpace]KM\[LetterSpace]SOS\[LetterSpace]E^model`SOS\[LetterSpace]confo\
+rmational\[LetterSpace]activation\[LetterSpace]n\[LetterSpace]SOS + 
+     model`D\[LetterSpace]SOS[t]^model`SOS\[LetterSpace]conformational\
+\[LetterSpace]activation\[LetterSpace]n\[LetterSpace]SOS), 
+  model`SOS\[LetterSpace]deactivationBy\[LetterSpace]P90 -> 
+   (model`SOS\[LetterSpace]deactivationBy\[LetterSpace]P90\[LetterSpace]k\
+\[LetterSpace]D\[LetterSpace]SOS\[LetterSpace]P90Rsk*
+     model`A\[LetterSpace]SOS[t]^model`SOS\[LetterSpace]deactivationBy\
+\[LetterSpace]P90\[LetterSpace]n\[LetterSpace]D\[LetterSpace]SOS*
+     model`P90Rsk\[LetterSpace]Active[t])/
+    (model`SOS\[LetterSpace]deactivationBy\[LetterSpace]P90\[LetterSpace]KM\
+\[LetterSpace]D\[LetterSpace]SOS\[LetterSpace]P90Rsk^model`SOS\[LetterSpace]d\
+eactivationBy\[LetterSpace]P90\[LetterSpace]n\[LetterSpace]D\[LetterSpace]SOS \
++ model`A\[LetterSpace]SOS[t]^model`SOS\[LetterSpace]deactivationBy\
+\[LetterSpace]P90\[LetterSpace]n\[LetterSpace]D\[LetterSpace]SOS)}
+"BIOMD0000000307" -> 
+ {model`r0 -> model`env*(model`Ep*model`k0 + model`k0\[LetterSpace]prime)*
+    model`X[t], model`r1 -> model`env*model`k1*model`S, 
+  model`r2 -> model`env*model`k2*model`R[t], 
+  model`r3 -> (model`E*model`env*model`k3*model`R[t])/(model`E + model`Km3), 
+  model`r4 -> (model`env*model`Ep*model`k4)/(model`Ep + model`Km4)}
+"BIOMD0000000425" -> {model`reaction\[LetterSpace]1 -> 
+   model`reaction\[LetterSpace]1\[LetterSpace]alpha, 
+  model`reaction\[LetterSpace]2 -> 
+   model`c[t]/(model`reaction\[LetterSpace]2\[LetterSpace]kappa + 
+     model`c[t]), model`reaction\[LetterSpace]3 -> 
+   model`reaction\[LetterSpace]3\[LetterSpace]kd*model`c[t], 
+  model`reaction\[LetterSpace]4 -> 
+   (model`reaction\[LetterSpace]4\[LetterSpace]phi*model`c[t])/
+    (model`reaction\[LetterSpace]4\[LetterSpace]delta + 
+     model`reaction\[LetterSpace]4\[LetterSpace]gamma*model`c[t])}
+"cai1" -> {model`v\[LetterSpace]1 -> model`K*model`Mu, 
+  model`v\[LetterSpace]10 -> model`d*model`A[t], 
+  model`v\[LetterSpace]2 -> model`Beta*model`c*
+    (model`I[t] + model`b*model`J[t])*model`S[t], 
+  model`v\[LetterSpace]3 -> model`Mu*model`S[t], 
+  model`v\[LetterSpace]4 -> model`Mu*model`I[t], 
+  model`v\[LetterSpace]5 -> model`k1*model`I[t], 
+  model`v\[LetterSpace]6 -> model`Alpha*model`J[t], 
+  model`v\[LetterSpace]7 -> model`Mu*model`J[t], 
+  model`v\[LetterSpace]8 -> model`k2*model`J[t], 
+  model`v\[LetterSpace]9 -> model`Mu*model`A[t]}
+"BIOMD0000000384" -> {model`NADPH\[LetterSpace]prod -> 
+   model`chloroplast*model`NADPH\[LetterSpace]production[model`J, model`NADP, 
+     model`Nt], model`PGA\[LetterSpace]cons -> 
+   model`chloroplast*model`PGA\[LetterSpace]consumption[model`PGA[t], 
+     model`Rp, model`NADPH[t], model`Nt, model`Vcmax], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vc -> 
+   model`chloroplast*model`carboxylation[model`Vc, model`Vj], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vo -> 
+   model`chloroplast*model`oxygenation[model`phi, model`Vc, model`Vj]}
+"BIOMD0000000385" -> {model`NADPH\[LetterSpace]prod -> 
+   model`chloroplast*model`NADPH\[LetterSpace]production[model`J, model`NADP, 
+     model`Nt], model`PGA\[LetterSpace]cons -> 
+   model`chloroplast*model`PGA\[LetterSpace]consumption[model`PGA[t], 
+     model`Rp, model`NADPH[t], model`Nt, model`Vcmax], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vc -> 
+   model`chloroplast*model`carboxylation[model`Vc, model`Vj, model`Vp], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vo -> 
+   model`chloroplast*model`oxygenation[model`phi, model`Vc, model`Vj, 
+     model`Vp]}
+"BIOMD0000000300" -> {model`reaction\[LetterSpace]1 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]1[
+     model`parameter\[LetterSpace]18], model`reaction\[LetterSpace]10 -> 
+   model`compartment\[LetterSpace]1*model`vFA[model`species\[LetterSpace]7, 
+     model`species\[LetterSpace]11, model`parameter\[LetterSpace]1, 
+     model`species\[LetterSpace]3[t], model`parameter\[LetterSpace]6, 
+     model`species\[LetterSpace]5, model`parameter\[LetterSpace]9, 
+     model`parameter\[LetterSpace]13], model`reaction\[LetterSpace]2 -> 
+   model`compartment\[LetterSpace]1*model`parameter\[LetterSpace]17*
+    model`species\[LetterSpace]1[t], model`reaction\[LetterSpace]3 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]2[
+     model`parameter\[LetterSpace]8, model`species\[LetterSpace]8, 
+     model`species\[LetterSpace]11, model`parameter\[LetterSpace]4, 
+     model`species\[LetterSpace]1[t], model`species\[LetterSpace]10], 
+  model`reaction\[LetterSpace]4 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]1[model`parameter\[LetterSpace]18], 
+  model`reaction\[LetterSpace]5 -> model`compartment\[LetterSpace]1*
+    model`parameter\[LetterSpace]17*model`species\[LetterSpace]2[t], 
+  model`reaction\[LetterSpace]6 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]3[model`species\[LetterSpace]2[t], 
+     model`parameter\[LetterSpace]8, model`species\[LetterSpace]8, 
+     model`species\[LetterSpace]11, model`parameter\[LetterSpace]4, 
+     model`species\[LetterSpace]10], model`reaction\[LetterSpace]7 -> 
+   model`compartment\[LetterSpace]1*model`vFH[model`species\[LetterSpace]7, 
+     model`species\[LetterSpace]11, model`parameter\[LetterSpace]1, 
+     model`species\[LetterSpace]2[t], model`parameter\[LetterSpace]7, 
+     model`species\[LetterSpace]9, model`parameter\[LetterSpace]13], 
+  model`reaction\[LetterSpace]8 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]1[model`parameter\[LetterSpace]16], 
+  model`reaction\[LetterSpace]9 -> model`compartment\[LetterSpace]1*
+    model`parameter\[LetterSpace]14*model`species\[LetterSpace]3[t]}
+"BIOMD0000000663" -> {model`reaction -> model`compartment*
+    model`generic\[LetterSpace]modifier\[LetterSpace]function\[LetterSpace]2\
+\[LetterSpace]1[model`r, model`v[t], model`x[t]], 
+  model`reaction\[LetterSpace]1 -> model`compartment*
+    model`function\[LetterSpace]for\[LetterSpace]x\[LetterSpace]degrad\
+\[LetterSpace]2\[LetterSpace]1[model`k, model`r, model`v[t], model`x[t], 
+     model`y[t]], model`reaction\[LetterSpace]2 -> 
+   model`compartment*model`d*model`x[t], model`reaction\[LetterSpace]3 -> 
+   model`compartment*
+    model`generic\[LetterSpace]modifier\[LetterSpace]function\[LetterSpace]1[
+     model`Beta, model`v[t], model`x[t]], model`reaction\[LetterSpace]4 -> 
+   model`compartment*model`generic\[LetterSpace]modifier\[LetterSpace]functio\
+n\[LetterSpace]2\[LetterSpace]2[model`r, model`v[t], model`y[t]], 
+  model`reaction\[LetterSpace]5 -> model`compartment*
+    model`function\[LetterSpace]for\[LetterSpace]y\[LetterSpace]degrad\
+\[LetterSpace]2\[LetterSpace]1[model`k, model`r, model`v[t], model`x[t], 
+     model`y[t]], model`reaction\[LetterSpace]6 -> 
+   model`a*model`compartment*model`y[t], model`reaction\[LetterSpace]7 -> 
+   model`compartment*
+    model`generic\[LetterSpace]function\[LetterSpace]3\[LetterSpace]1[
+     model`eta, model`y[t]], model`reaction\[LetterSpace]8 -> 
+   model`compartment*model`u*model`v[t]}
+"BIOMD0000000261" -> {model`re1 -> model`re1\[LetterSpace]k1*model`s1[t], 
+  model`re10 -> model`re10\[LetterSpace]k1*model`s1[t], 
+  model`re11 -> model`re11\[LetterSpace]k1*model`s1[t], 
+  model`re12 -> model`re12\[LetterSpace]k1*model`s1[t], 
+  model`re14 -> model`re14\[LetterSpace]k1*model`s9[t], 
+  model`re15 -> model`re15\[LetterSpace]k1*model`s8[t], 
+  model`re16 -> model`re16\[LetterSpace]k1*model`s1[t], 
+  model`re17 -> model`re17\[LetterSpace]k1*model`s11[t], 
+  model`re18 -> model`re18\[LetterSpace]k1*model`s1[t], 
+  model`re19 -> model`re19\[LetterSpace]k1*model`s12[t], 
+  model`re2 -> model`re2\[LetterSpace]k1*model`s2[t], 
+  model`re22 -> model`re22\[LetterSpace]k1*model`s1[t], 
+  model`re23 -> model`re23\[LetterSpace]k1*model`s13[t], 
+  model`re24 -> model`re24\[LetterSpace]k1*model`s1[t], 
+  model`re25 -> model`re25\[LetterSpace]k1*model`s14[t], 
+  model`re26 -> model`re26\[LetterSpace]k1*model`s1[t], 
+  model`re28 -> model`re28\[LetterSpace]k1*model`s1[t], 
+  model`re29 -> model`re29\[LetterSpace]k1*model`s16[t], 
+  model`re3 -> model`re3\[LetterSpace]k1*model`s3[t], 
+  model`re30 -> model`re30\[LetterSpace]k1*model`s1[t], 
+  model`re31 -> model`re31\[LetterSpace]k1*model`s17[t], 
+  model`re32 -> model`re32\[LetterSpace]k1*model`s7[t], 
+  model`re33 -> model`re33\[LetterSpace]k1*model`s15[t], 
+  model`re4 -> model`re4\[LetterSpace]k1*model`s4[t], 
+  model`re5 -> model`re5\[LetterSpace]k1*model`s2[t], 
+  model`re6 -> model`re6\[LetterSpace]k1*model`s1[t], 
+  model`re7 -> model`re7\[LetterSpace]k1*model`s5[t], 
+  model`re8 -> model`re8\[LetterSpace]k1*model`s1[t], 
+  model`re9 -> model`re9\[LetterSpace]k1*model`s6[t]}
+"curien" -> {model`v\[LetterSpace]1 -> model`V1, 
+  model`v\[LetterSpace]2 -> (model`CGS*model`kcat2*model`Phser[t])/
+    ((1 + model`KmCYS/model`Cys)*((model`KmPHSER*(1 + model`Phi/model`Ki2))/
+       (1 + model`KmCYS/model`Cys) + model`Phser[t])), 
+  model`v\[LetterSpace]3 -> ((0.42 + 0.04794520547945205*model`AdoMet^2)*
+     model`TS*model`Phser[t])/((1 + model`AdoMet^2/73)*
+     ((250*(1 + 2.*model`AdoMet)*(1 + model`Phi/model`Ki3))/
+       ((1 + 0.9174311926605504*model`AdoMet)*(1 + model`AdoMet^2/142)) + 
+      model`Phser[t]))}
+"BIOMD0000000383" -> {model`NADPH\[LetterSpace]prod -> 
+   model`chloroplast*model`NADPH\[LetterSpace]production[model`j, model`NADP, 
+     model`Nt], model`PGA\[LetterSpace]cons -> 
+   model`chloroplast*model`PGA\[LetterSpace]consumption[model`PGA[t], 
+     model`Rp, model`Nt, model`kc, model`E, model`NADPH[t]], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vc -> 
+   model`chloroplast*model`carboxylation[model`kc, model`CO2, model`Kc, 
+     model`O2, model`Ko, model`E, model`RuBP], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vo -> 
+   model`chloroplast*model`oxygenation[model`phi, model`kc, model`CO2, 
+     model`Kc, model`O2, model`Ko, model`E, model`RuBP]}
+"BIOMD0000000662" -> {model`CML\[LetterSpace]death\[LetterSpace]by\
+\[LetterSpace]T\[LetterSpace]cell\[LetterSpace]effector -> 
+   model`COMpartment*model`function\[LetterSpace]for\[LetterSpace]CML\
+\[LetterSpace]death\[LetterSpace]by\[LetterSpace]T\[LetterSpace]cell\
+\[LetterSpace]effector[model`gamma\[LetterSpace]c, 
+     model`T\[LetterSpace]cell\[LetterSpace]effector[t], model`CML[t]], 
+  model`CML\[LetterSpace]Growth -> model`COMpartment*
+    model`function\[LetterSpace]for\[LetterSpace]CML\[LetterSpace]growth[
+     model`rc, model`CML[t], model`Cmax], 
+  model`CML\[LetterSpace]natural\[LetterSpace]death -> 
+   model`COMpartment*model`dc*model`CML[t], model`T\[LetterSpace]cell\
+\[LetterSpace]effector\[LetterSpace]Death\[LetterSpace]by\[LetterSpace]CML -> 
+   model`COMpartment*model`function\[LetterSpace]for\[LetterSpace]T\
+\[LetterSpace]cell\[LetterSpace]effector\[LetterSpace]death\[LetterSpace]by\
+\[LetterSpace]CML[model`gamma\[LetterSpace]e, model`CML[t], 
+     model`T\[LetterSpace]cell\[LetterSpace]effector[t]], 
+  model`T\[LetterSpace]cell\[LetterSpace]effector\[LetterSpace]Natural\
+\[LetterSpace]Death -> model`COMpartment*model`de*
+    model`T\[LetterSpace]cell\[LetterSpace]effector[t], 
+  model`T\[LetterSpace]cell\[LetterSpace]effector\[LetterSpace]Production\
+\[LetterSpace]from\[LetterSpace]T\[LetterSpace]cell\[LetterSpace]Naive\
+\[LetterSpace]activation -> model`COMpartment*model`function\[LetterSpace]for\
+\[LetterSpace]T\[LetterSpace]cell\[LetterSpace]effector\[LetterSpace]producti\
+on\[LetterSpace]from\[LetterSpace]T\[LetterSpace]cell\[LetterSpace]naive\
+\[LetterSpace]activation[model`alpha\[LetterSpace]n, model`kn, 
+     model`T\[LetterSpace]cell\[LetterSpace]naive[t], model`CML[t], 
+     model`eta], 
+  model`T\[LetterSpace]cell\[LetterSpace]effector\[LetterSpace]Recruitment -> 
+   model`COMpartment*model`function\[LetterSpace]for\[LetterSpace]T\
+\[LetterSpace]cell\[LetterSpace]effector\[LetterSpace]recruitment[
+     model`alpha\[LetterSpace]e, 
+     model`T\[LetterSpace]cell\[LetterSpace]effector[t], model`CML[t], 
+     model`eta], 
+  model`T\[LetterSpace]cell\[LetterSpace]naive\[LetterSpace]Activation -> 
+   model`COMpartment*
+    model`function\[LetterSpace]for\[LetterSpace]naive\[LetterSpace]activatio\
+n[model`T\[LetterSpace]cell\[LetterSpace]naive[t], model`CML[t], model`eta, 
+     model`kn], model`T\[LetterSpace]cell\[LetterSpace]naive\[LetterSpace]Nat\
+ural\[LetterSpace]Death -> model`COMpartment*model`dn*
+    model`T\[LetterSpace]cell\[LetterSpace]naive[t], 
+  model`T\[LetterSpace]cell\[LetterSpace]naive\[LetterSpace]Source -> 
+   model`COMpartment*model`sn*model`Source}
+"BIOMD0000000260" -> {model`re1 -> model`re1\[LetterSpace]k1*model`s1[t], 
+  model`re10 -> model`re10\[LetterSpace]k1*model`s1[t], 
+  model`re11 -> model`re11\[LetterSpace]k1*model`s1[t], 
+  model`re12 -> model`re12\[LetterSpace]k1*model`s1[t], 
+  model`re14 -> model`re14\[LetterSpace]k1*model`s9[t], 
+  model`re15 -> model`re15\[LetterSpace]k1*model`s8[t], 
+  model`re16 -> model`re16\[LetterSpace]k1*model`s1[t], 
+  model`re17 -> model`re17\[LetterSpace]k1*model`s11[t], 
+  model`re18 -> model`re18\[LetterSpace]k1*model`s1[t], 
+  model`re19 -> model`re19\[LetterSpace]k1*model`s12[t], 
+  model`re2 -> model`re2\[LetterSpace]k1*model`s2[t], 
+  model`re22 -> model`re22\[LetterSpace]k1*model`s1[t], 
+  model`re23 -> model`re23\[LetterSpace]k1*model`s13[t], 
+  model`re24 -> model`re24\[LetterSpace]k1*model`s1[t], 
+  model`re25 -> model`re25\[LetterSpace]k1*model`s14[t], 
+  model`re26 -> model`re26\[LetterSpace]k1*model`s1[t], 
+  model`re28 -> model`re28\[LetterSpace]k1*model`s1[t], 
+  model`re29 -> model`re29\[LetterSpace]k1*model`s16[t], 
+  model`re3 -> model`re3\[LetterSpace]k1*model`s3[t], 
+  model`re30 -> model`re30\[LetterSpace]k1*model`s1[t], 
+  model`re31 -> model`re31\[LetterSpace]k1*model`s17[t], 
+  model`re32 -> model`re32\[LetterSpace]k1*model`s7[t], 
+  model`re33 -> model`re33\[LetterSpace]k1*model`s15[t], 
+  model`re4 -> model`re4\[LetterSpace]k1*model`s4[t], 
+  model`re5 -> model`re5\[LetterSpace]k1*model`s2[t], 
+  model`re6 -> model`re6\[LetterSpace]k1*model`s1[t], 
+  model`re7 -> model`re7\[LetterSpace]k1*model`s5[t], 
+  model`re8 -> model`re8\[LetterSpace]k1*model`s1[t], 
+  model`re9 -> model`re9\[LetterSpace]k1*model`s6[t]}
+"BIOMD0000000609" -> 
+ {model`R10 -> model`compartment*
+    model`Constant\[LetterSpace]flux\[LetterSpace]\[LetterSpace]irreversible[
+     model`bS], model`R2 -> model`compartment*model`kN*model`NAPQI[t], 
+  model`R3 -> model`compartment*model`kG*model`Paracetamol\[LetterSpace]APAP[
+     t], model`R4 -> model`compartment*model`kPSH*model`NAPQI[t], 
+  model`R5 -> model`compartment*model`kGSH*model`GSH[t]*model`NAPQI[t], 
+  model`R6 -> model`compartment*model`dG*model`GSH[t], 
+  model`R7 -> model`compartment*
+    model`Constant\[LetterSpace]flux\[LetterSpace]\[LetterSpace]irreversible[
+     model`bG], model`R8 -> model`compartment*model`kS*
+    model`Paracetamol\[LetterSpace]APAP[t]*
+    model`Sulphate\[LetterSpace]\[LetterSpace]PAPS[t], 
+  model`R9 -> model`compartment*model`dS*
+    model`Sulphate\[LetterSpace]\[LetterSpace]PAPS[t], 
+  model`reaction\[LetterSpace]1 -> model`compartment*model`k450*
+    model`Paracetamol\[LetterSpace]APAP[t]}
+"davis" -> {model`v\[LetterSpace]1 -> model`k0, 
+  model`v\[LetterSpace]2 -> model`k1*model`e[t]*model`s[t], 
+  model`v\[LetterSpace]3 -> model`km1*model`c[t], 
+  model`v\[LetterSpace]4 -> model`km2*model`c[t], 
+  model`v\[LetterSpace]5 -> model`k3*model`e[t]*model`in[t], 
+  model`v\[LetterSpace]6 -> model`km3*model`h[t]}
+"BIOMD0000000617" -> {model`R1 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R1[
+     model`Compartment\[LetterSpace], model`K1s, model`S, model`V1s], 
+  model`R2 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R2[
+     model`Compartment\[LetterSpace], model`H1, model`K2s, model`S, 
+     model`V2s], model`R3 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R3[
+     model`Compartment\[LetterSpace], model`H1, model`K2s, model`S, 
+     model`V1s], model`R4 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R4[
+     model`Compartment\[LetterSpace], model`H2, model`K3s, model`S, 
+     model`V2s]}
+"devos" -> {model`v\[LetterSpace]1 -> model`gamma, 
+  model`v\[LetterSpace]2 -> model`dot*model`k0*model`h[t], 
+  model`v\[LetterSpace]3 -> model`dot*model`k1*model`hm[t], 
+  model`v\[LetterSpace]4 -> model`dot*model`k2*model`hmm[t], 
+  model`v\[LetterSpace]5 -> model`mu*model`h[t], 
+  model`v\[LetterSpace]6 -> model`mu*model`hm[t], 
+  model`v\[LetterSpace]7 -> model`mu*model`hmm[t], 
+  model`v\[LetterSpace]8 -> model`mu*model`hmmm[t]}
+"BIOMD0000000615" -> {model`R1 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R1[model`qA, 
+     model`default\[LetterSpace]compartment], 
+  model`R10 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R10[model`As[t], model`nA, 
+     model`Vsyn, model`default\[LetterSpace]compartment], 
+  model`R11 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R11[model`Asyn[t], model`k1, 
+     model`default\[LetterSpace]compartment], 
+  model`R12 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R12[model`Asyn[t], 
+     model`Bsyn[t], model`k2, model`default\[LetterSpace]compartment], 
+  model`R13 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R13[model`Asyn[t], 
+     model`TAh1, model`default\[LetterSpace]compartment], 
+  model`R14 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R14[model`QBsyn, 
+     model`default\[LetterSpace]compartment], 
+  model`R15 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R15[model`Asyn[t], model`k1, 
+     model`default\[LetterSpace]compartment], 
+  model`R16 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R16[model`Asyn[t], 
+     model`Bsyn[t], model`k2, model`default\[LetterSpace]compartment], 
+  model`R17 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R17[model`Bsyn[t], 
+     model`TBh1, model`default\[LetterSpace]compartment], 
+  model`R2 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R2[model`As[t], model`k1, 
+     model`default\[LetterSpace]compartment], 
+  model`R3 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R3[model`As[t], model`Bs[t], 
+     model`k2, model`default\[LetterSpace]compartment], 
+  model`R4 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R4[model`As[t], model`TAh1, 
+     model`default\[LetterSpace]compartment], 
+  model`R5 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R5[model`As[t], model`nA, 
+     model`Vs, model`default\[LetterSpace]compartment], 
+  model`R6 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R6[model`QBs, 
+     model`default\[LetterSpace]compartment], 
+  model`R7 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R7[model`As[t], model`k1, 
+     model`default\[LetterSpace]compartment], 
+  model`R8 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R8[model`As[t], model`Bs[t], 
+     model`k2, model`default\[LetterSpace]compartment], 
+  model`R9 -> model`default\[LetterSpace]compartment*
+    model`Function\[LetterSpace]for\[LetterSpace]R9[model`Bs[t], model`TBh1, 
+     model`default\[LetterSpace]compartment]}
+"BIOMD0000000626" -> {model`ime1\[LetterSpace]1 -> 
+   model`V*model`ODE\[LetterSpace]Ime1\[LetterSpace]1\[LetterSpace]1\
+\[LetterSpace]\[LetterSpace]1[model`Ime1[t], model`Ime2[t], model`Rim11[t], 
+     model`ime1\[LetterSpace]1\[LetterSpace]c\[LetterSpace]1, 
+     model`ime1\[LetterSpace]1\[LetterSpace]cime\[LetterSpace]1, 
+     model`ime1\[LetterSpace]1\[LetterSpace]dime\[LetterSpace]1, 
+     model`ime1\[LetterSpace]1\[LetterSpace]dprimeime\[LetterSpace]1, 
+     model`pSok2[t], 
+     model`ime1\[LetterSpace]1\[LetterSpace]pime\[LetterSpace]1, 
+     model`ime1\[LetterSpace]1\[LetterSpace]sime\[LetterSpace]1], 
+  model`ime2\[LetterSpace]1 -> model`V*model`ODE\[LetterSpace]Ime2\
+\[LetterSpace]1\[LetterSpace]1\[LetterSpace]1\[LetterSpace]\[LetterSpace]1[
+     model`Ime2[t], model`ime2\[LetterSpace]1\[LetterSpace]c\[LetterSpace]2, 
+     model`ime2\[LetterSpace]1\[LetterSpace]c\[LetterSpace]3, 
+     model`ime2\[LetterSpace]1\[LetterSpace]dime\[LetterSpace]2, 
+     model`pIme1[t], model`pUme6[t], 
+     model`ime2\[LetterSpace]1\[LetterSpace]sime\[LetterSpace]2, 
+     model`ime2\[LetterSpace]1\[LetterSpace]sprimeime\[LetterSpace]2], 
+  model`pime1\[LetterSpace]1 -> model`V*model`ODE\[LetterSpace]pIme1\
+\[LetterSpace]1\[LetterSpace]1\[LetterSpace]\[LetterSpace]1[model`Ime1[t], 
+     model`Rim11[t], 
+     model`pime1\[LetterSpace]1\[LetterSpace]dpime\[LetterSpace]1, 
+     model`pIme1[t], 
+     model`pime1\[LetterSpace]1\[LetterSpace]pime\[LetterSpace]1], 
+  model`pume6\[LetterSpace]1 -> model`V*model`ODE\[LetterSpace]pUme6\
+\[LetterSpace]1\[LetterSpace]1\[LetterSpace]\[LetterSpace]1[model`Rim11[t], 
+     model`pUme6[t], 
+     model`pume6\[LetterSpace]1\[LetterSpace]pume\[LetterSpace]6, 
+     model`pume6\[LetterSpace]1\[LetterSpace]uume\[LetterSpace]6], 
+  model`rim11\[LetterSpace]1 -> 
+   model`V*model`ODE\[LetterSpace]Rim11\[LetterSpace]1\[LetterSpace]1[
+     model`Rim11[t], 
+     model`rim11\[LetterSpace]1\[LetterSpace]prim\[LetterSpace]11, 
+     model`rim11\[LetterSpace]1\[LetterSpace]urim\[LetterSpace]11], 
+  model`sok2\[LetterSpace]1 -> model`V*model`ODE\[LetterSpace]pSok2\
+\[LetterSpace]1\[LetterSpace]1\[LetterSpace]\[LetterSpace]1[model`Ime1[t], 
+     model`sok2\[LetterSpace]1\[LetterSpace]csok\[LetterSpace]2, 
+     model`pSok2[t], 
+     model`sok2\[LetterSpace]1\[LetterSpace]psok\[LetterSpace]2, 
+     model`sok2\[LetterSpace]1\[LetterSpace]usok\[LetterSpace]2]}
+"BIOMD0000000314" -> {model`reaction\[LetterSpace]1 -> 
+   model`cell*model`IL13*model`Kon\[LetterSpace]IL13Rec*model`Rec[t], 
+  model`reaction\[LetterSpace]10 -> 
+   model`cell*model`STAT5\[LetterSpace]phosphorylation*model`pJAK2[t]*
+    model`STAT5[t], model`reaction\[LetterSpace]11 -> 
+   model`cell*model`pSTAT5\[LetterSpace]dephosphorylation*model`pSTAT5[t]*
+    model`SHP1[t], model`reaction\[LetterSpace]12 -> 
+   model`CD274mRNA\[LetterSpace]production*model`cell*model`pSTAT5[t], 
+  model`reaction\[LetterSpace]2 -> model`cell*model`Rec\[LetterSpace]intern*
+    model`Rec[t], model`reaction\[LetterSpace]3 -> 
+   model`cell*model`Rec\[LetterSpace]recycle*model`Rec\[LetterSpace]i[t], 
+  model`reaction\[LetterSpace]4 -> 
+   model`cell*model`Rec\[LetterSpace]phosphorylation*
+    model`IL13\[LetterSpace]Rec[t]*model`pJAK2[t], 
+  model`reaction\[LetterSpace]5 -> 
+   model`cell*model`JAK2\[LetterSpace]phosphorylation*
+    model`IL13\[LetterSpace]Rec[t]*model`JAK2[t], 
+  model`reaction\[LetterSpace]6 -> 
+   model`cell*model`JAK2\[LetterSpace]phosphorylation*model`JAK2[t]*
+    model`p\[LetterSpace]IL13\[LetterSpace]Rec[t], 
+  model`reaction\[LetterSpace]7 -> model`cell*model`pRec\[LetterSpace]intern*
+    model`p\[LetterSpace]IL13\[LetterSpace]Rec[t], 
+  model`reaction\[LetterSpace]8 -> 
+   model`cell*model`pRec\[LetterSpace]degradation*
+    model`p\[LetterSpace]IL13\[LetterSpace]Rec\[LetterSpace]i[t], 
+  model`reaction\[LetterSpace]9 -> 
+   model`cell*model`pJAK2\[LetterSpace]dephosphorylation*model`pJAK2[t]*
+    model`SHP1[t]}
+"BIOMD0000000311" -> {model`r1 -> model`env*model`Ep*model`k0, 
+  model`r2 -> model`env*model`k1*model`S, 
+  model`r3 -> model`env*model`k2*model`R[t], 
+  model`r4 -> (model`E*model`env*model`k3*model`R[t])/(model`E + model`J3), 
+  model`r5 -> (model`env*model`Ep*model`k4)/(model`Ep + model`J4)}
+"BIOMD0000000432" -> {model`reaction\[LetterSpace]1 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]1[
+     model`species\[LetterSpace]1[t], model`parameter\[LetterSpace]1, 
+     model`reaction\[LetterSpace]1\[LetterSpace]k1, 
+     model`species\[LetterSpace]11[t]], model`reaction\[LetterSpace]10 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]10[
+     model`species\[LetterSpace]7[t], model`species\[LetterSpace]5[t], 
+     model`species\[LetterSpace]4[t], model`species\[LetterSpace]8[t], 
+     model`species\[LetterSpace]3[t], model`species\[LetterSpace]6[t], 
+     model`species\[LetterSpace]10[t], model`parameter\[LetterSpace]10, 
+     model`parameter\[LetterSpace]13, model`parameter\[LetterSpace]14, 
+     model`parameter\[LetterSpace]12, model`parameter\[LetterSpace]9, 
+     model`reaction\[LetterSpace]10\[LetterSpace]k10b], 
+  model`reaction\[LetterSpace]2 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]2[model`species\[LetterSpace]2[t], 
+     model`species\[LetterSpace]1[t], model`species\[LetterSpace]9[t], 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]4[t], 
+     model`species\[LetterSpace]3[t], model`parameter\[LetterSpace]11, 
+     model`parameter\[LetterSpace]2, model`parameter\[LetterSpace]5, 
+     model`parameter\[LetterSpace]6, 
+     model`reaction\[LetterSpace]2\[LetterSpace]k2a], 
+  model`reaction\[LetterSpace]3 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]3[
+     model`reaction\[LetterSpace]3\[LetterSpace]k3, 
+     model`species\[LetterSpace]2[t], model`species\[LetterSpace]3[t], 
+     model`parameter\[LetterSpace]3, model`species\[LetterSpace]4[t], 
+     model`parameter\[LetterSpace]4], model`reaction\[LetterSpace]4 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]4[
+     model`reaction\[LetterSpace]4\[LetterSpace]k4, 
+     model`species\[LetterSpace]2[t], model`species\[LetterSpace]4[t], 
+     model`parameter\[LetterSpace]4, model`species\[LetterSpace]3[t], 
+     model`parameter\[LetterSpace]3], model`reaction\[LetterSpace]5 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]5[
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]4[t], 
+     model`species\[LetterSpace]7[t], model`species\[LetterSpace]8[t], 
+     model`species\[LetterSpace]9[t], model`species\[LetterSpace]3[t], 
+     model`species\[LetterSpace]6[t], 
+     model`reaction\[LetterSpace]5\[LetterSpace]k5a, 
+     model`parameter\[LetterSpace]5, model`species\[LetterSpace]1[t], 
+     model`species\[LetterSpace]2[t], 
+     model`reaction\[LetterSpace]5\[LetterSpace]k5b, 
+     model`species\[LetterSpace]10[t], model`parameter\[LetterSpace]13, 
+     model`parameter\[LetterSpace]6, model`parameter\[LetterSpace]11, 
+     model`parameter\[LetterSpace]2, model`parameter\[LetterSpace]14, 
+     model`parameter\[LetterSpace]12, model`parameter\[LetterSpace]10, 
+     model`parameter\[LetterSpace]9], model`reaction\[LetterSpace]6 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]6[
+     model`species\[LetterSpace]9[t], model`species\[LetterSpace]4[t], 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]7[t], 
+     model`species\[LetterSpace]8[t], model`species\[LetterSpace]3[t], 
+     model`species\[LetterSpace]6[t], 
+     model`reaction\[LetterSpace]6\[LetterSpace]k6a, 
+     model`parameter\[LetterSpace]6, model`species\[LetterSpace]1[t], 
+     model`species\[LetterSpace]2[t], model`species\[LetterSpace]10[t], 
+     model`parameter\[LetterSpace]14, model`parameter\[LetterSpace]2, 
+     model`parameter\[LetterSpace]11, model`parameter\[LetterSpace]5, 
+     model`reaction\[LetterSpace]6\[LetterSpace]k6b, 
+     model`parameter\[LetterSpace]13, model`parameter\[LetterSpace]12, 
+     model`parameter\[LetterSpace]10, model`parameter\[LetterSpace]9], 
+  model`reaction\[LetterSpace]7 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]7[
+     model`reaction\[LetterSpace]7\[LetterSpace]k7, 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]6[t], 
+     model`parameter\[LetterSpace]7, model`species\[LetterSpace]7[t], 
+     model`parameter\[LetterSpace]8], model`reaction\[LetterSpace]8 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]8[
+     model`reaction\[LetterSpace]8\[LetterSpace]k7, 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]7[t], 
+     model`parameter\[LetterSpace]8, model`species\[LetterSpace]6[t], 
+     model`parameter\[LetterSpace]7], model`reaction\[LetterSpace]9 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]9[
+     model`species\[LetterSpace]8[t], model`species\[LetterSpace]9[t], 
+     model`species\[LetterSpace]4[t], model`species\[LetterSpace]7[t], 
+     model`species\[LetterSpace]3[t], model`species\[LetterSpace]6[t], 
+     model`species\[LetterSpace]10[t], model`parameter\[LetterSpace]9, 
+     model`parameter\[LetterSpace]13, model`parameter\[LetterSpace]14, 
+     model`parameter\[LetterSpace]12, model`parameter\[LetterSpace]10, 
+     model`reaction\[LetterSpace]9\[LetterSpace]k9b]}
+"BIOMD0000000553" -> 
+ {model`Abeta\[LetterSpace]formation\[LetterSpace]from\[LetterSpace]APP -> 
+   model`Brain*
+    model`Constant\[LetterSpace]flux\[LetterSpace]\[LetterSpace]irreversible[
+     model`k2], model`Decrease\[LetterSpace]in\[LetterSpace]the\[LetterSpace]\
+extracellular\[LetterSpace]concentration\[LetterSpace]of\[LetterSpace]beta\
+\[LetterSpace]amyloid -> model`Brain*model`Decrease\[LetterSpace]in\
+\[LetterSpace]the\[LetterSpace]extracellular\[LetterSpace]concentration\
+\[LetterSpace]of\[LetterSpace]beta\[LetterSpace]amyloid\[LetterSpace]0[
+     model`k4, model`b[t]], 
+  model`Effect\[LetterSpace]of\[LetterSpace]extracellular\[LetterSpace]ACh -> 
+   model`Brain*model`Effect\[LetterSpace]of\[LetterSpace]extracellular\
+\[LetterSpace]ACh\[LetterSpace]0[model`k3, model`a[t]], 
+  model`Loss\[LetterSpace]of\[LetterSpace]intracellular\[LetterSpace]choline \
+-> model`Brain*model`Loss\[LetterSpace]of\[LetterSpace]intracellular\
+\[LetterSpace]choline\[LetterSpace]0[model`k1, model`a[t], model`b[t]]}
+"BIOMD0000000433" -> {model`reaction\[LetterSpace]1 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]1[
+     model`species\[LetterSpace]1[t], model`parameter\[LetterSpace]1, 
+     model`reaction\[LetterSpace]1\[LetterSpace]k1, 
+     model`species\[LetterSpace]11[t]], model`reaction\[LetterSpace]10 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]10[
+     model`species\[LetterSpace]7[t], model`species\[LetterSpace]5[t], 
+     model`species\[LetterSpace]4[t], model`species\[LetterSpace]8[t], 
+     model`species\[LetterSpace]3[t], model`species\[LetterSpace]6[t], 
+     model`species\[LetterSpace]10[t], model`parameter\[LetterSpace]10, 
+     model`parameter\[LetterSpace]13, model`parameter\[LetterSpace]14, 
+     model`parameter\[LetterSpace]12, model`parameter\[LetterSpace]9, 
+     model`reaction\[LetterSpace]10\[LetterSpace]k10b], 
+  model`reaction\[LetterSpace]2 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]2[model`species\[LetterSpace]2[t], 
+     model`species\[LetterSpace]1[t], model`species\[LetterSpace]9[t], 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]4[t], 
+     model`species\[LetterSpace]3[t], model`parameter\[LetterSpace]11, 
+     model`parameter\[LetterSpace]2, model`parameter\[LetterSpace]5, 
+     model`parameter\[LetterSpace]6, 
+     model`reaction\[LetterSpace]2\[LetterSpace]k2a], 
+  model`reaction\[LetterSpace]3 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]3[
+     model`reaction\[LetterSpace]3\[LetterSpace]k3, 
+     model`species\[LetterSpace]2[t], model`species\[LetterSpace]3[t], 
+     model`parameter\[LetterSpace]3, model`species\[LetterSpace]4[t], 
+     model`parameter\[LetterSpace]4], model`reaction\[LetterSpace]4 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]4[
+     model`reaction\[LetterSpace]4\[LetterSpace]k4, 
+     model`species\[LetterSpace]2[t], model`species\[LetterSpace]4[t], 
+     model`parameter\[LetterSpace]4, model`species\[LetterSpace]3[t], 
+     model`parameter\[LetterSpace]3], model`reaction\[LetterSpace]5 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]5[
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]4[t], 
+     model`species\[LetterSpace]7[t], model`species\[LetterSpace]8[t], 
+     model`species\[LetterSpace]9[t], model`species\[LetterSpace]3[t], 
+     model`species\[LetterSpace]6[t], 
+     model`reaction\[LetterSpace]5\[LetterSpace]k5a, 
+     model`parameter\[LetterSpace]5, model`species\[LetterSpace]1[t], 
+     model`species\[LetterSpace]2[t], 
+     model`reaction\[LetterSpace]5\[LetterSpace]k5b, 
+     model`species\[LetterSpace]10[t], model`parameter\[LetterSpace]13, 
+     model`parameter\[LetterSpace]6, model`parameter\[LetterSpace]11, 
+     model`parameter\[LetterSpace]2, model`parameter\[LetterSpace]14, 
+     model`parameter\[LetterSpace]12, model`parameter\[LetterSpace]10, 
+     model`parameter\[LetterSpace]9], model`reaction\[LetterSpace]6 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]6[
+     model`species\[LetterSpace]9[t], model`species\[LetterSpace]4[t], 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]7[t], 
+     model`species\[LetterSpace]8[t], model`species\[LetterSpace]3[t], 
+     model`species\[LetterSpace]6[t], 
+     model`reaction\[LetterSpace]6\[LetterSpace]k6a, 
+     model`parameter\[LetterSpace]6, model`species\[LetterSpace]1[t], 
+     model`species\[LetterSpace]2[t], model`species\[LetterSpace]10[t], 
+     model`parameter\[LetterSpace]14, model`parameter\[LetterSpace]2, 
+     model`parameter\[LetterSpace]11, model`parameter\[LetterSpace]5, 
+     model`reaction\[LetterSpace]6\[LetterSpace]k6b, 
+     model`parameter\[LetterSpace]13, model`parameter\[LetterSpace]12, 
+     model`parameter\[LetterSpace]10, model`parameter\[LetterSpace]9], 
+  model`reaction\[LetterSpace]7 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]7[
+     model`reaction\[LetterSpace]7\[LetterSpace]k7, 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]6[t], 
+     model`parameter\[LetterSpace]7, model`species\[LetterSpace]7[t], 
+     model`parameter\[LetterSpace]8], model`reaction\[LetterSpace]8 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]8[
+     model`reaction\[LetterSpace]8\[LetterSpace]k7, 
+     model`species\[LetterSpace]5[t], model`species\[LetterSpace]7[t], 
+     model`parameter\[LetterSpace]8, model`species\[LetterSpace]6[t], 
+     model`parameter\[LetterSpace]7], model`reaction\[LetterSpace]9 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]9[
+     model`species\[LetterSpace]8[t], model`species\[LetterSpace]9[t], 
+     model`species\[LetterSpace]4[t], model`species\[LetterSpace]7[t], 
+     model`species\[LetterSpace]3[t], model`species\[LetterSpace]6[t], 
+     model`species\[LetterSpace]10[t], model`parameter\[LetterSpace]9, 
+     model`parameter\[LetterSpace]13, model`parameter\[LetterSpace]14, 
+     model`parameter\[LetterSpace]12, model`parameter\[LetterSpace]10, 
+     model`reaction\[LetterSpace]9\[LetterSpace]k9b]}
+"BIOMD0000000310" -> {model`r0 -> model`env*model`k0, 
+  model`r1 -> model`env*model`k1*model`S, 
+  model`r2 -> model`env*model`k2*model`R[t], model`r2\[LetterSpace]prime -> 
+   model`E*model`env*model`k2\[LetterSpace]prime*model`R[t], 
+  model`r3 -> (model`env*model`Ep*model`k3)/(model`Ep + model`Km3), 
+  model`r4 -> (model`E*model`env*model`k4*model`R[t])/(model`E + model`Km4)}
+"BIOMD0000000552" -> 
+ {model`Abeta\[LetterSpace]formation\[LetterSpace]from\[LetterSpace]APP -> 
+   model`Brain*
+    model`Constant\[LetterSpace]flux\[LetterSpace]\[LetterSpace]irreversible[
+     model`k2], model`Decrease\[LetterSpace]in\[LetterSpace]the\[LetterSpace]\
+extracellular\[LetterSpace]concentration\[LetterSpace]of\[LetterSpace]beta\
+\[LetterSpace]amyloid -> model`Brain*model`Decrease\[LetterSpace]in\
+\[LetterSpace]the\[LetterSpace]extracellular\[LetterSpace]concentration\
+\[LetterSpace]of\[LetterSpace]beta\[LetterSpace]amyloid\[LetterSpace]0[
+     model`k4, model`b[t]], 
+  model`Effect\[LetterSpace]of\[LetterSpace]extracellular\[LetterSpace]ACh -> 
+   model`Brain*model`Effect\[LetterSpace]of\[LetterSpace]extracellular\
+\[LetterSpace]ACh\[LetterSpace]0[model`k3, model`a[t]], 
+  model`Loss\[LetterSpace]of\[LetterSpace]intracellular\[LetterSpace]choline \
+-> model`Brain*model`Loss\[LetterSpace]of\[LetterSpace]intracellular\
+\[LetterSpace]choline\[LetterSpace]0[model`k1, model`a[t], model`b[t]]}
+"BIOMD0000000209" -> 
+ {model`R1 -> (model`a0 + model`A*model`a1 + model`a2*model`OCT4[t]*
+      model`SOX2[t] + model`a3*model`NANOG[t]*model`OCT4[t]*model`SOX2[t])/
+    (1 + model`A*model`b0 + model`b5*model`GCNF[t] + model`b1*model`OCT4[t] + 
+     model`b4*model`CDX2[t]*model`OCT4[t] + model`b2*model`OCT4[t]*
+      model`SOX2[t] + model`b3*model`NANOG[t]*model`OCT4[t]*model`SOX2[t]), 
+  model`R10 -> model`gamma5*model`GCNF[t], 
+  model`R11 -> (model`p0 + model`p2*model`GATA6[t] + model`p1*model`OCT4[t])/
+    (1 + model`q3*model`SG + model`q1*model`GATA6[t] + 
+     model`q2*model`NANOG[t] + model`q0*model`OCT4[t]), 
+  model`R12 -> model`gammag*model`GATA6[t], 
+  model`R2 -> model`gamma1*model`OCT4[t], 
+  model`R3 -> (model`c0 + model`c1*model`OCT4[t]*model`SOX2[t] + 
+     model`c2*model`NANOG[t]*model`OCT4[t]*model`SOX2[t])/
+    (1 + model`d0*model`OCT4[t] + model`d1*model`OCT4[t]*model`SOX2[t] + 
+     model`d2*model`NANOG[t]*model`OCT4[t]*model`SOX2[t]), 
+  model`R4 -> model`gamma2*model`SOX2[t], 
+  model`R5 -> (model`e0 + model`e3*model`SN + model`e1*model`OCT4[t]*
+      model`SOX2[t] + model`e2*model`NANOG[t]*model`OCT4[t]*model`SOX2[t])/
+    (1 + model`f4*model`SN + model`f0*model`OCT4[t] + 
+     model`f3*model`GATA6[t]*model`OCT4[t] + model`f1*model`OCT4[t]*
+      model`SOX2[t] + model`f2*model`NANOG[t]*model`OCT4[t]*model`SOX2[t]), 
+  model`R6 -> model`gamma3*model`NANOG[t], 
+  model`R7 -> (model`g0 + model`g1*model`CDX2[t])/
+    (1 + model`h0*model`CDX2[t] + model`h1*model`CDX2[t]*model`OCT4[t]), 
+  model`R8 -> model`gamma4*model`CDX2[t], 
+  model`R9 -> (model`i0 + model`i1*model`CDX2[t] + model`i2*model`GATA6[t])/
+    (1 + model`j0*model`CDX2[t] + model`j1*model`GATA6[t])}
+"BIOMD0000000687" -> {model`CTL\[LetterSpace]cell\[LetterSpace]death -> 
+   model`ba*model`COMpartment*model`z\[LetterSpace]a[t], 
+  model`CTL\[LetterSpace]induced\[LetterSpace]infected\[LetterSpace]cell\
+\[LetterSpace]death\[LetterSpace]1 -> model`COMpartment*
+    model`function[model`pa, model`z\[LetterSpace]a[t], 
+     model`y\[LetterSpace]0[t]], model`CTL\[LetterSpace]induced\[LetterSpace]\
+infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]2 -> 
+   model`COMpartment*model`function[model`pa, model`z\[LetterSpace]a[t], 
+     model`y\[LetterSpace]1[t]], 
+  model`Host\[LetterSpace]cell\[LetterSpace]death -> 
+   model`COMpartment*model`d*model`x\[LetterSpace]0[t], 
+  model`Host\[LetterSpace]cell\[LetterSpace]proliferation -> 
+   model`COMpartment*
+    model`Constant\[LetterSpace]flux\[LetterSpace]\[LetterSpace]irreversible[
+     model`lambda], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]1 -> 
+   model`a0*model`COMpartment*model`y\[LetterSpace]0[t], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]2 -> 
+   model`a1*model`COMpartment*model`y\[LetterSpace]1[t], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]3 -> 
+   model`COMpartment*model`d*model`L\[LetterSpace]0[t], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]infection\[LetterSpace]progre\
+ssion\[LetterSpace]1 -> model`COMpartment*model`eta*
+    model`y\[LetterSpace]0[t], model`Infected\[LetterSpace]cell\[LetterSpace]\
+infection\[LetterSpace]progression\[LetterSpace]2 -> 
+   model`COMpartment*model`phi*model`L\[LetterSpace]0[t], 
+  model`Infection\[LetterSpace]1 -> model`COMpartment*
+    model`function[model`beta, model`v\[LetterSpace]0[t], 
+     model`x\[LetterSpace]0[t]], model`Infection\[LetterSpace]2 -> 
+   model`COMpartment*model`function[model`gamma, model`v\[LetterSpace]0[t], 
+     model`x\[LetterSpace]0[t]], model`Infection\[LetterSpace]induced\
+\[LetterSpace]CTL\[LetterSpace]proliferation\[LetterSpace]stimulation -> 
+   model`COMpartment*model`function\[LetterSpace]3[model`ca, 
+     model`y\[LetterSpace]0[t], model`y\[LetterSpace]1[t], 
+     model`z\[LetterSpace]a[t]], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]1 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]0\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]2 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]1\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]3 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]2\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]4 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]3\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]5 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]4\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]6 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]5\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]7 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]6\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]8 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]7\[LetterSpace]0[t], 
+  model`Precursor\[LetterSpace]T\[LetterSpace]cell\[LetterSpace]differentiati\
+on\[LetterSpace]1 -> model`COMpartment*model`r*
+    model`m\[LetterSpace]8\[LetterSpace]0[t], model`Precursor\[LetterSpace]T\
+\[LetterSpace]cell\[LetterSpace]differentiation\[LetterSpace]2 -> 
+   model`COMpartment*model`function\[LetterSpace]2[model`alpha, 
+     model`m\[LetterSpace]8\[LetterSpace]0[t]], 
+  model`Viral\[LetterSpace]particle\[LetterSpace]degradation -> 
+   model`COMpartment*model`u*model`v\[LetterSpace]0[t], 
+  model`Virus\[LetterSpace]particle\[LetterSpace]production -> 
+   model`COMpartment*model`function\[LetterSpace]1[model`k, 
+     model`y\[LetterSpace]1[t]]}
+"BIOMD0000000688" -> {model`CTL\[LetterSpace]cell\[LetterSpace]death -> 
+   model`ba*model`COMpartment*model`z\[LetterSpace]a[t], 
+  model`CTL\[LetterSpace]induced\[LetterSpace]infected\[LetterSpace]cell\
+\[LetterSpace]death\[LetterSpace]1 -> model`COMpartment*
+    model`function[model`pa, model`z\[LetterSpace]a[t], 
+     model`y\[LetterSpace]0[t]], model`CTL\[LetterSpace]induced\[LetterSpace]\
+infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]2 -> 
+   model`COMpartment*model`function[model`pa, model`z\[LetterSpace]a[t], 
+     model`y\[LetterSpace]1[t]], 
+  model`Host\[LetterSpace]cell\[LetterSpace]death -> 
+   model`COMpartment*model`d*model`x[t], 
+  model`Host\[LetterSpace]cell\[LetterSpace]proliferation -> 
+   model`COMpartment*
+    model`Constant\[LetterSpace]flux\[LetterSpace]\[LetterSpace]irreversible[
+     model`lambda], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]1 -> 
+   model`a0*model`COMpartment*model`y\[LetterSpace]0[t], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]2 -> 
+   model`a1*model`COMpartment*model`y\[LetterSpace]1[t], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]3 -> 
+   model`COMpartment*model`d*model`L[t], model`Infected\[LetterSpace]cell\
+\[LetterSpace]infection\[LetterSpace]progression\[LetterSpace]1 -> 
+   model`COMpartment*model`eta*model`y\[LetterSpace]0[t], 
+  model`Infected\[LetterSpace]cell\[LetterSpace]infection\[LetterSpace]progre\
+ssion\[LetterSpace]2 -> model`COMpartment*model`phi*model`L[t], 
+  model`Infection\[LetterSpace]1 -> model`COMpartment*
+    model`function[model`beta, model`v[t], model`x[t]], 
+  model`Infection\[LetterSpace]2 -> model`COMpartment*
+    model`function[model`gamma, model`v[t], model`x[t]], 
+  model`Infection\[LetterSpace]induced\[LetterSpace]CTL\[LetterSpace]prolifer\
+ation\[LetterSpace]stimulation -> model`COMpartment*
+    model`function\[LetterSpace]3[model`ca, model`y\[LetterSpace]0[t], 
+     model`y\[LetterSpace]1[t], model`z\[LetterSpace]a[t]], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]1 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]0[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]2 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]1[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]3 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]2[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]4 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]3[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]5 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]4[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]6 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]5[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]7 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]6[t], 
+  model`Naive\[LetterSpace]CTL\[LetterSpace]division\[LetterSpace]8 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]7[t], 
+  model`NK\[LetterSpace]cell\[LetterSpace]death -> 
+   model`bi*model`COMpartment*model`z\[LetterSpace]i[t], 
+  model`NK\[LetterSpace]cell\[LetterSpace]production -> 
+   model`COMpartment*
+    model`Constant\[LetterSpace]flux\[LetterSpace]\[LetterSpace]irreversible[
+     model`xi], model`NK\[LetterSpace]induced\[LetterSpace]infected\
+\[LetterSpace]cell\[LetterSpace]death\[LetterSpace]1 -> 
+   model`COMpartment*model`function[model`p\[LetterSpace]i, 
+     model`z\[LetterSpace]i[t], model`y\[LetterSpace]0[t]], 
+  model`NK\[LetterSpace]induced\[LetterSpace]infected\[LetterSpace]cell\
+\[LetterSpace]death\[LetterSpace]2 -> model`COMpartment*
+    model`function[model`p\[LetterSpace]i, model`z\[LetterSpace]i[t], 
+     model`y\[LetterSpace]1[t]], model`NK\[LetterSpace]infection\
+\[LetterSpace]induced\[LetterSpace]production -> 
+   model`COMpartment*model`function\[LetterSpace]4[model`ci, 
+     model`y\[LetterSpace]0[t], model`y\[LetterSpace]1[t], 
+     model`z\[LetterSpace]i[t]], model`Precursor\[LetterSpace]T\[LetterSpace]\
+cell\[LetterSpace]differentiation\[LetterSpace]1 -> 
+   model`COMpartment*model`r*model`m\[LetterSpace]8[t], 
+  model`Precursor\[LetterSpace]T\[LetterSpace]cell\[LetterSpace]differentiati\
+on\[LetterSpace]2 -> model`COMpartment*model`function\[LetterSpace]2[
+     model`alpha, model`m\[LetterSpace]8[t]], 
+  model`Viral\[LetterSpace]particle\[LetterSpace]degradation -> 
+   model`COMpartment*model`u*model`v[t], 
+  model`Virus\[LetterSpace]particle\[LetterSpace]production -> 
+   model`COMpartment*model`function\[LetterSpace]1[model`k, 
+     model`y\[LetterSpace]1[t]]}
+"BIOMD0000000322" -> {model`reaction\[LetterSpace]1 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]1\[LetterSpace]k1*
+    model`species\[LetterSpace]1[t], model`reaction\[LetterSpace]2 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]2\[LetterSpace]k1*
+    model`species\[LetterSpace]2[t], model`reaction\[LetterSpace]3 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]3\[LetterSpace]k1*
+    model`species\[LetterSpace]3[t], model`reaction\[LetterSpace]4 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]4\[LetterSpace]k1*
+    model`species\[LetterSpace]4[t], model`reaction\[LetterSpace]5 -> 
+   model`compartment\[LetterSpace]1*model`parameter\[LetterSpace]1*
+    model`species\[LetterSpace]3[t], model`reaction\[LetterSpace]6 -> 
+   model`compartment\[LetterSpace]1*model`parameter\[LetterSpace]2*
+    model`species\[LetterSpace]4[t], model`reaction\[LetterSpace]7 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]1[
+     model`reaction\[LetterSpace]7\[LetterSpace]V, 
+     model`reaction\[LetterSpace]7\[LetterSpace]Shalve, 
+     model`parameter\[LetterSpace]4, model`species\[LetterSpace]2[t]], 
+  model`reaction\[LetterSpace]8 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]2[model`species\[LetterSpace]1[t], 
+     model`reaction\[LetterSpace]8\[LetterSpace]Shalve, 
+     model`reaction\[LetterSpace]8\[LetterSpace]V, 
+     model`parameter\[LetterSpace]5], model`reaction\[LetterSpace]9 -> 
+   model`compartment\[LetterSpace]1*model`parameter\[LetterSpace]6*
+    model`species\[LetterSpace]4[t]}
+"BIOMD0000000647" -> {model`MEKPP\[LetterSpace]ERK\[LetterSpace]complex\
+\[LetterSpace]disassembly\[LetterSpace]\[LetterSpace]ERK\[LetterSpace]phospho\
+rylated -> model`cytoplasm*model`k8*model`MEKPP\[LetterSpace]ERK[t], 
+  model`MEKPP\[LetterSpace]ERK\[LetterSpace]complex\[LetterSpace]disassembly\
+\[LetterSpace]\[LetterSpace]ERK\[LetterSpace]unphosphorylated -> 
+   model`cytoplasm*model`k7*model`MEKPP\[LetterSpace]ERK[t], 
+  model`MEKPP\[LetterSpace]ERK\[LetterSpace]complex\[LetterSpace]formation -> 
+   model`cytoplasm*model`k6*model`ERK[t]*model`MEKPP[t], 
+  model`Raf1\[LetterSpace]RKIP\[LetterSpace]complex\[LetterSpace]disassembly \
+-> model`cytoplasm*model`k2*model`Raf1\[LetterSpace]RKIP[t], 
+  model`Raf1\[LetterSpace]RKIP\[LetterSpace]complex\[LetterSpace]formation -> 
+   model`cytoplasm*model`k1*model`Raf1[t]*model`RKIP[t], 
+  model`Raf1\[LetterSpace]RKIP\[LetterSpace]ERKPP\[LetterSpace]complex\
+\[LetterSpace]disassembly\[LetterSpace]\[LetterSpace]ERK\[LetterSpace]phospho\
+rylation -> model`cytoplasm*model`k4*
+    model`Raf1\[LetterSpace]RKIP\[LetterSpace]ERKPP[t], 
+  model`Raf1\[LetterSpace]RKIP\[LetterSpace]ERKPP\[LetterSpace]complex\
+\[LetterSpace]disassembly\[LetterSpace]\[LetterSpace]RKIP\[LetterSpace]phosph\
+orylation -> model`cytoplasm*model`k5*
+    model`Raf1\[LetterSpace]RKIP\[LetterSpace]ERKPP[t], 
+  model`Raf1\[LetterSpace]RKIP\[LetterSpace]ERKPP\[LetterSpace]complex\
+\[LetterSpace]formation -> model`cytoplasm*model`k3*model`ERKPP[t]*
+    model`Raf1\[LetterSpace]RKIP[t], 
+  model`RKIPP\[LetterSpace]RP\[LetterSpace]comlex\[LetterSpace]formation -> 
+   model`cytoplasm*model`k9*model`RKIPP[t]*model`RP[t], 
+  model`RKIPP\[LetterSpace]RP\[LetterSpace]complex\[LetterSpace]disassembly\
+\[LetterSpace]\[LetterSpace]phosphorylated\[LetterSpace]RKIP -> 
+   model`cytoplasm*model`k10*model`RKIPP\[LetterSpace]RP[t], 
+  model`RKIPP\[LetterSpace]RP\[LetterSpace]complex\[LetterSpace]disassembly\
+\[LetterSpace]\[LetterSpace]unphosphorylated\[LetterSpace]RKIP -> 
+   model`cytoplasm*model`k11*model`RKIPP\[LetterSpace]RP[t]}
+"BIOMD0000000692" -> {model`GAP\[LetterSpace]dissociation -> 
+   model`geometry*
+    model`Function\[LetterSpace]for\[LetterSpace]GAP\[LetterSpace]dissociatio\
+n[model`NF1[t], model`RasGDP[t], model`RasGDP\[LetterSpace]NF1[t], 
+     model`geometry, model`GAP\[LetterSpace]dissociation\[LetterSpace]kb, 
+     model`GAP\[LetterSpace]dissociation\[LetterSpace]kf], 
+  model`GTP\[LetterSpace]hydrolysis\[LetterSpace]sbo\[LetterSpace]1\
+\[LetterSpace]sbc\[LetterSpace] -> model`geometry*
+    model`Function\[LetterSpace]for\[LetterSpace]GTP\[LetterSpace]hydrolysis\
+\[LetterSpace]sbo\[LetterSpace]1\[LetterSpace]sbc[
+     model`RasGDP\[LetterSpace]minus\[LetterSpace]NF1\[LetterSpace]Pi[t], 
+     model`RasGTP\[LetterSpace]minus\[LetterSpace]NF1\[LetterSpace]star\
+\[LetterSpace][t], model`geometry, model`GTP\[LetterSpace]hydrolysis\
+\[LetterSpace]sbo\[LetterSpace]1\[LetterSpace]sbc\[LetterSpace]\[LetterSpace]\
+kb, model`GTP\[LetterSpace]hydrolysis\[LetterSpace]sbo\[LetterSpace]1\
+\[LetterSpace]sbc\[LetterSpace]\[LetterSpace]kf], 
+  model`GTP\[LetterSpace]hydrolysis\[LetterSpace]sbo\[LetterSpace]2\
+\[LetterSpace]sbc\[LetterSpace] -> model`geometry*
+    model`Function\[LetterSpace]for\[LetterSpace]GTP\[LetterSpace]hydrolysis\
+\[LetterSpace]sbo\[LetterSpace]2\[LetterSpace]sbc[model`Pi[t], 
+     model`RasGDP\[LetterSpace]NF1[t], 
+     model`RasGDP\[LetterSpace]minus\[LetterSpace]NF1\[LetterSpace]Pi[t], 
+     model`geometry, model`GTP\[LetterSpace]hydrolysis\[LetterSpace]sbo\
+\[LetterSpace]2\[LetterSpace]sbc\[LetterSpace]\[LetterSpace]kb, model`GTP\
+\[LetterSpace]hydrolysis\[LetterSpace]sbo\[LetterSpace]2\[LetterSpace]sbc\
+\[LetterSpace]\[LetterSpace]kf], model`NF1\[LetterSpace]binding -> 
+   model`geometry*
+    model`Function\[LetterSpace]for\[LetterSpace]NF1\[LetterSpace]binding[
+     model`NF1[t], model`RasGTP[t], 
+     model`RasGTP\[LetterSpace]minus\[LetterSpace]NF1[t], model`geometry, 
+     model`NF1\[LetterSpace]binding\[LetterSpace]kb, 
+     model`NF1\[LetterSpace]binding\[LetterSpace]kf], 
+  model`Ras\[LetterSpace]activation -> model`geometry*
+    model`Function\[LetterSpace]for\[LetterSpace]Ras\[LetterSpace]activation[
+     model`RasGTP\[LetterSpace]minus\[LetterSpace]NF1[t], 
+     model`RasGTP\[LetterSpace]minus\[LetterSpace]NF1\[LetterSpace]star\
+\[LetterSpace][t], model`geometry, 
+     model`Ras\[LetterSpace]activation\[LetterSpace]kb, 
+     model`Ras\[LetterSpace]activation\[LetterSpace]kf]}
+"BIOMD0000000458" -> 
+ {model`PDH -> (model`cell*model`p3g*model`PDH\[LetterSpace]kcatA*model`serA)/
+    (model`PDH\[LetterSpace]KAp3g*
+     (1 + model`ser/model`PDH\[LetterSpace]KiAser)*
+     (1 + model`p3g/model`PDH\[LetterSpace]KAp3g + 
+      model`php[t]/model`PDH\[LetterSpace]KAphp)), 
+  model`PSA -> (model`cell*model`PSA\[LetterSpace]kcatC*model`serC*
+     model`php[t])/(model`PSA\[LetterSpace]KCphp*
+     (1 + model`php[t]/model`PSA\[LetterSpace]KCphp + 
+      model`pser[t]/model`PSA\[LetterSpace]KCpser)), 
+  model`PSP -> (model`cell*model`PSP\[LetterSpace]kcatB*model`serB*
+     model`pser[t])/(model`PSP\[LetterSpace]KBpser*
+     (1 + model`ser/model`PSP\[LetterSpace]KBser + 
+      model`pser[t]/model`PSP\[LetterSpace]KBpser))}
+"BIOMD0000000414" -> {model`VENUSdecayduetoauxin -> 
+   (model`p2*model`VENUS[t])/(model`qj\[LetterSpace]star + 
+     model`p1\[LetterSpace]star*model`VENUS[t]), 
+  model`VENUSdecayduetophotobleaching -> model`lambda\[LetterSpace]star*
+    model`p2*model`VENUS[t], model`VENUSproduction -> model`p2}
+"BIOMD0000000657" -> 
+ {model`R1 -> model`Cell*model`func1\[LetterSpace]Cdk1\[LetterSpace]activatio\
+n[model`Ks, model`Adeg, model`Cdk1CycB[t], model`Bdeg, model`APC[t], 
+     model`n\[LetterSpace]apc, model`EC50apc, model`Acdc, model`Bcdc, 
+     model`n\[LetterSpace]cdc, model`EC50cdc, model`CycB[t], model`Awee, 
+     model`Bwee, model`EC50wee, model`n\[LetterSpace]wee], 
+  model`R2 -> model`Cell*
+    model`func2\[LetterSpace]CycB\[LetterSpace]regulation[model`Ks, 
+     model`Adeg, model`CycB[t], model`Bdeg, model`APC[t], 
+     model`n\[LetterSpace]apc, model`EC50apc], 
+  model`R3 -> model`Cell*model`func3\[LetterSpace]APC\[LetterSpace]regulation[
+     model`AK, model`BK, model`Cdk1CycB[t], model`n\[LetterSpace]K, 
+     model`EC50K, model`APC[t], model`AP, model`BP, model`EC50P, 
+     model`n\[LetterSpace]P]}
+"BIOMD0000000413" -> {model`auxindecay -> model`mu*model`auxin[t], 
+  model`auxinproduction -> model`alpha\[LetterSpace]tr, 
+  model`auxin\[LetterSpace]TIR1association -> model`ka*model`auxin[t]*
+    model`TIR1[t], model`auxin\[LetterSpace]TIR1dissociation -> 
+   model`kd*model`auxinTIR1[t], 
+  model`auxin\[LetterSpace]TIR1\[LetterSpace]VENUSassociation -> 
+   model`la*model`auxinTIR1[t]*model`VENUS[t], 
+  model`auxin\[LetterSpace]TIR1\[LetterSpace]VENUSdissociation -> 
+   model`ld*model`auxinTIR1VENUS[t], model`auxin\[LetterSpace]TIR1\
+\[LetterSpace]VENUSdissociationleadingtoubiquitination -> 
+   model`lm*model`auxinTIR1VENUS[t], model`VENUSphotobleachingdecay -> 
+   model`lambda*model`VENUS[t], model`VENUSproduction -> model`delta}
+"BIOMD0000000530" -> {model`reaction\[LetterSpace]1 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]1\[LetterSpace]k1*
+    model`species\[LetterSpace]1[t]*model`species\[LetterSpace]2[t], 
+  model`reaction\[LetterSpace]10 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]10\[LetterSpace]k1*
+    model`species\[LetterSpace]4[t], model`reaction\[LetterSpace]11 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]11\[LetterSpace]k1*
+    model`species\[LetterSpace]5[t], model`reaction\[LetterSpace]12 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]12\[LetterSpace]k1*
+    model`species\[LetterSpace]6[t], model`reaction\[LetterSpace]13 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]13\[LetterSpace]k1*
+    model`species\[LetterSpace]4[t], model`reaction\[LetterSpace]14 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]14\[LetterSpace]k1*
+    model`species\[LetterSpace]5[t], model`reaction\[LetterSpace]15 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]15\[LetterSpace]k1*
+    model`species\[LetterSpace]6[t], model`reaction\[LetterSpace]16 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]4[model`react\
+ion\[LetterSpace]16\[LetterSpace]k\[LetterSpace]syn\[LetterSpace]prot, 
+     model`species\[LetterSpace]1[t]], model`reaction\[LetterSpace]17 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]17\[LetterSpace]k1*
+    model`species\[LetterSpace]10[t], model`reaction\[LetterSpace]2 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]2\[LetterSpace]k1*
+    model`species\[LetterSpace]1[t]*model`species\[LetterSpace]3[t], 
+  model`reaction\[LetterSpace]3 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]3\[LetterSpace]k1*
+    model`species\[LetterSpace]1[t]*model`species\[LetterSpace]2[t]*
+    model`species\[LetterSpace]3[t], model`reaction\[LetterSpace]4 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]1[model`react\
+ion\[LetterSpace]4\[LetterSpace]k\[LetterSpace]syn\[LetterSpace]mRNA, 
+     model`species\[LetterSpace]7[t]], model`reaction\[LetterSpace]5 -> 
+   model`compartment\[LetterSpace]1*model`function\[LetterSpace]2[model`react\
+ion\[LetterSpace]5\[LetterSpace]k\[LetterSpace]syn\[LetterSpace]miRNA\
+\[LetterSpace]1, model`species\[LetterSpace]8[t]], 
+  model`reaction\[LetterSpace]6 -> model`compartment\[LetterSpace]1*
+    model`function\[LetterSpace]3[model`reaction\[LetterSpace]6\[LetterSpace]\
+k\[LetterSpace]syn\[LetterSpace]miRNA\[LetterSpace]2, 
+     model`species\[LetterSpace]9[t]], model`reaction\[LetterSpace]7 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]7\[LetterSpace]k1*
+    model`species\[LetterSpace]1[t], model`reaction\[LetterSpace]8 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]8\[LetterSpace]k1*
+    model`species\[LetterSpace]2[t], model`reaction\[LetterSpace]9 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]9\[LetterSpace]k1*
+    model`species\[LetterSpace]3[t]}
+"BIOMD0000000029" -> 
+ {model`v1 -> (model`cell*model`kcat1*model`M[t]*model`MEK[t])/
+    (model`Km1*(1 + ((model`Km1 + model`Km3)*model`M[t])/
+       (model`Km1*model`Km3) + model`MpT[t]/model`Km4 + 
+      model`MpY[t]/model`Km2)), model`v2 -> 
+   (model`cell*model`kcat2*model`MEK[t]*model`MpY[t])/
+    (model`Km2*(1 + ((model`Km1 + model`Km3)*model`M[t])/
+       (model`Km1*model`Km3) + model`MpT[t]/model`Km4 + 
+      model`MpY[t]/model`Km2)), model`v3 -> 
+   (model`cell*model`kcat3*model`M[t]*model`MEK[t])/
+    (model`Km3*(1 + ((model`Km1 + model`Km3)*model`M[t])/
+       (model`Km1*model`Km3) + model`MpT[t]/model`Km4 + 
+      model`MpY[t]/model`Km2)), model`v4 -> 
+   (model`cell*model`kcat4*model`MEK[t]*model`MpT[t])/
+    (model`Km4*(1 + ((model`Km1 + model`Km3)*model`M[t])/
+       (model`Km1*model`Km3) + model`MpT[t]/model`Km4 + 
+      model`MpY[t]/model`Km2)), model`v5 -> 
+   (model`cell*model`kcat5*model`MKP3[t]*model`Mpp[t])/
+    (model`Km5*(1 + model`M[t]/model`Km8 + model`Mpp[t]/model`Km5 + 
+      model`MpT[t]/model`Km6 + model`MpY[t]/model`Km7)), 
+  model`v6 -> (model`cell*model`kcat6*model`MKP3[t]*model`MpT[t])/
+    (model`Km6*(1 + model`M[t]/model`Km8 + model`Mpp[t]/model`Km5 + 
+      model`MpT[t]/model`Km6 + model`MpY[t]/model`Km7)), 
+  model`v7 -> (model`cell*model`kcat7*model`MKP3[t]*model`MpY[t])/
+    (model`Km7*(1 + model`M[t]/model`Km8 + model`Mpp[t]/model`Km5 + 
+      model`MpT[t]/model`Km6 + model`MpY[t]/model`Km7))}
+"BIOMD0000000267" -> {model`binding -> model`binding\[LetterSpace]kB*
+    model`extracellular*model`free[t], model`endocytosis -> 
+   model`endocytosis\[LetterSpace]kT*model`extracellular*model`bound[t], 
+  model`translocation -> model`endosome*model`translocation\[LetterSpace]kL*
+    model`translocate[t]}
+"BIOMD0000000388" -> {model`GAP2Ru5P -> model`chloroplast*
+    model`function\[LetterSpace]1[model`GAP[t], 
+     model`GAP2Ru5P\[LetterSpace]Km, model`GAP2Ru5P\[LetterSpace]V], 
+  model`GAP2sink -> model`chloroplast*model`function\[LetterSpace]1[
+     model`GAP[t], model`GAP2sink\[LetterSpace]Km, 
+     model`GAP2sink\[LetterSpace]V], model`GAP\[LetterSpace]DH -> 
+   model`chloroplast*model`function\[LetterSpace]1[model`DPGA[t], 
+     model`GAP\[LetterSpace]DH\[LetterSpace]Km, 
+     model`GAP\[LetterSpace]DH\[LetterSpace]V], 
+  model`PGA2sink -> model`chloroplast*model`function\[LetterSpace]1[
+     model`PGA[t], model`PGA2sink\[LetterSpace]Km, 
+     model`PGA2sink\[LetterSpace]V], model`PGA\[LetterSpace]K -> 
+   model`chloroplast*model`function\[LetterSpace]2[
+     model`PGA\[LetterSpace]K\[LetterSpace]Vm, model`PGA[t], model`ATP, 
+     model`PGA\[LetterSpace]K\[LetterSpace]K1, 
+     model`PGA\[LetterSpace]K\[LetterSpace]K2], 
+  model`Ru5P\[LetterSpace]K -> model`chloroplast*
+    model`function\[LetterSpace]2[model`Ru5P\[LetterSpace]K\[LetterSpace]Vm, 
+     model`Ru5P[t], model`ATP, model`Ru5P\[LetterSpace]K\[LetterSpace]K1, 
+     model`Ru5P\[LetterSpace]K\[LetterSpace]K2], 
+  model`RuBisCO -> model`chloroplast*model`function\[LetterSpace]1[
+     model`RuBP[t], model`RuBisCO\[LetterSpace]Km, 
+     model`RuBisCO\[LetterSpace]V]}
+"BIOMD0000000386" -> {model`NADPH\[LetterSpace]prod -> 
+   model`chloroplast*model`NADPH\[LetterSpace]production[model`J, model`NADP, 
+     model`Nt], model`PGA\[LetterSpace]cons -> 
+   model`chloroplast*model`PGA\[LetterSpace]consumption[model`PGA[t], 
+     model`Rp, model`NADPH[t], model`Nt, model`Vcmax], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vc -> 
+   model`chloroplast*model`carboxylation[model`Vc, model`Vj, model`Vp], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vo -> 
+   model`chloroplast*model`oxygenation[model`phi, model`Vc, model`Vj, 
+     model`Vp]}
+"BIOMD0000000387" -> {model`NADPH\[LetterSpace]prod -> 
+   model`chloroplast*model`NADPH\[LetterSpace]production[model`J, model`NADP, 
+     model`Nt], model`PGA\[LetterSpace]cons -> 
+   model`chloroplast*model`PGA\[LetterSpace]consumption[model`PGA[t], 
+     model`Rp, model`NADPH[t], model`Nt, model`Vcmax], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vc -> 
+   model`chloroplast*model`carboxylation[model`Vc, model`Vj, model`Vp], 
+  model`PGA\[LetterSpace]prod\[LetterSpace]Vo -> 
+   model`chloroplast*model`oxygenation[model`phi, model`Vc, model`Vj, 
+     model`Vp]}
+"BIOMD0000000033" -> {model`AktActivationReaction -> 
+   (model`cell*model`kAkt*model`AktInactive[t]*model`PI3KActive[t])/
+    (model`KmAkt + model`AktInactive[t]), 
+  model`BRafbyPPtaseDeactivationReaction -> 
+   (model`cell*model`kdBRaf*model`BRafActive[t]*model`Raf1PPtase[t])/
+    (model`KmdBRaf + model`BRafActive[t]), 
+  model`BRafByRap1ActivationReaction -> 
+   (model`cell*model`kRap1ToBRaf*model`BRafInactive[t]*model`Rap1Active[t])/
+    (model`KmRap1ToBRaf + model`BRafInactive[t]), 
+  model`C3GActivationReaction -> (model`cell*model`kC3GNGF*
+     model`boundNGFReceptor[t]*model`C3GInactive[t])/
+    (model`KmC3GNGF + model`C3GInactive[t]), model`EGFBindingReaction -> 
+   model`cell*model`krbEGF*model`EGF[t]*model`freeEGFReceptor[t], 
+  model`EGFUnbindingReaction -> model`cell*model`kruEGF*
+    model`boundEGFReceptor[t], model`ErkActivationReaction -> 
+   (model`cell*model`kpMekCytoplasmic*model`ErkInactive[t]*
+     model`MekActive[t])/(model`KmpMekCytoplasmic + model`ErkInactive[t]), 
+  model`ErkDeactivationReaction -> (model`cell*model`kdErk*model`ErkActive[t]*
+     model`PP2AActive[t])/(model`KmdErk + model`ErkActive[t]), 
+  model`MekbyBRafActivationReaction -> 
+   (model`cell*model`kpBRaf*model`BRafActive[t]*model`MekInactive[t])/
+    (model`KmpBRaf + model`MekInactive[t]), 
+  model`MekbyRaf1ActivationReaction -> 
+   (model`cell*model`kpRaf1*model`MekInactive[t]*model`Raf1Active[t])/
+    (model`KmpRaf1 + model`MekInactive[t]), model`MekDeactivationReaction -> 
+   (model`cell*model`kdMek*model`MekActive[t]*model`PP2AActive[t])/
+    (model`KmdMek + model`MekActive[t]), model`NGFBindingReaction -> 
+   model`cell*model`krbNGF*model`freeNGFReceptor[t]*model`NGF[t], 
+  model`NGFUnbindingReaction -> model`cell*model`kruNGF*
+    model`boundNGFReceptor[t], model`P90RskActivationReaction -> 
+   (model`cell*model`kpP90Rsk*model`ErkActive[t]*model`P90RskInactive[t])/
+    (model`KmpP90Rsk + model`P90RskInactive[t]), 
+  model`PI3KbyEGFRActivationReaction -> 
+   (model`cell*model`kPI3K*model`boundEGFReceptor[t]*model`PI3KInactive[t])/
+    (model`KmPI3K + model`PI3KInactive[t]), 
+  model`PI3KbyRasActivationReaction -> 
+   (model`cell*model`kPI3KRas*model`PI3KInactive[t]*model`RasActive[t])/
+    (model`KmPI3KRas + model`PI3KInactive[t]), 
+  model`Raf1ByAktDeactivationReaction -> 
+   (model`cell*model`kdRaf1ByAkt*model`AktActive[t]*model`Raf1Active[t])/
+    (model`KmRaf1ByAkt + model`Raf1Active[t]), 
+  model`Raf1byPPtaseDeactivationReaction -> 
+   (model`cell*model`kdRaf1*model`Raf1Active[t]*model`Raf1PPtase[t])/
+    (model`KmdRaf1 + model`Raf1Active[t]), 
+  model`Raf1ByRasActivationReaction -> 
+   (model`cell*model`kRasToRaf1*model`Raf1Inactive[t]*model`RasActive[t])/
+    (model`KmRasToRaf1 + model`Raf1Inactive[t]), 
+  model`Rap1ActivationReaction -> (model`cell*model`kC3G*model`C3GActive[t]*
+     model`Rap1Inactive[t])/(model`KmC3G + model`Rap1Inactive[t]), 
+  model`Rap1DeactivationReaction -> 
+   (model`cell*model`kRapGap*model`Rap1Active[t]*model`RapGapActive[t])/
+    (model`KmRapGap + model`Rap1Active[t]), model`RasActivationReaction -> 
+   (model`cell*model`kSos*model`RasInactive[t]*model`SosActive[t])/
+    (model`KmSos + model`RasInactive[t]), model`RasDeactivationReaction -> 
+   (model`cell*model`kRasGap*model`RasActive[t]*model`RasGapActive[t])/
+    (model`KmRasGap + model`RasActive[t]), 
+  model`SosActivationByEGFReaction -> 
+   (model`cell*model`kEGF*model`boundEGFReceptor[t]*model`SosInactive[t])/
+    (model`KmEGF + model`SosInactive[t]), model`SosActivationByNGFReaction -> 
+   (model`cell*model`kNGF*model`boundNGFReceptor[t]*model`SosInactive[t])/
+    (model`KmNGF + model`SosInactive[t]), model`SosDeactivationReaction -> 
+   (model`cell*model`kdSos*model`P90RskActive[t]*model`SosActive[t])/
+    (model`KmdSos + model`SosActive[t])}
+"BIOMD0000000272" -> {model`reaction\[LetterSpace]1 -> 
+   model`Bmax\[LetterSpace]SAv*model`cell*model`kt, 
+  model`reaction\[LetterSpace]2 -> model`cell*model`kt*model`EpoR[t], 
+  model`reaction\[LetterSpace]3 -> model`cell*model`kon\[LetterSpace]SAv*
+    model`EpoR[t]*model`SAv[t], model`reaction\[LetterSpace]4 -> 
+   model`cell*model`koff\[LetterSpace]SAv*model`SAv\[LetterSpace]EpoR[t], 
+  model`reaction\[LetterSpace]5 -> model`cell*model`kt*
+    model`SAv\[LetterSpace]EpoR[t], model`reaction\[LetterSpace]6 -> 
+   model`cell*model`kex\[LetterSpace]SAv*model`SAv\[LetterSpace]EpoRi[t], 
+  model`reaction\[LetterSpace]7 -> model`cell*model`kdi*
+    model`SAv\[LetterSpace]EpoRi[t], model`reaction\[LetterSpace]8 -> 
+   model`cell*model`kde*model`SAv\[LetterSpace]EpoRi[t]}
+"BIOMD0000000581" -> {model`reaction\[LetterSpace]1 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]1\[LetterSpace]k1*
+    model`species\[LetterSpace]22[t], model`reaction\[LetterSpace]10 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]10\[LetterSpace]k1*
+    model`species\[LetterSpace]10[t], model`reaction\[LetterSpace]11 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]11\[LetterSpace]k1*
+    model`species\[LetterSpace]12[t], model`reaction\[LetterSpace]12 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]12\[LetterSpace]k1*
+    model`species\[LetterSpace]2[t]*model`species\[LetterSpace]9[t], 
+  model`reaction\[LetterSpace]13 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]13\[LetterSpace]k1*
+    model`species\[LetterSpace]14[t]*model`species\[LetterSpace]3[t], 
+  model`reaction\[LetterSpace]14 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]14\[LetterSpace]k1*
+    model`species\[LetterSpace]14[t], model`reaction\[LetterSpace]15 -> 
+   model`reaction\[LetterSpace]15\[LetterSpace]k1*
+    model`species\[LetterSpace]13[t]*model`species\[LetterSpace]21[t], 
+  model`reaction\[LetterSpace]16 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]16\[LetterSpace]k1*
+    model`species\[LetterSpace]2[t]*model`species\[LetterSpace]47[t], 
+  model`reaction\[LetterSpace]17 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]17\[LetterSpace]k1*
+    model`species\[LetterSpace]17[t], model`reaction\[LetterSpace]18 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]18\[LetterSpace]k1*
+    model`species\[LetterSpace]16[t]*model`species\[LetterSpace]5[t], 
+  model`reaction\[LetterSpace]19 -> 
+   model`reaction\[LetterSpace]19\[LetterSpace]k1*
+    model`species\[LetterSpace]18[t]*model`species\[LetterSpace]21[t], 
+  model`reaction\[LetterSpace]2 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]2\[LetterSpace]k1*
+    model`species\[LetterSpace]21[t], model`reaction\[LetterSpace]20 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]20\[LetterSpace]k1*
+    model`species\[LetterSpace]16[t], model`reaction\[LetterSpace]22 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]22\[LetterSpace]k1*
+    model`species\[LetterSpace]17[t]*model`species\[LetterSpace]42[t], 
+  model`reaction\[LetterSpace]23 -> 
+   model`reaction\[LetterSpace]23\[LetterSpace]k1*
+    model`species\[LetterSpace]21[t]*model`species\[LetterSpace]42[t], 
+  model`reaction\[LetterSpace]3 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]3\[LetterSpace]k1*
+    model`species\[LetterSpace]4[t]*model`species\[LetterSpace]6[t], 
+  model`reaction\[LetterSpace]31 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]31\[LetterSpace]k1*
+    model`species\[LetterSpace]27[t]*model`species\[LetterSpace]7[t], 
+  model`reaction\[LetterSpace]32 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]32\[LetterSpace]k1*
+    model`species\[LetterSpace]22[t]*model`species\[LetterSpace]3[t], 
+  model`reaction\[LetterSpace]33 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]33\[LetterSpace]k1*
+    model`species\[LetterSpace]3[t]*model`species\[LetterSpace]6[t], 
+  model`reaction\[LetterSpace]4 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]4\[LetterSpace]k1*
+    model`species\[LetterSpace]1[t], model`reaction\[LetterSpace]40 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]40\[LetterSpace]k1*
+    model`species\[LetterSpace]28*model`species\[LetterSpace]11[t], 
+  model`reaction\[LetterSpace]41 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]41\[LetterSpace]k1*
+    model`species\[LetterSpace]41*model`species\[LetterSpace]20[t], 
+  model`reaction\[LetterSpace]44 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]44\[LetterSpace]k1*
+    model`species\[LetterSpace]4[t], model`reaction\[LetterSpace]46 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]46\[LetterSpace]k1*
+    model`species\[LetterSpace]17[t]*model`species\[LetterSpace]7[t], 
+  model`reaction\[LetterSpace]5 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]5\[LetterSpace]k1*
+    model`species\[LetterSpace]15[t], model`reaction\[LetterSpace]53 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]53\[LetterSpace]k1*
+    model`species\[LetterSpace]19[t], model`reaction\[LetterSpace]55 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]55\[LetterSpace]k1*
+    model`species\[LetterSpace]7[t], model`reaction\[LetterSpace]6 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]6\[LetterSpace]k1*
+    model`species\[LetterSpace]4[t]*model`species\[LetterSpace]9[t], 
+  model`reaction\[LetterSpace]61 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]61\[LetterSpace]k1*
+    model`species\[LetterSpace]3[t], model`reaction\[LetterSpace]7 -> 
+   model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]7\[LetterSpace]k1*
+    model`species\[LetterSpace]2[t]*model`species\[LetterSpace]6[t], 
+  model`reaction\[LetterSpace]8 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]8\[LetterSpace]k1*
+    model`species\[LetterSpace]3[t]*model`species\[LetterSpace]9[t], 
+  model`reaction\[LetterSpace]9 -> model`compartment\[LetterSpace]2*
+    model`reaction\[LetterSpace]9\[LetterSpace]k1*
+    model`species\[LetterSpace]8[t]}
+"BIOMD0000000108" -> {model`fast -> model`compartment\[LetterSpace]0000001*
+    model`HO2star*model`k10, model`reaction\[LetterSpace]0 -> 
+   model`compartment\[LetterSpace]0000001*model`k2*
+    model`species\[LetterSpace]0000001[t]*model`species\[LetterSpace]0000002[
+     t], model`reaction\[LetterSpace]0000001 -> 
+   model`compartment\[LetterSpace]0000001*model`k1, 
+  model`reaction\[LetterSpace]1 -> model`compartment\[LetterSpace]0000001*
+    model`Cu\[LetterSpace]I\[LetterSpace]ZnSOD*model`k3*
+    model`species\[LetterSpace]0000001[t], model`reaction\[LetterSpace]10 -> 
+   model`compartment\[LetterSpace]0000001*
+    model`Cu\[LetterSpace]I\[LetterSpace]ZnSOD*model`k13a, 
+  model`reaction\[LetterSpace]11 -> model`compartment\[LetterSpace]0000001*
+    model`k13b*model`species\[LetterSpace]0000002[t], 
+  model`reaction\[LetterSpace]12 -> model`compartment\[LetterSpace]0000001*
+    model`k17*model`species\[LetterSpace]0000011[t], 
+  model`reaction\[LetterSpace]13 -> model`compartment\[LetterSpace]0000001*
+    model`k18*model`species\[LetterSpace]0000007[t], 
+  model`reaction\[LetterSpace]14 -> model`compartment\[LetterSpace]0000001*
+    model`k19*model`species\[LetterSpace]0000007[t]^2, 
+  model`reaction\[LetterSpace]2 -> model`compartment\[LetterSpace]0000001*
+    model`k4*model`species\[LetterSpace]0000001[t]*
+    model`species\[LetterSpace]0000007[t], model`reaction\[LetterSpace]3 -> 
+   model`compartment\[LetterSpace]0000001*model`k5*
+    model`species\[LetterSpace]0000001[t]*model`species\[LetterSpace]0000006[
+     t], model`reaction\[LetterSpace]4 -> 
+   model`compartment\[LetterSpace]0000001*model`k6*
+    model`species\[LetterSpace]0000002[t]*model`species\[LetterSpace]0000006[
+     t], model`reaction\[LetterSpace]5 -> 
+   model`compartment\[LetterSpace]0000001*model`k7*
+    model`species\[LetterSpace]0000006[t]*model`species\[LetterSpace]0000017[
+     t], model`reaction\[LetterSpace]6 -> 
+   model`compartment\[LetterSpace]0000001*model`k9*
+    model`species\[LetterSpace]0000008[t], model`reaction\[LetterSpace]7 -> 
+   model`compartment\[LetterSpace]0000001*model`HO2star*model`k10, 
+  model`reaction\[LetterSpace]8 -> model`compartment\[LetterSpace]0000001*
+    model`k11*model`species\[LetterSpace]0000008[t], 
+  model`reaction\[LetterSpace]9 -> model`compartment\[LetterSpace]0000001*
+    model`k12*model`species\[LetterSpace]0000009[t]}
+"fan1" -> {model`v1 -> model`lambda, 
+  model`v2 -> model`beta*model`x[t]*model`y[t], 
+  model`v3 -> model`d*model`x[t], model`v4 -> model`a*model`y[t]}
+"fan2" -> {model`v1 -> model`lambda, 
+  model`v2 -> model`beta*model`x[t]*model`y[t], 
+  model`v3 -> model`d*model`x[t], model`v4 -> model`a*model`y[t], 
+  model`v5 -> model`alpha*model`x[t]*model`y[t]}
+"ferreira1" -> {model`v1a -> model`compartment*model`v1a\[LetterSpace]k1a*
+    model`v1a\[LetterSpace]p1*model`Glucose[t]*model`Lysine[t], 
+  model`v1b -> model`compartment*model`v1b\[LetterSpace]k1b*model`Schiff[t], 
+  model`v2a -> model`compartment*model`v2a\[LetterSpace]k2a*
+    model`v2a\[LetterSpace]p2*model`Schiff[t], 
+  model`v2b -> model`compartment*model`v2b\[LetterSpace]k2b*
+    model`v2b\[LetterSpace]p2*model`Amadori[t], 
+  model`v3 -> 1.6471820345351462*model`compartment*model`v3\[LetterSpace]k3*
+    model`v3\[LetterSpace]ox*model`v3\[LetterSpace]p3*model`Glucose[t]^0.36, 
+  model`v4 -> model`compartment*model`v4\[LetterSpace]k4*
+    model`v4\[LetterSpace]ox*model`v4\[LetterSpace]p4*model`Amadori[t], 
+  model`v5 -> model`compartment*model`v5\[LetterSpace]k5*
+    model`v5\[LetterSpace]ox*model`v5\[LetterSpace]p5*model`Glyoxal[t]*
+    model`Lysine[t], model`v5b -> model`compartment*
+    model`v5b\[LetterSpace]k5b*model`Glyoxal[t], 
+  model`v6 -> 1.6471820345351462*model`compartment*model`v6\[LetterSpace]k3*
+    model`v6\[LetterSpace]ox*model`v6\[LetterSpace]p6*model`Schiff[t]^0.36, 
+  model`v7a -> 0.08235910172675731*model`compartment*
+    model`v7a\[LetterSpace]k3*model`v7a\[LetterSpace]ox*
+    model`v7a\[LetterSpace]p7*model`Schiff[t]^0.36, 
+  model`v7b -> 0.00823591017267573*model`compartment*
+    model`v7b\[LetterSpace]k3*model`v7b\[LetterSpace]ox*
+    model`v7b\[LetterSpace]p7*model`Schiff[t]^0.36, 
+  model`v7c -> 1.6471820345351462*model`compartment*model`v7c\[LetterSpace]k3*
+    model`v7c\[LetterSpace]ox*model`v7c\[LetterSpace]p7*model`Schiff[t]^0.36}
+"figueiredo1" -> {model`v\[LetterSpace]1 -> model`function1[model`k, 
+    model`stimulus, model`erk[t]], model`v\[LetterSpace]10 -> 
+   model`k19*model`X2[t], model`v\[LetterSpace]11 -> 
+   model`function2[model`k10, model`X2[t]], model`v\[LetterSpace]12 -> 
+   model`k111*model`IL10m[t], model`v\[LetterSpace]13 -> 
+   model`function2[model`k12, model`IL10m[t]], model`v\[LetterSpace]14 -> 
+   model`k113*model`IL10i[t], model`v\[LetterSpace]15 -> 
+   model`k114*model`IL10i[t], model`v\[LetterSpace]16 -> 
+   model`k115*model`IL10e[t], model`v\[LetterSpace]2 -> 
+   model`k1*model`erkp[t], model`v\[LetterSpace]3 -> 
+   model`function1[model`k2, model`stimulus, model`p38[t]], 
+  model`v\[LetterSpace]4 -> model`k13*model`p38p[t], 
+  model`v\[LetterSpace]5 -> model`function1[model`k4, model`p38p[t], 
+    model`A[t]], model`v\[LetterSpace]6 -> model`k15*model`Ap[t], 
+  model`v\[LetterSpace]7 -> model`function1[model`k6, model`erkp[t], 
+    model`X0[t]], model`v\[LetterSpace]8 -> model`k17*model`X1[t], 
+  model`v\[LetterSpace]9 -> model`k18*model`Ap[t]*model`X1[t]}
+"figueiredo2" -> {model`v\[LetterSpace]1 -> model`function3[model`k, 
+    model`stimulus, model`erk[t], model`Ki, model`IL10e[t], model`h], 
+  model`v\[LetterSpace]10 -> model`k19*model`X2[t], 
+  model`v\[LetterSpace]11 -> model`function5[model`k10, model`X2[t]], 
+  model`v\[LetterSpace]12 -> model`k111*model`IL10m[t], 
+  model`v\[LetterSpace]13 -> model`function5[model`k12, model`IL10m[t]], 
+  model`v\[LetterSpace]14 -> model`k113*model`IL10i[t], 
+  model`v\[LetterSpace]15 -> model`k114*model`IL10i[t], 
+  model`v\[LetterSpace]16 -> model`k115*model`IL10e[t], 
+  model`v\[LetterSpace]2 -> model`k1*model`erkp[t], 
+  model`v\[LetterSpace]3 -> model`function4[model`k2, model`stimulus, 
+    model`p38[t]], model`v\[LetterSpace]4 -> model`k13*model`p38p[t], 
+  model`v\[LetterSpace]5 -> model`function4[model`k4, model`p38p[t], 
+    model`A[t]], model`v\[LetterSpace]6 -> model`k15*model`Ap[t], 
+  model`v\[LetterSpace]7 -> model`function4[model`k6, model`erkp[t], 
+    model`X0[t]], model`v\[LetterSpace]8 -> model`k17*model`X1[t], 
+  model`v\[LetterSpace]9 -> model`k18*model`Ap[t]*model`X1[t]}
+"figueiredo4" -> {model`v\[LetterSpace]1 -> model`function3[model`k, 
+    model`stimulus, model`erk[t], model`Ki, model`dusp[t], model`h], 
+  model`v\[LetterSpace]10 -> model`k19*model`X2[t], 
+  model`v\[LetterSpace]11 -> model`function5[model`k10, model`X2[t]], 
+  model`v\[LetterSpace]12 -> model`k111*model`IL10m[t], 
+  model`v\[LetterSpace]13 -> model`function5[model`k12, model`IL10m[t]], 
+  model`v\[LetterSpace]14 -> model`k113*model`IL10i[t], 
+  model`v\[LetterSpace]15 -> model`k114*model`IL10i[t], 
+  model`v\[LetterSpace]16 -> model`k115*model`IL10e[t], 
+  model`v\[LetterSpace]17 -> model`k116*model`erkp[t], 
+  model`v\[LetterSpace]2 -> model`k1*model`erkp[t], 
+  model`v\[LetterSpace]3 -> model`function4[model`k2, model`stimulus, 
+    model`p38[t]], model`v\[LetterSpace]4 -> model`k13*model`p38p[t], 
+  model`v\[LetterSpace]5 -> model`function4[model`k4, model`p38p[t], 
+    model`A[t]], model`v\[LetterSpace]6 -> model`k15*model`Ap[t], 
+  model`v\[LetterSpace]7 -> model`function4[model`k6, model`erkp[t], 
+    model`X0[t]], model`v\[LetterSpace]8 -> model`k17*model`X1[t], 
+  model`v\[LetterSpace]9 -> model`k18*model`Ap[t]*model`X1[t]}
+"gomes" -> {model`v\[LetterSpace]1 -> model`GAP*model`k1 + 
+    model`DHAP*model`k2, model`v\[LetterSpace]2 -> 
+   (model`V1*model`GSH[t]*model`MGO[t])/((model`km2 + model`GSH[t])*
+     (model`km1 + model`MGO[t])), model`v\[LetterSpace]3 -> 
+   (model`V2*model`SDLGSH[t])/(model`km3 + model`SDLGSH[t]), 
+  model`v\[LetterSpace]4 -> (model`NADPH*model`V3*model`MGO[t])/
+    ((model`km5 + model`NADPH)*(model`km4 + model`MGO[t]))}
+"gumel1" -> {model`v\[LetterSpace]1 -> model`Lambda*model`mu, 
+  model`v\[LetterSpace]2 -> model`mu*model`Su[t], 
+  model`v\[LetterSpace]3 -> model`c*model`lambda*model`Su[t], 
+  model`v\[LetterSpace]4 -> model`mu*model`Yu[t], 
+  model`v\[LetterSpace]5 -> model`gamma*model`Yu[t], 
+  model`v\[LetterSpace]6 -> model`tau*model`Yu[t], 
+  model`v\[LetterSpace]7 -> model`d*model`Yv[t], 
+  model`v\[LetterSpace]8 -> model`mu*model`Yv[t]}
+"haanstra" -> {model`v\[LetterSpace]1 -> model`vtranscr, 
+  model`v\[LetterSpace]10 -> model`ktransl*model`nribo*model`PGKCmRNA[t], 
+  model`v\[LetterSpace]11 -> model`mu*model`PGKBp[t], 
+  model`v\[LetterSpace]12 -> model`mu*model`PGKCp[t], 
+  model`v\[LetterSpace]13 -> model`kdegrpB*model`PGKBp[t], 
+  model`v\[LetterSpace]14 -> model`kdegrpC*model`PGKCp[t], 
+  model`v\[LetterSpace]2 -> model`ksplic*model`precur[t], 
+  model`v\[LetterSpace]3 -> model`kdegrp*model`precur[t], 
+  model`v\[LetterSpace]4 -> model`mu*model`precur[t], 
+  model`v\[LetterSpace]5 -> model`mu*model`PGKBmRNA[t], 
+  model`v\[LetterSpace]6 -> model`kdegrB*model`PGKBmRNA[t], 
+  model`v\[LetterSpace]7 -> model`mu*model`PGKCmRNA[t], 
+  model`v\[LetterSpace]8 -> model`kdegrC*model`PGKCmRNA[t], 
+  model`v\[LetterSpace]9 -> model`ktransl*model`nribo*model`PGKBmRNA[t]}
+"heinrich" -> {model`v\[LetterSpace]1 -> (model`kHKtoPFK*model`ATP[t])/
+    (1 + (model`ATP[t]/model`Kiatp)^model`nH), model`v\[LetterSpace]2 -> 
+   model`kP2GM*model`BPG[t], model`v\[LetterSpace]3 -> 
+   model`kP2Gase*model`BPG2[t], model`v\[LetterSpace]4 -> 
+   model`ADP*model`kPGK*model`BPG[t], model`v\[LetterSpace]5 -> 
+   model`ADP*model`kPK*model`PEP[t], model`v\[LetterSpace]6 -> 
+   model`kATPase*model`ATP[t]}
+"hornberg" -> {model`v\[LetterSpace]1 -> (model`Vm1*model`R[t])/
+    (model`Km1 + model`R[t]), model`v\[LetterSpace]2 -> 
+   (model`Vm2*model`Rin[t])/(model`Km2 + model`Rin[t]), 
+  model`v\[LetterSpace]3 -> (model`k3*model`R[t]*model`x1[t])/
+    (model`Km3 + model`x1[t]), model`v\[LetterSpace]4 -> 
+   (model`Vm4*model`x1p[t])/(model`Km4 + model`x1p[t]), 
+  model`v\[LetterSpace]5 -> (model`k5*model`x1p[t]*model`x2[t])/
+    (model`Km5 + model`x2[t]), model`v\[LetterSpace]6 -> 
+   (model`Vm6*model`x2p[t])/(model`Km6 + model`x2p[t]), 
+  model`v\[LetterSpace]7 -> (model`k7*model`x2p[t]*model`x3[t])/
+    (model`Km7 + model`x3[t]), model`v\[LetterSpace]8 -> 
+   (model`Vm8*model`x3p[t])/(model`Km8*(1 + model`Inh/model`Ki8 + 
+      model`x3p[t]/model`Km8))}
+"iwami1" -> {model`v1 -> model`beta50*model`v50[t]*model`x[t], 
+  model`v10 -> model`rI*model`v50[t], model`v11 -> model`rRNA*model`v50[t], 
+  model`v12 -> model`rc*model`v50[t], model`v2 -> model`d*model`x[t], 
+  model`v3 -> model`delta*model`x[t], model`v4 -> model`a*model`y[t], 
+  model`v5 -> model`delta*model`y[t], model`v6 -> model`k*model`y[t], 
+  model`v7 -> model`rRNA*model`vRNA[t], model`v8 -> model`rc*model`vRNA[t], 
+  model`v9 -> model`k50*model`y[t]}
+"jones1" -> {model`v1 -> model`gamma*model`A[t]*model`T[t], 
+  model`v10 -> model`delta*model`NN*model`Tstar[t], 
+  model`v11 -> model`mu*model`NC*model`CC[t], model`v2 -> model`lambda, 
+  model`v3 -> (model`a*model`A[t]*model`T[t])/(model`KK + model`A[t]), 
+  model`v4 -> model`k*model`T[t]*model`V[t], model`v5 -> model`d*model`T[t], 
+  model`v6 -> model`delta*model`Tstar[t], model`v7 -> model`mu*model`CC[t], 
+  model`v8 -> model`c*model`V[t], model`v9 -> model`alpha*model`k*model`T[t]*
+    model`V[t]}
+"jullesson1" -> {model`v1 -> model`IRbasal*model`IR[t] + 
+    model`Ins*model`k1*model`IR[t], model`v1m -> model`k1m*model`IRp[t], 
+  model`v2 -> model`k2*model`IRp[t]*model`IRS1[t], 
+  model`v2m -> model`k2m*model`IRS1p[t], 
+  model`v3 -> model`k3*model`IRS1ser307[t]*model`S6Kp[t], 
+  model`v3m -> model`k3m*model`IRS1ser307p[t], 
+  model`v4 -> model`k4*model`IRS1p[t]*model`mTOR[t], 
+  model`v4m -> model`k4m*model`mTORp[t], 
+  model`v5 -> model`k5*model`mTORp[t]*model`S6K[t], 
+  model`v5m -> model`k5m*model`S6Kp[t], 
+  model`v5T -> model`I*model`mTORp[t]*model`S6KDN[t], 
+  model`v6 -> model`k6*model`S6[t]*model`S6Kp[t], 
+  model`v6m -> model`k6m*model`S6p[t], model`v7 -> model`k7*model`IRi[t], 
+  model`v7m -> model`k7m*model`IRp[t], 
+  model`vM5T -> model`k5tm*model`mTORpS6KDN[t]}
+"jullesson2" -> {model`v1 -> model`IRbasal*model`IR[t] + 
+    model`Ins*model`k1*model`IR[t], model`v1m -> model`k1m*model`IRp[t], 
+  model`v2 -> model`k2*model`IRp[t]*model`IRS1[t], 
+  model`v2m -> model`k2m*model`IRS1p[t], 
+  model`v3 -> model`k3*model`IRS1ser307[t]*model`S6Kp[t], 
+  model`v3m -> model`k3m*model`IRS1ser307p[t], 
+  model`v4 -> model`k4*model`IRS1p[t]*model`mTOR[t], 
+  model`v4m -> model`k4m*model`mTORp[t], 
+  model`v5 -> model`k5*model`mTORp[t]*model`S6K[t], 
+  model`v5m -> model`k5m*model`S6Kp[t], 
+  model`v5T -> model`I*model`mTORp[t]*model`S6KDN[t], 
+  model`v6 -> model`k6*model`S6[t]*model`S6Kp[t], 
+  model`v6m -> model`k6m*model`S6p[t], model`v7 -> model`k7*model`IRi[t], 
+  model`v7m -> model`k7m*model`IRp[t], 
+  model`vM5T -> model`k5tm*model`mTORpS6KDN[t]}
+"kirschner1" -> {model`v1 -> model`s1, 
+  model`v2 -> (model`s2*model`V[t])/(model`b1 + model`V[t]), 
+  model`v3 -> model`mu*model`T[t], model`v4 -> model`k*model`T[t]*model`V[t], 
+  model`v5 -> (model`g*model`V[t])/(model`b2 + model`V[t]), 
+  model`v6 -> model`c*model`T[t]*model`V[t]}
+"kouril5" -> {model`v1 -> model`kd*model`BPG[t]}
+"BIOMD0000000271" -> {model`reaction\[LetterSpace]1 -> 
+   model`Bmax*model`cell*model`kt, model`reaction\[LetterSpace]2 -> 
+   model`cell*model`kt*model`EpoR[t], model`reaction\[LetterSpace]3 -> 
+   model`cell*model`kon*model`Epo[t]*model`EpoR[t], 
+  model`reaction\[LetterSpace]4 -> model`cell*model`koff*
+    model`Epo\[LetterSpace]EpoR[t], model`reaction\[LetterSpace]5 -> 
+   model`cell*model`ke*model`Epo\[LetterSpace]EpoR[t], 
+  model`reaction\[LetterSpace]6 -> model`cell*model`kex*
+    model`Epo\[LetterSpace]EpoRi[t], model`reaction\[LetterSpace]7 -> 
+   model`cell*model`kdi*model`Epo\[LetterSpace]EpoRi[t], 
+  model`reaction\[LetterSpace]8 -> model`cell*model`kde*
+    model`Epo\[LetterSpace]EpoRi[t]}
+"BIOMD0000000390" -> {model`ATP\[LetterSpace]S -> 
+   model`chloroplast*model`function\[LetterSpace]10[model`V6, model`ADP[t], 
+     model`Pi[t], model`ATP\[LetterSpace]S\[LetterSpace]K1, 
+     model`ATP\[LetterSpace]S\[LetterSpace]K2], 
+  model`PGA\[LetterSpace]red -> model`chloroplast*
+    model`function\[LetterSpace]6[model`PGA\[LetterSpace]red\[LetterSpace]Vm, 
+     model`PGA[t], model`ATP[t], model`ADP[t], model`TP[t], model`Pi[t], 
+     model`PGA\[LetterSpace]red\[LetterSpace]k, 
+     model`PGA\[LetterSpace]red\[LetterSpace]K1, 
+     model`PGA\[LetterSpace]red\[LetterSpace]K2], 
+  model`RuBisCO -> model`chloroplast*model`function\[LetterSpace]5[
+     model`RuBisCO\[LetterSpace]k, model`E\[LetterSpace]RuBisCO, 
+     model`totRuBP, model`RuBisCO\[LetterSpace]K], 
+  model`RuBP\[LetterSpace]reg -> model`chloroplast*
+    model`function\[LetterSpace]8[
+     model`RuBP\[LetterSpace]reg\[LetterSpace]Vm, model`Ru5P[t], 
+     model`ATP[t], model`RuBP\[LetterSpace]reg\[LetterSpace]K1, 
+     model`RuBP\[LetterSpace]reg\[LetterSpace]K2, 
+     model`RuBP\[LetterSpace]reg\[LetterSpace]K3, model`Pi[t]], 
+  model`TP\[LetterSpace]red -> model`chloroplast*
+    model`function\[LetterSpace]7[model`TP\[LetterSpace]red\[LetterSpace]Vm, 
+     model`TP[t], model`TP\[LetterSpace]red\[LetterSpace]K], 
+  model`TPT -> model`function\[LetterSpace]9[model`TP[t], model`Pic, 
+    model`TPc, model`Pi[t], model`TPT\[LetterSpace]K2, 
+    model`TPT\[LetterSpace]K1, model`TPT\[LetterSpace]Vm]}
+"BIOMD0000000159" -> {model`R1 -> model`beta\[LetterSpace]x*model`compartment*
+    model`psi, model`R2 -> model`alpha\[LetterSpace]x*model`compartment*
+    model`x[t], model`R3 -> model`alpha\[LetterSpace]xy*model`compartment*
+    model`x[t]*model`y[t], model`R4 -> model`beta\[LetterSpace]y*
+    model`compartment*model`psi*model`x[t], 
+  model`R5 -> model`alpha\[LetterSpace]0*model`compartment*model`y0[t], 
+  model`R6 -> model`alpha\[LetterSpace]y*model`compartment*model`y[t]}
+"BIOMD0000000037" -> 
+ {model`Glucose\[LetterSpace]sensor\[LetterSpace]inactivation -> 
+   model`compartment*model`Gluc*model`Glucose\[LetterSpace]sensor\
+\[LetterSpace]inactivation\[LetterSpace]kG*model`Ya[t], 
+  model`Photoreceptor\[LetterSpace]activation -> 
+   model`compartment*
+    model`Photoreceptor\[LetterSpace]activation\[LetterSpace]IfrSfrPfr*
+    model`Pfr[t], model`Photoreceptor\[LetterSpace]decay -> 
+   model`compartment*model`Photoreceptor\[LetterSpace]decay\[LetterSpace]kd*
+    model`Pr[t], model`Photoreceptor\[LetterSpace]inactivation -> 
+   model`compartment*
+    model`Photoreceptor\[LetterSpace]inactivation\[LetterSpace]IrSrPr*
+    model`Pr[t], model`preS\[LetterSpace]formation -> 
+   model`compartment*model`preS\[LetterSpace]formation\[LetterSpace]kx*
+    model`prepreS[t]*model`Xa[t], model`S\[LetterSpace]degradation -> 
+   model`compartment*
+    model`S\[LetterSpace]degradation\[LetterSpace]kd\[LetterSpace]s*
+    model`S[t], model`S\[LetterSpace]formation -> 
+   (model`compartment*model`S\[LetterSpace]formation\[LetterSpace]alpha1)/
+    (1 + model`V[t]^3), model`S\[LetterSpace]generation -> 
+   model`compartment*model`S\[LetterSpace]generation\[LetterSpace]ky*
+    model`preS[t]*model`Ya[t], model`Transducer\[LetterSpace]activation -> 
+   model`compartment*
+    model`Transducer\[LetterSpace]activation\[LetterSpace]kia*model`Pr[t]*
+    model`Xi[t], model`Transducer\[LetterSpace]inactivation -> 
+   model`compartment*
+    model`Transducer\[LetterSpace]inactivation\[LetterSpace]kai*model`Xa[t], 
+  model`V\[LetterSpace]degradation -> model`compartment*
+    model`V\[LetterSpace]degradation\[LetterSpace]kd\[LetterSpace]v*
+    model`V[t], model`V\[LetterSpace]formation -> 
+   (model`compartment*model`V\[LetterSpace]formation\[LetterSpace]alpha2)/
+    (1 + model`S[t]^3)}
+"BIOMD0000000156" -> {model`R1 -> model`compartment*model`psi*model`Theta*
+    model`x[t], model`R3 -> model`alpha\[LetterSpace]xy*model`compartment*
+    model`x[t]*model`y[t], model`R4 -> model`beta\[LetterSpace]y*
+    model`compartment*model`psi*model`x[t], 
+  model`R5 -> model`alpha\[LetterSpace]0*model`compartment*model`y0[t], 
+  model`R6 -> model`alpha\[LetterSpace]y*model`compartment*model`y[t]}
+"lebeda1" -> {model`binding -> model`binding\[LetterSpace]kB*
+    model`extracellular*model`free[t], model`bulk\[LetterSpace]movement -> 
+   model`bulk\[LetterSpace]movement\[LetterSpace]kS*model`extracellular*
+    model`bulk[t], model`endocytosis -> model`endocytosis\[LetterSpace]kT*
+    model`extracellular*model`bound[t], model`translocation -> 
+   model`endosome*model`translocation\[LetterSpace]kL*model`translocate[t]}
+"levchenko1" -> {model`Reaction1 -> model`Reaction1\[LetterSpace]a1*
+    model`RAF[t]*model`RAFK[t], model`Reaction10 -> 
+   model`Reaction10\[LetterSpace]a4*model`MEKp[t]*model`MEKPH[t], 
+  model`Reaction11 -> model`Reaction11\[LetterSpace]d4*model`MEKpMEKPH[t], 
+  model`Reaction12 -> model`Reaction12\[LetterSpace]k4*model`MEKpMEKPH[t], 
+  model`Reaction13 -> model`Reaction13\[LetterSpace]a5*model`MEKp[t]*
+    model`RAFp[t], model`Reaction14 -> model`Reaction14\[LetterSpace]d5*
+    model`MEKpRAFp[t], model`Reaction15 -> model`Reaction15\[LetterSpace]k5*
+    model`MEKpRAFp[t], model`Reaction16 -> model`Reaction16\[LetterSpace]a6*
+    model`MEKPH[t]*model`MEKpp[t], model`Reaction17 -> 
+   model`Reaction17\[LetterSpace]d6*model`MEKppMEKPH[t], 
+  model`Reaction18 -> model`Reaction18\[LetterSpace]k6*model`MEKppMEKPH[t], 
+  model`Reaction19 -> model`Reaction19\[LetterSpace]a7*model`MAPK[t]*
+    model`MEKpp[t], model`Reaction2 -> model`Reaction2\[LetterSpace]d1*
+    model`RAFRAFK[t], model`Reaction20 -> model`Reaction20\[LetterSpace]d7*
+    model`MAPKMEKpp[t], model`Reaction21 -> model`Reaction21\[LetterSpace]k7*
+    model`MAPKMEKpp[t], model`Reaction22 -> model`Reaction22\[LetterSpace]a8*
+    model`MAPKp[t]*model`MAPKPH[t], model`Reaction23 -> 
+   model`Reaction23\[LetterSpace]d8*model`MAPKpMAPKPH[t], 
+  model`Reaction24 -> model`Reaction24\[LetterSpace]k8*model`MAPKpMAPKPH[t], 
+  model`Reaction25 -> model`Reaction25\[LetterSpace]a9*model`MAPKp[t]*
+    model`MEKpp[t], model`Reaction26 -> model`Reaction26\[LetterSpace]d9*
+    model`MAPKpMEKpp[t], model`Reaction27 -> model`Reaction27\[LetterSpace]k9*
+    model`MAPKpMEKpp[t], model`Reaction28 -> 
+   model`Reaction28\[LetterSpace]a10*model`MAPKPH[t]*model`MAPKpp[t], 
+  model`Reaction29 -> model`Reaction29\[LetterSpace]d10*
+    model`MAPKppMAPKPH[t], model`Reaction3 -> model`Reaction3\[LetterSpace]k1*
+    model`RAFRAFK[t], model`Reaction30 -> model`Reaction30\[LetterSpace]k10*
+    model`MAPKppMAPKPH[t], model`Reaction4 -> model`Reaction4\[LetterSpace]a2*
+    model`RAFp[t]*model`RAFPH[t], model`Reaction5 -> 
+   model`Reaction5\[LetterSpace]d2*model`RAFpRAFPH[t], 
+  model`Reaction6 -> model`Reaction6\[LetterSpace]k2*model`RAFpRAFPH[t], 
+  model`Reaction7 -> model`Reaction7\[LetterSpace]a3*model`MEK[t]*
+    model`RAFp[t], model`Reaction8 -> model`Reaction8\[LetterSpace]d3*
+    model`MEKRAFp[t], model`Reaction9 -> model`Reaction9\[LetterSpace]k3*
+    model`MEKRAFp[t]}
+"lou1" -> {model`v\[LetterSpace]1 -> model`rt, model`v\[LetterSpace]10 -> 
+   model`lambdaB*model`Sb[t], model`v\[LetterSpace]11 -> 
+   model`dM*model`Sb[t], model`v\[LetterSpace]12 -> model`dI*model`Ib[t], 
+  model`v\[LetterSpace]2 -> model`lambdaT*model`St[t], 
+  model`v\[LetterSpace]3 -> model`dM*model`St[t], 
+  model`v\[LetterSpace]4 -> model`dI*model`It[t], 
+  model`v\[LetterSpace]5 -> model`rv, model`v\[LetterSpace]6 -> 
+   model`lambdaV*model`Sv[t], model`v\[LetterSpace]7 -> model`dM*model`Sv[t], 
+  model`v\[LetterSpace]8 -> model`dI*model`Iv[t], 
+  model`v\[LetterSpace]9 -> model`rb}
+"nguyen" -> {model`v0 -> model`kSup, 
+  model`v1 -> (model`Vm3BHSD*model`P5[t])/(model`KmBP5*
+     (1 + model`A4[t]/model`KmBA4 + model`DHEA[t]/model`KmBDHEA + 
+      model`OH17P4[t]/model`KmBOH17P4 + model`OH17P5[t]/model`KmBOH17P5 + 
+      model`P4[t]/model`KmBP4 + model`P5[t]/model`KmBP5)), 
+  model`v10 -> model`kSec*model`P4[t], 
+  model`v11 -> model`kSec*model`OH17P4[t], 
+  model`v12 -> model`kSec*model`A4[t], 
+  model`v2 -> (model`Vm3BHSD*model`OH17P5[t])/(model`KmBOH17P5*
+     (1 + model`A4[t]/model`KmBA4 + model`DHEA[t]/model`KmBDHEA + 
+      model`OH17P4[t]/model`KmBOH17P4 + model`OH17P5[t]/model`KmBOH17P5 + 
+      model`P4[t]/model`KmBP4 + model`P5[t]/model`KmBP5)), 
+  model`v3 -> (model`Vm3BHSD*model`DHEA[t])/(model`KmBDHEA*
+     (1 + model`A4[t]/model`KmBA4 + model`DHEA[t]/model`KmBDHEA + 
+      model`OH17P4[t]/model`KmBOH17P4 + model`OH17P5[t]/model`KmBOH17P5 + 
+      model`P4[t]/model`KmBP4 + model`P5[t]/model`KmBP5)), 
+  model`v4 -> (model`VmHyd*model`P5[t])/(model`KmCP5*
+     (1 + model`OH17P5[t]/model`KmCOH17P5 + model`P4[t]/model`KmCP4 + 
+      model`P5[t]/model`KmCP5)), model`v5 -> (model`VmLya*model`OH17P5[t])/
+    (model`KmCOH17P5*(1 + model`OH17P5[t]/model`KmCOH17P5 + 
+      model`P4[t]/model`KmCP4 + model`P5[t]/model`KmCP5)), 
+  model`v6 -> (model`VmHyd*model`P4[t])/(model`KmCP4*
+     (1 + model`OH17P5[t]/model`KmCOH17P5 + model`P4[t]/model`KmCP4 + 
+      model`P5[t]/model`KmCP5)), model`v7 -> model`kSec*model`P5[t], 
+  model`v8 -> model`kSec*model`OH17P5[t], 
+  model`v9 -> model`kSec*model`DHEA[t]}
+"olsen" -> {model`v\[LetterSpace]1 -> model`k1*model`NADH[t]*model`O2[t], 
+  model`v\[LetterSpace]10 -> model`k10*model`NADrad[t]*model`per3[t], 
+  model`v\[LetterSpace]11 -> model`k11*model`O2[t]*model`per2[t], 
+  model`v\[LetterSpace]12 -> model`k12, model`v\[LetterSpace]13 -> 
+   model`k13f, model`v\[LetterSpace]14 -> model`k13b*model`O2[t], 
+  model`v\[LetterSpace]15 -> model`k14*model`Ar[t]*model`NADH[t], 
+  model`v\[LetterSpace]2 -> model`k2*model`H2O2[t]*model`per3[t], 
+  model`v\[LetterSpace]3 -> model`k3*model`ArH[t]*model`coI[t], 
+  model`v\[LetterSpace]4 -> model`k4*model`ArH[t]*model`coII[t], 
+  model`v\[LetterSpace]5 -> model`k5*model`NADrad[t]*model`O2[t], 
+  model`v\[LetterSpace]6 -> model`k6*model`per3[t]*model`super[t], 
+  model`v\[LetterSpace]7 -> model`k7*model`super[t]^2, 
+  model`v\[LetterSpace]8 -> model`k8*model`coIII[t]*model`NADrad[t], 
+  model`v\[LetterSpace]9 -> model`k9*model`NADrad[t]^2}
+"ortega" -> {model`v\[LetterSpace]1 -> (model`Vm1*model`alpha[t])/
+    (model`Ks1*(1 + model`alpha[t]/model`Ks1 + model`beta[t]/model`Ks3)), 
+  model`v\[LetterSpace]2 -> (model`r24*model`Vm1*model`beta[t])/
+    (model`Chi14*model`Ks2*(1 + model`beta[t]/model`Ks2 + 
+      model`gamma[t]/model`Ks4)), model`v\[LetterSpace]3 -> 
+   (model`r31*model`Vm1*model`beta[t])/
+    (model`Ks3*(1 + model`alpha[t]/model`Ks1 + model`beta[t]/model`Ks3)), 
+  model`v\[LetterSpace]4 -> (model`Vm1*model`gamma[t])/
+    (model`Chi14*model`Ks4*(1 + model`beta[t]/model`Ks2 + 
+      model`gamma[t]/model`Ks4))}
+"ouattara1" -> {model`v1 -> model`s, model`v2 -> model`delta*model`T[t], 
+  model`v3 -> model`beta*model`T[t]*model`V[t], 
+  model`v5 -> model`mu*model`TStar[t], model`v6 -> model`k*model`TStar[t], 
+  model`v7 -> model`c*model`V[t]}
+"pankavich1" -> {model`v1 -> model`lambda, model`v2 -> model`dT*model`T[t], 
+  model`v3 -> model`k*model`T[t]*model`V[t], 
+  model`v4 -> model`dI*model`II[t], 
+  model`v5 -> model`dI*model`NN*model`II[t], model`v6 -> model`dV*model`V[t]}
+"pankavich2" -> {model`v1 -> model`lambda, model`v2 -> model`dT*model`T[t], 
+  model`v3 -> model`k*model`T[t]*model`V[t], 
+  model`v4 -> model`dI*model`II[t], 
+  model`v5 -> model`dI*model`NN*model`II[t], model`v6 -> model`dV*model`V[t], 
+  model`v7 -> model`k*model`p*model`T[t]*model`V[t], 
+  model`v8 -> model`alpha*model`L[t], model`v9 -> model`dL*model`L[t]}
+"perelson1" -> {model`v1 -> model`k*model`T0*model`Vin[t], 
+  model`v2 -> model`delta*model`Tstar[t], model`v3 -> model`c*model`Vin[t], 
+  model`v4 -> model`c*model`Vni[t], 
+  model`v5 -> model`delta*model`NN*model`Tstar[t]}
+"praestgaard1" -> {model`v\[LetterSpace]1 -> model`k1f*model`e[t]*model`s[t], 
+  model`v\[LetterSpace]2 -> model`k1r*model`es[t], 
+  model`v\[LetterSpace]3 -> model`k2*model`es[t], 
+  model`v\[LetterSpace]4 -> model`k3*model`ep2[t]}
+"revilla1" -> {model`v1 -> model`lambda, model`v2 -> model`d*model`x[t], 
+  model`v3 -> model`beta*model`v[t]*model`x[t], 
+  model`v4 -> model`a*model`y[t], model`v5 -> model`k*model`y[t], 
+  model`v6 -> model`u*model`v[t]}
+"revilla2" -> {model`v1 -> model`lambda, model`v10 -> model`q*model`w[t], 
+  model`v2 -> model`d*model`x[t], model`v3 -> model`beta*model`v[t]*
+    model`x[t], model`v4 -> model`a*model`y[t], 
+  model`v5 -> model`alpha*model`w[t]*model`y[t], 
+  model`v6 -> model`b*model`z[t], model`v7 -> model`k*model`y[t], 
+  model`v8 -> model`u*model`v[t], model`v9 -> model`c*model`z[t]}
+"ribeiro1" -> {model`v1 -> model`alpha*model`sigma, 
+  model`v2 -> model`dN*model`Nplus[t], model`v3 -> model`sigma, 
+  model`v4 -> model`p*model`NN[t], model`v5 -> model`dN*model`NN[t]}
+"rong2" -> {model`v1 -> model`lambda, 
+  model`v10 -> model`delta*model`Nr*model`Trr[t], 
+  model`v11 -> model`c*model`Vr[t], model`v2 -> model`d*model`T[t], 
+  model`v3 -> model`ks*model`T[t]*model`Vs[t], 
+  model`v4 -> model`kr*model`T[t]*model`Vr[t], 
+  model`v5 -> model`ks*model`mu*model`T[t]*model`Vs[t], 
+  model`v6 -> model`delta*model`Ts[t], 
+  model`v7 -> model`delta*model`Ns*model`Ts[t], 
+  model`v8 -> model`c*model`Vs[t], model`v9 -> model`delta*model`Trr[t]}
+"rong3" -> {model`v1 -> model`lambda, 
+  model`v10 -> model`alphaL*model`k*model`T[t]*model`Vi[t], 
+  model`v11 -> model`alphaL*model`epsilonRT*model`k*model`T[t]*model`Vi[t], 
+  model`v12 -> model`delta*model`NN*model`T1[t], 
+  model`v13 -> model`delta*model`epsilonPI*model`NN*model`T1[t], 
+  model`v2 -> model`dT*model`T[t], 
+  model`v3 -> model`k*model`T[t]*model`Vi[t], 
+  model`v4 -> model`dL*model`L[t], model`v5 -> model`a*model`L[t], 
+  model`v6 -> model`delta*model`T1[t], model`v7 -> model`c*model`Vi[t], 
+  model`v8 -> model`c*model`Vni[t], 
+  model`v9 -> model`epsilonRT*model`k*model`T[t]*model`Vi[t]}
+"roy1" -> {model`v1 -> model`lambda, model`v2 -> model`p*model`x[t], 
+  model`v2a -> (model`p*model`x[t]^2)/model`Tm, 
+  model`v3 -> model`d*model`x[t], model`v4 -> model`beta*model`x[t]*
+    model`y[t], model`v5 -> model`a*model`y[t], 
+  model`v6 -> model`k*model`y[t]*model`z[t], model`v7 -> model`s*model`y[t], 
+  model`v8 -> model`b*model`z[t]}
+"shu1-user" -> {model`v1 -> model`lambda, 
+  model`v10 -> model`rho*model`A[t]*model`T[t]*model`Z[t], 
+  model`v11 -> model`dZ*model`Z[t], model`v2 -> model`r*model`A[t], 
+  model`v3 -> model`a*model`R[t], model`v4 -> model`dR*model`R[t], 
+  model`v5 -> model`p*model`A[t], model`v6 -> model`dA*model`A[t], 
+  model`v7 -> model`mu*model`A[t]*model`T[t], 
+  model`v8 -> model`dT*model`T[t], model`v9 -> model`delta*model`T[t]*
+    model`Z[t]}
+"silva" -> {model`v\[LetterSpace]1 -> model`DHAP*model`k1, 
+  model`v\[LetterSpace]2 -> model`GAP*model`k2, 
+  model`v\[LetterSpace]3 -> model`k3*model`MG[t]*model`TSH2[t], 
+  model`v\[LetterSpace]4 -> model`k4*model`HTA[t], 
+  model`v\[LetterSpace]5 -> (model`V5*model`HTA[t])/
+    (model`Km5 + model`HTA[t]), model`v\[LetterSpace]6 -> 
+   (model`V6*model`SDLTSH[t])/(model`Km6 + model`SDLTSH[t])}
+"BIOMD0000000289" -> {model`r10 -> model`b1*model`A[t], 
+  model`r11 -> model`sigma1*model`A[t]*model`R[t], 
+  model`r1a -> model`v*model`G[t], model`r1b -> model`f*model`v*model`G[t], 
+  model`r2 -> model`gamma*model`E[t], model`r3 -> model`beta*model`A[t], 
+  model`r4 -> model`pi1*model`A[t]*model`E[t], 
+  model`r5 -> model`lambdaE*model`A[t], model`r6 -> model`muA*model`A[t], 
+  model`r7 -> model`muR*model`R[t], model`r8 -> model`muE*model`E[t], 
+  model`r9 -> model`muG*model`G[t]}
+"BIOMD0000000168" -> {model`\[LetterSpace]1 -> 
+   (model`aD\[LetterSpace]1*model`GF\[LetterSpace]1*model`k\[LetterSpace]1)/
+    (1 + model`GF\[LetterSpace]1*model`k\[LetterSpace]1), 
+  model`\[LetterSpace]7 -> (model`pE\[LetterSpace]1*model`E\[LetterSpace]1[t]*
+     model`RS\[LetterSpace]1[t])/(model`qE\[LetterSpace]1 + 
+     model`E\[LetterSpace]1[t] + model`RS\[LetterSpace]1[t]), 
+  model`cycECDK2degradation\[LetterSpace]1 -> model`dE\[LetterSpace]1*
+    model`E\[LetterSpace]1[t]*model`X\[LetterSpace]1[t], 
+  model`cyclebreak\[LetterSpace]1 -> model`dX\[LetterSpace]1*
+    model`X\[LetterSpace]1[t], model`cycleprogression\[LetterSpace]1 -> 
+   model`E2F\[LetterSpace]1*model`f\[LetterSpace]1 + 
+    model`aX\[LetterSpace]1*model`E\[LetterSpace]1[t] + 
+    model`g\[LetterSpace]1*model`E\[LetterSpace]1[t]*
+     model`X\[LetterSpace]1[t]^2, model`cyclin\[LetterSpace]1 -> 
+   model`aE\[LetterSpace]1*(1 + model`af\[LetterSpace]1*
+      model`E2F\[LetterSpace]1), 
+  model`cyclinCDK4degradation\[LetterSpace]1 -> model`dD\[LetterSpace]1*
+    model`D\[LetterSpace]1[t]*model`E\[LetterSpace]1[t], 
+  model`pRBE2Fcomplexassociation\[LetterSpace]1 -> 
+   model`E2F\[LetterSpace]1*model`pS\[LetterSpace]1*
+    model`R\[LetterSpace]1[t], 
+  model`pRBE2FcomplexdeassociationviacycDCDK4\[LetterSpace]1 -> 
+   (model`pD\[LetterSpace]1*model`D\[LetterSpace]1[t]*
+     model`RS\[LetterSpace]1[t])/(model`qD\[LetterSpace]1 + 
+     model`D\[LetterSpace]1[t] + model`RS\[LetterSpace]1[t]), 
+  model`pRBpdephosphorylation\[LetterSpace]1 -> 
+   (model`pX\[LetterSpace]1*model`RP\[LetterSpace]1*
+     model`X\[LetterSpace]1[t])/(model`qX\[LetterSpace]1 + 
+     model`RP\[LetterSpace]1 + model`X\[LetterSpace]1[t])}
+"BIOMD0000000169" -> {model`\[LetterSpace]1 -> 
+   model`k1\[LetterSpace]1*model`Y1\[LetterSpace]1[t]*
+     model`Y3\[LetterSpace]1[t] + model`k1p\[LetterSpace]1*
+     model`Y3\[LetterSpace]1[t]*model`Y6\[LetterSpace]1[t] + 
+    model`k1pp\[LetterSpace]1*model`Y3\[LetterSpace]1[t]*
+     model`Y9\[LetterSpace]1[t], model`\[LetterSpace]20 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]0\[LetterSpace]1[
+    model`k23\[LetterSpace]1], model`acycECDK2degradation\[LetterSpace]1 -> 
+   model`k21\[LetterSpace]1*model`Y1\[LetterSpace]1[t]^2, 
+  model`cycDCDK4degradation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`kminus6\[LetterSpace]1, model`Y6\[LetterSpace]1[t]], 
+  model`cycDCDK4p16complexformation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]2\[LetterSpace]1[
+    model`k17\[LetterSpace]1, model`Y6\[LetterSpace]1[t], 
+    model`Y10\[LetterSpace]1[t]], 
+  model`cycDCDK4p27complexdeassociation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`k20\[LetterSpace]1, model`Y9\[LetterSpace]1[t]], 
+  model`cycDCDK4p27complexformation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]2\[LetterSpace]1[
+    model`k19\[LetterSpace]1, model`Y7\[LetterSpace]1[t], 
+    model`Y6\[LetterSpace]1[t]], model`cycDCDK4synthesis\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]0\[LetterSpace]1[
+    model`k6\[LetterSpace]1], model`cycECDK2activation\[LetterSpace]1 -> 
+   model`k2\[LetterSpace]1*model`Y1\[LetterSpace]1[t]*
+    model`Y2\[LetterSpace]1[t], model`cycECDK2deactivation\[LetterSpace]1 -> 
+   model`kminus2\[LetterSpace]1*model`Y1\[LetterSpace]1[t], 
+  model`cycECDK2degradation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`k5\[LetterSpace]1, model`Y2\[LetterSpace]1[t]], 
+  model`cycECDK2p27complexformation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]2\[LetterSpace]1[
+    model`k9\[LetterSpace]1, model`Y1\[LetterSpace]1[t], 
+    model`Y7\[LetterSpace]1[t]], 
+  model`cycECDK2p27deassociation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`K10\[LetterSpace]1, model`Y8\[LetterSpace]1[t]], 
+  model`cycECDK2synthesis\[LetterSpace]1 -> model`k3p\[LetterSpace]1 + 
+    model`k3\[LetterSpace]1*model`Y4\[LetterSpace]1[t], 
+  model`E2Fautostimulation\[LetterSpace]1 -> model`k18\[LetterSpace]1*
+    model`Y4\[LetterSpace]1[t], model`E2Fdegradation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`kminus4\[LetterSpace]1, model`Y4\[LetterSpace]1[t]], 
+  model`E2Fsynthesis\[LetterSpace]1 -> model`k4\[LetterSpace]1, 
+  model`p16degradation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`k24\[LetterSpace]1, model`Y10\[LetterSpace]1[t]], 
+  model`p16synthesisinhibitedbypRB\[LetterSpace]1 -> 
+   model`k25\[LetterSpace]1/(1 + model`k25p\[LetterSpace]1*
+      model`Y5\[LetterSpace]1[t]), model`p27degradation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`k22\[LetterSpace]1, model`Y7\[LetterSpace]1[t]], 
+  model`p27degradationviacycECDK2\[LetterSpace]1 -> 
+   model`k8\[LetterSpace]1*model`Y1\[LetterSpace]1[t]*
+    model`Y7\[LetterSpace]1[t], model`p27synthesis\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]0\[LetterSpace]1[
+    model`k7\[LetterSpace]1], model`pRBdegradation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`k28\[LetterSpace]1, model`Y5\[LetterSpace]1[t]], 
+  model`pRBE2Fcomplexformation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]2\[LetterSpace]1[
+    model`kminus1\[LetterSpace]1, model`Y5\[LetterSpace]1[t], 
+    model`Y4\[LetterSpace]1[t]], 
+  model`pRBpdephosphorilation\[LetterSpace]1 -> model`k26\[LetterSpace]1/
+    (1 + model`k26p\[LetterSpace]1*model`Y10\[LetterSpace]1[t]), 
+  model`pRBpdephosphorylation\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]1\[LetterSpace]1[
+    model`k29\[LetterSpace]1, model`Y11\[LetterSpace]1[t]], 
+  model`pRBsynthesis\[LetterSpace]1 -> 
+   model`Mass\[LetterSpace]Action\[LetterSpace]0\[LetterSpace]1[
+    model`k27\[LetterSpace]1]}
+"BIOMD0000000045" -> 
+ {model`v2i -> (model`intravesicular2*model`v2i\[LetterSpace]Vm2i*
+     model`Z[t]^2)/(model`v2i\[LetterSpace]K2i^2 + model`Z[t]^2), 
+  model`v2s -> (model`intravesicular1*model`v2s\[LetterSpace]Vm2s*
+     model`Z[t]^2)/(model`v2s\[LetterSpace]K2s^2 + model`Z[t]^2), 
+  model`v3i -> (model`cytosol*model`v3i\[LetterSpace]Vm3i*model`Y[t]^2*
+     model`Z[t]^2)/((model`v3i\[LetterSpace]K3y^2 + model`Y[t]^2)*
+     (model`v3i\[LetterSpace]K3z^2 + model`Z[t]^2)), 
+  model`v3s -> (model`beta*model`cytosol*model`v3s\[LetterSpace]Vm3s*
+     model`X[t]^2)/(model`v3s\[LetterSpace]K3s^2 + model`X[t]^2), 
+  model`v4 -> model`cytosol*model`v4\[LetterSpace]Kf*model`Y[t], 
+  model`v5 -> model`extracellular*model`v5\[LetterSpace]K*model`Z[t], 
+  model`v6 -> model`cytosol*model`v6\[LetterSpace]Kf*model`X[t], 
+  model`vin -> model`cytosol*(model`vin\[LetterSpace]v0 + 
+     model`beta*model`vin\[LetterSpace]v1)}
+"BIOMD0000000053" -> 
+ {model`v1a -> model`compartment*model`v1a\[LetterSpace]k1a*
+    model`v1a\[LetterSpace]p1*model`Glucose[t]*model`Lysine[t], 
+  model`v1b -> model`compartment*model`v1b\[LetterSpace]k1b*model`Schiff[t], 
+  model`v2a -> model`compartment*model`v2a\[LetterSpace]k2a*
+    model`v2a\[LetterSpace]p2*model`Schiff[t], 
+  model`v2b -> model`compartment*model`v2b\[LetterSpace]k2b*
+    model`v2b\[LetterSpace]p2*model`Amadori[t], 
+  model`v3 -> 1.6471820345351462*model`compartment*model`v3\[LetterSpace]k3*
+    model`v3\[LetterSpace]ox*model`v3\[LetterSpace]p3*model`Glucose[t]^0.36, 
+  model`v4 -> model`compartment*model`v4\[LetterSpace]k4*
+    model`v4\[LetterSpace]ox*model`v4\[LetterSpace]p4*model`Amadori[t], 
+  model`v5 -> model`compartment*model`v5\[LetterSpace]k5*
+    model`v5\[LetterSpace]ox*model`v5\[LetterSpace]p5*model`Glyoxal[t]*
+    model`Lysine[t], model`v5b -> model`compartment*
+    model`v5b\[LetterSpace]k5b*model`Glyoxal[t], 
+  model`v6 -> 1.6471820345351462*model`compartment*model`v6\[LetterSpace]k3*
+    model`v6\[LetterSpace]ox*model`v6\[LetterSpace]p6*model`Schiff[t]^0.36, 
+  model`v7a -> 0.08235910172675731*model`compartment*
+    model`v7a\[LetterSpace]k3*model`v7a\[LetterSpace]ox*
+    model`v7a\[LetterSpace]p7*model`Schiff[t]^0.36, 
+  model`v7b -> 0.00823591017267573*model`compartment*
+    model`v7b\[LetterSpace]k3*model`v7b\[LetterSpace]ox*
+    model`v7b\[LetterSpace]p7*model`Schiff[t]^0.36, 
+  model`v7c -> 1.6471820345351462*model`compartment*model`v7c\[LetterSpace]k3*
+    model`v7c\[LetterSpace]ox*model`v7c\[LetterSpace]p7*model`Schiff[t]^0.36}
+"BIOMD0000000292" -> {model`v1 -> model`c*model`k1*model`X[t], 
+  model`v2 -> model`c*model`k2*model`ATP[t], 
+  model`v3 -> model`ADP*model`c*model`k3*model`NADP, 
+  model`v4 -> model`c*model`k4*model`NADP}
+"BIOMD0000000290" -> {model`r10 -> model`b1*model`A[t], 
+  model`r11 -> model`sigma1*model`A[t]*model`R[t], 
+  model`r1a -> (model`v\[LetterSpace]max*model`G[t])/(model`k + model`G[t]), 
+  model`r1b -> (model`f*model`v\[LetterSpace]max*model`G[t])/
+    (model`k + model`G[t]), model`r2 -> model`gamma*model`E[t], 
+  model`r3 -> model`beta*model`A[t], 
+  model`r4 -> model`pi1*model`A[t]*model`E[t], 
+  model`r5 -> model`lambdaE*model`A[t], model`r6 -> model`muA*model`A[t], 
+  model`r7 -> model`muR*model`R[t], model`r8 -> model`muE*model`E[t], 
+  model`r9 -> model`muG*model`G[t]}
+"BIOMD0000000178" -> {model`binding -> model`binding\[LetterSpace]kB*
+    model`extracellular*model`free[t], model`bulk\[LetterSpace]movement -> 
+   model`bulk\[LetterSpace]movement\[LetterSpace]kS*model`extracellular*
+    model`bulk[t], model`endocytosis -> model`endocytosis\[LetterSpace]kT*
+    model`extracellular*model`bound[t], model`translocation -> 
+   model`endosome*model`translocation\[LetterSpace]kL*model`translocate[t]}
+"BIOMD0000000065" -> {model`r\[LetterSpace]a1 -> 
+   model`cell*(model`gamma\[LetterSpace]A + model`mu)*model`A[t], 
+  model`r\[LetterSpace]a2 -> (model`beta\[LetterSpace]A*model`cell*model`A[t]*
+     model`B[t])/(model`K\[LetterSpace]A + model`A[t]), 
+  model`r\[LetterSpace]a3\[LetterSpace]l1 -> 
+   (model`alpha\[LetterSpace]A*model`cell*model`B[t]*model`L[t])/
+    (model`K\[LetterSpace]L + model`L[t]), model`r\[LetterSpace]b1 -> 
+   model`cell*(model`gamma\[LetterSpace]B + model`mu)*model`B[t], 
+  model`r\[LetterSpace]b2\[LetterSpace]i2 -> (model`cell*model`I2[t])/
+    model`tau\[LetterSpace]B, model`r\[LetterSpace]i1 -> 
+   (model`alpha\[LetterSpace]M*model`cell*
+     (1 + (model`K\[LetterSpace]1*model`A[t]^2)/
+       E^(2*model`mu*model`tau\[LetterSpace]M)))/
+    (model`K + (model`K\[LetterSpace]1*model`A[t]^2)/
+      E^(2*model`mu*model`tau\[LetterSpace]M)), 
+  model`r\[LetterSpace]i2 -> (model`alpha\[LetterSpace]B*model`cell*
+     model`M[t])/E^(model`mu*model`tau\[LetterSpace]B), 
+  model`r\[LetterSpace]i3 -> (model`alpha\[LetterSpace]P*model`cell*
+     model`M[t])/E^(model`mu*(model`tau\[LetterSpace]B + 
+       model`tau\[LetterSpace]P)), model`r\[LetterSpace]l2 -> 
+   model`cell*(model`gamma\[LetterSpace]L + model`mu)*model`L[t], 
+  model`r\[LetterSpace]l3 -> (model`beta\[LetterSpace]L1*model`cell*
+     model`L[t]*model`P[t])/(model`K\[LetterSpace]L1 + model`L[t]), 
+  model`r\[LetterSpace]l4 -> (model`alpha\[LetterSpace]L*model`cell*
+     model`L\[LetterSpace]e*model`P[t])/(model`K\[LetterSpace]Le + 
+     model`L\[LetterSpace]e), model`r\[LetterSpace]m1 -> 
+   model`cell*model`gamma\[LetterSpace]0, model`r\[LetterSpace]m2 -> 
+   model`cell*(model`gamma\[LetterSpace]M + model`mu)*model`M[t], 
+  model`r\[LetterSpace]m3\[LetterSpace]i1 -> (model`cell*model`I1[t])/
+    model`tau\[LetterSpace]M, model`r\[LetterSpace]p1 -> 
+   model`cell*(model`gamma\[LetterSpace]P + model`mu)*model`P[t], 
+  model`r\[LetterSpace]p2\[LetterSpace]i3 -> (model`cell*model`I3[t])/
+    (model`tau\[LetterSpace]B + model`tau\[LetterSpace]P)}
+"BIOMD0000000062" -> {model`Enzyme\[LetterSpace]dilution -> 
+   model`compartment*model`Enzyme\[LetterSpace]dilution\[LetterSpace]mu*
+    model`Enz[t], model`Enzyme\[LetterSpace]synthesis -> 
+   (model`compartment*model`Enzyme\[LetterSpace]synthesis\[LetterSpace]k1*
+     model`Enzyme\[LetterSpace]synthesis\[LetterSpace]ki1^
+      model`Enzyme\[LetterSpace]synthesis\[LetterSpace]nH*
+     model`Enzyme\[LetterSpace]synthesis\[LetterSpace]Ot)/
+    (model`Enzyme\[LetterSpace]synthesis\[LetterSpace]ki1^
+      model`Enzyme\[LetterSpace]synthesis\[LetterSpace]nH + 
+     model`Tt^model`Enzyme\[LetterSpace]synthesis\[LetterSpace]nH), 
+  model`tryptophan\[LetterSpace]consumption -> 
+   (model`compartment*model`tryptophan\[LetterSpace]consumption\[LetterSpace]\
+g*model`Ts[t])/(model`tryptophan\[LetterSpace]consumption\[LetterSpace]Kg + 
+     model`Ts[t]), model`tryptophan\[LetterSpace]dilution -> 
+   model`compartment*model`tryptophan\[LetterSpace]dilution\[LetterSpace]mu*
+    model`Ts[t], model`tryptophan\[LetterSpace]synthesis -> 
+   (model`compartment*model`tryptophan\[LetterSpace]synthesis\[LetterSpace]k2*
+     model`tryptophan\[LetterSpace]synthesis\[LetterSpace]Ki2*model`Enz[t])/
+    (model`tryptophan\[LetterSpace]synthesis\[LetterSpace]Ki2 + model`Tt)}
+"BIOMD0000000199" -> {model`r1 -> model`cytosol*model`k1*model`FeIII[t], 
+  model`r10 -> model`cytosol*model`k10*model`O2*model`FeII\[LetterSpace]NO[
+     t], model`r2 -> model`cytosol*model`k2*model`O2*model`FeII[t], 
+  model`r3 -> model`cytosol*model`k3*model`FeII\[LetterSpace]O2[t], 
+  model`r4 -> model`cytosol*model`k4*model`FeIII\[LetterSpace]star[t], 
+  model`r5 -> model`cytosol*model`k5*model`O2*model`FeII\[LetterSpace]star[
+     t], model`r6 -> model`cytosol*model`k6*
+    model`FeII\[LetterSpace]star\[LetterSpace]O2[t], 
+  model`r9 -> model`cytosol*model`k9*model`FeII\[LetterSpace]NO[t], 
+  model`rF -> model`cytosol*model`k7*model`FeIII\[LetterSpace]NO[t], 
+  model`rG -> model`cytosol*model`k8*model`FeIII\[LetterSpace]NO[t]}
+"BIOMD0000000584" -> {model`ia1\[LetterSpace]bind\[LetterSpace]forward -> 
+   model`ia1\[LetterSpace]ActiveTF[t]*model`IPTG[t], 
+  model`ia1\[LetterSpace]bind\[LetterSpace]reverse -> 
+   model`ia1\[LetterSpace]Kd*model`ia1\[LetterSpace]InactiveTF[t], 
+  model`pp1\[LetterSpace]v1 -> 1, model`pp1\[LetterSpace]v2 -> 
+   model`proSLS1\[LetterSpace]degradation\[LetterSpace]rate*model`proSLS1[t], 
+  model`pp2\[LetterSpace]v1 -> model`AUR1*model`pAUR1\[LetterSpace]strength*
+    model`pp2\[LetterSpace]translation\[LetterSpace]rate, 
+  model`pp2\[LetterSpace]v2 -> 
+   model`proAUR1\[LetterSpace]degradation\[LetterSpace]rate*model`proAUR1[t], 
+  model`pp3\[LetterSpace]v1 -> 
+   model`pp3\[LetterSpace]translation\[LetterSpace]rate*
+    model`pSLS4\[LetterSpace]strength*model`SLS4, 
+  model`pp3\[LetterSpace]v2 -> 
+   model`proSLS4\[LetterSpace]degradation\[LetterSpace]rate*model`proSLS4[t], 
+  model`pp4\[LetterSpace]v1 -> model`LACI*model`p2\[LetterSpace]strength*
+    model`pp4\[LetterSpace]translation\[LetterSpace]rate, 
+  model`pp4\[LetterSpace]v2 -> 
+   model`proLACI\[LetterSpace]degradation\[LetterSpace]rate*model`proLACI[t], 
+  model`pp5\[LetterSpace]v1 -> model`LAMDAR*model`p1\[LetterSpace]strength*
+    model`pp5\[LetterSpace]translation\[LetterSpace]rate, 
+  model`pp5\[LetterSpace]v2 -> 
+   model`proLAMDAR\[LetterSpace]degradation\[LetterSpace]rate*
+    model`proLAMDAR[t], model`pp6\[LetterSpace]v1 -> 
+   model`p3\[LetterSpace]strength*
+    model`pp6\[LetterSpace]translation\[LetterSpace]rate*model`TETR, 
+  model`pp6\[LetterSpace]v2 -> 
+   model`proTETR\[LetterSpace]degradation\[LetterSpace]rate*model`proTETR[t]}
+"BIOMD0000000084" -> {model`v1 -> (model`v1\[LetterSpace]Vm1*model`R[t])/
+    (model`v1\[LetterSpace]Km1 + model`R[t]), 
+  model`v2 -> (model`v2\[LetterSpace]Vm2*model`Rin[t])/
+    (model`v2\[LetterSpace]Km2 + model`Rin[t]), 
+  model`v3 -> (model`v3\[LetterSpace]k3*model`R[t]*model`x1[t])/
+    (model`v3\[LetterSpace]Km3 + model`x1[t]), 
+  model`v4 -> (model`v4\[LetterSpace]Vm4*model`x1p[t])/
+    (model`v4\[LetterSpace]Km4 + model`x1p[t]), 
+  model`v5 -> (model`v5\[LetterSpace]k5*model`x1p[t]*model`x2[t])/
+    (model`v5\[LetterSpace]Km5 + model`x2[t]), 
+  model`v6 -> (model`v6\[LetterSpace]Vm6*model`x2p[t])/
+    (model`v6\[LetterSpace]Km6 + model`x2p[t]), 
+  model`v7 -> (model`v7\[LetterSpace]k7*model`x2p[t]*model`x3[t])/
+    (model`v7\[LetterSpace]Km7 + model`x3[t]), 
+  model`v8 -> (model`v8\[LetterSpace]Vm8*model`x3p[t])/
+    (model`v8\[LetterSpace]Km8*(1 + model`v8\[LetterSpace]Inh/
+       model`v8\[LetterSpace]Ki8 + model`x3p[t]/model`v8\[LetterSpace]Km8))}
+"BIOMD0000000231" -> {model`v1 -> (model`Vmapp1*model`ATP[t])/
+    (model`Kmapp1 + model`ATP[t]), 
+  model`v2 -> (model`Vm2*model`AMP[t]*model`ATP[t])/
+    (model`K + model`Km2ATP*model`AMP[t] + model`Km2AMP*model`ATP[t] + 
+     model`AMP[t]*model`ATP[t]), model`v3 -> (model`Vmapp3*model`ADP[t])/
+    (model`Kmapp3 + model`ADP[t]), model`v4 -> model`k4*model`Pyr[t]}
+"alsheihk1" -> {model`v\[LetterSpace]1 -> model`Q\[LetterSpace]0, 
+  model`v\[LetterSpace]10 -> model`d*model`A[t], 
+  model`v\[LetterSpace]2 -> (model`Beta\[LetterSpace]1*model`I1[t] + 
+     model`Beta\[LetterSpace]2*model`I2[t])*model`S[t], 
+  model`v\[LetterSpace]3 -> model`Mu*model`S[t], 
+  model`v\[LetterSpace]4 -> model`Theta*model`I1[t], 
+  model`v\[LetterSpace]5 -> model`Mu*model`I1[t], 
+  model`v\[LetterSpace]6 -> model`Delta*model`I1[t], 
+  model`v\[LetterSpace]7 -> model`Mu*model`I2[t], 
+  model`v\[LetterSpace]8 -> model`Delta*model`I2[t], 
+  model`v\[LetterSpace]9 -> model`Mu*model`A[t]}
+"arnaout1" -> {model`v1 -> model`lambda, model`v2 -> model`d*model`x[t], 
+  model`v3 -> model`beta*model`s*model`x[t]*model`y[t], 
+  model`v4 -> model`a*model`y[t], model`v5 -> model`p*model`y[t]*model`z[t], 
+  model`v6 -> model`c*model`y[t], model`v7 -> model`b*model`z[t]}
+"bachar1" -> {model`v\[LetterSpace]1 -> 
+   model`b*(model`I1[t] + model`I2[t] + model`S[t]), 
+  model`v\[LetterSpace]2 -> (model`Beta*model`c*
+     (model`I1[t] + model`a*model`I2[t])*model`S[t])/
+    (model`I1[t] + model`I2[t] + model`S[t]), model`v\[LetterSpace]3 -> 
+   model`d*model`S[t], model`v\[LetterSpace]4 -> model`d*model`I1[t], 
+  model`v\[LetterSpace]5 -> model`k1*model`I1[t], 
+  model`v\[LetterSpace]6 -> model`Alpha*model`I2[t], 
+  model`v\[LetterSpace]7 -> model`d*model`I2[t], 
+  model`v\[LetterSpace]8 -> model`k2*model`I2[t]}
+"bajaria1" -> {model`v1 -> model`beta*model`eNL*model`NL[t], 
+  model`v10 -> model`eML*model`ML[t], model`v11 -> model`muM*model`ML[t], 
+  model`v12 -> 90000000000*0.97^(t/365)*model`muN, 
+  model`v13 -> model`R/(model`K1 + model`NL[t]), 
+  model`v2 -> model`eNB*model`NB[t], 
+  model`v3 -> model`beta*model`eML*model`ML[t], 
+  model`v4 -> model`eMB*model`MB[t], 
+  model`v5 -> model`alpha*model`eNB*model`NB[t], 
+  model`v6 -> model`eNL*model`NL[t], model`v7 -> model`muN*model`NL[t], 
+  model`v8 -> model`lambda*model`muN*model`NL[t], 
+  model`v9 -> model`alpha*model`eMB*model`MB[t]}
+"bhartiya" -> {model`v\[LetterSpace]1 -> 
+   (model`k1*model`ki1^model`nH*model`Ot)/(model`ki1^model`nH + 
+     model`Tt^model`nH), model`v\[LetterSpace]2 -> model`mu*model`Enz[t], 
+  model`v\[LetterSpace]3 -> (model`k2*model`ki2*model`Enz[t])/
+    (model`ki2 + model`Tt), model`v\[LetterSpace]4 -> 
+   (model`gval*model`Ts[t])/(model`kg + model`Ts[t]), 
+  model`v\[LetterSpace]5 -> model`mu*model`Ts[t]}
+"BIOMD0000000233" -> {model`r1 -> model`r1\[LetterSpace]k1*model`S*
+    model`Y[t], model`r2 -> model`r2\[LetterSpace]k2*model`X[t]^2, 
+  model`r3 -> model`r3\[LetterSpace]k3*model`X[t]*model`Y[t], 
+  model`r4 -> model`r4\[LetterSpace]k4*model`X[t]}
+"BIOMD0000000475" -> {model`reaction\[LetterSpace]1 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]1\[LetterSpace]k1*
+    model`species\[LetterSpace]1[t]*model`species\[LetterSpace]2[t], 
+  model`reaction\[LetterSpace]10 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]10\[LetterSpace]k1*
+    model`species\[LetterSpace]11[t], model`reaction\[LetterSpace]11 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]11\[LetterSpace]k1*
+    model`species\[LetterSpace]18[t]*model`species\[LetterSpace]8[t], 
+  model`reaction\[LetterSpace]12 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]12\[LetterSpace]k1*
+    model`species\[LetterSpace]12[t]*model`species\[LetterSpace]13[t], 
+  model`reaction\[LetterSpace]13 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]13\[LetterSpace]k1*
+    model`species\[LetterSpace]14[t], model`reaction\[LetterSpace]14 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]14\[LetterSpace]k1*
+    model`species\[LetterSpace]14[t]*model`species\[LetterSpace]15[t], 
+  model`reaction\[LetterSpace]15 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]15\[LetterSpace]k1*
+    model`species\[LetterSpace]16[t], model`reaction\[LetterSpace]16 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]16\[LetterSpace]k1*
+    model`species\[LetterSpace]16[t], model`reaction\[LetterSpace]17 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]17\[LetterSpace]k1*
+    model`species\[LetterSpace]17[t], model`reaction\[LetterSpace]18 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]18\[LetterSpace]k1*
+    model`species\[LetterSpace]13[t]*model`species\[LetterSpace]19[t], 
+  model`reaction\[LetterSpace]19 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]19\[LetterSpace]k1*
+    model`species\[LetterSpace]15[t]*model`species\[LetterSpace]17[t], 
+  model`reaction\[LetterSpace]2 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]2\[LetterSpace]k1*
+    model`species\[LetterSpace]5[t]^2, model`reaction\[LetterSpace]20 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]20\[LetterSpace]k1*
+    model`species\[LetterSpace]20[t], model`reaction\[LetterSpace]21 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]21\[LetterSpace]k1*
+    model`species\[LetterSpace]20[t], model`reaction\[LetterSpace]22 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]22\[LetterSpace]k1*
+    model`species\[LetterSpace]21[t], model`reaction\[LetterSpace]23 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]23\[LetterSpace]k1*
+    model`species\[LetterSpace]12[t], model`reaction\[LetterSpace]24 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]24\[LetterSpace]k1*
+    model`species\[LetterSpace]19[t], model`reaction\[LetterSpace]25 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]25\[LetterSpace]k1*
+    model`species\[LetterSpace]22[t], model`reaction\[LetterSpace]3 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]3\[LetterSpace]k1*
+    model`species\[LetterSpace]4[t], model`reaction\[LetterSpace]4 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]4\[LetterSpace]k1*
+    model`species\[LetterSpace]6[t]*model`species\[LetterSpace]8[t], 
+  model`reaction\[LetterSpace]5 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]5\[LetterSpace]k1*
+    model`species\[LetterSpace]3[t]*model`species\[LetterSpace]4[t], 
+  model`reaction\[LetterSpace]6 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]6\[LetterSpace]k1*
+    model`species\[LetterSpace]9[t], model`reaction\[LetterSpace]7 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]7\[LetterSpace]k1*
+    model`species\[LetterSpace]7[t]*model`species\[LetterSpace]9[t], 
+  model`reaction\[LetterSpace]8 -> model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]8\[LetterSpace]k1*
+    model`species\[LetterSpace]10[t], model`reaction\[LetterSpace]9 -> 
+   model`compartment\[LetterSpace]1*
+    model`reaction\[LetterSpace]9\[LetterSpace]k1*
+    model`species\[LetterSpace]10[t]}
+"BIOMD0000000363" -> {model`r1 -> model`compartment*model`r1\[LetterSpace]k1*
+    model`II[t], model`r2 -> model`compartment*model`r2\[LetterSpace]k1*
+    model`M[t], model`r3 -> model`compartment*model`r3\[LetterSpace]k1*
+    model`II[t], model`r4 -> model`compartment*model`r4\[LetterSpace]k1*
+    model`P2[t]}
+"BIOMD0000000484" -> {model`re12 -> model`k2*model`S[t], 
+  model`re2 -> model`default*model`k1}
+"BIOMD0000000487" -> {model`re1 -> model`k1*model`S1[t]*model`S2[t], 
+  model`re2 -> model`k2*model`S3[t], model`re3 -> model`k3*model`S3[t], 
+  model`re4 -> model`k4*model`S4[t]*model`S5[t], 
+  model`re5 -> model`k5*model`S6[t], model`re6 -> model`k6*model`S6[t]}
+"BIOMD0000000486" -> {model`re12 -> model`k1*model`A[t], 
+  model`re2 -> model`k2*model`B[t]}
+"BIOMD0000000253" -> 
+ {model`ATPase -> (model`ATPase\[LetterSpace]VATPase*model`cell*model`ATP[t])/
+    (model`ATPase\[LetterSpace]KATP + model`ATP[t]), 
+  model`HK -> (model`cell*model`Glc*model`HK\[LetterSpace]VHK*model`ATP[t])/
+    (model`HK\[LetterSpace]KATP*model`HK\[LetterSpace]KGlc*
+     (1 + model`Glc/model`HK\[LetterSpace]KGlc + 
+      (model`HK\[LetterSpace]wild\[LetterSpace]type*model`Tre6P)/
+       model`HK\[LetterSpace]KiTre6P)*
+     (1 + model`ATP[t]/model`HK\[LetterSpace]KATP)), 
+  model`lower -> (model`ADP*model`cell*model`lower\[LetterSpace]Vlower*
+     model`Fru16P2[t])/((1 + model`ADP/model`lower\[LetterSpace]KADP)*
+     model`lower\[LetterSpace]KADP*model`lower\[LetterSpace]KFru16P2*
+     (1 + model`Fru16P2[t]/model`lower\[LetterSpace]KFru16P2)), 
+  model`PFK -> (model`cell*model`gR*model`lambda1*model`lambda2*
+     model`PFK\[LetterSpace]VPFK*model`R)/(model`R^2 + model`L*model`T^2)}
+"BIOMD0000000011" -> {model`Reaction1 -> model`Reaction1\[LetterSpace]a1*
+    model`RAF[t]*model`RAFK[t], model`Reaction10 -> 
+   model`Reaction10\[LetterSpace]a4*model`MEKp[t]*model`MEKPH[t], 
+  model`Reaction11 -> model`Reaction11\[LetterSpace]d4*model`MEKpMEKPH[t], 
+  model`Reaction12 -> model`Reaction12\[LetterSpace]k4*model`MEKpMEKPH[t], 
+  model`Reaction13 -> model`Reaction13\[LetterSpace]a5*model`MEKp[t]*
+    model`RAFp[t], model`Reaction14 -> model`Reaction14\[LetterSpace]d5*
+    model`MEKpRAFp[t], model`Reaction15 -> model`Reaction15\[LetterSpace]k5*
+    model`MEKpRAFp[t], model`Reaction16 -> model`Reaction16\[LetterSpace]a6*
+    model`MEKPH[t]*model`MEKpp[t], model`Reaction17 -> 
+   model`Reaction17\[LetterSpace]d6*model`MEKppMEKPH[t], 
+  model`Reaction18 -> model`Reaction18\[LetterSpace]k6*model`MEKppMEKPH[t], 
+  model`Reaction19 -> model`Reaction19\[LetterSpace]a7*model`MAPK[t]*
+    model`MEKpp[t], model`Reaction2 -> model`Reaction2\[LetterSpace]d1*
+    model`RAFRAFK[t], model`Reaction20 -> model`Reaction20\[LetterSpace]d7*
+    model`MAPKMEKpp[t], model`Reaction21 -> model`Reaction21\[LetterSpace]k7*
+    model`MAPKMEKpp[t], model`Reaction22 -> model`Reaction22\[LetterSpace]a8*
+    model`MAPKp[t]*model`MAPKPH[t], model`Reaction23 -> 
+   model`Reaction23\[LetterSpace]d8*model`MAPKpMAPKPH[t], 
+  model`Reaction24 -> model`Reaction24\[LetterSpace]k8*model`MAPKpMAPKPH[t], 
+  model`Reaction25 -> model`Reaction25\[LetterSpace]a9*model`MAPKp[t]*
+    model`MEKpp[t], model`Reaction26 -> model`Reaction26\[LetterSpace]d9*
+    model`MAPKpMEKpp[t], model`Reaction27 -> model`Reaction27\[LetterSpace]k9*
+    model`MAPKpMEKpp[t], model`Reaction28 -> 
+   model`Reaction28\[LetterSpace]a10*model`MAPKPH[t]*model`MAPKpp[t], 
+  model`Reaction29 -> model`Reaction29\[LetterSpace]d10*
+    model`MAPKppMAPKPH[t], model`Reaction3 -> model`Reaction3\[LetterSpace]k1*
+    model`RAFRAFK[t], model`Reaction30 -> model`Reaction30\[LetterSpace]k10*
+    model`MAPKppMAPKPH[t], model`Reaction4 -> model`Reaction4\[LetterSpace]a2*
+    model`RAFp[t]*model`RAFPH[t], model`Reaction5 -> 
+   model`Reaction5\[LetterSpace]d2*model`RAFpRAFPH[t], 
+  model`Reaction6 -> model`Reaction6\[LetterSpace]k2*model`RAFpRAFPH[t], 
+  model`Reaction7 -> model`Reaction7\[LetterSpace]a3*model`MEK[t]*
+    model`RAFp[t], model`Reaction8 -> model`Reaction8\[LetterSpace]d3*
+    model`MEKRAFp[t], model`Reaction9 -> model`Reaction9\[LetterSpace]k3*
+    model`MEKRAFp[t]}
+"BIOMD0000000258" -> {model`v1 -> (model`Vm1*model`alpha[t])/
+    (model`Ks1*(1 + model`alpha[t]/model`Ks1 + model`beta[t]/model`Ks3)), 
+  model`v2 -> (model`r24*model`Vm1*model`beta[t])/(model`Chi14*model`Ks2*
+     (1 + model`beta[t]/model`Ks2 + model`gamma[t]/model`Ks4)), 
+  model`v3 -> (model`r31*model`Vm1*model`beta[t])/
+    (model`Ks3*(1 + model`alpha[t]/model`Ks1 + model`beta[t]/model`Ks3)), 
+  model`v4 -> (model`Vm1*model`gamma[t])/(model`Chi14*model`Ks4*
+     (1 + model`beta[t]/model`Ks2 + model`gamma[t]/model`Ks4))}
+"BIOMD0000000259" -> {model`re1 -> model`re1\[LetterSpace]k1*model`s1[t], 
+  model`re10 -> model`re10\[LetterSpace]k1*model`s1[t], 
+  model`re11 -> model`re11\[LetterSpace]k1*model`s1[t], 
+  model`re12 -> model`re12\[LetterSpace]k1*model`s1[t], 
+  model`re14 -> model`re14\[LetterSpace]k1*model`s9[t], 
+  model`re15 -> model`re15\[LetterSpace]k1*model`s8[t], 
+  model`re16 -> model`re16\[LetterSpace]k1*model`s1[t], 
+  model`re17 -> model`re17\[LetterSpace]k1*model`s11[t], 
+  model`re18 -> model`re18\[LetterSpace]k1*model`s1[t], 
+  model`re19 -> model`re19\[LetterSpace]k1*model`s12[t], 
+  model`re2 -> model`re2\[LetterSpace]k1*model`s2[t], 
+  model`re22 -> model`re22\[LetterSpace]k1*model`s1[t], 
+  model`re23 -> model`re23\[LetterSpace]k1*model`s13[t], 
+  model`re24 -> model`re24\[LetterSpace]k1*model`s1[t], 
+  model`re25 -> model`re25\[LetterSpace]k1*model`s14[t], 
+  model`re26 -> model`re26\[LetterSpace]k1*model`s1[t], 
+  model`re28 -> model`re28\[LetterSpace]k1*model`s1[t], 
+  model`re29 -> model`re29\[LetterSpace]k1*model`s16[t], 
+  model`re3 -> model`re3\[LetterSpace]k1*model`s3[t], 
+  model`re30 -> model`re30\[LetterSpace]k1*model`s1[t], 
+  model`re31 -> model`re31\[LetterSpace]k1*model`s17[t], 
+  model`re33 -> model`re33\[LetterSpace]k1*model`s7[t], 
+  model`re34 -> model`re34\[LetterSpace]k1*model`s15[t], 
+  model`re4 -> model`re4\[LetterSpace]k1*model`s4[t], 
+  model`re5 -> model`re5\[LetterSpace]k1*model`s2[t], 
+  model`re6 -> model`re6\[LetterSpace]k1*model`s1[t], 
+  model`re7 -> model`re7\[LetterSpace]k1*model`s5[t], 
+  model`re8 -> model`re8\[LetterSpace]k1*model`s1[t], 
+  model`re9 -> model`re9\[LetterSpace]k1*model`s6[t]}
+"srivastava1" -> {model`v1 -> model`s, 
+  model`v10 -> model`delta*model`epsilon*model`NN*model`Tstar[t], 
+  model`v11 -> model`c*model`VI[t], model`v12 -> model`c*model`VNI[t], 
+  model`v2 -> model`mu*model`T[t], 
+  model`v3 -> model`k*model`T[t]*model`VI[t], 
+  model`v4 -> model`alpha*model`eta*model`T1star[t], 
+  model`v5 -> model`b*model`T1star[t], model`v6 -> model`mu1*model`T1star[t], 
+  model`v7 -> model`alpha*model`T1star[t], 
+  model`v8 -> model`delta*model`Tstar[t], 
+  model`v9 -> model`delta*model`NN*model`Tstar[t]}
+"srivastava2" -> {model`v1 -> model`s, 
+  model`v10 -> model`alphas*model`T1sstar[t], 
+  model`v11 -> model`alphas*model`pi*model`T1sstar[t], 
+  model`v12 -> model`alphas*model`etas*model`pi*model`T1sstar[t], 
+  model`v13 -> model`deltas*model`Tsstar[t], 
+  model`v14 -> model`deltas*model`NN*model`Tsstar[t], 
+  model`v15 -> model`deltas*model`epsilons*model`NN*model`Tsstar[t], 
+  model`v16 -> model`c*model`VIs[t], model`v17 -> model`mu1*model`T1rstar[t], 
+  model`v18 -> model`alphar*model`T1rstar[t], 
+  model`v19 -> model`deltar*model`Trstar[t], model`v2 -> model`mu*model`T[t], 
+  model`v20 -> model`deltar*model`NN*model`Trstar[t], 
+  model`v21 -> model`deltar*model`epsilonr*model`NN*model`Trstar[t], 
+  model`v22 -> model`c*model`VIr[t], 
+  model`v23 -> model`deltas*model`epsilons*model`NN*model`Tsstar[t], 
+  model`v24 -> model`c*model`VNIs[t], model`v25 -> model`c*model`VNIr[t], 
+  model`v3 -> model`k*model`T[t]*model`VIs[t], 
+  model`v4 -> model`k*model`T[t]*model`VIr[t], 
+  model`v5 -> model`bs*model`T1sstar[t], 
+  model`v6 -> model`alphas*model`etas*model`T1sstar[t], 
+  model`v7 -> model`br*model`T1rstar[t], 
+  model`v8 -> model`alphar*model`etar*model`T1rstar[t], 
+  model`v9 -> model`mu1*model`T1sstar[t]}
+"stafford1" -> {model`v1 -> model`lambda, model`v2 -> model`d*model`T[t], 
+  model`v3 -> model`k*model`T[t]*model`V[t], 
+  model`v4 -> model`delta*model`Ti[t], model`v5 -> model`pie*model`Ti[t], 
+  model`v6 -> model`c*model`V[t]}
+"tripathi1" -> {model`v\[LetterSpace]1 -> model`Q\[LetterSpace]0, 
+  model`v\[LetterSpace]10 -> model`d*model`A[t], 
+  model`v\[LetterSpace]2 -> model`Lambda*model`S[t], 
+  model`v\[LetterSpace]3 -> model`d*model`S[t], 
+  model`v\[LetterSpace]4 -> model`Theta*model`I1[t], 
+  model`v\[LetterSpace]5 -> model`Delta*model`I1[t], 
+  model`v\[LetterSpace]6 -> model`d*model`I1[t], 
+  model`v\[LetterSpace]7 -> model`Delta*model`I2[t], 
+  model`v\[LetterSpace]8 -> model`d*model`I2[t], 
+  model`v\[LetterSpace]9 -> model`Alpha*model`A[t]}
+"valero" -> {model`v\[LetterSpace]1 -> (model`Vmapp1*model`ATP[t])/
+    (model`Kmapp1 + model`ATP[t]), model`v\[LetterSpace]2 -> 
+   (model`Vm2*model`AMP[t]*model`ATP[t])/
+    (model`K + model`Km2ATP*model`AMP[t] + model`Km2AMP*model`ATP[t] + 
+     model`AMP[t]*model`ATP[t]), model`v\[LetterSpace]3 -> 
+   (model`Vmapp3*model`ADP[t])/(model`Kmapp3 + model`ADP[t]), 
+  model`v\[LetterSpace]4 -> model`k4*model`Pyr[t]}
+"wang1" -> {model`v1 -> model`s, model`v2 -> model`alpha*model`T[t], 
+  model`v3 -> model`r*model`T[t], 
+  model`v4 -> (model`r*model`T[t]*(model`T[t] + model`TStar[t]))/model`Tmax, 
+  model`v5 -> model`k*model`T[t]*model`V[t], 
+  model`v6 -> model`k*model`sigma1*model`T[t]*model`V[t], 
+  model`v7 -> model`beta*model`TStar[t], 
+  model`v8 -> model`beta*model`NN*model`TStar[t], 
+  model`v9 -> model`gamma*model`V[t]}
+"whillier1" -> {model`v\[LetterSpace]1 -> (model`Vmaxtransglne*model`glne[t])/
+    (model`vole*(model`Kmtransglne + model`glne[t]/model`vole)), 
+  model`v\[LetterSpace]2 -> (model`Vmaxtransglni*model`glni[t])/
+    (model`voliw*(model`Kmtransglni + model`glni[t]/model`voliw)), 
+  model`v\[LetterSpace]3 -> (model`Kdgln*model`glni[t])/model`voliw}
+"wodarz1" -> {model`v1 -> model`lambda, model`v2 -> model`d*model`x[t], 
+  model`v3 -> model`beta*model`x[t]*model`y[t], 
+  model`v4 -> model`a*model`y[t], model`v5 -> model`p*model`y[t]*model`z[t], 
+  model`v6 -> model`c*model`w[t]*model`y[t], 
+  model`v7 -> model`c*model`q*model`w[t]*model`y[t], 
+  model`v8 -> model`b*model`w[t], model`v9 -> model`h*model`z[t]}
+"wodarz3" -> {model`v1 -> model`r*model`v[t]*model`x[t], 
+  model`v2 -> (model`r*model`v[t]*model`x[t]*(model`x[t] + model`y[t]))/
+    model`k, model`v3 -> model`d*model`x[t], 
+  model`v4 -> model`beta*model`v[t]*model`x[t], 
+  model`v5 -> model`r*model`v[t]*model`y[t], 
+  model`v6 -> (model`r*model`v[t]*model`y[t]*(model`x[t] + model`y[t]))/
+    model`k, model`v7 -> model`a*model`y[t], 
+  model`v8 -> model`eta*model`y[t], model`v9 -> model`u*model`v[t]}
+"wortel1" -> {model`v\[LetterSpace]1 -> (model`aext*model`e1*model`kcat1)/
+    (model`kmaext1*(1 + model`aext/model`kmaext1 + model`a[t]/model`kma1)), 
+  model`v\[LetterSpace]10 -> (model`e10*model`kcat10*model`w[t])/
+    (model`kmw10*(1 + model`wext/model`kmwext10 + model`w[t]/model`kmw10)), 
+  model`v\[LetterSpace]2 -> (model`e2*model`kcat2*model`a[t])/
+    (model`kma2*(1 + model`a[t]/model`kma2 + model`b[t]/model`kmb2)*
+     (1 + model`w[t]/model`kmw2)), model`v\[LetterSpace]3 -> 
+   (model`e3*model`kcat3*model`a[t])/(model`kma3*
+     (1 + model`sext/model`kmsext3)^2*(1 + model`a[t]/model`kma3 + 
+      model`c[t]/model`kmc3)), model`v\[LetterSpace]4 -> 
+   (model`e4*model`kcat4*model`a[t])/(model`kma4*(1 + model`a[t]/model`kma4 + 
+      model`d[t]/model`kmd4)), model`v\[LetterSpace]5 -> 
+   (model`e5*model`kcat5*model`c[t])/(model`kmc5*(1 + model`b[t]/model`kmb5 + 
+      model`c[t]/model`kmc5)), model`v\[LetterSpace]6 -> 
+   (model`e6*model`kcat6*model`b[t])/(model`kmb6*(1 + model`b[t]/model`kmb6 + 
+      model`p[t]/model`kmp6)), model`v\[LetterSpace]7 -> 
+   (model`e7*model`kcat7*model`c[t]*model`d[t])/(model`kmc7*model`kmd7*
+     (1 + model`uext/model`kmuext7 + model`d[t]/model`kmd7)*
+     (1 + model`c[t]/model`kmc7 + model`e[t]/model`kme7)), 
+  model`v\[LetterSpace]8 -> (model`e8*model`kcat8*model`e[t])/
+    (model`kme8*(1 + model`e[t]/model`kme8 + model`p[t]/model`kmp8)*
+     (1 + model`w[t]/model`kmw8)), model`v\[LetterSpace]9 -> 
+   (model`e9*model`kcat9*model`p[t])/(model`kmp9*
+     (1 + model`fext/model`kmfext9 + model`p[t]/model`kmp9)*
+     (1 + model`w[t]/model`kmw9))}
+"wortel2" -> {model`v\[LetterSpace]0 -> model`j, 
+  model`v\[LetterSpace]1 -> (model`e1*model`kcat1*model`x[t])/
+    (model`km1 + model`x[t])}
+"wortel3" -> {model`v\[LetterSpace]1 -> (model`e1*model`kcat1*model`x)/
+    (model`kmxe1*(1 + model`x/model`kmxe1 + model`x2[t]/model`kpx2e1)), 
+  model`v\[LetterSpace]2 -> (model`e2*model`kcat2*model`x2[t])/
+    (model`kmx2e2*(1 + model`x2[t]/model`kmx2e2 + model`x3[t]/model`kpx3e2)), 
+  model`v\[LetterSpace]3 -> (model`e3*model`kcat3*model`x3[t])/
+    (model`kmx3e3*(1 + model`x2[t]/model`kix2e3)*
+     (1 + model`x3[t]/model`kmx3e3)), model`v\[LetterSpace]4 -> 
+   (model`e4*model`kcat4*model`x3[t])/(model`kmx3e4 + model`x3[t])}
+"zatorskyc" -> {model`R1 -> model`compartment*model`psi*model`Theta*
+    model`x[t], model`R3 -> model`alpha\[LetterSpace]xy*model`compartment*
+    model`x[t]*model`y[t], model`R4 -> model`beta\[LetterSpace]y*
+    model`compartment*model`psi*model`x[t], 
+  model`R5 -> model`alpha\[LetterSpace]0*model`compartment*model`y0[t], 
+  model`R6 -> model`alpha\[LetterSpace]y*model`compartment*model`y[t]}
+"zatorskye" -> {model`R1 -> model`beta\[LetterSpace]x*model`compartment*
+    model`psi, model`R2 -> model`alpha\[LetterSpace]x*model`compartment*
+    model`x[t], model`R3 -> model`alpha\[LetterSpace]xy*model`compartment*
+    model`x[t]*model`y[t], model`R4 -> model`beta\[LetterSpace]y*
+    model`compartment*model`psi*model`x[t], 
+  model`R5 -> model`alpha\[LetterSpace]0*model`compartment*model`y0[t], 
+  model`R6 -> model`alpha\[LetterSpace]y*model`compartment*model`y[t]}

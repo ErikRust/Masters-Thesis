@@ -1,0 +1,1049 @@
+"BIOMD0000000308" -> model`r1 -> 0.
+"BIOMD0000000308" -> model`r2 -> 0.
+"BIOMD0000000308" -> model`r3 -> 0.
+"BIOMD0000000308" -> model`r4 -> 0.
+"BIOMD0000000308" -> model`r5 -> 0.
+"BIOMD0000000308" -> model`r6 -> 0.
+"BIOMD0000000257" -> model`reaction1 -> 0.
+"BIOMD0000000257" -> model`reaction10 -> 0.
+"BIOMD0000000257" -> model`reaction11 -> 0.
+"BIOMD0000000257" -> model`reaction2 -> 0.
+"BIOMD0000000257" -> model`reaction3 -> 0.
+"BIOMD0000000257" -> model`reaction4 -> 0.
+"BIOMD0000000257" -> model`reaction5 -> 0.
+"BIOMD0000000257" -> model`reaction6 -> 0.
+"BIOMD0000000257" -> model`reaction7 -> 0.
+"BIOMD0000000257" -> model`reaction8 -> 0.
+"BIOMD0000000257" -> model`reaction9 -> 0.
+"BIOMD0000000012" -> model`Reaction1 -> -902.7346031203633
+"BIOMD0000000012" -> model`Reaction10 -> 903.7346031202469
+"BIOMD0000000012" -> model`Reaction11 -> 903.7346031207126
+"BIOMD0000000012" -> model`Reaction12 -> 903.7346031204797
+"BIOMD0000000012" -> model`Reaction2 -> -902.7346031209454
+"BIOMD0000000012" -> model`Reaction3 -> -902.7346031204797
+"BIOMD0000000012" -> model`Reaction4 -> 903.7346031205961
+"BIOMD0000000012" -> model`Reaction5 -> 903.7346031204797
+"BIOMD0000000012" -> model`Reaction6 -> 903.7346031209454
+"BIOMD0000000012" -> model`Reaction7 -> -902.7346031207126
+"BIOMD0000000012" -> model`Reaction8 -> -902.7346031202469
+"BIOMD0000000012" -> model`Reaction9 -> -902.734603120829
+"BIOMD0000000545" -> model`r1 -> 0.
+"BIOMD0000000545" -> model`r10 -> 0.
+"BIOMD0000000545" -> model`r2 -> 0.
+"BIOMD0000000545" -> model`r4 -> 0.
+"BIOMD0000000545" -> model`r5 -> 0.
+"BIOMD0000000545" -> model`r9 -> 0.
+"BIOMD0000000022" -> model`Reaction1 -> 0.
+"BIOMD0000000022" -> model`Reaction10 -> 0.
+"BIOMD0000000022" -> model`Reaction11 -> 0.
+"BIOMD0000000022" -> model`Reaction12 -> 0.
+"BIOMD0000000022" -> model`Reaction16 -> 0.
+"BIOMD0000000022" -> model`Reaction19 -> 0.
+"BIOMD0000000022" -> model`Reaction2 -> 0.
+"BIOMD0000000022" -> model`Reaction20 -> 0.
+"BIOMD0000000022" -> model`Reaction21 -> 0.
+"BIOMD0000000022" -> model`Reaction23 -> 0.
+"BIOMD0000000022" -> model`Reaction24 -> 0.
+"BIOMD0000000022" -> model`Reaction26 -> 0.
+"BIOMD0000000022" -> model`Reaction27 -> 0.
+"BIOMD0000000022" -> model`Reaction28 -> 0.
+"BIOMD0000000022" -> model`Reaction29 -> 0.
+"BIOMD0000000022" -> model`Reaction3 -> 0.
+"BIOMD0000000022" -> model`Reaction30 -> 0.
+"BIOMD0000000022" -> model`Reaction31 -> 0.
+"BIOMD0000000022" -> model`Reaction32 -> 0.
+"BIOMD0000000022" -> model`Reaction33 -> 0.
+"BIOMD0000000022" -> model`Reaction36 -> 0.
+"BIOMD0000000022" -> model`Reaction37 -> 0.
+"BIOMD0000000022" -> model`Reaction4 -> 0.
+"BIOMD0000000022" -> model`Reaction7 -> 0.
+"BIOMD0000000022" -> model`Reaction8 -> 0.
+"BIOMD0000000022" -> model`Reaction9 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]0 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]1 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]2 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]3 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]4 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]5 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]6 -> 0.
+"clarke1" -> model`reaction\[LetterSpace]7 -> 0.
+"BIOMD0000000629" -> model`LRCA\[LetterSpace]complx -> 0.
+"BIOMD0000000629" -> model`LR\[LetterSpace]complx -> 0.
+"dupreez1" -> model`v\[LetterSpace]AK -> 0.
+"BIOMD0000000430" -> model`reaction\[LetterSpace]18 -> 0.
+"BIOMD0000000430" -> model`reaction\[LetterSpace]24 -> 0.
+"BIOMD0000000430" -> model`reaction\[LetterSpace]28 -> 0.
+"BIOMD0000000430" -> model`reaction\[LetterSpace]9 -> 0.
+"BIOMD0000000631" -> 
+ model`CL\[LetterSpace]light\[LetterSpace]transcription -> 0.
+"BIOMD0000000631" -> model`CL\[LetterSpace]light\[LetterSpace]translation -> 
+  0.6927478051015397
+"BIOMD0000000631" -> model`CLm\[LetterSpace]dark\[LetterSpace]degradation -> 
+  0.
+"BIOMD0000000631" -> model`CLm\[LetterSpace]light\[LetterSpace]degradation -> 
+  0.8632323570956744
+"BIOMD0000000631" -> model`CLp\[LetterSpace]degradation -> 0.8632323571104243
+"BIOMD0000000631" -> model`CL\[LetterSpace]transcription -> 
+  0.13676764295908905
+"BIOMD0000000631" -> model`CL\[LetterSpace]translation -> 0.4440198378027861
+"BIOMD0000000631" -> model`EL\[LetterSpace]dark\[LetterSpace]degradation -> 0.
+"BIOMD0000000631" -> model`EL\[LetterSpace]light\[LetterSpace]degradation -> 
+  0.738647637678514
+"BIOMD0000000631" -> 
+ model`EL\[LetterSpace]light\[LetterSpace]transcription -> 0.26135236351167995
+"BIOMD0000000631" -> model`ELm\[LetterSpace]degradation -> 0.7386476374529019
+"BIOMD0000000631" -> model`EL\[LetterSpace]translation -> 0.261352362547098
+"BIOMD0000000631" -> model`P51\[LetterSpace]dark\[LetterSpace]degradation -> 
+  0.
+"BIOMD0000000631" -> model`P51\[LetterSpace]light\[LetterSpace]degradation -> 
+  0.11431120563298709
+"BIOMD0000000631" -> model`P51m\[LetterSpace]degradation -> 
+  0.11431120550899637
+"BIOMD0000000631" -> model`P51\[LetterSpace]transcription -> 
+  0.8856887946529507
+"BIOMD0000000631" -> model`P51\[LetterSpace]translation -> 0.8856887944910035
+"BIOMD0000000631" -> model`P97\[LetterSpace]CL\[LetterSpace]transcription -> 
+  0.5355092512465649
+"BIOMD0000000631" -> model`P97\[LetterSpace]dark\[LetterSpace]degradation -> 
+  0.
+"BIOMD0000000631" -> model`P97\[LetterSpace]light\[LetterSpace]degradation -> 
+  0.8635173040706171
+"BIOMD0000000631" -> 
+ model`P97\[LetterSpace]light\[LetterSpace]transcription -> 0.
+"BIOMD0000000631" -> model`P97m\[LetterSpace]degradation -> 0.8635173038895302
+"BIOMD0000000631" -> model`P97\[LetterSpace]transcription -> 
+  0.6009734467024739
+"BIOMD0000000631" -> model`P97\[LetterSpace]translation -> 0.1364826961104699
+"BIOMD0000000631" -> model`P\[LetterSpace]dark\[LetterSpace]accumulation -> 0.
+"BIOMD0000000631" -> model`PIF\[LetterSpace]dark\[LetterSpace]degradation -> 
+  0.
+"BIOMD0000000631" -> model`PIF\[LetterSpace]transcription -> 
+  0.9999999966653396
+"BIOMD0000000631" -> model`P\[LetterSpace]light\[LetterSpace]degradation -> 0.
+"BIOMD0000000203" -> model`J4 -> 4.997899762254386*^-16
+"BIOMD0000000203" -> model`J5 -> 0.
+"BIOMD0000000325" -> model`A\[LetterSpace]degradation -> -241214.19427422434
+"BIOMD0000000325" -> model`C\[LetterSpace]degradation -> -22567.565994693898
+"BIOMD0000000325" -> model`C\[LetterSpace]I\[LetterSpace]binding -> 
+  184581.50130102783
+"BIOMD0000000325" -> model`I\[LetterSpace]activation -> 20782.98761777859
+"BIOMD0000000325" -> model`I\[LetterSpace]degradation -> -71889.48702150583
+"BIOMD0000000325" -> model`I\[LetterSpace]expression -> 107765.68482803926
+"BIOMD0000000325" -> model`R\[LetterSpace]degradation -> -133002.05290668458
+"BIOMD0000000325" -> model`R\[LetterSpace]expression -> 133450.50944660604
+"BIOMD0000000325" -> model`R\[LetterSpace]L\[LetterSpace]binding -> 
+  22372.827452800237
+"BIOMD0000000325" -> model`X\[LetterSpace]degradation -> 
+  2.143801902532414*^-11
+"dupreez5" -> model`v\[LetterSpace]AK -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r1 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r10 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r11 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r12 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r2 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r3 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r4 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r5 -> 1.371707260301867*^-26
+"BIOMD0000000200" -> model`complex\[LetterSpace]r6 -> 2.2732697372942227*^-26
+"BIOMD0000000200" -> model`complex\[LetterSpace]r7 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r8 -> 0.
+"BIOMD0000000200" -> model`complex\[LetterSpace]r9 -> 0.
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r10 -> 
+  2.7494851044159245*^-13
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r2 -> 
+  1.158841299300229*^-14
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r3 -> 
+  2.6196349280983336*^-14
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r4 -> 
+  5.1882397599754034*^-15
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r5 -> 0.
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r6 -> 0.
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r7 -> 
+  1.4598294429144545*^-14
+"BIOMD0000000200" -> model`phosphorylation\[LetterSpace]r8 -> 
+  8.573777508834921*^-14
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r1 -> 
+  2.4897309300435444*^-16
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r10 -> 0.
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r11 -> 0.
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r2 -> 
+  5.626385011196344*^-16
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r3 -> 
+  1.114689312134287*^-16
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r4 -> 0.
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r5 -> 0.
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r6 -> 
+  2.4288846907482865*^-13
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r7 -> 
+  2.4897384122154217*^-16
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r8 -> 
+  5.626434325852494*^-16
+"BIOMD0000000200" -> model`phosphotransfer\[LetterSpace]r9 -> 
+  1.1146951249502347*^-16
+"BIOMD0000000321" -> 
+ model`\[LetterSpace]3\[LetterSpace]OMD\[LetterSpace]clearance -> 0.
+"BIOMD0000000321" -> model`AADC\[LetterSpace]clearance -> 0.
+"BIOMD0000000321" -> model`COMT\[LetterSpace]clearance -> 0.
+"BIOMD0000000321" -> model`l\[LetterSpace]dopa\[LetterSpace]absorption -> 0.
+"BIOMD0000000321" -> model`l\[LetterSpace]dopa\[LetterSpace]blood\
+\[LetterSpace]hepa\[LetterSpace]clearance -> 0.
+"BIOMD0000000321" -> model`rest\[LetterSpace]clearance -> 0.
+"BIOMD0000000520" -> model`R00 -> 0.
+"BIOMD0000000520" -> model`R01 -> 0.
+"BIOMD0000000520" -> model`R0X -> 0.
+"BIOMD0000000520" -> model`R11 -> 0.
+"BIOMD0000000520" -> model`R12 -> 0.
+"BIOMD0000000520" -> model`R1X -> 0.
+"BIOMD0000000520" -> model`R2X -> 0.
+"BIOMD0000000218" -> model`ScAS -> 0.
+"BIOMD0000000416" -> model`r1 -> 0.
+"BIOMD0000000416" -> model`r10 -> 0.
+"BIOMD0000000416" -> model`r11 -> 0.
+"BIOMD0000000416" -> model`r12 -> 0.
+"BIOMD0000000416" -> model`r13 -> 0.
+"BIOMD0000000416" -> model`r14 -> 0.
+"BIOMD0000000416" -> model`r15 -> 0.
+"BIOMD0000000416" -> model`r16 -> 0.
+"BIOMD0000000416" -> model`r17 -> 0.
+"BIOMD0000000416" -> model`r18 -> 0.
+"BIOMD0000000416" -> model`r19 -> 0.
+"BIOMD0000000416" -> model`r2 -> 0.
+"BIOMD0000000416" -> model`r20 -> 0.
+"BIOMD0000000416" -> model`r3 -> 0.
+"BIOMD0000000416" -> model`r4 -> 0.
+"BIOMD0000000416" -> model`r5 -> 0.
+"BIOMD0000000416" -> model`r6 -> 0.
+"BIOMD0000000416" -> model`r7 -> 0.
+"BIOMD0000000416" -> model`r8 -> 0.
+"BIOMD0000000416" -> model`r9 -> 0.
+"BIOMD0000000459" -> model`v1 -> 0.
+"BIOMD0000000459" -> model`v2 -> 0.
+"BIOMD0000000459" -> model`v3 -> 0.
+"BIOMD0000000026" -> model`v1a -> 0.
+"BIOMD0000000026" -> model`v1b -> 0.
+"BIOMD0000000026" -> model`v2a -> 0.
+"BIOMD0000000026" -> model`v2b -> 0.
+"BIOMD0000000026" -> model`v3a -> 0.
+"BIOMD0000000026" -> model`v3b -> 0.
+"BIOMD0000000026" -> model`v3c -> 0.
+"BIOMD0000000026" -> model`v4a -> 0.
+"BIOMD0000000026" -> model`v4b -> 0.
+"BIOMD0000000026" -> model`v4c -> 0.
+"BIOMD0000000395" -> model`r14 -> 0.
+"BIOMD0000000395" -> model`r15 -> 0.
+"BIOMD0000000395" -> model`r23 -> 0.
+"BIOMD0000000395" -> model`r25 -> 0.
+"BIOMD0000000395" -> model`r26 -> 0.
+"BIOMD0000000395" -> model`r51 -> 0.
+"BIOMD0000000395" -> model`r52 -> 0.
+"BIOMD0000000395" -> model`r53 -> 0.
+"BIOMD0000000395" -> model`r54 -> 0.
+"BIOMD0000000395" -> model`r55 -> 0.
+"BIOMD0000000395" -> model`r7 -> 0.
+"BIOMD0000000395" -> model`re24 -> 0.
+"BIOMD0000000396" -> model`r10 -> 0.
+"BIOMD0000000396" -> model`r11 -> 0.
+"BIOMD0000000396" -> model`r13 -> 0.
+"BIOMD0000000396" -> model`r16 -> 0.
+"BIOMD0000000396" -> model`r17 -> 0.
+"BIOMD0000000396" -> model`r18 -> 0.
+"BIOMD0000000396" -> model`r21 -> 0.
+"BIOMD0000000396" -> model`r25 -> 0.
+"BIOMD0000000396" -> model`r26 -> 0.
+"BIOMD0000000396" -> model`r28 -> 0.
+"BIOMD0000000396" -> model`r29 -> 0.
+"BIOMD0000000396" -> model`r30 -> 0.
+"BIOMD0000000396" -> model`r31 -> 0.
+"BIOMD0000000396" -> model`r8 -> 0.
+"BIOMD0000000396" -> model`r9 -> 0.
+"BIOMD0000000396" -> model`re16 -> 0.
+"BIOMD0000000275" -> model`RA\[LetterSpace]decay -> 0.
+"edelstein" -> model`v\[LetterSpace]1 -> 0.
+"edelstein" -> model`v\[LetterSpace]10 -> 0.
+"edelstein" -> model`v\[LetterSpace]11 -> 0.
+"edelstein" -> model`v\[LetterSpace]12 -> 0.
+"edelstein" -> model`v\[LetterSpace]13 -> 0.
+"edelstein" -> model`v\[LetterSpace]14 -> 0.
+"edelstein" -> model`v\[LetterSpace]15 -> 0.
+"edelstein" -> model`v\[LetterSpace]16 -> 0.
+"edelstein" -> model`v\[LetterSpace]17 -> 0.
+"edelstein" -> model`v\[LetterSpace]2 -> -1.139498198959509*^-16
+"edelstein" -> model`v\[LetterSpace]3 -> 0.
+"edelstein" -> model`v\[LetterSpace]4 -> 0.
+"edelstein" -> model`v\[LetterSpace]5 -> 2.3755000248707365*^-15
+"edelstein" -> model`v\[LetterSpace]6 -> 0.
+"edelstein" -> model`v\[LetterSpace]7 -> 1.3210899435256377*^-15
+"edelstein" -> model`v\[LetterSpace]8 -> 0.
+"edelstein" -> model`v\[LetterSpace]9 -> 0.
+"elowitz1" -> model`Reaction1 -> -902.7346031203633
+"elowitz1" -> model`Reaction10 -> 903.7346031202469
+"elowitz1" -> model`Reaction11 -> 903.7346031207126
+"elowitz1" -> model`Reaction12 -> 903.7346031204797
+"elowitz1" -> model`Reaction2 -> -902.7346031209454
+"elowitz1" -> model`Reaction3 -> -902.7346031204797
+"elowitz1" -> model`Reaction4 -> 903.7346031205961
+"elowitz1" -> model`Reaction5 -> 903.7346031204797
+"elowitz1" -> model`Reaction6 -> 903.7346031209454
+"elowitz1" -> model`Reaction7 -> -902.7346031207126
+"elowitz1" -> model`Reaction8 -> -902.7346031202469
+"elowitz1" -> model`Reaction9 -> -902.734603120829
+"BIOMD0000000212" -> model`VlysKR -> 0.
+"BIOMD0000000212" -> model`Vtha -> 0.
+"BIOMD0000000461" -> model`v1 -> 0.
+"BIOMD0000000461" -> model`v2 -> 0.
+"BIOMD0000000461" -> model`v3 -> 0.
+"BIOMD0000000462" -> model`AbetaDedimerisation -> 0.3468431451297772
+"BIOMD0000000462" -> model`AbetaDegradation -> 0.
+"BIOMD0000000462" -> model`AbetaDimerisation -> 0.9999999998023658
+"BIOMD0000000462" -> model`AbetaDisaggregation -> 0.00002619594351926935
+"BIOMD0000000462" -> model`AbetaPlaqueFormation -> 3.650521452035799*^-13
+"BIOMD0000000462" -> model`AbetaPlaqueGrowth -> -0.00001309799245063914
+"BIOMD0000000462" -> model`NepDegradation -> 0.
+"BIOMD0000000460" -> model`v1 -> 0.
+"BIOMD0000000460" -> model`v2 -> 0.
+"BIOMD0000000460" -> model`v3 -> 2.983745590875782*^-31
+"BIOMD0000000467" -> model`re131 -> 0.9987007782818473
+"BIOMD0000000467" -> model`re132 -> 0.9999991271767791
+"BIOMD0000000467" -> model`re133 -> 0.9999485465879775
+"BIOMD0000000467" -> model`re134 -> 0.9999568256280337
+"BIOMD0000000467" -> model`re135 -> 0.9996297840166694
+"BIOMD0000000467" -> model`re136 -> 0.9997595021993292
+"BIOMD0000000467" -> model`re137 -> 0.9999399063542722
+"BIOMD0000000467" -> model`re138 -> 0.9999780251413838
+"BIOMD0000000467" -> model`re139 -> 7.849897090732757*^-13
+"BIOMD0000000467" -> model`re37 -> 0.515002301998614
+"BIOMD0000000467" -> model`re38 -> 0.4184125884156482
+"BIOMD0000000467" -> model`re41 -> 1.2763171319283656*^-7
+"BIOMD0000000467" -> model`re42 -> 0.00020339787132557112
+"BIOMD0000000467" -> model`re50 -> 0.06755384499055407
+"BIOMD0000000467" -> model`re51 -> 0.03484642657298025
+"BIOMD0000000467" -> model`re52 -> 0.12497652792893663
+"BIOMD0000000467" -> model`re53 -> 0.8399968338647946
+"BIOMD0000000467" -> model`re54 -> 0.001835277912680244
+"BIOMD0000000467" -> model`re55 -> 0.9533289729939549
+"BIOMD0000000467" -> model`re56 -> 0.8105264110449512
+"BIOMD0000000467" -> model`re69 -> 3.425354352279947*^-8
+"BIOMD0000000467" -> model`re70 -> 0.11339789416447695
+"BIOMD0000000467" -> model`re71 -> 0.00004317981918295283
+"BIOMD0000000467" -> model`re72 -> 0.12196935041181452
+"BIOMD0000000347" -> model`reaction\[LetterSpace]10 -> 0.
+"BIOMD0000000347" -> model`reaction\[LetterSpace]14 -> 2.3397794473436872*^-15
+"BIOMD0000000347" -> model`reaction\[LetterSpace]26 -> 0.
+"BIOMD0000000347" -> model`reaction\[LetterSpace]36 -> 0.
+"BIOMD0000000226" -> model`re44 -> 0.
+"BIOMD0000000226" -> model`re45 -> 0.
+"BIOMD0000000226" -> model`re46 -> 0.
+"BIOMD0000000226" -> model`re47 -> 0.
+"BIOMD0000000226" -> model`re48 -> 0.
+"BIOMD0000000226" -> model`re52 -> 0.
+"BIOMD0000000226" -> model`re53 -> 1.1337868480725625*^-13
+"BIOMD0000000226" -> model`re56 -> 1.6906170752325077*^-13
+"BIOMD0000000226" -> model`re57 -> 0.
+"BIOMD0000000226" -> model`re58 -> 0.
+"BIOMD0000000226" -> model`re59 -> 0.
+"BIOMD0000000226" -> model`re61 -> 0.
+"BIOMD0000000226" -> model`re65 -> 0.
+"BIOMD0000000226" -> model`re66 -> 0.
+"BIOMD0000000226" -> model`re67 -> 0.
+"BIOMD0000000226" -> model`re68 -> 0.
+"BIOMD0000000226" -> model`re69 -> 0.
+"BIOMD0000000226" -> model`re70 -> 0.
+"BIOMD0000000226" -> model`re71 -> 0.
+"BIOMD0000000226" -> model`re72 -> 0.
+"goodman" -> model`v\[LetterSpace]8 -> 0.
+"haus1" -> model`v\[LetterSpace]10 -> 0.
+"haus1" -> model`v\[LetterSpace]11 -> 0.
+"haus1" -> model`v\[LetterSpace]12 -> 0.
+"haus1" -> model`v\[LetterSpace]19 -> 2.2108691459986727*^-14
+"haus2" -> model`v\[LetterSpace]10 -> 0.
+"haus2" -> model`v\[LetterSpace]11 -> 0.
+"haus2" -> model`v\[LetterSpace]12 -> 0.
+"haus2" -> model`v\[LetterSpace]19 -> 2.2108691460288937*^-14
+"haus3" -> model`v\[LetterSpace]10 -> 0.
+"haus3" -> model`v\[LetterSpace]11 -> 0.
+"haus3" -> model`v\[LetterSpace]12 -> 0.
+"haus3" -> model`v\[LetterSpace]19 -> 2.2108691459986724*^-14
+"haus4" -> model`v\[LetterSpace]10 -> 0.
+"haus4" -> model`v\[LetterSpace]11 -> 0.
+"haus4" -> model`v\[LetterSpace]12 -> 0.
+"haus4" -> model`v\[LetterSpace]19 -> 3.985169618405667*^-14
+"hoefnagel1" -> model`v\[LetterSpace]8 -> 1.2314586502082037*^-13
+"hoefnagel2" -> model`v\[LetterSpace]17 -> 1.138217634519224*^-13
+"huo1" -> model`v\[LetterSpace]10 -> 0.
+"huo1" -> model`v\[LetterSpace]11 -> 0.
+"huo1" -> model`v\[LetterSpace]12 -> 0.
+"huo1" -> model`v\[LetterSpace]13 -> 0.
+"huo1" -> model`v\[LetterSpace]14 -> 0.
+"huo1" -> model`v\[LetterSpace]15 -> 0.
+"huo1" -> model`v\[LetterSpace]16 -> 0.
+"huo1" -> model`v\[LetterSpace]2 -> 0.
+"huo1" -> model`v\[LetterSpace]3 -> 0.
+"huo1" -> model`v\[LetterSpace]5 -> 0.
+"huo1" -> model`v\[LetterSpace]6 -> 0.
+"huo1" -> model`v\[LetterSpace]7 -> 0.
+"huo1" -> model`v\[LetterSpace]8 -> 0.
+"huo1" -> model`v\[LetterSpace]9 -> 0.
+"jabbari2" -> model`v\[LetterSpace]31 -> -2.291347462453918*^-33
+"kholodenko" -> model`v\[LetterSpace]1 -> 0.
+"kholodenko" -> model`v\[LetterSpace]2 -> 0.
+"kholodenko" -> model`v\[LetterSpace]25 -> 0.
+"kolodkin1" -> model`v\[LetterSpace]1 -> 0.
+"kolodkin1" -> model`v\[LetterSpace]2 -> 0.
+"kolodkin7" -> model`v\[LetterSpace]1 -> 0.
+"kolodkin7" -> model`v\[LetterSpace]2 -> 0.
+"kolodkin7" -> model`v\[LetterSpace]3 -> 0.
+"kolodkin7" -> model`v\[LetterSpace]4 -> 0.
+"kolodkin7" -> model`v\[LetterSpace]5 -> 0.
+"kolodkin8" -> model`v\[LetterSpace]1 -> 0.
+"kolodkin8" -> model`v\[LetterSpace]2 -> 0.
+"kolodkin8" -> model`v\[LetterSpace]3 -> 0.
+"kolodkin8" -> model`v\[LetterSpace]4 -> 0.
+"kolodkin8" -> model`v\[LetterSpace]5 -> 0.
+"kolodkin8" -> model`v\[LetterSpace]6 -> 0.
+"kouril1" -> model`v\[LetterSpace]7 -> 0.
+"kouril1" -> model`v\[LetterSpace]8 -> 0.
+"kouril3" -> model`v\[LetterSpace]1 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]2 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]3 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]4 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]5 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]6 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]7 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]8 -> 0. + 0.*I
+"kouril3" -> model`v\[LetterSpace]9 -> 0. + 0.*I
+"kouril4" -> model`v1 -> 0.
+"kouril4" -> model`v2 -> 0.
+"kouril6" -> model`v1 -> 0.
+"kouril6" -> model`v2 -> 0.
+"kouril6" -> model`v3 -> 0.
+"kouril7" -> model`v1 -> 0.
+"kouril7" -> model`v2 -> 0.
+"kouril7" -> model`v4 -> 0.
+"kouril7" -> model`v5 -> 0.
+"kouril8" -> model`v1 -> 0.
+"kouril8" -> model`v2 -> 0.
+"kouril8" -> model`v3 -> 0.
+"kouril8" -> model`v4 -> 0.
+"kouril8" -> model`v5 -> 0.
+"kouril8" -> model`v6 -> 0.
+"kouril9" -> model`v1 -> 0.
+"kouril9" -> model`v10 -> 0.
+"kouril9" -> model`v2 -> 0.
+"kouril9" -> model`v3 -> 0.
+"kouril9" -> model`v4 -> 0.
+"kouril9" -> model`v5 -> 0.
+"kouril9" -> model`v6 -> 0.
+"kouril9" -> model`v7 -> 0.
+"kouril9" -> model`v8 -> 0.
+"kouril9" -> model`v9 -> 0.
+"BIOMD0000000150" -> model`Activation -> 0.
+"BIOMD0000000150" -> model`Binding -> 0.
+"BIOMD0000000397" -> model`r1 -> 0.
+"BIOMD0000000397" -> model`r102 -> 0.
+"BIOMD0000000397" -> model`r103 -> 0.
+"BIOMD0000000397" -> model`r104 -> 0.
+"BIOMD0000000397" -> model`r105 -> 0.
+"BIOMD0000000397" -> model`r106 -> 0.
+"BIOMD0000000397" -> model`r107 -> 0.
+"BIOMD0000000397" -> model`r47 -> 0.
+"BIOMD0000000397" -> model`r48 -> 0.
+"BIOMD0000000397" -> model`r5 -> 0.
+"BIOMD0000000397" -> model`r54 -> 0.
+"BIOMD0000000397" -> model`r58 -> 0.
+"BIOMD0000000397" -> model`r63 -> 0.
+"BIOMD0000000397" -> model`r64 -> 0.
+"BIOMD0000000397" -> model`r65 -> 0.
+"BIOMD0000000397" -> model`r66 -> 0.
+"BIOMD0000000397" -> model`r67 -> 0.
+"BIOMD0000000397" -> model`r68 -> 0.
+"BIOMD0000000397" -> model`r85 -> 0.
+"BIOMD0000000397" -> model`r86 -> 0.
+"BIOMD0000000397" -> model`r88 -> 0.
+"BIOMD0000000397" -> model`r90 -> 0.
+"BIOMD0000000397" -> model`r91 -> 0.
+"BIOMD0000000397" -> model`r92 -> 0.
+"BIOMD0000000397" -> model`r96 -> 0.
+"BIOMD0000000397" -> model`r98 -> 0.
+"BIOMD0000000397" -> model`r99 -> 0.
+"BIOMD0000000397" -> model`re64 -> 0.
+"BIOMD0000000397" -> model`re65 -> 0.
+"BIOMD0000000283" -> model`r1 -> 0.
+"BIOMD0000000283" -> model`r2 -> 0.
+"lee" -> model`v\[LetterSpace]0 -> 0.
+"lee" -> model`v\[LetterSpace]1 -> 0.
+"lee" -> model`v\[LetterSpace]16 -> 0.
+"lee" -> model`v\[LetterSpace]17 -> 0.
+"lee" -> model`v\[LetterSpace]2 -> 7.775389354187176*^-14
+"lee" -> model`v\[LetterSpace]3 -> 3.4610646061156547*^-16
+"lee" -> model`v\[LetterSpace]6 -> 9.916882405887616*^-15
+"lee" -> model`v\[LetterSpace]7 -> 0.
+"leroux" -> model`v16 -> 0.
+"leroux" -> model`v17 -> 0.
+"leroux" -> model`v19 -> 2.2834552857603625*^-27
+"leroux" -> model`v20 -> 1.0685694785743796*^-14
+"leroux" -> model`v22 -> -4.469957907274544*^-25
+"leroux" -> model`v23 -> 5.355047982593522*^-15
+"leroux" -> model`v25 -> 0.
+"leroux" -> model`v30 -> 0.
+"leroux" -> model`v31 -> 0.
+"leroux" -> model`v6 -> 0.
+"leroux2" -> model`v16 -> 0.
+"leroux2" -> model`v17 -> 0.
+"leroux2" -> model`v19 -> 0.
+"leroux2" -> model`v20 -> 0.
+"leroux2" -> model`v21 -> 0.
+"leroux2" -> model`v22 -> 0.
+"leroux2" -> model`v23 -> 0.
+"leroux2" -> model`v24 -> 0.
+"leroux2" -> model`v25 -> 0.
+"leroux2" -> model`v26 -> 0.
+"leroux2" -> model`v27 -> 0.
+"leroux2" -> model`v28 -> 0.
+"leroux2" -> model`v29 -> 0.
+"leroux2" -> model`v30 -> 0.
+"leroux2" -> model`v31 -> 0.
+"leroux2" -> model`v6 -> 0.
+"moghadas1" -> model`v\[LetterSpace]10 -> 0.
+"moghadas1" -> model`v\[LetterSpace]11 -> 0.
+"moghadas1" -> model`v\[LetterSpace]12 -> 0.
+"moghadas1" -> model`v\[LetterSpace]4 -> 0.
+"moghadas1" -> model`v\[LetterSpace]5 -> 0.
+"moghadas1" -> model`v\[LetterSpace]7 -> 0.
+"moghadas1" -> model`v\[LetterSpace]8 -> 0.
+"moghadas1" -> model`v\[LetterSpace]9 -> 0.
+"murray1" -> model`v1 -> 0.
+"murray1" -> model`v10 -> 0.
+"murray1" -> model`v2 -> 0.
+"murray1" -> model`v3 -> 0.
+"murray1" -> model`v4 -> 0.
+"murray1" -> model`v5 -> 0.
+"murray1" -> model`v6 -> 0.
+"murray1" -> model`v7 -> 0.
+"murray1" -> model`v8 -> 0.
+"murray1" -> model`v9 -> 0.
+"naresh1" -> model`v\[LetterSpace]4 -> 0.
+"naresh1" -> model`v\[LetterSpace]5 -> 0.
+"naresh1" -> model`v\[LetterSpace]6 -> 0.
+"naresh1" -> model`v\[LetterSpace]7 -> 0.
+"nyabadza1" -> model`v\[LetterSpace]11 -> 0.
+"penkler2aa" -> model`vPFvALD -> 0.
+"penkler2aa" -> model`vPFvATPASE -> 0.
+"penkler2aa" -> model`vPFvENO -> 0.
+"penkler2aa" -> model`vPFvG3PDH -> -5.191242852270749*^-16
+"penkler2aa" -> model`vPFvGAPDH -> 8.29821237766093*^-17
+"penkler2aa" -> model`vPFvGLCtr -> 0.
+"penkler2aa" -> model`vPFvGLYtr -> 1.4710129264832686*^-18
+"penkler2aa" -> model`vPFvHK -> 0.
+"penkler2aa" -> model`vPFvLACtr -> -4.176967969285173*^-20
+"penkler2aa" -> model`vPFvLDH -> 4.192270639372711*^-18
+"penkler2aa" -> model`vPFvPFK -> 0.
+"penkler2aa" -> model`vPFvPGI -> 0.
+"penkler2aa" -> model`vPFvPGK -> 0.
+"penkler2aa" -> model`vPFvPGM -> 0.
+"penkler2aa" -> model`vPFvPK -> 0.
+"penkler2aa" -> model`vPFvPYRtr -> 0.
+"penkler2aa" -> model`vPFvTPI -> 0.
+"queralt" -> model`v\[LetterSpace]28 -> 1.4979162258359604*^-14
+"queralt" -> model`v\[LetterSpace]30 -> 3.771603691123006*^-16
+"smallbone1" -> model`AK -> 0.
+"smallbone10" -> model`AK -> 0.
+"smallbone10" -> model`TDHTDH2 -> 0.
+"BIOMD0000000282" -> model`r1 -> 0.
+"BIOMD0000000282" -> model`r2 -> 0.
+"BIOMD0000000282" -> model`r3 -> 0.
+"BIOMD0000000048" -> model`v1 -> 0.
+"BIOMD0000000048" -> model`v10 -> 0.
+"BIOMD0000000048" -> model`v11 -> 0.
+"BIOMD0000000048" -> model`v12 -> 0.
+"BIOMD0000000048" -> model`v13 -> 0.
+"BIOMD0000000048" -> model`v14 -> 0.
+"BIOMD0000000048" -> model`v15 -> 0.
+"BIOMD0000000048" -> model`v16 -> 0.
+"BIOMD0000000048" -> model`v17 -> 0.
+"BIOMD0000000048" -> model`v18 -> 0.
+"BIOMD0000000048" -> model`v19 -> 0.
+"BIOMD0000000048" -> model`v2 -> 0.
+"BIOMD0000000048" -> model`v20 -> 0.
+"BIOMD0000000048" -> model`v21 -> 0.
+"BIOMD0000000048" -> model`v22 -> 0.
+"BIOMD0000000048" -> model`v23 -> 0.
+"BIOMD0000000048" -> model`v24 -> 0.
+"BIOMD0000000048" -> model`v25 -> 0.
+"BIOMD0000000048" -> model`v3 -> 0.
+"BIOMD0000000048" -> model`v4 -> 0.
+"BIOMD0000000048" -> model`v5 -> 0.
+"BIOMD0000000048" -> model`v6 -> 0.
+"BIOMD0000000048" -> model`v7 -> 0.
+"BIOMD0000000048" -> model`v8 -> 0.
+"BIOMD0000000048" -> model`v9 -> 0.
+"BIOMD0000000288" -> model`c2ODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`ephODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`fGEFODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`m3PIODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`mRasODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`sumrc1ODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`wODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`x1ODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`x2ODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`yODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`yppODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`zODE -> 0. + 0.*I
+"BIOMD0000000288" -> model`zppODE -> 0. + 0.*I
+"BIOMD0000000054" -> 
+ model`U6\[LetterSpace]plus\[LetterSpace]U7\[LetterSpace]minus\[LetterSpace]U\
+8 -> 0.
+"BIOMD0000000176" -> model`AK -> 0.
+"BIOMD0000000294" -> model`r1 -> 0.
+"BIOMD0000000172" -> model`AK -> 0.
+"BIOMD0000000058" -> model`diffusion -> 0.
+"BIOMD0000000177" -> model`AK -> 0.
+"BIOMD0000000057" -> model`v1 -> 0.
+"BIOMD0000000057" -> model`v2 -> 0.
+"BIOMD0000000057" -> model`v3 -> 0.
+"BIOMD0000000057" -> model`v4 -> 0.
+"BIOMD0000000057" -> model`v5 -> 0.
+"BIOMD0000000060" -> model`Closed\[LetterSpace]state\[LetterSpace]1 -> 0.
+"BIOMD0000000060" -> model`Closed\[LetterSpace]State\[LetterSpace]2 -> 0.
+"BIOMD0000000060" -> model`Open\[LetterSpace]state\[LetterSpace]2 -> 0.
+"BIOMD0000000069" -> model`Cbp\[LetterSpace]phosphorylation -> 0.
+"BIOMD0000000069" -> model`CSK\[LetterSpace]translocation -> 0.
+"BIOMD0000000069" -> model`PTP\[LetterSpace]phosphorylation -> 0.
+"BIOMD0000000198" -> model`r1fast -> 0.
+"BIOMD0000000198" -> model`r1slow -> 0.
+"BIOMD0000000198" -> model`r2fast -> 0.
+"BIOMD0000000198" -> model`r2slow -> 0.
+"BIOMD0000000198" -> model`r3fast -> 0.
+"BIOMD0000000198" -> model`r3slow -> 0.
+"BIOMD0000000198" -> model`r4slow -> 0.
+"BIOMD0000000192" -> model`Cytoplasmic\[LetterSpace]transfer -> 0.
+"BIOMD0000000192" -> model`GDP\[LetterSpace]dissociation -> 0.
+"BIOMD0000000192" -> model`GTP\[LetterSpace]binding -> 0.
+"BIOMD0000000192" -> model`Nucleoplasmic\[LetterSpace]transfer -> 0.
+"BIOMD0000000192" -> model`RanBP1\[LetterSpace]RanGDP -> 0.
+"BIOMD0000000192" -> model`RanGAP\[LetterSpace]RanGDP -> 0.
+"BIOMD0000000192" -> model`RanGTP\[LetterSpace]binding -> 0.
+"BIOMD0000000192" -> model`RanGTP\[LetterSpace]release -> 0.
+"BIOMD0000000192" -> model`RCC1\[LetterSpace]binding -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]1 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]10 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]11 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]13 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]14 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]16 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]17 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]19 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]20 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]23 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]3 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]4 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]5 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]6 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]7 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]8 -> 0.
+"BIOMD0000000085" -> model`reaction\[LetterSpace]9 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]0 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]1 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]10 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]11 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]12 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]13 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]14 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]15 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]16 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]17 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]18 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]19 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]2 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]20 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]21 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]22 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]23 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]3 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]4 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]5 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]6 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]7 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]8 -> 0.
+"BIOMD0000000086" -> model`reaction\[LetterSpace]9 -> 0.
+"BIOMD0000000082" -> model`Forming -> 0.
+"BIOMD0000000082" -> model`reaction\[LetterSpace]1 -> 0.
+"BIOMD0000000082" -> model`reaction\[LetterSpace]2 -> 0.
+"BIOMD0000000082" -> model`reaction\[LetterSpace]3 -> 0.
+"BIOMD0000000082" -> model`reaction\[LetterSpace]4 -> 0.
+"BIOMD0000000082" -> model`reaction\[LetterSpace]5 -> 0.
+"BIOMD0000000080" -> model`Reaction\[LetterSpace]1 -> 0.
+"BIOMD0000000080" -> model`Reaction\[LetterSpace]2 -> 0.
+"BIOMD0000000080" -> model`Reaction\[LetterSpace]3 -> 0.
+"BIOMD0000000080" -> model`Reaction\[LetterSpace]4 -> 0.
+"BIOMD0000000080" -> model`Reaction\[LetterSpace]5 -> 0.
+"BIOMD0000000080" -> model`Reaction\[LetterSpace]6 -> 0.
+"BIOMD0000000357" -> model`r1 -> 0.
+"BIOMD0000000357" -> model`r12 -> 0.
+"BIOMD0000000357" -> model`r14 -> 0.
+"BIOMD0000000357" -> model`r2 -> 0.
+"BIOMD0000000357" -> model`r5 -> 0.
+"BIOMD0000000357" -> model`r7 -> 0.
+"BIOMD0000000357" -> model`r8 -> 0.
+"BIOMD0000000357" -> model`r9 -> 0.
+"BIOMD0000000116" -> model`reaction\[LetterSpace]6 -> 0.
+"BIOMD0000000116" -> model`reaction\[LetterSpace]7 -> 0.
+"achcar1" -> model`AKc -> 0.
+"achcar1" -> model`AKg -> 0.
+"achcar10" -> model`AKc -> 4.8245141622284225*^-18
+"achcar10" -> model`AKg -> -4.432522990437019*^-15
+"achcar10" -> model`ALDc -> 0.010607325150714516
+"achcar10" -> model`ALDg -> 0.004066550005833956
+"achcar10" -> model`ATPuc -> -0.30241058701174395
+"achcar10" -> model`DHAPtg -> 0.004998140563356463
+"achcar10" -> model`ENOc -> 0.0006174254708895034
+"achcar10" -> model`G3PDHc -> 0.9999996689528297
+"achcar10" -> model`G3PDHg -> 0.08152514246343408
+"achcar10" -> model`G6PPc -> 0.5804282479273595
+"achcar10" -> model`GA3Ptg -> 0.0005735538142103853
+"achcar10" -> model`GAPDHc -> 0.00005419319252891192
+"achcar10" -> model`GAPDHg -> 0.23680627114211628
+"achcar10" -> model`GKc -> 0.8044870830466243
+"achcar10" -> model`GKg -> 0.13748286997833298
+"achcar10" -> model`GlcTc -> 1.0653995075207068
+"achcar10" -> model`GlcTg -> 0.00008103216210840932
+"achcar10" -> model`Gly3Ptg -> -0.02478592334030451
+"achcar10" -> model`GlyTc -> 0.5867393873937409
+"achcar10" -> model`Glytg -> 0.21436239897633963
+"achcar10" -> model`GPOc -> -0.19122543042829335
+"achcar10" -> model`HXKc -> 0.4242323460362913
+"achcar10" -> model`HXKg -> 0.15726590311113248
+"achcar10" -> model`PFKc -> 0.022249939670156673
+"achcar10" -> model`PFKg -> 0.011305691388950104
+"achcar10" -> model`PGA3Tg -> 0.0001755060814347945
+"achcar10" -> model`PGAMc -> 0.002356475875307817
+"achcar10" -> model`PGIc -> 0.008675332906535237
+"achcar10" -> model`PGIg -> 0.0021776478649714803
+"achcar10" -> model`PGKc -> 1.1481165827758772
+"achcar10" -> model`PGKg -> 0.003425426640866693
+"achcar10" -> model`PYKc -> 0.0005328475236942897
+"achcar10" -> model`PyrTc -> 0.00008048210270622767
+"achcar10" -> model`TPIc -> 0.9993191964847035
+"achcar10" -> model`TPIg -> 0.010279764558667743
+"achcar2" -> model`AKc -> 0.
+"achcar2" -> model`AKg -> 0.
+"achcar4" -> model`AKc -> 0.
+"achcar4" -> model`AKg -> 0.
+"achcar4" -> model`BPGA13tg -> 0.
+"achcar4" -> model`F6Ptg -> 0.
+"achcar4" -> model`G6Ptg -> 0.
+"achcar4" -> model`GA3Ptg -> 0.
+"achcar5" -> model`AKc -> 0.
+"achcar5" -> model`AKg -> 0.
+"achcar5" -> model`BPGA13tg -> 0.
+"achcar5" -> model`F16BPtg -> 0.
+"achcar5" -> model`F6Ptg -> 0.
+"achcar5" -> model`G6Ptg -> 0.
+"achcar5" -> model`GA3Ptg -> 0.
+"achcar6" -> model`AKc -> 0.
+"achcar6" -> model`AKg -> 0.
+"achcar6" -> model`AMPtg -> 0.
+"achcar6" -> model`BPGA13tg -> 0.
+"achcar6" -> model`F16BPtg -> 0.
+"achcar6" -> model`F6Ptg -> 0.
+"achcar6" -> model`G6Ptg -> 0.
+"achcar6" -> model`GA3Ptg -> 0.
+"achcar7" -> model`ADPtg -> 0.
+"achcar7" -> model`AKc -> 0.
+"achcar7" -> model`AKg -> 0.
+"achcar7" -> model`AMPtg -> 0.
+"achcar7" -> model`ATPtg -> 0.
+"achcar7" -> model`BPGA13tg -> 0.
+"achcar7" -> model`F16BPtg -> 0.
+"achcar7" -> model`F6Ptg -> 0.
+"achcar7" -> model`G6Ptg -> 0.
+"achcar7" -> model`GA3Ptg -> 0.
+"achcar9" -> model`AKc -> 2.8974005827542157*^-17
+"achcar9" -> model`AKg -> -9.961114584275646*^-15
+"achcar9" -> model`ALDc -> 0.006980875893358847
+"achcar9" -> model`ALDg -> 0.004131556388136812
+"achcar9" -> model`ATPuc -> -0.30917311433178224
+"achcar9" -> model`DHAPtg -> 0.00978351176841059
+"achcar9" -> model`ENOc -> 0.00047599843795037236
+"achcar9" -> model`G3PDHc -> 0.9999996800359436
+"achcar9" -> model`G3PDHg -> 0.07718261279276607
+"achcar9" -> model`G6PPc -> 0.581677656201281
+"achcar9" -> model`GAPDHc -> 0.00005704631707242746
+"achcar9" -> model`GAPDHg -> 0.22588547503481846
+"achcar9" -> model`GKc -> 0.8101766992414072
+"achcar9" -> model`GKg -> 0.14046407091544758
+"achcar9" -> model`GlcTc -> 1.0820434635874614
+"achcar9" -> model`GlcTg -> 0.00008162948641603786
+"achcar9" -> model`Gly3Ptg -> -0.026624516962875804
+"achcar9" -> model`GlyTc -> 0.5815994818596961
+"achcar9" -> model`Glytg -> 0.21582407845455123
+"achcar9" -> model`GPOc -> -0.20617695498179597
+"achcar9" -> model`HXKc -> 0.4216213731650225
+"achcar9" -> model`HXKg -> 0.16600857664046167
+"achcar9" -> model`PFKc -> 0.015332581201017076
+"achcar9" -> model`PFKg -> 0.011762741692468668
+"achcar9" -> model`PGA3Tg -> 0.00016638687401577488
+"achcar9" -> model`PGAMc -> 0.0018022618062401047
+"achcar9" -> model`PGIc -> 0.0060948781980559455
+"achcar9" -> model`PGIg -> 0.0022494494267549284
+"achcar9" -> model`PGKc -> 1.1442211473457944
+"achcar9" -> model`PGKg -> 0.0032252878023899642
+"achcar9" -> model`PYKc -> 0.00041254035401010056
+"achcar9" -> model`PyrTc -> 0.00006107551212610958
+"achcar9" -> model`TPIc -> 0.01267463749501288
+"achcar9" -> model`TPIg -> 0.01997781234841104
+"assmus" -> model`v\[LetterSpace]26 -> 0.
+"bachmann" -> model`reaction\[LetterSpace]10 -> 0.
+"bachmann" -> model`reaction\[LetterSpace]14 -> 2.3397794473436872*^-15
+"bachmann" -> model`reaction\[LetterSpace]26 -> 0.
+"bachmann" -> model`reaction\[LetterSpace]36 -> 0.
+"bali" -> model`v\[LetterSpace]14 -> 0.
+"bali" -> model`v\[LetterSpace]16 -> 0.
+"bali" -> model`v\[LetterSpace]17 -> 0.
+"bali" -> model`v\[LetterSpace]18 -> 0.
+"smallbone11" -> model`AK -> 0.
+"smallbone11" -> model`TDHTDH2 -> 0.
+"BIOMD0000000354" -> model`inhibition\[LetterSpace]parameter1 -> 
+  -0.0033573514200255067
+"BIOMD0000000354" -> model`inhibition\[LetterSpace]parameter2 -> 
+  1.0033573514200798
+"BIOMD0000000354" -> model`kPhosphatase -> -0.17208756810446632
+"BIOMD0000000354" -> model`kPLC -> 1.1720875681044605
+"BIOMD0000000354" -> model`mw69f19152\[LetterSpace]7258\[LetterSpace]45b0\
+\[LetterSpace]bf9e\[LetterSpace]b196f19d7e03 -> 2.859936092209641*^-13
+"BIOMD0000000354" -> model`mwbdcd6a40\[LetterSpace]1ae7\[LetterSpace]4c86\
+\[LetterSpace]a99f\[LetterSpace]1fba0b8beaf7 -> 0.05410672960310043
+"BIOMD0000000354" -> model`mwfaf5e05a\[LetterSpace]b642\[LetterSpace]4ee2\
+\[LetterSpace]a069\[LetterSpace]3c2fc783fba4 -> 0.999999999999668
+"BIOMD0000000112" -> model`reaction\[LetterSpace]0 -> 0.
+"BIOMD0000000112" -> model`reaction\[LetterSpace]1 -> 0.
+"BIOMD0000000112" -> model`reaction\[LetterSpace]2 -> 0.
+"BIOMD0000000112" -> model`reaction\[LetterSpace]3 -> 0.
+"BIOMD0000000112" -> model`reaction\[LetterSpace]4 -> 0.
+"BIOMD0000000112" -> model`reaction\[LetterSpace]5 -> 0.
+"BIOMD0000000112" -> model`reaction\[LetterSpace]6 -> 0.
+"BIOMD0000000112" -> model`reaction\[LetterSpace]7 -> 0.
+"BIOMD0000000483" -> model`re1 -> 0.
+"BIOMD0000000483" -> model`re11 -> 0.
+"BIOMD0000000483" -> model`re12 -> 0.
+"BIOMD0000000483" -> model`re13 -> 0.
+"BIOMD0000000483" -> model`re14 -> 0.
+"BIOMD0000000483" -> model`re2 -> 0.
+"BIOMD0000000483" -> model`re5 -> 0.
+"BIOMD0000000483" -> model`re7 -> 0.
+"BIOMD0000000240" -> model`AprEdeg -> 0.00012572666160041903
+"BIOMD0000000240" -> model`AprEsyn -> 0.9998742705071338
+"BIOMD0000000240" -> model`degradation1 -> -581552.9981689453
+"BIOMD0000000240" -> model`degradation2 -> -16945.81674194336
+"BIOMD0000000240" -> model`degradation3 -> -27459.27901649475
+"BIOMD0000000240" -> model`degradationmRNA -> -619769.2308349609
+"BIOMD0000000240" -> model`dephosphorylation -> -577731.3751220703
+"BIOMD0000000240" -> model`DimerAss -> 594679.1917724609
+"BIOMD0000000240" -> model`DimerDis -> -592308.9520874023
+"BIOMD0000000240" -> model`mRNAAprEdeg -> 0.00012581100908712881
+"BIOMD0000000240" -> model`mRNAAprEsyn -> 0.999874186157743
+"BIOMD0000000240" -> model`phosphorylation -> 581553.9983520508
+"BIOMD0000000240" -> model`synthesisDegU -> 619770.2307128906
+"BIOMD0000000240" -> model`synthesismRNA -> 619770.2310180664
+"BIOMD0000000361" -> model`reaction\[LetterSpace]1 -> 0.
+"BIOMD0000000361" -> model`reaction\[LetterSpace]2 -> 0.
+"BIOMD0000000361" -> model`reaction\[LetterSpace]3 -> 0.
+"BIOMD0000000361" -> model`reaction\[LetterSpace]4 -> 0.
+"BIOMD0000000361" -> model`reaction\[LetterSpace]5 -> 0.
+"BIOMD0000000482" -> model`metabolicENZ -> 0.
+"BIOMD0000000482" -> model`mw7c079c91\[LetterSpace]51e3\[LetterSpace]4732\
+\[LetterSpace]8dca\[LetterSpace]23fb3cd716a7 -> 0.
+"BIOMD0000000482" -> model`mwfc720c89\[LetterSpace]b1b3\[LetterSpace]416a\
+\[LetterSpace]8958\[LetterSpace]e9d0aff9f4a6 -> 0.
+"BIOMD0000000482" -> model`reaction10 -> 0.
+"BIOMD0000000482" -> model`reaction11 -> 0.
+"BIOMD0000000482" -> model`reaction12 -> 0.
+"BIOMD0000000482" -> model`reaction13 -> 0.
+"BIOMD0000000482" -> model`reaction14 -> 0.
+"BIOMD0000000482" -> model`reaction15 -> 0.
+"BIOMD0000000482" -> model`reaction4 -> 0.
+"BIOMD0000000482" -> model`reaction5 -> 0.
+"BIOMD0000000482" -> model`reaction6 -> 0.
+"BIOMD0000000482" -> model`reaction7 -> 0.
+"BIOMD0000000482" -> model`reaction8 -> 0.
+"BIOMD0000000482" -> model`reaction9 -> 0.
+"BIOMD0000000482" -> model`reactionPEP1 -> 0.
+"BIOMD0000000482" -> model`reactionPEP2 -> 0.
+"BIOMD0000000482" -> model`v1 -> 0.
+"BIOMD0000000482" -> model`v2 -> 0.
+"BIOMD0000000482" -> model`v3 -> 0.
+"BIOMD0000000482" -> model`v4 -> 0.
+"BIOMD0000000482" -> model`v5 -> 0.
+"BIOMD0000000482" -> model`v6 -> 0.
+"BIOMD0000000482" -> model`v7 -> 0.
+"BIOMD0000000482" -> model`v8 -> 0.
+"BIOMD0000000482" -> model`v9 -> 0.
+"BIOMD0000000009" -> model`r10a -> 0.
+"BIOMD0000000009" -> model`r10b -> 0.
+"BIOMD0000000009" -> model`r1a -> 0.
+"BIOMD0000000009" -> model`r1b -> 0.
+"BIOMD0000000009" -> model`r2a -> 0.
+"BIOMD0000000009" -> model`r2b -> 0.
+"BIOMD0000000009" -> model`r3a -> 0.
+"BIOMD0000000009" -> model`r3b -> 0.
+"BIOMD0000000009" -> model`r4a -> 0.
+"BIOMD0000000009" -> model`r4b -> 0.
+"BIOMD0000000009" -> model`r5a -> 0.
+"BIOMD0000000009" -> model`r5b -> 0.
+"BIOMD0000000009" -> model`r6a -> 0.
+"BIOMD0000000009" -> model`r6b -> 0.
+"BIOMD0000000009" -> model`r7a -> 0.
+"BIOMD0000000009" -> model`r7b -> 0.
+"BIOMD0000000009" -> model`r8a -> 0.
+"BIOMD0000000009" -> model`r8b -> 0.
+"BIOMD0000000009" -> model`r9a -> 0.
+"BIOMD0000000009" -> model`r9b -> 0.
+"BIOMD0000000002" -> model`React0 -> 0.
+"BIOMD0000000002" -> model`React1 -> 0.
+"BIOMD0000000002" -> model`React10 -> 0.
+"BIOMD0000000002" -> model`React11 -> 0.
+"BIOMD0000000002" -> model`React12 -> 0.
+"BIOMD0000000002" -> model`React13 -> 0.
+"BIOMD0000000002" -> model`React14 -> 0.
+"BIOMD0000000002" -> model`React15 -> 0.
+"BIOMD0000000002" -> model`React16 -> 0.
+"BIOMD0000000002" -> model`React2 -> 0.
+"BIOMD0000000002" -> model`React3 -> 0.
+"BIOMD0000000002" -> model`React4 -> 0.
+"BIOMD0000000002" -> model`React5 -> 0.
+"BIOMD0000000002" -> model`React6 -> 0.
+"BIOMD0000000002" -> model`React7 -> 0.
+"BIOMD0000000002" -> model`React8 -> 0.
+"BIOMD0000000002" -> model`React9 -> 0.
+"BIOMD0000000365" -> model`r1 -> 0.
+"BIOMD0000000365" -> model`r10 -> 0.
+"BIOMD0000000365" -> model`r11 -> 0.
+"BIOMD0000000365" -> model`r12 -> 0.
+"BIOMD0000000365" -> model`r13 -> 0.
+"BIOMD0000000365" -> model`r14 -> 0.
+"BIOMD0000000365" -> model`r15 -> 0.
+"BIOMD0000000365" -> model`r16 -> 0.
+"BIOMD0000000365" -> model`r17 -> 0.
+"BIOMD0000000365" -> model`r18 -> 0.
+"BIOMD0000000365" -> model`r19 -> 0.
+"BIOMD0000000365" -> model`r2 -> 0.
+"BIOMD0000000365" -> model`r20 -> 0.
+"BIOMD0000000365" -> model`r21 -> 0.
+"BIOMD0000000365" -> model`r22 -> 0.
+"BIOMD0000000365" -> model`r23 -> 0.
+"BIOMD0000000365" -> model`r24 -> 0.
+"BIOMD0000000365" -> model`r25 -> 0.
+"BIOMD0000000365" -> model`r26 -> 0.
+"BIOMD0000000365" -> model`r27 -> 0.
+"BIOMD0000000365" -> model`r28 -> 0.
+"BIOMD0000000365" -> model`r29 -> 0.
+"BIOMD0000000365" -> model`r3 -> 0.
+"BIOMD0000000365" -> model`r30 -> 0.
+"BIOMD0000000365" -> model`r31 -> 0.
+"BIOMD0000000365" -> model`r32 -> 0.
+"BIOMD0000000365" -> model`r33 -> 0.
+"BIOMD0000000365" -> model`r4 -> 0.
+"BIOMD0000000365" -> model`r5 -> 0.
+"BIOMD0000000365" -> model`r6 -> 0.
+"BIOMD0000000365" -> model`r7 -> 0.
+"BIOMD0000000365" -> model`r8 -> 0.
+"BIOMD0000000365" -> model`r9 -> 0.
+"BIOMD0000000495" -> model`mw106407fc\[LetterSpace]e33f\[LetterSpace]45aa\
+\[LetterSpace]b5ae\[LetterSpace]258bd4790633 -> 6.763723196878588*^-14
+"BIOMD0000000495" -> model`mw155447fb\[LetterSpace]ce5b\[LetterSpace]4ba2\
+\[LetterSpace]bd74\[LetterSpace]434951481a78 -> 1.4357437615601796*^-14
+"BIOMD0000000495" -> model`mw15bb92b6\[LetterSpace]4cff\[LetterSpace]4a41\
+\[LetterSpace]b815\[LetterSpace]c1d904618e57 -> 3.424722502436007*^-13
+"BIOMD0000000495" -> model`mw185e644d\[LetterSpace]6f10\[LetterSpace]499f\
+\[LetterSpace]a3a6\[LetterSpace]5a47d7ba2eef -> 0.
+"BIOMD0000000495" -> model`mw307551ca\[LetterSpace]91cc\[LetterSpace]4634\
+\[LetterSpace]bba5\[LetterSpace]0e3ecd38cfdd -> 5.685093672286783*^-14
+"BIOMD0000000495" -> model`mw4c9aa283\[LetterSpace]577e\[LetterSpace]4b6c\
+\[LetterSpace]ae5a\[LetterSpace]c96f62dbbb08 -> 1.9591559367975177*^-14
+"BIOMD0000000495" -> model`mw4f62d07e\[LetterSpace]217b\[LetterSpace]4602\
+\[LetterSpace]b6fe\[LetterSpace]548af112eec8 -> 0.
+"BIOMD0000000495" -> model`mw5194cffd\[LetterSpace]f75a\[LetterSpace]4c61\
+\[LetterSpace]b60e\[LetterSpace]23d5b0fea120 -> -1.3127818428710512*^-15
+"BIOMD0000000495" -> model`mw55fba323\[LetterSpace]0865\[LetterSpace]4254\
+\[LetterSpace]a6e9\[LetterSpace]09acd2b4a10f -> 1.432498378628956*^-15
+"BIOMD0000000495" -> model`mw79830677\[LetterSpace]2d7e\[LetterSpace]4f49\
+\[LetterSpace]9d0b\[LetterSpace]f05fe026749f -> 7.365321221701736*^-13
+"BIOMD0000000495" -> model`mwa25d1a3d\[LetterSpace]bbd9\[LetterSpace]41b8\
+\[LetterSpace]8274\[LetterSpace]236f9d67bb60 -> 7.629407500848452*^-14
+"BIOMD0000000495" -> model`mwb47b4c45\[LetterSpace]fac9\[LetterSpace]49e6\
+\[LetterSpace]a6a4\[LetterSpace]87b9050ddfbb -> 1.2648368931090363*^-13
+"BIOMD0000000495" -> model`mwb8420f59\[LetterSpace]69c3\[LetterSpace]4707\
+\[LetterSpace]918c\[LetterSpace]2e06bedff243 -> 1.3698465786017532*^-13
+"BIOMD0000000495" -> model`mwc9170c21\[LetterSpace]608b\[LetterSpace]4bd7\
+\[LetterSpace]b2d0\[LetterSpace]f359d045da17 -> 2.0665704074845914*^-13
+"BIOMD0000000495" -> model`mwd71cb6c2\[LetterSpace]6420\[LetterSpace]46b9\
+\[LetterSpace]ab17\[LetterSpace]eedc7b0fd8dc -> 1.2797767682642658*^-13
+"BIOMD0000000495" -> model`mwdd7079dc\[LetterSpace]8d70\[LetterSpace]41b7\
+\[LetterSpace]a369\[LetterSpace]3334522cdd13 -> 1.500703558195845*^-13
+"BIOMD0000000495" -> model`mwfb854977\[LetterSpace]51ea\[LetterSpace]4daa\
+\[LetterSpace]b84e\[LetterSpace]3bcb2fcccd39 -> 1.1451722375421252*^-13
+"smallbone12" -> model`AK -> 0.
+"smallbone12" -> model`TDHTDH2 -> 0.
+"smallbone13" -> model`AK -> 0.
+"smallbone13" -> model`TDHTDH2 -> 0.
+"smallbone15" -> model`ADHADH5 -> 0.
+"smallbone15" -> model`AK -> 0.
+"smallbone15" -> model`TDHTDH2 -> 0.
+"smallbone16" -> model`ADHADH5 -> 0.
+"smallbone16" -> model`AK -> 0.
+"smallbone16" -> model`PYKPYK2 -> 0.
+"smallbone16" -> model`TDHTDH2 -> 0.
+"smallbone17" -> model`ADHADH5 -> 0.
+"smallbone17" -> model`AK -> 0.
+"smallbone17" -> model`PYKPYK2 -> 0.
+"smallbone17" -> model`TDHTDH2 -> 0.
+"smallbone18" -> model`ADHADH5 -> 0.
+"smallbone18" -> model`AK -> 0.
+"smallbone18" -> model`PYKPYK2 -> 0.
+"smallbone18" -> model`succinatebranch -> 0.
+"smallbone18" -> model`TDHTDH2 -> 0.
+"smallbone2" -> model`AK -> 0.
+"smallbone3" -> model`AK -> 0.
+"smallbone4" -> model`AK -> 0.
+"smallbone5" -> model`AK -> 0.
+"smallbone6" -> model`AK -> 0.
+"smallbone7" -> model`AK -> 0.
+"smallbone8" -> model`AK -> 0.
+"smallbone9" -> model`AK -> 0.
+"smallbone9" -> model`TDHTDH2 -> 0.
+"thomsen1" -> model`Forming -> 0.
+"thomsen1" -> model`reaction\[LetterSpace]1 -> 0.
+"thomsen1" -> model`reaction\[LetterSpace]2 -> 0.
+"thomsen1" -> model`reaction\[LetterSpace]3 -> 0.
+"thomsen1" -> model`reaction\[LetterSpace]4 -> 0.
+"thomsen1" -> model`reaction\[LetterSpace]5 -> 0.
+"thomsen2" -> model`Reaction\[LetterSpace]1 -> 0.
+"thomsen2" -> model`Reaction\[LetterSpace]2 -> 0.
+"thomsen2" -> model`Reaction\[LetterSpace]3 -> 0.
+"thomsen2" -> model`Reaction\[LetterSpace]4 -> 0.
+"thomsen2" -> model`Reaction\[LetterSpace]5 -> 0.
+"thomsen2" -> model`Reaction\[LetterSpace]6 -> 0.
+"vaneunen1" -> model`v\[LetterSpace]5 -> 0.
+"vaneunen2" -> model`v\[LetterSpace]15 -> 0.
+"vaneunen2" -> model`v\[LetterSpace]5 -> 0.
+"vaneunen3" -> model`v\[LetterSpace]3 -> 0.
+"vaneunen4" -> model`v\[LetterSpace]5 -> 0.
+"vanheerden1" -> model`v18 -> 0.
+"vanheerden2-user" -> model`v4 -> 0.
+"vanheerden2-user" -> model`v5 -> 0.
+"whillier2" -> model`v\[LetterSpace]1 -> -4.521614753509673*^-16
+"whillier2" -> model`v\[LetterSpace]2 -> 2.1967196147006734*^-15
+"whillier2" -> model`v\[LetterSpace]3 -> 0.
+"whillier2" -> model`v\[LetterSpace]4 -> 0.
+"whillier2" -> model`v\[LetterSpace]5 -> 0.
+"wortel4" -> model`v\[LetterSpace]10 -> 8.526338794374523*^-16
+"wortel4" -> model`v\[LetterSpace]2 -> 2.509675246135991*^-14
+"wortel4" -> model`v\[LetterSpace]3 -> 6.552493805387264*^-13
+"wortel4" -> model`v\[LetterSpace]6 -> 0.025194371135480474
+"wortel4" -> model`v\[LetterSpace]7 -> 1.5695892285332493*^-15
+"wortel4" -> model`v\[LetterSpace]9 -> 0.38991837507100713
+"zhao1" -> model`v\[LetterSpace]10 -> 0.
+"zhao1" -> model`v\[LetterSpace]2 -> 0.
+"zhao1" -> model`v\[LetterSpace]5 -> 0.
+"zhao1" -> model`v\[LetterSpace]7 -> 0.
+"zhao1" -> model`v\[LetterSpace]8 -> 0.
+"zhao1" -> model`v\[LetterSpace]9 -> 0.
